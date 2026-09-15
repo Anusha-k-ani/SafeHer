@@ -1,0 +1,155 @@
+{
+  "as_of": "2026-09-13",
+  "districts": [
+    {
+      "district_name": "Bagalkote",
+      "streets": 19551,
+      "cameras": 0
+    },
+    {
+      "district_name": "Ballari",
+      "streets": 35674,
+      "cameras": 0
+    },
+    {
+      "district_name": "Belagavi",
+      "streets": 86970,
+      "cameras": 0
+    },
+    {
+      "district_name": "Bengaluru Rural",
+      "streets": 242609,
+      "cameras": 3057
+    },
+    {
+      "district_name": "Bengaluru Urban",
+      "streets": 201697,
+      "cameras": 3045
+    },
+    {
+      "district_name": "Bidar",
+      "streets": 22572,
+      "cameras": 0
+    },
+    {
+      "district_name": "Chamrajnagar",
+      "streets": 33078,
+      "cameras": 0
+    },
+    {
+      "district_name": "Chikkaballapura",
+      "streets": 27114,
+      "cameras": 12
+    },
+    {
+      "district_name": "Chikmagalur",
+      "streets": 26846,
+      "cameras": 20
+    },
+    {
+      "district_name": "Chitradurga",
+      "streets": 13057,
+      "cameras": 0
+    },
+    {
+      "district_name": "Dakshina Kannada",
+      "streets": 44252,
+      "cameras": 51
+    },
+    {
+      "district_name": "Davanagere",
+      "streets": 27055,
+      "cameras": 0
+    },
+    {
+      "district_name": "Dharwad",
+      "streets": 22709,
+      "cameras": 1
+    },
+    {
+      "district_name": "Gadag",
+      "streets": 11765,
+      "cameras": 0
+    },
+    {
+      "district_name": "Hassan",
+      "streets": 27523,
+      "cameras": 21
+    },
+    {
+      "district_name": "Haveri",
+      "streets": 7525,
+      "cameras": 0
+    },
+    {
+      "district_name": "Kalaburagi",
+      "streets": 30995,
+      "cameras": 0
+    },
+    {
+      "district_name": "Kodagu",
+      "streets": 15783,
+      "cameras": 35
+    },
+    {
+      "district_name": "Kolar",
+      "streets": 30680,
+      "cameras": 0
+    },
+    {
+      "district_name": "Koppal",
+      "streets": 15494,
+      "cameras": 0
+    },
+    {
+      "district_name": "Mandya",
+      "streets": 54881,
+      "cameras": 5
+    },
+    {
+      "district_name": "Mysuru",
+      "streets": 66085,
+      "cameras": 11
+    },
+    {
+      "district_name": "Raichur",
+      "streets": 25546,
+      "cameras": 0
+    },
+    {
+      "district_name": "Ramanagara",
+      "streets": 138610,
+      "cameras": 2642
+    },
+    {
+      "district_name": "Shivamogga",
+      "streets": 23580,
+      "cameras": 0
+    },
+    {
+      "district_name": "Tumakuru",
+      "streets": 91354,
+      "cameras": 72
+    },
+    {
+      "district_name": "Udupi",
+      "streets": 20447,
+      "cameras": 9
+    },
+    {
+      "district_name": "Uttara Kannada",
+      "streets": 19350,
+      "cameras": 1
+    },
+    {
+      "district_name": "Vijayapura",
+      "streets": 25033,
+      "cameras": 0
+    },
+    {
+      "district_name": "Yadgir",
+      "streets": 7644,
+      "cameras": 0
+    }
+  ]
+}

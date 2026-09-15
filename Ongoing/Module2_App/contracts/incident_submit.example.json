@@ -1,0 +1,11 @@
+{
+  "lat": 12.9716,
+  "lon": 77.5946,
+  "district": "Bengaluru Urban",
+  "incident_type": "harassment",
+  "harassment_reported": true,
+  "is_safe": false,
+  "time_of_day": "night",
+  "created_at": "2026-09-15T18:00:00+00:00",
+  "status": "approved"
+}

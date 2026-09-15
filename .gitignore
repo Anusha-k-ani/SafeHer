@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React / Web builds
+dist/
+build/
+.next/
+
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+
+# IDE
+.idea/
+.vscode/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Huge archives — these made `git add .` hang
+PBL/Archives/
+*.zip
+
+# Office lock files
+~$*
+
+# Other courses (not this project)
+Other_courses/

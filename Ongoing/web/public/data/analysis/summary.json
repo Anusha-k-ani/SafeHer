@@ -1,0 +1,141 @@
+{
+  "module": "Incident Analysis, Geospatial Analysis and Hotspot Identification",
+  "generated_at": "2026-09-15T10:42:03.172631+00:00",
+  "folder": "/Users/anushak/Documents/3rd Semester/Ongoing/analysis",
+  "preprocess": {
+    "before": 1079,
+    "after": 1079,
+    "dropped": {
+      "dup": 0,
+      "bad_coord": 0,
+      "missing_value_filled": 0,
+      "category_standardised": 0
+    }
+  },
+  "stats": {
+    "total_reports": 1079,
+    "incident_like": 534,
+    "safe_reports": 545,
+    "unsafe_reports": 534,
+    "harassment_flagged": 247,
+    "synthetic": 1079,
+    "live": 0,
+    "recurring_hotspot_share_note": "See hotspots.json recurrence fields",
+    "by_time_of_day": {
+      "evening": 119,
+      "morning": 143,
+      "afternoon": 140,
+      "night": 132
+    },
+    "by_type": {
+      "unsafe_feeling": 287,
+      "harassment": 247
+    },
+    "by_area_top": [
+      [
+        "Kolar",
+        31
+      ],
+      [
+        "Bengaluru Urban",
+        27
+      ],
+      [
+        "Mandya",
+        26
+      ],
+      [
+        "Tumakuru",
+        26
+      ],
+      [
+        "Belagavi",
+        25
+      ],
+      [
+        "Kalaburagi",
+        25
+      ],
+      [
+        "Hassan",
+        23
+      ],
+      [
+        "Udupi",
+        23
+      ],
+      [
+        "Bidar",
+        21
+      ],
+      [
+        "Chikmagalur",
+        21
+      ]
+    ],
+    "by_district": {
+      "Bagalkote": 17,
+      "Ballari": 15,
+      "Belagavi": 25,
+      "Bengaluru Rural": 13,
+      "Bengaluru Urban": 27,
+      "Bidar": 21,
+      "Chamrajnagar": 19,
+      "Chikkaballapura": 12,
+      "Chikmagalur": 21,
+      "Chitradurga": 8,
+      "Dakshina Kannada": 17,
+      "Davanagere": 17,
+      "Dharwad": 15,
+      "Gadag": 17,
+      "Hassan": 23,
+      "Haveri": 10,
+      "Kalaburagi": 25,
+      "Kodagu": 6,
+      "Kolar": 31,
+      "Koppal": 10,
+      "Mandya": 26,
+      "Mysuru": 20,
+      "Raichur": 20,
+      "Ramanagara": 20,
+      "Shivamogga": 13,
+      "Tumakuru": 26,
+      "Udupi": 23,
+      "Uttara Kannada": 12,
+      "Vijayapura": 21,
+      "Yadgir": 4
+    }
+  },
+  "hotspot_count": 72,
+  "alert_count": 55,
+  "risk_counts": {
+    "High": 30,
+    "Medium": 19,
+    "Low": 23
+  },
+  "recurring_hotspots": 72,
+  "grid_degrees": 0.01,
+  "min_reports_per_hotspot": 3,
+  "coverage": "Karnataka \u2014 30 districts",
+  "honesty": {
+    "reports": "App-schema community reports for Karnataka districts (synthetic demo unless live_reports.json has rows).",
+    "hotspots": "Spatial concentration of unsafe/incident-like reports on a ~1 km grid. Not crime prediction.",
+    "osm": "Karnataka OSM street safety workbook (District Summary). Modelled 9-factor proxy, not a crime rate.",
+    "crime_overlay": "District/commissionerate aggregates (OpenCity \u2190 KSP). Not street-level. Never used as hotspot coordinates."
+  },
+  "inputs": {
+    "dataset": "/Users/anushak/Documents/3rd Semester/PBL/Dataset/Karnataka",
+    "reports": "/Users/anushak/Documents/3rd Semester/Ongoing/analysis/input/reports.json",
+    "live_reports": "/Users/anushak/Documents/3rd Semester/Ongoing/analysis/input/live_reports.json",
+    "osm_districts": "/Users/anushak/Documents/3rd Semester/PBL/Dataset/Karnataka/osm_districts.json",
+    "crime_context": "/Users/anushak/Documents/3rd Semester/PBL/Dataset/Karnataka/crime_context.json",
+    "crime_used_as_coordinates": false
+  },
+  "osm_workbook": {
+    "total_streets": 604573,
+    "avg_score": 4.161,
+    "cameras": 5578,
+    "as_of": "2026-09-14T07:11:19Z"
+  },
+  "api": "python3 analysis/api.py  \u2192  http://127.0.0.1:8000"
+}

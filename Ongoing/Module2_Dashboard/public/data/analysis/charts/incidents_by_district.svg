@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+<rect width="100%" height="100%" fill="#0b1f3a"/>
+<text x="24" y="28" fill="#d4af37" font-family="Helvetica,Arial,sans-serif" font-size="16">Incident frequency by district (top 10)</text>
+<text x="16" y="62.7" fill="#e8eef7" font-size="12" font-family="Helvetica,Arial,sans-serif">Kolar</text>
+<rect x="140" y="48" width="532" height="21" fill="#4a90d9" rx="3"/>
+<text x="680" y="62.7" fill="#e8eef7" font-size="12">31</text>
+<text x="16" y="89.7" fill="#e8eef7" font-size="12" font-family="Helvetica,Arial,sans-serif">Bengaluru Urban</text>
+<rect x="140" y="75" width="463" height="21" fill="#4a90d9" rx="3"/>
+<text x="611" y="89.7" fill="#e8eef7" font-size="12">27</text>
+<text x="16" y="116.7" fill="#e8eef7" font-size="12" font-family="Helvetica,Arial,sans-serif">Mandya</text>
+<rect x="140" y="102" width="446" height="21" fill="#4a90d9" rx="3"/>
+<text x="594" y="116.7" fill="#e8eef7" font-size="12">26</text>
+<text x="16" y="143.7" fill="#e8eef7" font-size="12" font-family="Helvetica,Arial,sans-serif">Tumakuru</text>
+<rect x="140" y="129" width="446" height="21" fill="#4a90d9" rx="3"/>
+<text x="594" y="143.7" fill="#e8eef7" font-size="12">26</text>
+<text x="16" y="170.7" fill="#e8eef7" font-size="12" font-family="Helvetica,Arial,sans-serif">Belagavi</text>
+<rect x="140" y="156" width="429" height="21" fill="#4a90d9" rx="3"/>
+<text x="577" y="170.7" fill="#e8eef7" font-size="12">25</text>
+<text x="16" y="197.7" fill="#e8eef7" font-size="12" font-family="Helvetica,Arial,sans-serif">Kalaburagi</text>
+<rect x="140" y="183" width="429" height="21" fill="#4a90d9" rx="3"/>
+<text x="577" y="197.7" fill="#e8eef7" font-size="12">25</text>
+<text x="16" y="224.7" fill="#e8eef7" font-size="12" font-family="Helvetica,Arial,sans-serif">Hassan</text>
+<rect x="140" y="210" width="394" height="21" fill="#4a90d9" rx="3"/>
+<text x="542" y="224.7" fill="#e8eef7" font-size="12">23</text>
+<text x="16" y="251.7" fill="#e8eef7" font-size="12" font-family="Helvetica,Arial,sans-serif">Udupi</text>
+<rect x="140" y="237" width="394" height="21" fill="#4a90d9" rx="3"/>
+<text x="542" y="251.7" fill="#e8eef7" font-size="12">23</text>
+<text x="16" y="278.7" fill="#e8eef7" font-size="12" font-family="Helvetica,Arial,sans-serif">Bidar</text>
+<rect x="140" y="264" width="360" height="21" fill="#4a90d9" rx="3"/>
+<text x="508" y="278.7" fill="#e8eef7" font-size="12">21</text>
+<text x="16" y="305.7" fill="#e8eef7" font-size="12" font-family="Helvetica,Arial,sans-serif">Chikmagalur</text>
+<rect x="140" y="291" width="360" height="21" fill="#4a90d9" rx="3"/>
+<text x="508" y="305.7" fill="#e8eef7" font-size="12">21</text>
+</svg>

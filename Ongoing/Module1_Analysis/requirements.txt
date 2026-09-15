@@ -1,0 +1,13 @@
+# Synopsis tools for Module 1. Runtime uses the stdlib pipeline + api.py.
+# pandas/numpy/geopandas/matplotlib currently SIGSEGV on this machine (low disk);
+# methods are implemented with json/csv + Leaflet SVG instead.
+fastapi>=0.110
+uvicorn>=0.27
+folium>=0.16
+plotly>=5.18
+# optional when the machine has RAM/disk:
+# pandas
+# numpy
+# geopandas
+# matplotlib
+# pymongo

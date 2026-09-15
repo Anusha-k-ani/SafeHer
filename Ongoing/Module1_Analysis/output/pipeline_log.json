@@ -1,0 +1,71 @@
+{
+  "started_at": "2026-09-15T10:42:03.160521+00:00",
+  "steps": [
+    {
+      "step": "6.1",
+      "name": "data_integration",
+      "raw": 1079,
+      "approved_with_coords": 1079,
+      "from_reports_json": 1079,
+      "from_live": 0,
+      "osm_districts": 30,
+      "crime_districts": 30
+    },
+    {
+      "step": "6.2",
+      "name": "preprocess",
+      "before": 1079,
+      "after": 1079,
+      "dropped": {
+        "dup": 0,
+        "bad_coord": 0,
+        "missing_value_filled": 0,
+        "category_standardised": 0
+      }
+    },
+    {
+      "step": "6.3",
+      "name": "incident_analysis",
+      "incident_like": 534,
+      "safe_or_context": 545,
+      "by_type": {
+        "unsafe_feeling": 287,
+        "harassment": 247
+      }
+    },
+    {
+      "step": "6.4",
+      "name": "geospatial_analysis",
+      "occupied_grid_cells": 173,
+      "districts_with_incidents": 30
+    },
+    {
+      "step": "6.5",
+      "name": "hotspot_identification",
+      "grid_degrees": 0.01,
+      "hotspot_count": 72,
+      "recurring": 72
+    },
+    {
+      "step": "6.6",
+      "name": "risk_level_assessment",
+      "risk_counts": {
+        "High": 30,
+        "Medium": 19,
+        "Low": 23
+      }
+    },
+    {
+      "step": "6.7",
+      "name": "automatic_analysis_update",
+      "alert_count": 55
+    },
+    {
+      "step": "6.8",
+      "name": "api_and_result_delivery",
+      "dashboard_files": 16
+    }
+  ],
+  "finished_at": "2026-09-15T10:42:03.248843+00:00",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/analysis/output"
+}

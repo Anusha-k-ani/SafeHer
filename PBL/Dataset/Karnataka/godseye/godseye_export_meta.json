@@ -1,0 +1,13 @@
+{
+  "format": "gods-eye-view CCTV sources",
+  "upstream": "https://github.com/bilawalsidhu/gods-eye-view",
+  "total_inventory": 5578,
+  "exported": 900,
+  "cap": 900,
+  "note": "Inventory markers for public globe visualization. Not live police feeds / FRS. Full inventory remains in cameras_karnataka.json.",
+  "paths": {
+    "exports": "c:\\aman\\dataset for pbl\\phase2\\data\\exports\\godseye_cctv_sources.json",
+    "web": "c:\\aman\\dataset for pbl\\web\\public\\data\\karnataka\\godseye_cctv_sources.json",
+    "vendor_config": "c:\\aman\\dataset for pbl\\_vendor\\gods-eye-view\\config\\cctv_sources.karnataka.json"
+  }
+}

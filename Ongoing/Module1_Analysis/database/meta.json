@@ -1,0 +1,12 @@
+{
+  "engine": "json-files",
+  "mongo_equivalent": [
+    "incidents",
+    "hotspots",
+    "alerts",
+    "areas",
+    "geography",
+    "statistics"
+  ],
+  "updated_at": "2026-09-15T10:42:03.211782+00:00"
+}

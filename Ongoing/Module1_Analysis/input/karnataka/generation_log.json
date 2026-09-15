@@ -1,0 +1,176 @@
+{
+  "generated_at": "2026-09-14T07:11:19Z",
+  "street_count": 604573,
+  "camera_count": 5578,
+  "districts": [
+    {
+      "district": "Bagalkote",
+      "slug": "bagalkote",
+      "streets": 10992
+    },
+    {
+      "district": "Ballari",
+      "slug": "ballari",
+      "streets": 20951
+    },
+    {
+      "district": "Belagavi",
+      "slug": "belagavi",
+      "streets": 31799
+    },
+    {
+      "district": "Bengaluru Rural",
+      "slug": "bengaluru_rural",
+      "streets": 27706
+    },
+    {
+      "district": "Bengaluru Urban",
+      "slug": "bengaluru_urban",
+      "streets": 177886
+    },
+    {
+      "district": "Bidar",
+      "slug": "bidar",
+      "streets": 12636
+    },
+    {
+      "district": "Chamrajnagar",
+      "slug": "chamrajnagar",
+      "streets": 10520
+    },
+    {
+      "district": "Chikkaballapura",
+      "slug": "chikkaballapura",
+      "streets": 8397
+    },
+    {
+      "district": "Chikmagalur",
+      "slug": "chikmagalur",
+      "streets": 11152
+    },
+    {
+      "district": "Chitradurga",
+      "slug": "chitradurga",
+      "streets": 6385
+    },
+    {
+      "district": "Dakshina Kannada",
+      "slug": "dakshina_kannada",
+      "streets": 16680
+    },
+    {
+      "district": "Davanagere",
+      "slug": "davanagere",
+      "streets": 10968
+    },
+    {
+      "district": "Dharwad",
+      "slug": "dharwad",
+      "streets": 18939
+    },
+    {
+      "district": "Gadag",
+      "slug": "gadag",
+      "streets": 8450
+    },
+    {
+      "district": "Hassan",
+      "slug": "hassan",
+      "streets": 16258
+    },
+    {
+      "district": "Haveri",
+      "slug": "haveri",
+      "streets": 4690
+    },
+    {
+      "district": "Kalaburagi",
+      "slug": "kalaburagi",
+      "streets": 21632
+    },
+    {
+      "district": "Kodagu",
+      "slug": "kodagu",
+      "streets": 2663
+    },
+    {
+      "district": "Kolar",
+      "slug": "kolar",
+      "streets": 19093
+    },
+    {
+      "district": "Koppal",
+      "slug": "koppal",
+      "streets": 5610
+    },
+    {
+      "district": "Mandya",
+      "slug": "mandya",
+      "streets": 18624
+    },
+    {
+      "district": "Mysuru",
+      "slug": "mysuru",
+      "streets": 39519
+    },
+    {
+      "district": "Raichur",
+      "slug": "raichur",
+      "streets": 11476
+    },
+    {
+      "district": "Ramanagara",
+      "slug": "ramanagara",
+      "streets": 13801
+    },
+    {
+      "district": "Shivamogga",
+      "slug": "shivamogga",
+      "streets": 12535
+    },
+    {
+      "district": "Tumakuru",
+      "slug": "tumakuru",
+      "streets": 21630
+    },
+    {
+      "district": "Udupi",
+      "slug": "udupi",
+      "streets": 16544
+    },
+    {
+      "district": "Uttara Kannada",
+      "slug": "uttara_kannada",
+      "streets": 6416
+    },
+    {
+      "district": "Vijayapura",
+      "slug": "vijayapura",
+      "streets": 18363
+    },
+    {
+      "district": "Yadgir",
+      "slug": "yadgir",
+      "streets": 2258
+    }
+  ],
+  "godseye_cctv": {
+    "format": "gods-eye-view CCTV sources",
+    "upstream": "https://github.com/bilawalsidhu/gods-eye-view",
+    "total_inventory": 5578,
+    "exported": 900,
+    "cap": 900,
+    "note": "Inventory markers for public globe visualization. Not live police feeds / FRS. Full inventory remains in cameras_karnataka.json.",
+    "paths": {
+      "exports": "c:\\aman\\dataset for pbl\\phase2\\data\\exports\\godseye_cctv_sources.json",
+      "web": "c:\\aman\\dataset for pbl\\web\\public\\data\\karnataka\\godseye_cctv_sources.json",
+      "vendor_config": "c:\\aman\\dataset for pbl\\_vendor\\gods-eye-view\\config\\cctv_sources.karnataka.json"
+    }
+  },
+  "outputs": {
+    "parquet": "c:\\aman\\dataset for pbl\\phase2\\data\\exports\\karnataka_streets.parquet",
+    "excel": "c:\\aman\\dataset for pbl\\phase2\\data\\exports\\karnataka_street_safety.xlsx",
+    "web": "c:\\aman\\dataset for pbl\\web\\public\\data\\karnataka",
+    "godseye_cctv": "c:\\aman\\dataset for pbl\\phase2\\data\\exports\\godseye_cctv_sources.json"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "dataset_folder": "/Users/anushak/Documents/3rd Semester/PBL/Dataset/Karnataka",
+  "karnataka_street_safety.xlsx": "Statewide OSM street workbook (30 districts). Analysis uses District Summary sheet, not the 50k sample sheet.",
+  "osm_districts.json": "Per-district Safe/Moderate/Unsafe counts + centroids.",
+  "crime_context.json": "KSP district totals for all 30 districts. Context only.",
+  "reports.json": "Synthetic app-schema reports for every Karnataka district, weighted by OSM unsafe streets. Replaced by live_reports.json when the app is connected.",
+  "live_reports.json": "Optional live dump from the app/Supabase."
+}

@@ -1,0 +1,646 @@
+{
+  "coverage": "Karnataka",
+  "bbox": {
+    "south": 11.5,
+    "north": 18.6,
+    "west": 74.0,
+    "east": 78.6
+  },
+  "grid_degrees": 0.01,
+  "occupied_grid_cells": 173,
+  "hotspot_cells": 72,
+  "incident_count": 534,
+  "districts": [
+    {
+      "district": "Kolar",
+      "incident_count": 31,
+      "incident_centroid": {
+        "latitude": 13.08454,
+        "longitude": 78.22154
+      },
+      "incident_bbox": {
+        "south": 13.05541,
+        "north": 13.10071,
+        "west": 78.19206,
+        "east": 78.23709
+      },
+      "osm_centroid": {
+        "latitude": 13.08752,
+        "longitude": 78.22555
+      },
+      "osm_street_count": 19093,
+      "osm_unsafe_share": 0.7346,
+      "hotspot_cells": 4
+    },
+    {
+      "district": "Bengaluru Urban",
+      "incident_count": 27,
+      "incident_centroid": {
+        "latitude": 12.90498,
+        "longitude": 77.60099
+      },
+      "incident_bbox": {
+        "south": 12.89815,
+        "north": 12.91644,
+        "west": 77.58295,
+        "east": 77.61259
+      },
+      "osm_centroid": {
+        "latitude": 12.90972,
+        "longitude": 77.59605
+      },
+      "osm_street_count": 177886,
+      "osm_unsafe_share": 0.2641,
+      "hotspot_cells": 5
+    },
+    {
+      "district": "Mandya",
+      "incident_count": 26,
+      "incident_centroid": {
+        "latitude": 12.57128,
+        "longitude": 76.84704
+      },
+      "incident_bbox": {
+        "south": 12.53723,
+        "north": 12.5914,
+        "west": 76.84086,
+        "east": 76.8528
+      },
+      "osm_centroid": {
+        "latitude": 12.56675,
+        "longitude": 76.83565
+      },
+      "osm_street_count": 18624,
+      "osm_unsafe_share": 0.8135,
+      "hotspot_cells": 4
+    },
+    {
+      "district": "Tumakuru",
+      "incident_count": 26,
+      "incident_centroid": {
+        "latitude": 13.59532,
+        "longitude": 77.03598
+      },
+      "incident_bbox": {
+        "south": 13.58515,
+        "north": 13.6122,
+        "west": 77.00395,
+        "east": 77.04989
+      },
+      "osm_centroid": {
+        "latitude": 13.60259,
+        "longitude": 77.03533
+      },
+      "osm_street_count": 21630,
+      "osm_unsafe_share": 0.6979,
+      "hotspot_cells": 3
+    },
+    {
+      "district": "Belagavi",
+      "incident_count": 25,
+      "incident_centroid": {
+        "latitude": 16.14646,
+        "longitude": 74.7082
+      },
+      "incident_bbox": {
+        "south": 16.13126,
+        "north": 16.18856,
+        "west": 74.69741,
+        "east": 74.73205
+      },
+      "osm_centroid": {
+        "latitude": 16.1549,
+        "longitude": 74.70913
+      },
+      "osm_street_count": 31799,
+      "osm_unsafe_share": 0.7431,
+      "hotspot_cells": 3
+    },
+    {
+      "district": "Kalaburagi",
+      "incident_count": 25,
+      "incident_centroid": {
+        "latitude": 17.29001,
+        "longitude": 76.84965
+      },
+      "incident_bbox": {
+        "south": 17.28442,
+        "north": 17.2972,
+        "west": 76.84347,
+        "east": 76.85631
+      },
+      "osm_centroid": {
+        "latitude": 17.29156,
+        "longitude": 76.85506
+      },
+      "osm_street_count": 21632,
+      "osm_unsafe_share": 0.5959,
+      "hotspot_cells": 2
+    },
+    {
+      "district": "Hassan",
+      "incident_count": 23,
+      "incident_centroid": {
+        "latitude": 12.95655,
+        "longitude": 76.09203
+      },
+      "incident_bbox": {
+        "south": 12.94596,
+        "north": 12.96412,
+        "west": 76.07809,
+        "east": 76.10034
+      },
+      "osm_centroid": {
+        "latitude": 12.94695,
+        "longitude": 76.11123
+      },
+      "osm_street_count": 16258,
+      "osm_unsafe_share": 0.6953,
+      "hotspot_cells": 4
+    },
+    {
+      "district": "Udupi",
+      "incident_count": 23,
+      "incident_centroid": {
+        "latitude": 13.49059,
+        "longitude": 74.79858
+      },
+      "incident_bbox": {
+        "south": 13.47037,
+        "north": 13.51381,
+        "west": 74.79038,
+        "east": 74.80761
+      },
+      "osm_centroid": {
+        "latitude": 13.4828,
+        "longitude": 74.81129
+      },
+      "osm_street_count": 16544,
+      "osm_unsafe_share": 0.7931,
+      "hotspot_cells": 3
+    },
+    {
+      "district": "Bidar",
+      "incident_count": 21,
+      "incident_centroid": {
+        "latitude": 17.95687,
+        "longitude": 77.19419
+      },
+      "incident_bbox": {
+        "south": 17.9331,
+        "north": 17.97327,
+        "west": 77.18953,
+        "east": 77.19875
+      },
+      "osm_centroid": {
+        "latitude": 17.96132,
+        "longitude": 77.20095
+      },
+      "osm_street_count": 12636,
+      "osm_unsafe_share": 0.7439,
+      "hotspot_cells": 3
+    },
+    {
+      "district": "Chikmagalur",
+      "incident_count": 21,
+      "incident_centroid": {
+        "latitude": 13.41741,
+        "longitude": 75.68915
+      },
+      "incident_bbox": {
+        "south": 13.40418,
+        "north": 13.4267,
+        "west": 75.67225,
+        "east": 75.71324
+      },
+      "osm_centroid": {
+        "latitude": 13.43429,
+        "longitude": 75.68108
+      },
+      "osm_street_count": 11152,
+      "osm_unsafe_share": 0.7276,
+      "hotspot_cells": 3
+    },
+    {
+      "district": "Vijayapura",
+      "incident_count": 21,
+      "incident_centroid": {
+        "latitude": 16.81678,
+        "longitude": 75.9367
+      },
+      "incident_bbox": {
+        "south": 16.81139,
+        "north": 16.82312,
+        "west": 75.92802,
+        "east": 75.94669
+      },
+      "osm_centroid": {
+        "latitude": 16.81811,
+        "longitude": 75.95017
+      },
+      "osm_street_count": 18363,
+      "osm_unsafe_share": 0.7359,
+      "hotspot_cells": 3
+    },
+    {
+      "district": "Mysuru",
+      "incident_count": 20,
+      "incident_centroid": {
+        "latitude": 12.24399,
+        "longitude": 76.55028
+      },
+      "incident_bbox": {
+        "south": 12.23147,
+        "north": 12.26891,
+        "west": 76.53518,
+        "east": 76.57737
+      },
+      "osm_centroid": {
+        "latitude": 12.25607,
+        "longitude": 76.54844
+      },
+      "osm_street_count": 39519,
+      "osm_unsafe_share": 0.5776,
+      "hotspot_cells": 3
+    },
+    {
+      "district": "Raichur",
+      "incident_count": 20,
+      "incident_centroid": {
+        "latitude": 16.04268,
+        "longitude": 76.86134
+      },
+      "incident_bbox": {
+        "south": 16.03638,
+        "north": 16.04725,
+        "west": 76.85453,
+        "east": 76.87071
+      },
+      "osm_centroid": {
+        "latitude": 16.05041,
+        "longitude": 76.87307
+      },
+      "osm_street_count": 11476,
+      "osm_unsafe_share": 0.7597,
+      "hotspot_cells": 2
+    },
+    {
+      "district": "Ramanagara",
+      "incident_count": 20,
+      "incident_centroid": {
+        "latitude": 12.715,
+        "longitude": 77.30887
+      },
+      "incident_bbox": {
+        "south": 12.70208,
+        "north": 12.73973,
+        "west": 77.28237,
+        "east": 77.32157
+      },
+      "osm_centroid": {
+        "latitude": 12.72011,
+        "longitude": 77.31542
+      },
+      "osm_street_count": 13801,
+      "osm_unsafe_share": 0.8044,
+      "hotspot_cells": 3
+    },
+    {
+      "district": "Chamrajnagar",
+      "incident_count": 19,
+      "incident_centroid": {
+        "latitude": 11.9598,
+        "longitude": 77.03686
+      },
+      "incident_bbox": {
+        "south": 11.93201,
+        "north": 11.9685,
+        "west": 77.02999,
+        "east": 77.05302
+      },
+      "osm_centroid": {
+        "latitude": 11.95676,
+        "longitude": 77.03028
+      },
+      "osm_street_count": 10520,
+      "osm_unsafe_share": 0.8688,
+      "hotspot_cells": 2
+    },
+    {
+      "district": "Bagalkote",
+      "incident_count": 17,
+      "incident_centroid": {
+        "latitude": 16.17,
+        "longitude": 75.63863
+      },
+      "incident_bbox": {
+        "south": 16.14929,
+        "north": 16.17946,
+        "west": 75.63128,
+        "east": 75.64291
+      },
+      "osm_centroid": {
+        "latitude": 16.16871,
+        "longitude": 75.65585
+      },
+      "osm_street_count": 10992,
+      "osm_unsafe_share": 0.7851,
+      "hotspot_cells": 2
+    },
+    {
+      "district": "Dakshina Kannada",
+      "incident_count": 17,
+      "incident_centroid": {
+        "latitude": 12.90444,
+        "longitude": 75.12923
+      },
+      "incident_bbox": {
+        "south": 12.86637,
+        "north": 12.92574,
+        "west": 75.11552,
+        "east": 75.14895
+      },
+      "osm_centroid": {
+        "latitude": 12.90076,
+        "longitude": 75.13979
+      },
+      "osm_street_count": 16680,
+      "osm_unsafe_share": 0.6345,
+      "hotspot_cells": 2
+    },
+    {
+      "district": "Davanagere",
+      "incident_count": 17,
+      "incident_centroid": {
+        "latitude": 14.39798,
+        "longitude": 75.95318
+      },
+      "incident_bbox": {
+        "south": 14.39206,
+        "north": 14.40407,
+        "west": 75.94617,
+        "east": 75.96322
+      },
+      "osm_centroid": {
+        "latitude": 14.40714,
+        "longitude": 75.93738
+      },
+      "osm_street_count": 10968,
+      "osm_unsafe_share": 0.6137,
+      "hotspot_cells": 3
+    },
+    {
+      "district": "Gadag",
+      "incident_count": 17,
+      "incident_centroid": {
+        "latitude": 15.51154,
+        "longitude": 75.64716
+      },
+      "incident_bbox": {
+        "south": 15.48537,
+        "north": 15.52923,
+        "west": 75.63908,
+        "east": 75.65686
+      },
+      "osm_centroid": {
+        "latitude": 15.5047,
+        "longitude": 75.64684
+      },
+      "osm_street_count": 8450,
+      "osm_unsafe_share": 0.6805,
+      "hotspot_cells": 3
+    },
+    {
+      "district": "Ballari",
+      "incident_count": 15,
+      "incident_centroid": {
+        "latitude": 15.08,
+        "longitude": 76.49069
+      },
+      "incident_bbox": {
+        "south": 15.06987,
+        "north": 15.09081,
+        "west": 76.4803,
+        "east": 76.50658
+      },
+      "osm_centroid": {
+        "latitude": 15.07504,
+        "longitude": 76.47155
+      },
+      "osm_street_count": 20951,
+      "osm_unsafe_share": 0.6322,
+      "hotspot_cells": 1
+    },
+    {
+      "district": "Dharwad",
+      "incident_count": 15,
+      "incident_centroid": {
+        "latitude": 15.3623,
+        "longitude": 75.1418
+      },
+      "incident_bbox": {
+        "south": 15.35313,
+        "north": 15.37701,
+        "west": 75.12605,
+        "east": 75.15419
+      },
+      "osm_centroid": {
+        "latitude": 15.34582,
+        "longitude": 75.14043
+      },
+      "osm_street_count": 18939,
+      "osm_unsafe_share": 0.5508,
+      "hotspot_cells": 2
+    },
+    {
+      "district": "Bengaluru Rural",
+      "incident_count": 13,
+      "incident_centroid": {
+        "latitude": 13.15835,
+        "longitude": 77.64302
+      },
+      "incident_bbox": {
+        "south": 13.14828,
+        "north": 13.16523,
+        "west": 77.63322,
+        "east": 77.65741
+      },
+      "osm_centroid": {
+        "latitude": 13.16124,
+        "longitude": 77.62806
+      },
+      "osm_street_count": 27706,
+      "osm_unsafe_share": 0.7145,
+      "hotspot_cells": 2
+    },
+    {
+      "district": "Shivamogga",
+      "incident_count": 13,
+      "incident_centroid": {
+        "latitude": 14.06603,
+        "longitude": 75.23067
+      },
+      "incident_bbox": {
+        "south": 14.05816,
+        "north": 14.0737,
+        "west": 75.22284,
+        "east": 75.23787
+      },
+      "osm_centroid": {
+        "latitude": 14.05478,
+        "longitude": 75.2297
+      },
+      "osm_street_count": 12535,
+      "osm_unsafe_share": 0.687,
+      "hotspot_cells": 2
+    },
+    {
+      "district": "Chikkaballapura",
+      "incident_count": 12,
+      "incident_centroid": {
+        "latitude": 13.59128,
+        "longitude": 77.7783
+      },
+      "incident_bbox": {
+        "south": 13.57743,
+        "north": 13.60302,
+        "west": 77.76432,
+        "east": 77.78714
+      },
+      "osm_centroid": {
+        "latitude": 13.59744,
+        "longitude": 77.79568
+      },
+      "osm_street_count": 8397,
+      "osm_unsafe_share": 0.7666,
+      "hotspot_cells": 3
+    },
+    {
+      "district": "Uttara Kannada",
+      "incident_count": 12,
+      "incident_centroid": {
+        "latitude": 14.65628,
+        "longitude": 74.47964
+      },
+      "incident_bbox": {
+        "south": 14.64487,
+        "north": 14.67784,
+        "west": 74.46876,
+        "east": 74.49793
+      },
+      "osm_centroid": {
+        "latitude": 14.64837,
+        "longitude": 74.47949
+      },
+      "osm_street_count": 6416,
+      "osm_unsafe_share": 0.6358,
+      "hotspot_cells": 2
+    },
+    {
+      "district": "Haveri",
+      "incident_count": 10,
+      "incident_centroid": {
+        "latitude": 14.70071,
+        "longitude": 75.41691
+      },
+      "incident_bbox": {
+        "south": 14.69441,
+        "north": 14.7058,
+        "west": 75.41079,
+        "east": 75.42131
+      },
+      "osm_centroid": {
+        "latitude": 14.71767,
+        "longitude": 75.43133
+      },
+      "osm_street_count": 4690,
+      "osm_unsafe_share": 0.629,
+      "hotspot_cells": 1
+    },
+    {
+      "district": "Koppal",
+      "incident_count": 10,
+      "incident_centroid": {
+        "latitude": 15.65131,
+        "longitude": 76.15135
+      },
+      "incident_bbox": {
+        "south": 15.64615,
+        "north": 15.65677,
+        "west": 76.14315,
+        "east": 76.18361
+      },
+      "osm_centroid": {
+        "latitude": 15.65526,
+        "longitude": 76.16646
+      },
+      "osm_street_count": 5610,
+      "osm_unsafe_share": 0.6114,
+      "hotspot_cells": 1
+    },
+    {
+      "district": "Chitradurga",
+      "incident_count": 8,
+      "incident_centroid": {
+        "latitude": 14.29454,
+        "longitude": 76.56396
+      },
+      "incident_bbox": {
+        "south": 14.28187,
+        "north": 14.30746,
+        "west": 76.53913,
+        "east": 76.58623
+      },
+      "osm_centroid": {
+        "latitude": 14.29486,
+        "longitude": 76.5719
+      },
+      "osm_street_count": 6385,
+      "osm_unsafe_share": 0.5884,
+      "hotspot_cells": 0
+    },
+    {
+      "district": "Kodagu",
+      "incident_count": 6,
+      "incident_centroid": {
+        "latitude": 12.38612,
+        "longitude": 75.80742
+      },
+      "incident_bbox": {
+        "south": 12.38153,
+        "north": 12.38902,
+        "west": 75.80181,
+        "east": 75.81052
+      },
+      "osm_centroid": {
+        "latitude": 12.40198,
+        "longitude": 75.79755
+      },
+      "osm_street_count": 2663,
+      "osm_unsafe_share": 0.6185,
+      "hotspot_cells": 1
+    },
+    {
+      "district": "Yadgir",
+      "incident_count": 4,
+      "incident_centroid": {
+        "latitude": 16.58638,
+        "longitude": 76.97525
+      },
+      "incident_bbox": {
+        "south": 16.57823,
+        "north": 16.60313,
+        "west": 76.96288,
+        "east": 76.98353
+      },
+      "osm_centroid": {
+        "latitude": 16.58592,
+        "longitude": 76.9619
+      },
+      "osm_street_count": 2258,
+      "osm_unsafe_share": 0.3047,
+      "hotspot_cells": 0
+    }
+  ],
+  "note": "OSM roads/streets/buildings are district-level context. Hotspots come from report coordinates, not KSP tables."
+}

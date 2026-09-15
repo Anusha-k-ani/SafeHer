@@ -1,0 +1,535 @@
+_id,district,lat,lon,created_at,time_of_day,incident_type,harassment_reported
+ka_00002,Bagalkote,16.14929,75.642912,2026-07-25T10:17:00Z,evening,unsafe_feeling,False
+ka_00004,Bagalkote,16.169245,75.633644,2026-06-13T12:17:00Z,morning,harassment,True
+ka_00008,Bagalkote,16.171304,75.637489,2026-06-02T21:46:00Z,evening,unsafe_feeling,False
+ka_00009,Bagalkote,16.159722,75.636403,2026-08-04T05:32:00Z,evening,unsafe_feeling,False
+ka_00011,Bagalkote,16.17707,75.640643,2026-08-08T04:08:00Z,afternoon,unsafe_feeling,False
+ka_00016,Bagalkote,16.168894,75.642842,2026-06-02T02:59:00Z,afternoon,unsafe_feeling,False
+ka_00017,Bagalkote,16.177696,75.636311,2026-07-25T22:46:00Z,morning,unsafe_feeling,False
+ka_00019,Bagalkote,16.175421,75.638283,2026-07-24T21:37:00Z,night,unsafe_feeling,False
+ka_00020,Bagalkote,16.179435,75.642079,2026-06-02T14:39:00Z,evening,unsafe_feeling,False
+ka_00023,Bagalkote,16.175898,75.640803,2026-06-06T00:21:00Z,morning,unsafe_feeling,False
+ka_00024,Bagalkote,16.170076,75.631283,2026-07-18T18:35:00Z,morning,unsafe_feeling,False
+ka_00026,Bagalkote,16.179457,75.640477,2026-07-02T08:10:00Z,night,unsafe_feeling,False
+ka_00027,Bagalkote,16.151887,75.641163,2026-07-22T10:17:00Z,evening,unsafe_feeling,False
+ka_00029,Bagalkote,16.179394,75.637312,2026-06-26T11:27:00Z,evening,unsafe_feeling,False
+ka_00030,Bagalkote,16.176654,75.637503,2026-06-25T13:42:00Z,morning,unsafe_feeling,False
+ka_00031,Bagalkote,16.156492,75.63711,2026-07-27T14:43:00Z,evening,harassment,True
+ka_00032,Bagalkote,16.172012,75.640529,2026-06-19T00:02:00Z,afternoon,unsafe_feeling,False
+ka_00036,Ballari,15.069866,76.482585,2026-07-13T17:29:00Z,morning,harassment,True
+ka_00038,Ballari,15.071965,76.485633,2026-07-22T23:10:00Z,morning,harassment,True
+ka_00039,Ballari,15.081275,76.497945,2026-07-12T06:29:00Z,morning,harassment,True
+ka_00040,Ballari,15.078722,76.480297,2026-06-09T20:02:00Z,night,unsafe_feeling,False
+ka_00048,Ballari,15.075733,76.480858,2026-07-03T07:07:00Z,afternoon,unsafe_feeling,False
+ka_00049,Ballari,15.090814,76.501119,2026-07-07T03:53:00Z,evening,unsafe_feeling,False
+ka_00050,Ballari,15.078628,76.485261,2026-08-02T03:55:00Z,evening,harassment,True
+ka_00052,Ballari,15.076787,76.480315,2026-08-06T12:28:00Z,morning,unsafe_feeling,False
+ka_00054,Ballari,15.084543,76.503072,2026-07-04T20:37:00Z,evening,unsafe_feeling,False
+ka_00060,Ballari,15.077869,76.483423,2026-06-04T20:38:00Z,morning,harassment,True
+ka_00061,Ballari,15.085075,76.503423,2026-08-05T22:17:00Z,afternoon,harassment,True
+ka_00063,Ballari,15.076453,76.482133,2026-07-12T06:44:00Z,night,unsafe_feeling,False
+ka_00073,Ballari,15.085465,76.505785,2026-06-22T08:58:00Z,morning,unsafe_feeling,False
+ka_00074,Ballari,15.087785,76.506583,2026-07-17T02:50:00Z,evening,unsafe_feeling,False
+ka_00078,Ballari,15.079033,76.481911,2026-07-21T08:12:00Z,morning,unsafe_feeling,False
+ka_00079,Belagavi,16.13796,74.706227,2026-06-30T10:49:00Z,afternoon,unsafe_feeling,False
+ka_00082,Belagavi,16.136671,74.70129,2026-06-14T15:45:00Z,evening,unsafe_feeling,False
+ka_00083,Belagavi,16.13699,74.701633,2026-06-15T20:41:00Z,night,unsafe_feeling,False
+ka_00084,Belagavi,16.134673,74.699529,2026-06-20T21:59:00Z,afternoon,unsafe_feeling,False
+ka_00086,Belagavi,16.138804,74.699161,2026-06-14T11:54:00Z,morning,unsafe_feeling,False
+ka_00088,Belagavi,16.17933,74.726714,2026-07-19T13:29:00Z,morning,unsafe_feeling,False
+ka_00090,Belagavi,16.138041,74.702794,2026-07-10T01:14:00Z,afternoon,harassment,True
+ka_00092,Belagavi,16.13644,74.697405,2026-07-11T18:27:00Z,afternoon,unsafe_feeling,False
+ka_00094,Belagavi,16.138522,74.702838,2026-06-25T11:22:00Z,afternoon,unsafe_feeling,False
+ka_00097,Belagavi,16.142652,74.697554,2026-08-04T12:29:00Z,evening,harassment,True
+ka_00099,Belagavi,16.140217,74.704617,2026-06-07T20:41:00Z,afternoon,unsafe_feeling,False
+ka_00100,Belagavi,16.135121,74.708083,2026-07-21T04:38:00Z,afternoon,unsafe_feeling,False
+ka_00105,Belagavi,16.137253,74.708066,2026-06-26T19:08:00Z,morning,harassment,True
+ka_00106,Belagavi,16.141787,74.698239,2026-07-26T02:58:00Z,evening,unsafe_feeling,False
+ka_00107,Belagavi,16.131261,74.70764,2026-07-13T04:08:00Z,night,unsafe_feeling,False
+ka_00109,Belagavi,16.132253,74.707332,2026-08-08T00:40:00Z,night,unsafe_feeling,False
+ka_00110,Belagavi,16.13525,74.707911,2026-08-09T16:50:00Z,evening,unsafe_feeling,False
+ka_00111,Belagavi,16.182367,74.729144,2026-06-14T18:47:00Z,night,harassment,True
+ka_00116,Belagavi,16.142901,74.699765,2026-06-08T02:42:00Z,afternoon,unsafe_feeling,False
+ka_00118,Belagavi,16.137277,74.701247,2026-07-06T07:07:00Z,evening,unsafe_feeling,False
+ka_00122,Belagavi,16.179114,74.732017,2026-06-10T14:29:00Z,afternoon,unsafe_feeling,False
+ka_00126,Belagavi,16.142403,74.702266,2026-07-22T09:29:00Z,afternoon,unsafe_feeling,False
+ka_00127,Belagavi,16.188559,74.732053,2026-06-17T11:32:00Z,morning,unsafe_feeling,False
+ka_00128,Belagavi,16.183247,74.731901,2026-06-21T10:59:00Z,night,unsafe_feeling,False
+ka_00130,Belagavi,16.13253,74.699644,2026-07-17T12:23:00Z,night,harassment,True
+ka_00133,Bengaluru Rural,13.162165,77.638335,2026-06-03T11:21:00Z,morning,unsafe_feeling,False
+ka_00141,Bengaluru Rural,13.162014,77.643785,2026-07-23T20:59:00Z,morning,unsafe_feeling,False
+ka_00144,Bengaluru Rural,13.160917,77.635723,2026-06-24T00:47:00Z,night,harassment,True
+ka_00146,Bengaluru Rural,13.163254,77.640949,2026-06-08T21:07:00Z,evening,unsafe_feeling,False
+ka_00150,Bengaluru Rural,13.160959,77.642319,2026-06-03T12:16:00Z,morning,unsafe_feeling,False
+ka_00152,Bengaluru Rural,13.161882,77.640479,2026-07-15T03:11:00Z,morning,unsafe_feeling,False
+ka_00156,Bengaluru Rural,13.148278,77.656368,2026-07-06T01:35:00Z,evening,unsafe_feeling,False
+ka_00162,Bengaluru Rural,13.157161,77.635765,2026-07-24T09:09:00Z,evening,unsafe_feeling,False
+ka_00163,Bengaluru Rural,13.149724,77.657293,2026-06-22T23:50:00Z,morning,unsafe_feeling,False
+ka_00164,Bengaluru Rural,13.165226,77.633218,2026-06-01T13:08:00Z,night,unsafe_feeling,False
+ka_00166,Bengaluru Rural,13.157713,77.638954,2026-07-16T08:50:00Z,evening,harassment,True
+ka_00180,Bengaluru Rural,13.16022,77.638716,2026-07-24T17:02:00Z,afternoon,unsafe_feeling,False
+ka_00182,Bengaluru Rural,13.149086,77.657411,2026-07-15T00:30:00Z,evening,harassment,True
+ka_00183,Bengaluru Urban,12.898249,77.601957,2026-06-15T00:54:00Z,afternoon,unsafe_feeling,False
+ka_00184,Bengaluru Urban,12.907016,77.608978,2026-06-24T20:42:00Z,morning,harassment,True
+ka_00187,Bengaluru Urban,12.905764,77.607551,2026-07-24T19:08:00Z,afternoon,harassment,True
+ka_00189,Bengaluru Urban,12.910313,77.582955,2026-06-04T07:18:00Z,night,unsafe_feeling,False
+ka_00191,Bengaluru Urban,12.901626,77.611222,2026-07-27T03:49:00Z,night,unsafe_feeling,False
+ka_00192,Bengaluru Urban,12.899926,77.602133,2026-07-15T17:17:00Z,morning,harassment,True
+ka_00193,Bengaluru Urban,12.898154,77.604749,2026-06-17T22:55:00Z,night,unsafe_feeling,False
+ka_00194,Bengaluru Urban,12.901945,77.602327,2026-06-12T12:32:00Z,morning,unsafe_feeling,False
+ka_00197,Bengaluru Urban,12.905706,77.603004,2026-07-09T05:55:00Z,afternoon,unsafe_feeling,False
+ka_00198,Bengaluru Urban,12.91405,77.586099,2026-06-12T22:06:00Z,morning,unsafe_feeling,False
+ka_00199,Bengaluru Urban,12.907767,77.609749,2026-08-01T02:14:00Z,night,harassment,True
+ka_00202,Bengaluru Urban,12.904643,77.608712,2026-06-04T21:56:00Z,morning,harassment,True
+ka_00204,Bengaluru Urban,12.91644,77.590192,2026-06-03T18:04:00Z,evening,unsafe_feeling,False
+ka_00208,Bengaluru Urban,12.908212,77.591585,2026-06-04T10:51:00Z,night,harassment,True
+ka_00210,Bengaluru Urban,12.899244,77.612595,2026-06-05T17:51:00Z,evening,unsafe_feeling,False
+ka_00211,Bengaluru Urban,12.903467,77.612244,2026-06-23T07:51:00Z,evening,harassment,True
+ka_00212,Bengaluru Urban,12.899851,77.608186,2026-07-09T23:39:00Z,afternoon,unsafe_feeling,False
+ka_00213,Bengaluru Urban,12.903941,77.609052,2026-06-02T10:00:00Z,night,unsafe_feeling,False
+ka_00216,Bengaluru Urban,12.906684,77.602728,2026-06-14T05:28:00Z,evening,unsafe_feeling,False
+ka_00219,Bengaluru Urban,12.907654,77.583326,2026-07-22T11:43:00Z,morning,harassment,True
+ka_00222,Bengaluru Urban,12.9008,77.603068,2026-06-26T20:56:00Z,evening,unsafe_feeling,False
+ka_00227,Bengaluru Urban,12.899009,77.610024,2026-07-12T01:01:00Z,morning,unsafe_feeling,False
+ka_00228,Bengaluru Urban,12.898655,77.605042,2026-06-18T05:46:00Z,evening,unsafe_feeling,False
+ka_00229,Bengaluru Urban,12.901125,77.609683,2026-06-17T05:46:00Z,morning,unsafe_feeling,False
+ka_00230,Bengaluru Urban,12.912323,77.588624,2026-06-14T15:09:00Z,morning,harassment,True
+ka_00233,Bengaluru Urban,12.908526,77.584773,2026-06-14T02:21:00Z,morning,harassment,True
+ka_00234,Bengaluru Urban,12.913441,77.586124,2026-06-22T19:56:00Z,evening,unsafe_feeling,False
+ka_00237,Bidar,17.964459,77.190069,2026-06-08T04:48:00Z,afternoon,harassment,True
+ka_00239,Bidar,17.939205,77.195967,2026-06-16T14:11:00Z,night,unsafe_feeling,False
+ka_00240,Bidar,17.968884,77.190683,2026-06-09T02:24:00Z,morning,unsafe_feeling,False
+ka_00243,Bidar,17.964595,77.195795,2026-07-05T11:01:00Z,morning,unsafe_feeling,False
+ka_00246,Bidar,17.934069,77.194002,2026-07-17T22:12:00Z,morning,unsafe_feeling,False
+ka_00247,Bidar,17.97327,77.192541,2026-08-10T11:22:00Z,night,unsafe_feeling,False
+ka_00248,Bidar,17.933647,77.19118,2026-06-29T21:13:00Z,morning,unsafe_feeling,False
+ka_00249,Bidar,17.971354,77.189531,2026-07-10T22:45:00Z,evening,harassment,True
+ka_00251,Bidar,17.965067,77.194719,2026-07-09T06:09:00Z,evening,harassment,True
+ka_00255,Bidar,17.969357,77.19381,2026-06-10T15:56:00Z,afternoon,harassment,True
+ka_00256,Bidar,17.968577,77.197725,2026-07-29T04:20:00Z,morning,harassment,True
+ka_00257,Bidar,17.933098,77.197698,2026-08-02T02:08:00Z,morning,harassment,True
+ka_00258,Bidar,17.941779,77.197606,2026-08-07T06:01:00Z,morning,unsafe_feeling,False
+ka_00259,Bidar,17.97163,77.190424,2026-07-08T14:46:00Z,night,unsafe_feeling,False
+ka_00260,Bidar,17.942093,77.193365,2026-06-30T07:46:00Z,morning,harassment,True
+ka_00261,Bidar,17.938553,77.195651,2026-06-07T21:06:00Z,evening,unsafe_feeling,False
+ka_00262,Bidar,17.969308,77.190459,2026-06-13T21:33:00Z,morning,harassment,True
+ka_00263,Bidar,17.969052,77.196182,2026-08-06T06:22:00Z,night,unsafe_feeling,False
+ka_00264,Bidar,17.972626,77.196869,2026-08-03T04:05:00Z,evening,harassment,True
+ka_00265,Bidar,17.941565,77.198751,2026-07-17T21:20:00Z,afternoon,harassment,True
+ka_00268,Bidar,17.96209,77.19506,2026-06-17T15:58:00Z,morning,harassment,True
+ka_00271,Chamrajnagar,11.962148,77.032756,2026-07-29T14:51:00Z,morning,harassment,True
+ka_00272,Chamrajnagar,11.95731,77.031027,2026-07-09T16:35:00Z,afternoon,harassment,True
+ka_00274,Chamrajnagar,11.968071,77.035845,2026-07-23T03:16:00Z,afternoon,harassment,True
+ka_00276,Chamrajnagar,11.968401,77.039309,2026-06-23T22:37:00Z,evening,harassment,True
+ka_00277,Chamrajnagar,11.94067,77.053015,2026-07-06T12:21:00Z,evening,harassment,True
+ka_00279,Chamrajnagar,11.958693,77.034163,2026-08-01T18:36:00Z,morning,unsafe_feeling,False
+ka_00280,Chamrajnagar,11.959707,77.038938,2026-06-21T09:43:00Z,morning,harassment,True
+ka_00281,Chamrajnagar,11.965415,77.036679,2026-06-29T23:41:00Z,morning,unsafe_feeling,False
+ka_00285,Chamrajnagar,11.968497,77.037323,2026-07-09T15:50:00Z,afternoon,harassment,True
+ka_00286,Chamrajnagar,11.963825,77.034777,2026-07-15T07:56:00Z,night,unsafe_feeling,False
+ka_00291,Chamrajnagar,11.964208,77.032668,2026-07-04T13:24:00Z,morning,unsafe_feeling,False
+ka_00293,Chamrajnagar,11.96371,77.031573,2026-07-21T17:18:00Z,afternoon,unsafe_feeling,False
+ka_00294,Chamrajnagar,11.963754,77.0413,2026-07-10T06:47:00Z,afternoon,harassment,True
+ka_00295,Chamrajnagar,11.932011,77.046043,2026-06-07T17:29:00Z,night,harassment,True
+ka_00297,Chamrajnagar,11.962448,77.029994,2026-07-02T07:45:00Z,night,harassment,True
+ka_00298,Chamrajnagar,11.963928,77.032045,2026-06-11T08:54:00Z,morning,harassment,True
+ka_00300,Chamrajnagar,11.938478,77.047358,2026-07-30T16:32:00Z,afternoon,harassment,True
+ka_00302,Chamrajnagar,11.966806,77.034593,2026-07-29T01:02:00Z,afternoon,unsafe_feeling,False
+ka_00303,Chamrajnagar,11.968087,77.03087,2026-07-03T12:58:00Z,morning,harassment,True
+ka_00308,Chikkaballapura,13.577429,77.769343,2026-06-20T19:06:00Z,morning,harassment,True
+ka_00309,Chikkaballapura,13.577848,77.76432,2026-07-26T16:26:00Z,night,unsafe_feeling,False
+ka_00310,Chikkaballapura,13.581423,77.771219,2026-07-25T04:16:00Z,afternoon,unsafe_feeling,False
+ka_00311,Chikkaballapura,13.597784,77.781476,2026-07-19T20:13:00Z,evening,unsafe_feeling,False
+ka_00312,Chikkaballapura,13.598856,77.78714,2026-07-21T06:26:00Z,evening,unsafe_feeling,False
+ka_00314,Chikkaballapura,13.592607,77.776983,2026-07-26T02:04:00Z,night,unsafe_feeling,False
+ka_00318,Chikkaballapura,13.595045,77.786603,2026-08-05T08:56:00Z,night,harassment,True
+ka_00321,Chikkaballapura,13.600467,77.786402,2026-06-25T15:47:00Z,afternoon,unsafe_feeling,False
+ka_00323,Chikkaballapura,13.581802,77.770195,2026-08-05T08:25:00Z,morning,unsafe_feeling,False
+ka_00324,Chikkaballapura,13.593611,77.786957,2026-08-06T14:20:00Z,evening,harassment,True
+ka_00325,Chikkaballapura,13.603016,77.779356,2026-06-24T15:27:00Z,afternoon,harassment,True
+ka_00328,Chikkaballapura,13.595529,77.77957,2026-07-03T11:01:00Z,afternoon,unsafe_feeling,False
+ka_00332,Chikmagalur,13.410311,75.71324,2026-06-14T08:39:00Z,afternoon,harassment,True
+ka_00333,Chikmagalur,13.424675,75.681286,2026-07-12T15:29:00Z,afternoon,unsafe_feeling,False
+ka_00335,Chikmagalur,13.416714,75.680746,2026-06-18T11:18:00Z,night,harassment,True
+ka_00337,Chikmagalur,13.422912,75.680561,2026-07-05T09:41:00Z,evening,harassment,True
+ka_00338,Chikmagalur,13.425119,75.676866,2026-07-12T00:09:00Z,night,unsafe_feeling,False
+ka_00340,Chikmagalur,13.422355,75.673268,2026-07-03T12:53:00Z,morning,unsafe_feeling,False
+ka_00341,Chikmagalur,13.424705,75.673463,2026-07-20T21:19:00Z,night,unsafe_feeling,False
+ka_00343,Chikmagalur,13.409726,75.708442,2026-07-18T02:15:00Z,morning,harassment,True
+ka_00344,Chikmagalur,13.413521,75.702798,2026-06-30T10:35:00Z,afternoon,unsafe_feeling,False
+ka_00345,Chikmagalur,13.410732,75.7078,2026-08-02T06:36:00Z,afternoon,harassment,True
+ka_00346,Chikmagalur,13.419873,75.675367,2026-06-01T20:32:00Z,evening,harassment,True
+ka_00348,Chikmagalur,13.417088,75.672246,2026-06-25T03:02:00Z,evening,unsafe_feeling,False
+ka_00349,Chikmagalur,13.40418,75.71234,2026-08-02T02:29:00Z,morning,harassment,True
+ka_00352,Chikmagalur,13.423912,75.682164,2026-07-11T17:20:00Z,afternoon,unsafe_feeling,False
+ka_00353,Chikmagalur,13.408343,75.706716,2026-07-21T00:46:00Z,morning,unsafe_feeling,False
+ka_00354,Chikmagalur,13.404284,75.711151,2026-07-06T17:32:00Z,afternoon,harassment,True
+ka_00355,Chikmagalur,13.419788,75.674565,2026-07-22T18:58:00Z,morning,unsafe_feeling,False
+ka_00358,Chikmagalur,13.42206,75.678103,2026-08-04T02:14:00Z,morning,unsafe_feeling,False
+ka_00360,Chikmagalur,13.42493,75.677874,2026-06-15T21:26:00Z,evening,harassment,True
+ka_00361,Chikmagalur,13.413657,75.708766,2026-07-27T01:59:00Z,morning,harassment,True
+ka_00362,Chikmagalur,13.426702,75.674414,2026-07-14T22:51:00Z,afternoon,unsafe_feeling,False
+ka_00366,Chitradurga,14.284443,76.58497,2026-07-01T16:17:00Z,evening,harassment,True
+ka_00367,Chitradurga,14.281868,76.586226,2026-08-06T21:39:00Z,evening,harassment,True
+ka_00368,Chitradurga,14.287193,76.585676,2026-06-26T04:19:00Z,afternoon,harassment,True
+ka_00372,Chitradurga,14.296118,76.542323,2026-07-23T07:47:00Z,night,harassment,True
+ka_00375,Chitradurga,14.305222,76.542516,2026-06-22T13:18:00Z,morning,harassment,True
+ka_00378,Chitradurga,14.306885,76.545871,2026-06-20T05:55:00Z,night,harassment,True
+ka_00379,Chitradurga,14.307463,76.539128,2026-07-03T00:29:00Z,afternoon,harassment,True
+ka_00384,Chitradurga,14.287122,76.584946,2026-06-17T19:36:00Z,evening,unsafe_feeling,False
+ka_00385,Dakshina Kannada,12.878187,75.146286,2026-07-13T11:35:00Z,evening,unsafe_feeling,False
+ka_00386,Dakshina Kannada,12.92216,75.11795,2026-06-04T05:12:00Z,night,harassment,True
+ka_00387,Dakshina Kannada,12.87695,75.146867,2026-07-23T23:03:00Z,evening,unsafe_feeling,False
+ka_00392,Dakshina Kannada,12.923124,75.1228,2026-06-03T18:48:00Z,evening,unsafe_feeling,False
+ka_00400,Dakshina Kannada,12.915102,75.119196,2026-07-10T12:04:00Z,morning,unsafe_feeling,False
+ka_00401,Dakshina Kannada,12.877038,75.148951,2026-06-01T04:42:00Z,evening,unsafe_feeling,False
+ka_00402,Dakshina Kannada,12.924952,75.125093,2026-07-15T02:37:00Z,evening,unsafe_feeling,False
+ka_00404,Dakshina Kannada,12.916011,75.115522,2026-07-20T11:53:00Z,night,harassment,True
+ka_00406,Dakshina Kannada,12.914019,75.119831,2026-07-01T22:32:00Z,night,harassment,True
+ka_00408,Dakshina Kannada,12.921955,75.122062,2026-08-09T18:19:00Z,night,unsafe_feeling,False
+ka_00411,Dakshina Kannada,12.86637,75.142656,2026-06-23T18:47:00Z,night,harassment,True
+ka_00412,Dakshina Kannada,12.925739,75.125461,2026-06-20T15:48:00Z,evening,unsafe_feeling,False
+ka_00413,Dakshina Kannada,12.866829,75.146886,2026-07-31T09:30:00Z,evening,harassment,True
+ka_00414,Dakshina Kannada,12.925057,75.119239,2026-07-11T16:43:00Z,evening,unsafe_feeling,False
+ka_00415,Dakshina Kannada,12.921782,75.118547,2026-07-01T23:43:00Z,morning,harassment,True
+ka_00419,Dakshina Kannada,12.925398,75.117029,2026-07-27T02:31:00Z,night,harassment,True
+ka_00420,Dakshina Kannada,12.874784,75.142557,2026-06-10T02:36:00Z,morning,unsafe_feeling,False
+ka_00425,Davanagere,14.392058,75.953269,2026-08-06T14:43:00Z,night,harassment,True
+ka_00428,Davanagere,14.396301,75.947595,2026-06-09T03:17:00Z,morning,unsafe_feeling,False
+ka_00429,Davanagere,14.400268,75.947407,2026-08-02T02:00:00Z,night,unsafe_feeling,False
+ka_00431,Davanagere,14.397164,75.951876,2026-06-13T19:23:00Z,afternoon,harassment,True
+ka_00432,Davanagere,14.402482,75.957821,2026-06-21T21:59:00Z,night,harassment,True
+ka_00433,Davanagere,14.393654,75.961277,2026-08-02T16:07:00Z,evening,unsafe_feeling,False
+ka_00434,Davanagere,14.3986,75.950465,2026-06-26T12:57:00Z,night,harassment,True
+ka_00435,Davanagere,14.398084,75.949817,2026-07-05T06:21:00Z,night,harassment,True
+ka_00436,Davanagere,14.399296,75.947395,2026-06-22T18:35:00Z,night,unsafe_feeling,False
+ka_00437,Davanagere,14.394504,75.955778,2026-06-29T18:09:00Z,morning,unsafe_feeling,False
+ka_00438,Davanagere,14.399904,75.953027,2026-08-03T07:05:00Z,morning,harassment,True
+ka_00439,Davanagere,14.401266,75.952358,2026-06-04T14:29:00Z,morning,unsafe_feeling,False
+ka_00443,Davanagere,14.400829,75.946167,2026-07-18T11:28:00Z,evening,unsafe_feeling,False
+ka_00444,Davanagere,14.404073,75.957251,2026-06-09T06:57:00Z,morning,harassment,True
+ka_00445,Davanagere,14.39756,75.947965,2026-06-03T09:26:00Z,morning,harassment,True
+ka_00446,Davanagere,14.394332,75.96322,2026-07-13T13:37:00Z,night,harassment,True
+ka_00447,Davanagere,14.395222,75.961322,2026-06-30T15:23:00Z,afternoon,unsafe_feeling,False
+ka_00451,Dharwad,15.359939,75.144974,2026-06-04T12:39:00Z,afternoon,unsafe_feeling,False
+ka_00455,Dharwad,15.371461,75.128776,2026-07-19T02:00:00Z,afternoon,harassment,True
+ka_00456,Dharwad,15.35769,75.153445,2026-07-09T18:19:00Z,evening,unsafe_feeling,False
+ka_00459,Dharwad,15.362343,75.145198,2026-06-21T01:17:00Z,morning,harassment,True
+ka_00462,Dharwad,15.353378,75.14378,2026-07-15T09:44:00Z,evening,unsafe_feeling,False
+ka_00463,Dharwad,15.366581,75.126296,2026-06-19T22:14:00Z,morning,harassment,True
+ka_00464,Dharwad,15.365668,75.126045,2026-08-05T18:03:00Z,morning,unsafe_feeling,False
+ka_00468,Dharwad,15.353127,75.145203,2026-07-17T22:18:00Z,evening,unsafe_feeling,False
+ka_00472,Dharwad,15.377008,75.130888,2026-06-19T14:06:00Z,morning,unsafe_feeling,False
+ka_00474,Dharwad,15.354943,75.147695,2026-08-09T17:01:00Z,night,unsafe_feeling,False
+ka_00475,Dharwad,15.361156,75.154188,2026-06-22T15:27:00Z,night,harassment,True
+ka_00476,Dharwad,15.3565,75.149508,2026-07-19T19:43:00Z,evening,unsafe_feeling,False
+ka_00477,Dharwad,15.362499,75.147667,2026-06-13T13:22:00Z,morning,unsafe_feeling,False
+ka_00483,Dharwad,15.370765,75.135997,2026-08-08T19:54:00Z,afternoon,unsafe_feeling,False
+ka_00485,Dharwad,15.361368,75.147298,2026-08-02T17:27:00Z,evening,harassment,True
+ka_00489,Gadag,15.487756,75.651294,2026-07-02T08:56:00Z,morning,harassment,True
+ka_00494,Gadag,15.524407,75.639749,2026-07-02T16:45:00Z,night,harassment,True
+ka_00496,Gadag,15.524841,75.641164,2026-06-12T14:12:00Z,afternoon,harassment,True
+ka_00497,Gadag,15.485367,75.654832,2026-07-26T14:52:00Z,evening,harassment,True
+ka_00498,Gadag,15.527773,75.64562,2026-07-07T23:43:00Z,afternoon,unsafe_feeling,False
+ka_00501,Gadag,15.529227,75.646474,2026-06-17T17:02:00Z,afternoon,unsafe_feeling,False
+ka_00502,Gadag,15.520622,75.642178,2026-06-17T15:55:00Z,evening,unsafe_feeling,False
+ka_00503,Gadag,15.526339,75.644314,2026-06-20T17:54:00Z,morning,harassment,True
+ka_00504,Gadag,15.518889,75.649161,2026-08-03T01:28:00Z,afternoon,harassment,True
+ka_00505,Gadag,15.486126,75.648228,2026-08-05T08:36:00Z,afternoon,harassment,True
+ka_00506,Gadag,15.492081,75.656857,2026-06-04T09:43:00Z,afternoon,harassment,True
+ka_00507,Gadag,15.489717,75.653749,2026-07-05T19:42:00Z,afternoon,unsafe_feeling,False
+ka_00508,Gadag,15.521375,75.639085,2026-06-10T17:38:00Z,morning,harassment,True
+ka_00509,Gadag,15.522326,75.646185,2026-06-20T03:19:00Z,morning,harassment,True
+ka_00511,Gadag,15.492076,75.65398,2026-06-20T15:33:00Z,night,unsafe_feeling,False
+ka_00512,Gadag,15.521102,75.641403,2026-07-25T09:36:00Z,night,unsafe_feeling,False
+ka_00514,Gadag,15.526186,75.647507,2026-07-28T19:51:00Z,evening,unsafe_feeling,False
+ka_00515,Hassan,12.964116,76.099909,2026-08-02T09:39:00Z,afternoon,harassment,True
+ka_00516,Hassan,12.953321,76.078092,2026-06-19T20:15:00Z,night,harassment,True
+ka_00517,Hassan,12.951878,76.080924,2026-08-02T15:01:00Z,evening,harassment,True
+ka_00518,Hassan,12.954766,76.085764,2026-08-10T09:02:00Z,night,unsafe_feeling,False
+ka_00519,Hassan,12.962731,76.096122,2026-07-05T20:26:00Z,morning,harassment,True
+ka_00520,Hassan,12.961072,76.095575,2026-07-14T19:54:00Z,night,unsafe_feeling,False
+ka_00522,Hassan,12.946656,76.078094,2026-06-07T00:22:00Z,morning,harassment,True
+ka_00523,Hassan,12.962558,76.09532,2026-07-14T11:49:00Z,morning,harassment,True
+ka_00526,Hassan,12.945956,76.085291,2026-07-14T09:32:00Z,afternoon,harassment,True
+ka_00527,Hassan,12.958553,76.099104,2026-07-23T13:57:00Z,afternoon,unsafe_feeling,False
+ka_00532,Hassan,12.958919,76.09947,2026-07-09T23:27:00Z,morning,unsafe_feeling,False
+ka_00533,Hassan,12.95939,76.098326,2026-07-29T10:15:00Z,afternoon,unsafe_feeling,False
+ka_00534,Hassan,12.951591,76.08365,2026-07-19T16:47:00Z,morning,harassment,True
+ka_00535,Hassan,12.956922,76.094582,2026-06-17T15:13:00Z,evening,harassment,True
+ka_00538,Hassan,12.95615,76.091198,2026-07-24T01:59:00Z,evening,harassment,True
+ka_00539,Hassan,12.959531,76.094912,2026-07-14T12:30:00Z,night,harassment,True
+ka_00543,Hassan,12.962881,76.095381,2026-06-03T10:27:00Z,morning,unsafe_feeling,False
+ka_00545,Hassan,12.959705,76.093989,2026-06-16T01:12:00Z,morning,harassment,True
+ka_00546,Hassan,12.9566,76.08983,2026-06-30T00:17:00Z,evening,harassment,True
+ka_00548,Hassan,12.946484,76.087246,2026-06-01T01:59:00Z,afternoon,unsafe_feeling,False
+ka_00551,Hassan,12.955839,76.095202,2026-06-02T21:11:00Z,morning,unsafe_feeling,False
+ka_00553,Hassan,12.955927,76.098401,2026-07-06T21:58:00Z,afternoon,harassment,True
+ka_00554,Hassan,12.959184,76.100337,2026-06-27T00:12:00Z,afternoon,unsafe_feeling,False
+ka_00557,Haveri,14.698079,75.415162,2026-07-13T02:56:00Z,afternoon,unsafe_feeling,False
+ka_00558,Haveri,14.701788,75.410794,2026-07-26T00:37:00Z,morning,harassment,True
+ka_00561,Haveri,14.694412,75.415067,2026-07-25T19:39:00Z,morning,unsafe_feeling,False
+ka_00562,Haveri,14.704374,75.421312,2026-06-17T20:32:00Z,morning,unsafe_feeling,False
+ka_00563,Haveri,14.705801,75.419512,2026-07-10T18:56:00Z,morning,harassment,True
+ka_00566,Haveri,14.703505,75.420236,2026-07-19T06:25:00Z,morning,harassment,True
+ka_00567,Haveri,14.705237,75.414779,2026-06-04T06:12:00Z,afternoon,harassment,True
+ka_00568,Haveri,14.695499,75.420437,2026-06-18T12:41:00Z,afternoon,harassment,True
+ka_00571,Haveri,14.702246,75.411238,2026-08-05T12:48:00Z,evening,harassment,True
+ka_00573,Haveri,14.696171,75.420569,2026-07-03T17:05:00Z,night,harassment,True
+ka_00574,Kalaburagi,17.286347,76.847815,2026-07-04T20:04:00Z,evening,unsafe_feeling,False
+ka_00577,Kalaburagi,17.28442,76.84978,2026-06-30T23:47:00Z,night,unsafe_feeling,False
+ka_00578,Kalaburagi,17.287775,76.856313,2026-07-24T06:28:00Z,morning,harassment,True
+ka_00582,Kalaburagi,17.291506,76.846939,2026-06-02T05:20:00Z,night,harassment,True
+ka_00584,Kalaburagi,17.286818,76.847306,2026-07-02T16:21:00Z,night,harassment,True
+ka_00585,Kalaburagi,17.287322,76.854891,2026-06-23T13:15:00Z,morning,unsafe_feeling,False
+ka_00586,Kalaburagi,17.296497,76.8458,2026-08-08T09:42:00Z,morning,unsafe_feeling,False
+ka_00588,Kalaburagi,17.287389,76.845139,2026-06-15T22:58:00Z,afternoon,unsafe_feeling,False
+ka_00591,Kalaburagi,17.286106,76.851784,2026-06-26T07:23:00Z,afternoon,harassment,True
+ka_00597,Kalaburagi,17.288907,76.851219,2026-07-27T23:56:00Z,night,harassment,True
+ka_00600,Kalaburagi,17.286367,76.85367,2026-07-02T13:11:00Z,night,harassment,True
+ka_00601,Kalaburagi,17.288064,76.847811,2026-08-04T19:47:00Z,evening,unsafe_feeling,False
+ka_00603,Kalaburagi,17.292059,76.851219,2026-08-02T12:59:00Z,morning,harassment,True
+ka_00604,Kalaburagi,17.287247,76.851798,2026-06-25T13:16:00Z,night,harassment,True
+ka_00606,Kalaburagi,17.287988,76.843916,2026-06-12T20:45:00Z,night,unsafe_feeling,False
+ka_00607,Kalaburagi,17.292058,76.848913,2026-07-19T18:19:00Z,afternoon,harassment,True
+ka_00608,Kalaburagi,17.291017,76.845087,2026-06-22T15:00:00Z,afternoon,harassment,True
+ka_00609,Kalaburagi,17.291888,76.848546,2026-06-15T14:36:00Z,night,harassment,True
+ka_00610,Kalaburagi,17.293688,76.843473,2026-06-11T12:07:00Z,morning,unsafe_feeling,False
+ka_00611,Kalaburagi,17.290613,76.854481,2026-06-06T03:13:00Z,night,harassment,True
+ka_00612,Kalaburagi,17.2905,76.853197,2026-07-11T07:23:00Z,morning,harassment,True
+ka_00613,Kalaburagi,17.296076,76.853615,2026-06-04T19:07:00Z,night,unsafe_feeling,False
+ka_00615,Kalaburagi,17.288343,76.85291,2026-06-13T23:24:00Z,morning,unsafe_feeling,False
+ka_00616,Kalaburagi,17.294127,76.8491,2026-07-30T05:57:00Z,morning,unsafe_feeling,False
+ka_00617,Kalaburagi,17.297199,76.846433,2026-07-20T08:14:00Z,night,unsafe_feeling,False
+ka_00619,Kodagu,12.381856,75.810525,2026-07-18T04:54:00Z,afternoon,harassment,True
+ka_00622,Kodagu,12.387171,75.80181,2026-07-08T22:24:00Z,afternoon,unsafe_feeling,False
+ka_00626,Kodagu,12.389024,75.809523,2026-07-19T13:43:00Z,morning,unsafe_feeling,False
+ka_00630,Kodagu,12.388163,75.809568,2026-08-08T05:25:00Z,morning,harassment,True
+ka_00632,Kodagu,12.381532,75.805971,2026-06-05T02:07:00Z,afternoon,harassment,True
+ka_00633,Kodagu,12.388991,75.807131,2026-07-27T04:36:00Z,afternoon,unsafe_feeling,False
+ka_00634,Kolar,13.090648,78.23268,2026-07-16T08:08:00Z,afternoon,unsafe_feeling,False
+ka_00635,Kolar,13.094141,78.234389,2026-08-08T06:04:00Z,afternoon,harassment,True
+ka_00636,Kolar,13.059408,78.192065,2026-07-02T02:17:00Z,evening,harassment,True
+ka_00638,Kolar,13.092421,78.229307,2026-06-13T01:10:00Z,night,harassment,True
+ka_00639,Kolar,13.0952,78.227921,2026-06-17T04:24:00Z,afternoon,harassment,True
+ka_00641,Kolar,13.059082,78.195507,2026-06-12T20:05:00Z,night,unsafe_feeling,False
+ka_00644,Kolar,13.093277,78.226666,2026-08-03T12:10:00Z,morning,harassment,True
+ka_00645,Kolar,13.089064,78.233629,2026-07-21T06:59:00Z,night,unsafe_feeling,False
+ka_00646,Kolar,13.092617,78.227341,2026-07-15T23:11:00Z,afternoon,harassment,True
+ka_00647,Kolar,13.098271,78.229056,2026-07-31T12:23:00Z,night,unsafe_feeling,False
+ka_00648,Kolar,13.093348,78.236501,2026-06-26T03:12:00Z,afternoon,harassment,True
+ka_00650,Kolar,13.055718,78.195883,2026-06-02T21:15:00Z,night,unsafe_feeling,False
+ka_00651,Kolar,13.057177,78.193584,2026-08-05T05:15:00Z,afternoon,unsafe_feeling,False
+ka_00652,Kolar,13.097803,78.233388,2026-06-25T18:40:00Z,afternoon,unsafe_feeling,False
+ka_00653,Kolar,13.089649,78.230942,2026-07-10T22:40:00Z,evening,unsafe_feeling,False
+ka_00654,Kolar,13.062743,78.194718,2026-06-07T05:02:00Z,morning,harassment,True
+ka_00655,Kolar,13.093049,78.227393,2026-06-02T21:35:00Z,afternoon,harassment,True
+ka_00659,Kolar,13.05768,78.203224,2026-06-08T22:12:00Z,afternoon,harassment,True
+ka_00660,Kolar,13.09372,78.233341,2026-06-27T05:00:00Z,night,unsafe_feeling,False
+ka_00661,Kolar,13.099267,78.229611,2026-07-05T17:07:00Z,evening,unsafe_feeling,False
+ka_00665,Kolar,13.09873,78.235089,2026-06-20T14:14:00Z,night,harassment,True
+ka_00666,Kolar,13.094923,78.234808,2026-07-07T00:19:00Z,night,unsafe_feeling,False
+ka_00667,Kolar,13.055407,78.198075,2026-06-02T19:06:00Z,morning,unsafe_feeling,False
+ka_00668,Kolar,13.1003,78.23325,2026-06-02T03:34:00Z,night,unsafe_feeling,False
+ka_00670,Kolar,13.094163,78.227823,2026-07-07T07:58:00Z,evening,unsafe_feeling,False
+ka_00671,Kolar,13.100117,78.237093,2026-06-06T19:09:00Z,evening,unsafe_feeling,False
+ka_00673,Kolar,13.063631,78.197495,2026-06-09T03:36:00Z,night,harassment,True
+ka_00674,Kolar,13.100711,78.233276,2026-07-13T04:51:00Z,afternoon,unsafe_feeling,False
+ka_00675,Kolar,13.095972,78.234377,2026-06-29T22:05:00Z,afternoon,unsafe_feeling,False
+ka_00677,Kolar,13.062652,78.196284,2026-06-04T22:27:00Z,afternoon,harassment,True
+ka_00678,Kolar,13.089962,78.232885,2026-07-24T04:48:00Z,night,harassment,True
+ka_00682,Koppal,15.654622,76.146726,2026-07-01T09:10:00Z,afternoon,harassment,True
+ka_00685,Koppal,15.655702,76.143149,2026-06-21T04:43:00Z,afternoon,unsafe_feeling,False
+ka_00687,Koppal,15.656772,76.149503,2026-08-03T03:51:00Z,morning,unsafe_feeling,False
+ka_00688,Koppal,15.648823,76.143518,2026-07-17T11:05:00Z,night,unsafe_feeling,False
+ka_00690,Koppal,15.64843,76.153206,2026-06-06T19:41:00Z,morning,unsafe_feeling,False
+ka_00691,Koppal,15.646152,76.147359,2026-07-30T21:05:00Z,morning,harassment,True
+ka_00693,Koppal,15.652959,76.146542,2026-06-05T19:49:00Z,afternoon,harassment,True
+ka_00697,Koppal,15.648791,76.183607,2026-07-23T08:33:00Z,morning,unsafe_feeling,False
+ka_00698,Koppal,15.653633,76.151992,2026-07-19T06:22:00Z,evening,unsafe_feeling,False
+ka_00700,Koppal,15.647228,76.14793,2026-07-07T21:44:00Z,morning,harassment,True
+ka_00702,Mandya,12.548385,76.842835,2026-07-30T13:58:00Z,evening,harassment,True
+ka_00703,Mandya,12.591397,76.8528,2026-07-01T00:57:00Z,evening,unsafe_feeling,False
+ka_00704,Mandya,12.539881,76.850309,2026-06-25T19:41:00Z,afternoon,unsafe_feeling,False
+ka_00705,Mandya,12.583336,76.850408,2026-06-17T16:07:00Z,afternoon,harassment,True
+ka_00710,Mandya,12.587372,76.849167,2026-06-05T03:21:00Z,evening,harassment,True
+ka_00712,Mandya,12.541161,76.845245,2026-07-08T14:47:00Z,evening,unsafe_feeling,False
+ka_00715,Mandya,12.542131,76.840858,2026-07-02T02:13:00Z,morning,harassment,True
+ka_00718,Mandya,12.587481,76.845308,2026-06-01T14:18:00Z,evening,harassment,True
+ka_00721,Mandya,12.546726,76.848421,2026-08-08T00:59:00Z,evening,harassment,True
+ka_00722,Mandya,12.590314,76.845127,2026-06-22T04:37:00Z,night,harassment,True
+ka_00724,Mandya,12.58833,76.852158,2026-06-10T02:31:00Z,evening,unsafe_feeling,False
+ka_00725,Mandya,12.590866,76.851013,2026-07-10T22:29:00Z,night,unsafe_feeling,False
+ka_00728,Mandya,12.58666,76.842525,2026-07-05T11:06:00Z,evening,harassment,True
+ka_00729,Mandya,12.588738,76.849644,2026-06-15T07:07:00Z,afternoon,unsafe_feeling,False
+ka_00732,Mandya,12.584573,76.844018,2026-07-04T02:10:00Z,night,harassment,True
+ka_00734,Mandya,12.540067,76.844465,2026-07-17T14:00:00Z,night,unsafe_feeling,False
+ka_00735,Mandya,12.537227,76.850371,2026-06-29T21:09:00Z,afternoon,unsafe_feeling,False
+ka_00738,Mandya,12.588791,76.847483,2026-06-20T16:18:00Z,morning,unsafe_feeling,False
+ka_00739,Mandya,12.53846,76.844488,2026-06-01T13:22:00Z,afternoon,harassment,True
+ka_00741,Mandya,12.5837,76.845512,2026-07-10T05:36:00Z,evening,unsafe_feeling,False
+ka_00742,Mandya,12.581592,76.848688,2026-07-30T17:11:00Z,evening,unsafe_feeling,False
+ka_00743,Mandya,12.585488,76.84222,2026-06-04T13:05:00Z,evening,harassment,True
+ka_00744,Mandya,12.588605,76.847441,2026-08-06T14:53:00Z,morning,unsafe_feeling,False
+ka_00746,Mandya,12.582422,76.849426,2026-06-01T15:39:00Z,morning,unsafe_feeling,False
+ka_00747,Mandya,12.586634,76.846576,2026-06-16T09:25:00Z,night,harassment,True
+ka_00749,Mandya,12.542894,76.84664,2026-07-21T12:44:00Z,night,unsafe_feeling,False
+ka_00755,Mysuru,12.239671,76.541829,2026-06-04T05:20:00Z,afternoon,unsafe_feeling,False
+ka_00756,Mysuru,12.232925,76.536496,2026-08-07T06:05:00Z,evening,harassment,True
+ka_00759,Mysuru,12.261793,76.574473,2026-06-09T05:18:00Z,night,unsafe_feeling,False
+ka_00762,Mysuru,12.239382,76.545703,2026-08-10T15:08:00Z,night,harassment,True
+ka_00763,Mysuru,12.26151,76.577208,2026-06-04T06:34:00Z,afternoon,unsafe_feeling,False
+ka_00764,Mysuru,12.235766,76.545316,2026-07-18T11:12:00Z,night,harassment,True
+ka_00768,Mysuru,12.242222,76.537317,2026-08-10T06:07:00Z,night,harassment,True
+ka_00770,Mysuru,12.235684,76.535178,2026-07-10T01:34:00Z,evening,harassment,True
+ka_00773,Mysuru,12.234561,76.539286,2026-07-06T11:17:00Z,evening,harassment,True
+ka_00776,Mysuru,12.234319,76.541191,2026-06-30T01:45:00Z,morning,unsafe_feeling,False
+ka_00782,Mysuru,12.231467,76.541276,2026-06-10T11:41:00Z,afternoon,unsafe_feeling,False
+ka_00786,Mysuru,12.265874,76.573433,2026-06-06T02:47:00Z,night,unsafe_feeling,False
+ka_00789,Mysuru,12.25928,76.577374,2026-06-27T13:33:00Z,evening,unsafe_feeling,False
+ka_00790,Mysuru,12.262238,76.577046,2026-06-14T07:42:00Z,morning,harassment,True
+ka_00792,Mysuru,12.268913,76.571366,2026-07-26T15:16:00Z,morning,harassment,True
+ka_00794,Mysuru,12.232796,76.541249,2026-06-05T20:40:00Z,evening,unsafe_feeling,False
+ka_00795,Mysuru,12.236472,76.536132,2026-06-12T16:54:00Z,afternoon,unsafe_feeling,False
+ka_00796,Mysuru,12.238083,76.537367,2026-07-15T15:33:00Z,night,unsafe_feeling,False
+ka_00799,Mysuru,12.234322,76.539247,2026-07-27T13:25:00Z,morning,unsafe_feeling,False
+ka_00800,Mysuru,12.232509,76.537025,2026-06-15T19:39:00Z,morning,harassment,True
+ka_00803,Raichur,16.041377,76.866683,2026-07-05T02:04:00Z,afternoon,unsafe_feeling,False
+ka_00804,Raichur,16.045995,76.863838,2026-07-12T13:32:00Z,night,unsafe_feeling,False
+ka_00805,Raichur,16.040893,76.856869,2026-07-07T22:34:00Z,morning,harassment,True
+ka_00806,Raichur,16.045272,76.858891,2026-08-01T18:06:00Z,afternoon,unsafe_feeling,False
+ka_00807,Raichur,16.037024,76.858365,2026-07-31T16:46:00Z,evening,unsafe_feeling,False
+ka_00809,Raichur,16.044894,76.862323,2026-06-14T13:44:00Z,night,unsafe_feeling,False
+ka_00812,Raichur,16.047252,76.864651,2026-06-18T05:33:00Z,morning,harassment,True
+ka_00813,Raichur,16.04247,76.857499,2026-06-08T19:29:00Z,morning,harassment,True
+ka_00815,Raichur,16.042781,76.855047,2026-08-06T18:41:00Z,night,harassment,True
+ka_00816,Raichur,16.038615,76.864681,2026-06-19T04:10:00Z,night,harassment,True
+ka_00817,Raichur,16.045138,76.856415,2026-07-21T12:49:00Z,afternoon,unsafe_feeling,False
+ka_00819,Raichur,16.046092,76.866026,2026-07-25T06:39:00Z,morning,unsafe_feeling,False
+ka_00820,Raichur,16.043052,76.857468,2026-07-18T08:32:00Z,evening,harassment,True
+ka_00821,Raichur,16.036383,76.862143,2026-07-31T19:40:00Z,morning,harassment,True
+ka_00822,Raichur,16.038681,76.870708,2026-06-17T02:26:00Z,afternoon,harassment,True
+ka_00824,Raichur,16.044765,76.854534,2026-07-27T01:17:00Z,morning,unsafe_feeling,False
+ka_00825,Raichur,16.041613,76.863559,2026-06-12T18:59:00Z,morning,unsafe_feeling,False
+ka_00829,Raichur,16.045976,76.863058,2026-06-12T16:49:00Z,afternoon,unsafe_feeling,False
+ka_00830,Raichur,16.042783,76.861426,2026-06-05T10:44:00Z,morning,unsafe_feeling,False
+ka_00831,Raichur,16.042579,76.862551,2026-07-27T19:29:00Z,evening,harassment,True
+ka_00835,Ramanagara,12.705004,77.314184,2026-07-31T21:24:00Z,night,harassment,True
+ka_00839,Ramanagara,12.705129,77.321317,2026-06-21T10:08:00Z,night,unsafe_feeling,False
+ka_00841,Ramanagara,12.70208,77.315679,2026-07-04T06:32:00Z,night,harassment,True
+ka_00842,Ramanagara,12.704707,77.316742,2026-07-08T00:34:00Z,morning,harassment,True
+ka_00845,Ramanagara,12.711405,77.320625,2026-07-25T12:01:00Z,night,unsafe_feeling,False
+ka_00847,Ramanagara,12.706294,77.312183,2026-07-22T05:43:00Z,evening,unsafe_feeling,False
+ka_00848,Ramanagara,12.734464,77.282373,2026-06-03T22:20:00Z,night,unsafe_feeling,False
+ka_00852,Ramanagara,12.711661,77.313116,2026-07-21T06:13:00Z,night,unsafe_feeling,False
+ka_00853,Ramanagara,12.711081,77.31498,2026-07-17T20:06:00Z,night,harassment,True
+ka_00854,Ramanagara,12.73604,77.290804,2026-06-23T12:18:00Z,morning,unsafe_feeling,False
+ka_00855,Ramanagara,12.73557,77.287354,2026-06-29T04:39:00Z,evening,unsafe_feeling,False
+ka_00857,Ramanagara,12.705942,77.320187,2026-06-26T10:08:00Z,night,unsafe_feeling,False
+ka_00860,Ramanagara,12.710015,77.321574,2026-06-06T11:25:00Z,evening,unsafe_feeling,False
+ka_00862,Ramanagara,12.73973,77.283826,2026-07-27T10:50:00Z,evening,unsafe_feeling,False
+ka_00863,Ramanagara,12.708841,77.315314,2026-06-21T18:40:00Z,afternoon,unsafe_feeling,False
+ka_00864,Ramanagara,12.707917,77.31197,2026-06-28T18:19:00Z,night,harassment,True
+ka_00865,Ramanagara,12.738373,77.286762,2026-08-04T10:33:00Z,night,unsafe_feeling,False
+ka_00869,Ramanagara,12.712028,77.314823,2026-07-06T02:47:00Z,afternoon,unsafe_feeling,False
+ka_00870,Ramanagara,12.705847,77.318077,2026-06-07T10:50:00Z,afternoon,unsafe_feeling,False
+ka_00872,Ramanagara,12.707849,77.315578,2026-08-01T16:18:00Z,evening,harassment,True
+ka_00874,Shivamogga,14.059612,75.232037,2026-07-11T16:30:00Z,afternoon,unsafe_feeling,False
+ka_00877,Shivamogga,14.067471,75.226911,2026-07-06T00:52:00Z,night,harassment,True
+ka_00878,Shivamogga,14.068372,75.227463,2026-07-06T03:04:00Z,morning,unsafe_feeling,False
+ka_00881,Shivamogga,14.072472,75.231236,2026-06-03T04:49:00Z,afternoon,unsafe_feeling,False
+ka_00882,Shivamogga,14.069788,75.22956,2026-07-04T08:38:00Z,night,unsafe_feeling,False
+ka_00891,Shivamogga,14.071875,75.227164,2026-08-05T03:29:00Z,evening,harassment,True
+ka_00893,Shivamogga,14.065903,75.227651,2026-06-18T22:30:00Z,night,unsafe_feeling,False
+ka_00896,Shivamogga,14.058158,75.237874,2026-06-15T15:29:00Z,morning,harassment,True
+ka_00897,Shivamogga,14.058591,75.233892,2026-07-17T19:42:00Z,afternoon,unsafe_feeling,False
+ka_00898,Shivamogga,14.073702,75.230346,2026-07-22T09:56:00Z,night,unsafe_feeling,False
+ka_00901,Shivamogga,14.072342,75.222842,2026-07-06T20:49:00Z,night,harassment,True
+ka_00904,Shivamogga,14.059437,75.234951,2026-08-07T19:49:00Z,afternoon,unsafe_feeling,False
+ka_00906,Shivamogga,14.060611,75.236827,2026-07-24T15:29:00Z,evening,unsafe_feeling,False
+ka_00911,Tumakuru,13.593359,77.043858,2026-06-08T20:06:00Z,evening,unsafe_feeling,False
+ka_00915,Tumakuru,13.588888,77.042176,2026-07-23T00:46:00Z,afternoon,harassment,True
+ka_00916,Tumakuru,13.593329,77.046286,2026-06-21T06:35:00Z,night,unsafe_feeling,False
+ka_00920,Tumakuru,13.596413,77.048443,2026-07-08T19:36:00Z,evening,unsafe_feeling,False
+ka_00921,Tumakuru,13.587568,77.04917,2026-07-27T20:51:00Z,night,harassment,True
+ka_00922,Tumakuru,13.589888,77.048843,2026-07-22T20:36:00Z,afternoon,unsafe_feeling,False
+ka_00923,Tumakuru,13.603843,77.013658,2026-07-02T17:37:00Z,afternoon,harassment,True
+ka_00925,Tumakuru,13.59569,77.044388,2026-06-19T02:43:00Z,night,harassment,True
+ka_00926,Tumakuru,13.589695,77.04661,2026-07-10T17:44:00Z,afternoon,unsafe_feeling,False
+ka_00928,Tumakuru,13.604381,77.005514,2026-08-03T23:07:00Z,night,unsafe_feeling,False
+ka_00929,Tumakuru,13.604425,77.007073,2026-06-23T22:27:00Z,morning,unsafe_feeling,False
+ka_00930,Tumakuru,13.585185,77.045942,2026-06-08T21:23:00Z,evening,unsafe_feeling,False
+ka_00932,Tumakuru,13.592405,77.049892,2026-06-16T09:59:00Z,afternoon,unsafe_feeling,False
+ka_00934,Tumakuru,13.59594,77.049722,2026-06-13T16:05:00Z,afternoon,harassment,True
+ka_00935,Tumakuru,13.605745,77.010855,2026-07-22T13:24:00Z,evening,harassment,True
+ka_00936,Tumakuru,13.593149,77.03933,2026-06-06T06:05:00Z,morning,unsafe_feeling,False
+ka_00937,Tumakuru,13.59651,77.039298,2026-07-26T23:32:00Z,morning,harassment,True
+ka_00938,Tumakuru,13.588784,77.047237,2026-08-03T06:36:00Z,evening,harassment,True
+ka_00939,Tumakuru,13.612205,77.015152,2026-07-20T07:23:00Z,night,harassment,True
+ka_00941,Tumakuru,13.585442,77.047874,2026-06-17T21:44:00Z,afternoon,harassment,True
+ka_00944,Tumakuru,13.586653,77.045832,2026-06-06T21:59:00Z,morning,unsafe_feeling,False
+ka_00947,Tumakuru,13.58515,77.047314,2026-07-12T11:02:00Z,night,harassment,True
+ka_00949,Tumakuru,13.592291,77.04281,2026-07-29T15:58:00Z,night,unsafe_feeling,False
+ka_00951,Tumakuru,13.607756,77.008767,2026-07-20T14:23:00Z,afternoon,harassment,True
+ka_00953,Tumakuru,13.609712,77.00395,2026-06-28T10:35:00Z,afternoon,unsafe_feeling,False
+ka_00954,Tumakuru,13.593892,77.045429,2026-06-20T20:25:00Z,afternoon,unsafe_feeling,False
+ka_00957,Udupi,13.50761,74.803432,2026-07-31T22:17:00Z,night,harassment,True
+ka_00958,Udupi,13.508368,74.802414,2026-06-03T18:44:00Z,night,harassment,True
+ka_00961,Udupi,13.502975,74.800515,2026-06-22T01:41:00Z,night,unsafe_feeling,False
+ka_00964,Udupi,13.479726,74.799848,2026-08-05T03:01:00Z,afternoon,harassment,True
+ka_00966,Udupi,13.513813,74.798919,2026-06-12T00:27:00Z,afternoon,harassment,True
+ka_00967,Udupi,13.509959,74.798925,2026-07-07T23:43:00Z,afternoon,harassment,True
+ka_00968,Udupi,13.472332,74.790376,2026-06-10T06:11:00Z,night,unsafe_feeling,False
+ka_00969,Udupi,13.479954,74.797713,2026-08-07T00:41:00Z,morning,harassment,True
+ka_00972,Udupi,13.4756,74.799969,2026-07-22T14:55:00Z,afternoon,harassment,True
+ka_00974,Udupi,13.476028,74.790788,2026-08-10T08:14:00Z,morning,harassment,True
+ka_00975,Udupi,13.511166,74.803986,2026-06-19T07:33:00Z,evening,harassment,True
+ka_00977,Udupi,13.510953,74.807614,2026-07-11T20:58:00Z,afternoon,harassment,True
+ka_00980,Udupi,13.479958,74.794679,2026-06-19T08:20:00Z,afternoon,unsafe_feeling,False
+ka_00982,Udupi,13.477788,74.793945,2026-07-18T14:49:00Z,morning,harassment,True
+ka_00984,Udupi,13.470366,74.794099,2026-07-12T12:11:00Z,morning,unsafe_feeling,False
+ka_00986,Udupi,13.508603,74.803233,2026-08-07T13:41:00Z,morning,harassment,True
+ka_00988,Udupi,13.510737,74.796923,2026-07-08T15:01:00Z,afternoon,harassment,True
+ka_00989,Udupi,13.471028,74.799468,2026-08-05T05:25:00Z,evening,unsafe_feeling,False
+ka_00990,Udupi,13.477352,74.792902,2026-07-12T08:25:00Z,night,harassment,True
+ka_00991,Udupi,13.471341,74.800085,2026-06-27T06:48:00Z,evening,harassment,True
+ka_00992,Udupi,13.476863,74.7995,2026-07-03T06:32:00Z,night,harassment,True
+ka_00996,Udupi,13.512207,74.807255,2026-07-31T05:00:00Z,evening,unsafe_feeling,False
+ka_00997,Udupi,13.478838,74.790727,2026-06-09T12:43:00Z,morning,unsafe_feeling,False
+ka_01001,Uttara Kannada,14.654771,74.472414,2026-07-16T20:29:00Z,afternoon,harassment,True
+ka_01006,Uttara Kannada,14.646382,74.477734,2026-06-10T02:16:00Z,evening,harassment,True
+ka_01007,Uttara Kannada,14.651585,74.479455,2026-06-06T21:31:00Z,night,harassment,True
+ka_01009,Uttara Kannada,14.677547,74.492518,2026-07-14T07:38:00Z,night,unsafe_feeling,False
+ka_01010,Uttara Kannada,14.652257,74.46876,2026-08-04T14:04:00Z,morning,unsafe_feeling,False
+ka_01011,Uttara Kannada,14.646241,74.473841,2026-06-21T01:18:00Z,night,harassment,True
+ka_01012,Uttara Kannada,14.676161,74.497927,2026-07-19T01:19:00Z,morning,harassment,True
+ka_01013,Uttara Kannada,14.677839,74.493815,2026-07-27T15:23:00Z,night,harassment,True
+ka_01014,Uttara Kannada,14.649221,74.469203,2026-07-04T21:22:00Z,afternoon,harassment,True
+ka_01015,Uttara Kannada,14.652072,74.474972,2026-07-04T15:04:00Z,evening,harassment,True
+ka_01016,Uttara Kannada,14.644874,74.477878,2026-06-15T16:42:00Z,afternoon,unsafe_feeling,False
+ka_01019,Uttara Kannada,14.646465,74.477139,2026-07-18T12:28:00Z,night,harassment,True
+ka_01022,Vijayapura,16.814102,75.931065,2026-07-07T19:32:00Z,evening,unsafe_feeling,False
+ka_01023,Vijayapura,16.814225,75.934983,2026-06-25T19:56:00Z,evening,harassment,True
+ka_01024,Vijayapura,16.81229,75.936482,2026-07-08T20:15:00Z,afternoon,unsafe_feeling,False
+ka_01025,Vijayapura,16.816999,75.938811,2026-07-03T19:04:00Z,afternoon,unsafe_feeling,False
+ka_01032,Vijayapura,16.818963,75.933049,2026-08-07T10:20:00Z,afternoon,unsafe_feeling,False
+ka_01037,Vijayapura,16.813723,75.939628,2026-06-22T16:04:00Z,afternoon,harassment,True
+ka_01038,Vijayapura,16.812898,75.928016,2026-06-26T19:45:00Z,night,unsafe_feeling,False
+ka_01040,Vijayapura,16.821042,75.930713,2026-07-18T18:50:00Z,morning,harassment,True
+ka_01041,Vijayapura,16.816412,75.937396,2026-07-21T17:34:00Z,night,harassment,True
+ka_01043,Vijayapura,16.81673,75.936813,2026-06-28T13:49:00Z,evening,harassment,True
+ka_01044,Vijayapura,16.822334,75.93775,2026-07-22T14:45:00Z,afternoon,harassment,True
+ka_01046,Vijayapura,16.812304,75.938692,2026-07-10T16:10:00Z,afternoon,unsafe_feeling,False
+ka_01048,Vijayapura,16.817459,75.936797,2026-08-04T02:09:00Z,afternoon,unsafe_feeling,False
+ka_01049,Vijayapura,16.811386,75.931444,2026-06-18T06:26:00Z,afternoon,harassment,True
+ka_01050,Vijayapura,16.814677,75.940507,2026-06-09T07:29:00Z,evening,harassment,True
+ka_01054,Vijayapura,16.822265,75.935764,2026-07-11T01:27:00Z,evening,harassment,True
+ka_01055,Vijayapura,16.817393,75.946214,2026-06-28T12:27:00Z,night,harassment,True
+ka_01057,Vijayapura,16.8219,75.936209,2026-06-12T01:10:00Z,morning,unsafe_feeling,False
+ka_01061,Vijayapura,16.813263,75.946693,2026-06-17T04:46:00Z,night,harassment,True
+ka_01062,Vijayapura,16.818943,75.936562,2026-07-09T22:13:00Z,morning,unsafe_feeling,False
+ka_01066,Vijayapura,16.823122,75.937135,2026-06-19T10:43:00Z,afternoon,harassment,True
+ka_01069,Yadgir,16.578231,76.983532,2026-08-08T17:26:00Z,afternoon,harassment,True
+ka_01072,Yadgir,16.583825,76.980477,2026-06-09T02:09:00Z,evening,unsafe_feeling,False
+ka_01074,Yadgir,16.580321,76.974111,2026-06-12T02:10:00Z,evening,unsafe_feeling,False
+ka_01075,Yadgir,16.603126,76.962884,2026-07-22T06:10:00Z,afternoon,unsafe_feeling,False

@@ -1,0 +1,63 @@
+{
+  "info": {
+    "name": "SafeHer Module 1 Analysis API",
+    "description": "Postman collection for Anusha K Module 1 result delivery. Start with: python3 Module1_Analysis/api.py",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://127.0.0.1:8000" }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "request": { "method": "GET", "url": "{{baseUrl}}/health" }
+    },
+    {
+      "name": "Statistics",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/statistics" }
+    },
+    {
+      "name": "Hotspots (Karnataka)",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/hotspots" }
+    },
+    {
+      "name": "Hotspots by district",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/hotspots?district=Bengaluru Urban&risk=High"
+      }
+    },
+    {
+      "name": "Risk levels",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/risk-levels" }
+    },
+    {
+      "name": "Geography",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/geography" }
+    },
+    {
+      "name": "Incidents by district",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/incidents?district=Mysuru" }
+    },
+    {
+      "name": "Alerts",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/alerts" }
+    },
+    {
+      "name": "Submit incident (triggers analysis update)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"lat\": 12.9716,\n  \"lon\": 77.5946,\n  \"district\": \"Bengaluru Urban\",\n  \"incident_type\": \"harassment\",\n  \"harassment_reported\": true,\n  \"is_safe\": false,\n  \"time_of_day\": \"night\",\n  \"created_at\": \"2026-09-15T18:00:00+00:00\",\n  \"status\": \"approved\"\n}"
+        },
+        "url": "{{baseUrl}}/api/incidents"
+      }
+    },
+    {
+      "name": "Refresh analysis",
+      "request": { "method": "POST", "url": "{{baseUrl}}/api/analysis/refresh" }
+    }
+  ]
+}
