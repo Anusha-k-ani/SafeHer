@@ -1,7 +1,7 @@
 {
   "module": "Incident Analysis, Geospatial Analysis and Hotspot Identification",
-  "generated_at": "2026-09-15T10:42:03.172631+00:00",
-  "folder": "/Users/anushak/Documents/3rd Semester/Ongoing/analysis",
+  "generated_at": "2026-09-15T16:24:05.931751+00:00",
+  "folder": "/Users/anushak/Documents/3rd Semester/Ongoing/Module1_Analysis",
   "preprocess": {
     "before": 1079,
     "after": 1079,
@@ -120,13 +120,13 @@
   "honesty": {
     "reports": "App-schema community reports for Karnataka districts (synthetic demo unless live_reports.json has rows).",
     "hotspots": "Spatial concentration of unsafe/incident-like reports on a ~1 km grid. Not crime prediction.",
-    "osm": "Karnataka OSM street safety workbook (District Summary). Modelled 9-factor proxy, not a crime rate.",
+    "osm": "Real Karnataka OSM streets (Overpass extract): 9-factor infrastructure proxy per street (lighting, CCTV, police, hospital, bus, road, crowd/night/commercial proxies). Not a crime rate.",
     "crime_overlay": "District/commissionerate aggregates (OpenCity \u2190 KSP). Not street-level. Never used as hotspot coordinates."
   },
   "inputs": {
     "dataset": "/Users/anushak/Documents/3rd Semester/PBL/Dataset/Karnataka",
-    "reports": "/Users/anushak/Documents/3rd Semester/Ongoing/analysis/input/reports.json",
-    "live_reports": "/Users/anushak/Documents/3rd Semester/Ongoing/analysis/input/live_reports.json",
+    "reports": "/Users/anushak/Documents/3rd Semester/Ongoing/Module1_Analysis/input/reports.json",
+    "live_reports": "/Users/anushak/Documents/3rd Semester/Ongoing/Module1_Analysis/input/live_reports.json",
     "osm_districts": "/Users/anushak/Documents/3rd Semester/PBL/Dataset/Karnataka/osm_districts.json",
     "crime_context": "/Users/anushak/Documents/3rd Semester/PBL/Dataset/Karnataka/crime_context.json",
     "crime_used_as_coordinates": false
@@ -137,5 +137,260 @@
     "cameras": 5578,
     "as_of": "2026-09-14T07:11:19Z"
   },
-  "api": "python3 analysis/api.py  \u2192  http://127.0.0.1:8000"
+  "street_wise": {
+    "generated_at": "2026-09-15T16:17:01.724578+00:00",
+    "note": "Street rows are real OSM Overpass extracts. Scores are a 9-factor infrastructure proxy, not a crime rate. KSP is not joined as street coordinates.",
+    "synopsis_features": [
+      "lighting (OSM lit / lamps / factor_lighting)",
+      "CCTV proximity (cctv_within_100/250/500m, factor_cctv)",
+      "police distance",
+      "hospital distance",
+      "bus-stop density",
+      "road class (highway, factor_road)",
+      "proxy_crowd / proxy_night / proxy_commercial",
+      "infra_safety_score and Safe / Moderate / Unsafe"
+    ],
+    "streets_scanned": 604573,
+    "avg_infra_safety_score": 4.161,
+    "by_safety_level": {
+      "Moderate": 243449,
+      "Unsafe": 341772,
+      "Safe": 19352
+    },
+    "by_district": {
+      "Bagalkote": {
+        "streets": 10992,
+        "Safe": 0,
+        "Moderate": 2362,
+        "Unsafe": 8630,
+        "avg_score": 3.604
+      },
+      "Ballari": {
+        "streets": 20951,
+        "Safe": 55,
+        "Moderate": 7651,
+        "Unsafe": 13245,
+        "avg_score": 3.828
+      },
+      "Belagavi": {
+        "streets": 31799,
+        "Safe": 35,
+        "Moderate": 8135,
+        "Unsafe": 23629,
+        "avg_score": 3.615
+      },
+      "Bengaluru Rural": {
+        "streets": 27706,
+        "Safe": 172,
+        "Moderate": 7738,
+        "Unsafe": 19796,
+        "avg_score": 3.795
+      },
+      "Bengaluru Urban": {
+        "streets": 177886,
+        "Safe": 17920,
+        "Moderate": 112991,
+        "Unsafe": 46975,
+        "avg_score": 5.127
+      },
+      "Bidar": {
+        "streets": 12636,
+        "Safe": 24,
+        "Moderate": 3212,
+        "Unsafe": 9400,
+        "avg_score": 3.598
+      },
+      "Chamrajnagar": {
+        "streets": 10520,
+        "Safe": 5,
+        "Moderate": 1375,
+        "Unsafe": 9140,
+        "avg_score": 3.394
+      },
+      "Chikkaballapura": {
+        "streets": 8397,
+        "Safe": 9,
+        "Moderate": 1951,
+        "Unsafe": 6437,
+        "avg_score": 3.617
+      },
+      "Chikmagalur": {
+        "streets": 11152,
+        "Safe": 6,
+        "Moderate": 3032,
+        "Unsafe": 8114,
+        "avg_score": 3.661
+      },
+      "Chitradurga": {
+        "streets": 6385,
+        "Safe": 1,
+        "Moderate": 2627,
+        "Unsafe": 3757,
+        "avg_score": 3.889
+      },
+      "Dakshina Kannada": {
+        "streets": 16680,
+        "Safe": 65,
+        "Moderate": 6031,
+        "Unsafe": 10584,
+        "avg_score": 3.949
+      },
+      "Davanagere": {
+        "streets": 10968,
+        "Safe": 73,
+        "Moderate": 4164,
+        "Unsafe": 6731,
+        "avg_score": 3.96
+      },
+      "Dharwad": {
+        "streets": 18939,
+        "Safe": 70,
+        "Moderate": 8437,
+        "Unsafe": 10432,
+        "avg_score": 3.985
+      },
+      "Gadag": {
+        "streets": 8450,
+        "Safe": 2,
+        "Moderate": 2698,
+        "Unsafe": 5750,
+        "avg_score": 3.74
+      },
+      "Hassan": {
+        "streets": 16258,
+        "Safe": 127,
+        "Moderate": 4826,
+        "Unsafe": 11305,
+        "avg_score": 3.805
+      },
+      "Haveri": {
+        "streets": 4690,
+        "Safe": 0,
+        "Moderate": 1740,
+        "Unsafe": 2950,
+        "avg_score": 3.853
+      },
+      "Kalaburagi": {
+        "streets": 21632,
+        "Safe": 14,
+        "Moderate": 8727,
+        "Unsafe": 12891,
+        "avg_score": 3.884
+      },
+      "Kodagu": {
+        "streets": 2663,
+        "Safe": 4,
+        "Moderate": 1012,
+        "Unsafe": 1647,
+        "avg_score": 3.871
+      },
+      "Kolar": {
+        "streets": 19093,
+        "Safe": 8,
+        "Moderate": 5060,
+        "Unsafe": 14025,
+        "avg_score": 3.568
+      },
+      "Koppal": {
+        "streets": 5610,
+        "Safe": 4,
+        "Moderate": 2176,
+        "Unsafe": 3430,
+        "avg_score": 3.85
+      },
+      "Mandya": {
+        "streets": 18624,
+        "Safe": 8,
+        "Moderate": 3465,
+        "Unsafe": 15151,
+        "avg_score": 3.514
+      },
+      "Mysuru": {
+        "streets": 39519,
+        "Safe": 635,
+        "Moderate": 16059,
+        "Unsafe": 22825,
+        "avg_score": 4.077
+      },
+      "Raichur": {
+        "streets": 11476,
+        "Safe": 0,
+        "Moderate": 2758,
+        "Unsafe": 8718,
+        "avg_score": 3.563
+      },
+      "Ramanagara": {
+        "streets": 13801,
+        "Safe": 16,
+        "Moderate": 2683,
+        "Unsafe": 11102,
+        "avg_score": 3.547
+      },
+      "Shivamogga": {
+        "streets": 12535,
+        "Safe": 11,
+        "Moderate": 3913,
+        "Unsafe": 8611,
+        "avg_score": 3.8
+      },
+      "Tumakuru": {
+        "streets": 21630,
+        "Safe": 12,
+        "Moderate": 6523,
+        "Unsafe": 15095,
+        "avg_score": 3.707
+      },
+      "Udupi": {
+        "streets": 16544,
+        "Safe": 24,
+        "Moderate": 3399,
+        "Unsafe": 13121,
+        "avg_score": 3.615
+      },
+      "Uttara Kannada": {
+        "streets": 6416,
+        "Safe": 9,
+        "Moderate": 2328,
+        "Unsafe": 4079,
+        "avg_score": 3.875
+      },
+      "Vijayapura": {
+        "streets": 18363,
+        "Safe": 5,
+        "Moderate": 4844,
+        "Unsafe": 13514,
+        "avg_score": 3.655
+      },
+      "Yadgir": {
+        "streets": 2258,
+        "Safe": 38,
+        "Moderate": 1532,
+        "Unsafe": 688,
+        "avg_score": 4.427
+      }
+    },
+    "highway": {
+      "residential": 462947,
+      "unclassified": 62778,
+      "tertiary": 43612,
+      "primary": 10480,
+      "trunk": 10256,
+      "secondary": 9644,
+      "living_street": 4407,
+      "pedestrian": 449
+    },
+    "lit_yes": 2465,
+    "with_cctv_100m": 6572,
+    "feature_rows_with_factor": {
+      "factor_lighting": 604573,
+      "factor_cctv": 604573,
+      "factor_police": 604573,
+      "factor_hospital": 604573,
+      "factor_bus": 604573
+    },
+    "matched_incidents": 280,
+    "matched_hotspots": 45,
+    "match_radius_m": 450.0,
+    "crime_used_as_coordinates": false
+  }
 }

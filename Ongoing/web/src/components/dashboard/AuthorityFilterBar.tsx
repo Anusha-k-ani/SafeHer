@@ -23,26 +23,26 @@ export function AuthorityFilterBar({
   const set = (patch: Partial<AuthorityFilters>) => onChange({ ...value, ...patch });
 
   return (
-    <section className="rounded-2xl border border-[#E5E7EB] bg-white p-4 shadow-sm">
-      <div className="mb-3 flex items-center justify-between gap-3">
-        <div>
+    <section className="@container rounded-2xl border border-[#E5E7EB] bg-white p-4 shadow-sm">
+      <div className="mb-3 flex flex-col gap-2 @xl:flex-row @xl:items-start @xl:justify-between">
+        <div className="min-w-0">
           <p className="text-xs font-bold uppercase tracking-wide text-[#7C3AED]">
             Authority filters
           </p>
           <p className="text-sm text-[#6B7280]">
-            Area, incident type, date, time, and risk — same controls on dashboard, hotspots, and map.
+            Area, incident type, date, time, and risk. Same controls on dashboard, hotspots, and map.
           </p>
         </div>
         <button
           type="button"
           onClick={() => onChange(EMPTY_FILTERS)}
-          className="shrink-0 rounded-lg border border-[#E5E7EB] px-3 py-1.5 text-sm font-medium text-[#374151] hover:bg-[#F9FAFB]"
+          className="self-start shrink-0 rounded-lg border border-[#E5E7EB] px-3 py-1.5 text-sm font-medium text-[#374151] hover:bg-[#F9FAFB]"
         >
           Reset
         </button>
       </div>
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
-        <label className="text-xs font-medium text-[#6B7280]">
+      <div className="grid grid-cols-1 gap-3 @xl:grid-cols-2 @5xl:grid-cols-3 @7xl:grid-cols-6">
+        <label className="block min-w-0 text-xs font-medium text-[#6B7280]">
           Area / region
           <select
             className={`${selectClass} mt-1`}
@@ -57,7 +57,7 @@ export function AuthorityFilterBar({
             ))}
           </select>
         </label>
-        <label className="text-xs font-medium text-[#6B7280]">
+        <label className="block min-w-0 text-xs font-medium text-[#6B7280]">
           Incident type
           <select
             className={`${selectClass} mt-1`}
@@ -72,7 +72,7 @@ export function AuthorityFilterBar({
             ))}
           </select>
         </label>
-        <label className="text-xs font-medium text-[#6B7280]">
+        <label className="block min-w-0 text-xs font-medium text-[#6B7280]">
           Risk level
           <select
             className={`${selectClass} mt-1`}
@@ -87,7 +87,7 @@ export function AuthorityFilterBar({
             ))}
           </select>
         </label>
-        <label className="text-xs font-medium text-[#6B7280]">
+        <label className="block min-w-0 text-xs font-medium text-[#6B7280]">
           Time of day
           <select
             className={`${selectClass} mt-1`}
@@ -102,7 +102,7 @@ export function AuthorityFilterBar({
             ))}
           </select>
         </label>
-        <label className="text-xs font-medium text-[#6B7280]">
+        <label className="block min-w-0 text-xs font-medium text-[#6B7280]">
           From date
           <input
             type="date"
@@ -111,7 +111,7 @@ export function AuthorityFilterBar({
             onChange={(e) => set({ fromDate: e.target.value })}
           />
         </label>
-        <label className="text-xs font-medium text-[#6B7280]">
+        <label className="block min-w-0 text-xs font-medium text-[#6B7280]">
           To date
           <input
             type="date"

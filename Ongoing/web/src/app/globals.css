@@ -1,9 +1,9 @@
-@import "tailwindcss";
+@import "tailwindcss" source("..");
 
 :root {
-  --background: #faf8ff;
-  --foreground: #374151;
-  --brand: #7c3aed;
+  --background: #f5f7fa;
+  --foreground: #1f2937;
+  --brand: #0f766e;
   --safe: #0e9f6e;
   --moderate: #d97706;
   --unsafe: #e02424;

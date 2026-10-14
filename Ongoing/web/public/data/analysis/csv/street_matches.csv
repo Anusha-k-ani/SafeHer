@@ -1,0 +1,326 @@
+point_kind,point_id,point_district,distance_m,street_id,street_name,highway,safety_level,infra_safety_score,lit,lighting_is_proxy,factor_lighting,factor_cctv,factor_police,factor_hospital,factor_bus,cctv_within_100m,lamp_count_300m,police_distance_m,hospital_distance_m,bus_stop_count,data_source
+incident,ka_00002,Bagalkote,67.8,KA_556_252070455,way/252070455,residential,Unsafe,3.6,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,6263.0,2361.8,0.0,OpenStreetMap via Overpass
+incident,ka_00004,Bagalkote,161.3,KA_556_1368106485,way/1368106485,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,6463.0,2503.5,0.0,OpenStreetMap via Overpass
+incident,ka_00008,Bagalkote,58.8,KA_556_1368106419,way/1368106419,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5897.7,1938.0,0.0,OpenStreetMap via Overpass
+incident,ka_00009,Bagalkote,18.7,KA_556_1314085560,way/1314085560,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,6366.2,2456.1,0.0,OpenStreetMap via Overpass
+incident,ka_00011,Bagalkote,110.7,KA_556_1368106428,way/1368106428,unclassified,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5383.1,1575.9,0.0,OpenStreetMap via Overpass
+incident,ka_00016,Bagalkote,3.1,KA_556_1368106445,way/1368106445,primary,Moderate,4.9,,1,6.0,3.0,2.0,6.0,2.0,0.0,0.0,5405.6,1433.2,0.0,OpenStreetMap via Overpass
+incident,ka_00017,Bagalkote,439.6,KA_556_1368106424,way/1368106424,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5537.9,1849.9,0.0,OpenStreetMap via Overpass
+incident,ka_00019,Bagalkote,245.3,KA_556_1368106489,way/1368106489,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5839.8,1920.0,0.0,OpenStreetMap via Overpass
+incident,ka_00020,Bagalkote,141.3,KA_556_1368106426,way/1368106426,unclassified,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5435.3,1718.4,0.0,OpenStreetMap via Overpass
+incident,ka_00023,Bagalkote,126.3,KA_556_1368106428,way/1368106428,unclassified,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5383.1,1575.9,0.0,OpenStreetMap via Overpass
+incident,ka_00024,Bagalkote,120.5,KA_556_1368106485,way/1368106485,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,6463.0,2503.5,0.0,OpenStreetMap via Overpass
+incident,ka_00026,Bagalkote,31.8,KA_556_1368106425,way/1368106425,unclassified,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5501.7,1827.2,0.0,OpenStreetMap via Overpass
+incident,ka_00027,Bagalkote,117.7,KA_556_252070449,way/252070449,residential,Unsafe,3.6,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,6376.9,2582.7,0.0,OpenStreetMap via Overpass
+incident,ka_00029,Bagalkote,284.8,KA_556_1368106424,way/1368106424,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5537.9,1849.9,0.0,OpenStreetMap via Overpass
+incident,ka_00030,Bagalkote,376.7,KA_556_1368106489,way/1368106489,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5839.8,1920.0,0.0,OpenStreetMap via Overpass
+incident,ka_00031,Bagalkote,35.3,KA_556_1314085664,way/1314085664,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,6440.3,2592.3,0.0,OpenStreetMap via Overpass
+incident,ka_00032,Bagalkote,226.5,KA_556_1368106431,way/1368106431,unclassified,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5512.5,1542.2,0.0,OpenStreetMap via Overpass
+hotspot,HS_16.180_75.640,Bagalkote,6.3,KA_556_1368106422,way/1368106422,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5530.4,1866.4,0.0,OpenStreetMap via Overpass
+hotspot,HS_16.170_75.640,Bagalkote,58.4,KA_556_1368106434,way/1368106434,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,5700.7,1728.6,0.0,OpenStreetMap via Overpass
+incident,ka_00082,Belagavi,106.7,KA_555_1339580218,way/1339580218,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13300.1,5024.7,0.0,OpenStreetMap via Overpass
+incident,ka_00083,Belagavi,81.1,KA_555_1339580218,way/1339580218,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13300.1,5024.7,0.0,OpenStreetMap via Overpass
+incident,ka_00084,Belagavi,180.6,KA_555_1339580219,way/1339580219,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13748.2,4562.7,0.0,OpenStreetMap via Overpass
+incident,ka_00086,Belagavi,134.9,KA_555_1339579272,way/1339579272,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13618.8,4993.9,0.0,OpenStreetMap via Overpass
+incident,ka_00090,Belagavi,169.3,KA_555_1339580218,way/1339580218,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13300.1,5024.7,0.0,OpenStreetMap via Overpass
+incident,ka_00092,Belagavi,169.9,KA_555_1339579269,way/1339579269,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13760.9,4893.2,0.0,OpenStreetMap via Overpass
+incident,ka_00094,Belagavi,194.8,KA_555_1339580218,way/1339580218,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13300.1,5024.7,0.0,OpenStreetMap via Overpass
+incident,ka_00097,Belagavi,274.7,KA_555_1339552416,way/1339552416,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13593.1,5657.6,0.0,OpenStreetMap via Overpass
+incident,ka_00106,Belagavi,292.9,KA_555_1339579271,way/1339579271,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13618.3,5068.7,0.0,OpenStreetMap via Overpass
+incident,ka_00116,Belagavi,404.9,KA_555_1339552416,way/1339552416,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13593.1,5657.6,0.0,OpenStreetMap via Overpass
+incident,ka_00118,Belagavi,39.3,KA_555_1339580218,way/1339580218,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13300.1,5024.7,0.0,OpenStreetMap via Overpass
+incident,ka_00130,Belagavi,281.0,KA_555_1339580219,way/1339580219,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13748.2,4562.7,0.0,OpenStreetMap via Overpass
+hotspot,HS_16.140_74.700,Belagavi,255.4,KA_555_1339579271,way/1339579271,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13618.3,5068.7,0.0,OpenStreetMap via Overpass
+incident,ka_00183,Bengaluru Urban,146.5,KA_572_258588500,1st Cross Road,residential,Moderate,6.1,,1,4.0,3.0,4.0,10.0,10.0,0.0,0.0,1345.1,269.0,6.0,OpenStreetMap via Overpass
+incident,ka_00184,Bengaluru Urban,2.1,KA_572_800240397,way/800240397,residential,Safe,7.05,,1,4.0,3.0,10.0,10.0,10.0,0.0,0.0,247.5,389.7,4.0,OpenStreetMap via Overpass
+incident,ka_00187,Bengaluru Urban,33.0,KA_572_290638885,29th Main Road,secondary,Safe,7.1,,1,5.0,3.0,8.0,10.0,7.0,0.0,0.0,489.8,262.3,2.0,OpenStreetMap via Overpass
+incident,ka_00189,Bengaluru Urban,57.1,KA_572_27791667,9th Cross Road,secondary,Safe,7.55,,1,5.0,3.0,8.0,10.0,10.0,0.0,0.0,495.7,45.6,10.0,OpenStreetMap via Overpass
+incident,ka_00191,Bengaluru Urban,16.4,KA_572_309195561,way/309195561,residential,Moderate,5.05,,1,4.0,3.0,6.0,10.0,2.0,0.0,0.0,791.8,472.0,0.0,OpenStreetMap via Overpass
+incident,ka_00192,Bengaluru Urban,25.9,KA_572_1427497218,way/1427497218,residential,Moderate,5.85,,1,4.0,3.0,4.0,10.0,10.0,0.0,0.0,1336.3,171.9,6.0,OpenStreetMap via Overpass
+incident,ka_00193,Bengaluru Urban,43.4,KA_572_1103054763,way/1103054763,residential,Moderate,5.85,,1,4.0,3.0,4.0,10.0,10.0,0.0,0.0,1281.8,88.5,4.0,OpenStreetMap via Overpass
+incident,ka_00194,Bengaluru Urban,41.6,KA_572_627970185,way/627970185,residential,Moderate,5.85,,1,4.0,3.0,4.0,10.0,10.0,0.0,0.0,1139.7,265.3,3.0,OpenStreetMap via Overpass
+incident,ka_00197,Bengaluru Urban,29.9,KA_572_32267183,7th Cross Road,secondary,Safe,7.05,,1,5.0,3.0,6.0,10.0,10.0,0.0,0.0,885.8,23.3,6.0,OpenStreetMap via Overpass
+incident,ka_00198,Bengaluru Urban,32.8,KA_572_309566406,way/309566406,residential,Safe,7.05,,1,4.0,3.0,10.0,10.0,10.0,0.0,0.0,258.2,229.7,22.0,OpenStreetMap via Overpass
+incident,ka_00199,Bengaluru Urban,47.7,KA_572_40693503,17th Cross Road,residential,Safe,7.05,,1,4.0,3.0,10.0,10.0,10.0,0.0,0.0,176.1,348.5,4.0,OpenStreetMap via Overpass
+incident,ka_00202,Bengaluru Urban,25.7,KA_572_627973211,way/627973211,residential,Moderate,5.9,,1,4.0,3.0,8.0,10.0,5.0,0.0,0.0,494.8,386.3,1.0,OpenStreetMap via Overpass
+incident,ka_00204,Bengaluru Urban,55.4,KA_572_40678752,1st Cross Road,residential,Safe,7.2,,1,4.0,10.0,6.0,10.0,10.0,0.0,0.0,606.9,181.8,14.0,OpenStreetMap via Overpass
+incident,ka_00208,Bengaluru Urban,36.7,KA_572_28187005,14th Main Road,tertiary,Moderate,6.45,,1,5.0,3.0,6.0,10.0,7.0,0.0,0.0,618.4,206.7,2.0,OpenStreetMap via Overpass
+incident,ka_00210,Bengaluru Urban,126.0,KA_572_798240736,way/798240736,residential,Moderate,5.1,,1,4.0,3.0,4.0,10.0,5.0,0.0,0.0,1158.2,496.4,1.0,OpenStreetMap via Overpass
+incident,ka_00211,Bengaluru Urban,178.6,KA_572_1109950504,29th Main Road,secondary,Moderate,6.8,,1,5.0,3.0,8.0,10.0,5.0,0.0,0.0,414.6,86.3,1.0,OpenStreetMap via Overpass
+incident,ka_00212,Bengaluru Urban,29.7,KA_572_798235860,way/798235860,residential,Moderate,4.65,,1,4.0,3.0,4.0,10.0,2.0,0.0,0.0,1003.4,279.0,0.0,OpenStreetMap via Overpass
+incident,ka_00213,Bengaluru Urban,20.8,KA_572_656864552,way/656864552,residential,Moderate,5.9,,1,4.0,3.0,8.0,10.0,5.0,0.0,0.0,566.3,414.2,1.0,OpenStreetMap via Overpass
+incident,ka_00216,Bengaluru Urban,42.3,KA_572_28120356,way/28120356,residential,Moderate,6.25,,1,4.0,3.0,6.0,10.0,10.0,0.0,0.0,746.1,164.7,7.0,OpenStreetMap via Overpass
+incident,ka_00219,Bengaluru Urban,31.0,KA_572_32259926,13th Cross Road,residential,Moderate,6.4,,1,5.0,3.0,6.0,10.0,10.0,0.0,1.0,675.1,35.1,14.0,OpenStreetMap via Overpass
+incident,ka_00222,Bengaluru Urban,73.1,KA_572_494980969,6th Cross Road,residential,Moderate,5.85,,1,4.0,3.0,4.0,10.0,10.0,0.0,0.0,1235.5,183.6,3.0,OpenStreetMap via Overpass
+incident,ka_00227,Bengaluru Urban,43.9,KA_572_1532217451,way/1532217451,residential,Moderate,4.65,,1,4.0,3.0,4.0,10.0,2.0,0.0,0.0,1099.1,429.9,0.0,OpenStreetMap via Overpass
+incident,ka_00228,Bengaluru Urban,20.8,KA_572_1103054763,way/1103054763,residential,Moderate,5.85,,1,4.0,3.0,4.0,10.0,10.0,0.0,0.0,1281.8,88.5,4.0,OpenStreetMap via Overpass
+incident,ka_00229,Bengaluru Urban,26.5,KA_572_1487103867,1st Cross Road,residential,Moderate,5.3,,1,4.0,3.0,6.0,10.0,2.0,0.0,0.0,843.8,479.8,0.0,OpenStreetMap via Overpass
+incident,ka_00230,Bengaluru Urban,49.4,KA_572_32263943,20th Main Road,residential,Safe,7.05,,1,4.0,3.0,10.0,10.0,10.0,0.0,0.0,79.7,238.8,11.0,OpenStreetMap via Overpass
+incident,ka_00233,Bengaluru Urban,76.1,KA_572_191675982,way/191675982,tertiary,Safe,7.3,,1,5.0,3.0,8.0,10.0,10.0,0.0,0.0,465.2,176.2,13.0,OpenStreetMap via Overpass
+incident,ka_00234,Bengaluru Urban,38.1,KA_572_309566406,way/309566406,residential,Safe,7.05,,1,4.0,3.0,10.0,10.0,10.0,0.0,0.0,258.2,229.7,22.0,OpenStreetMap via Overpass
+hotspot,HS_12.900_77.610,Bengaluru Urban,61.9,KA_572_798240730,way/798240730,residential,Moderate,5.05,,1,4.0,3.0,6.0,10.0,2.0,0.0,0.0,931.2,451.2,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.900_77.600,Bengaluru Urban,39.0,KA_572_1110167140,way/1110167140,residential,Moderate,5.85,,1,4.0,3.0,4.0,10.0,10.0,0.0,0.0,1437.1,75.0,7.0,OpenStreetMap via Overpass
+hotspot,HS_12.910_77.590,Bengaluru Urban,23.3,KA_572_28186992,10th Cross Road,residential,Moderate,6.65,,1,4.0,3.0,8.0,10.0,10.0,0.0,0.0,354.4,96.9,5.0,OpenStreetMap via Overpass
+hotspot,HS_12.910_77.610,Bengaluru Urban,24.4,KA_572_1110215096,7th Cross Road,residential,Safe,7.3,,1,4.0,3.0,10.0,10.0,10.0,0.0,0.0,146.5,254.3,4.0,OpenStreetMap via Overpass
+hotspot,HS_12.910_77.580,Bengaluru Urban,32.8,KA_572_133882316,2nd Main Road,residential,Moderate,6.4,,1,5.0,3.0,6.0,10.0,10.0,0.0,1.0,823.9,142.8,4.0,OpenStreetMap via Overpass
+incident,ka_00247,Bidar,240.2,KA_558_1019669215,way/1019669215,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,23693.3,4402.6,0.0,OpenStreetMap via Overpass
+incident,ka_00249,Bidar,421.3,KA_558_1019669216,way/1019669216,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,23631.6,4003.4,0.0,OpenStreetMap via Overpass
+incident,ka_00259,Bidar,401.2,KA_558_1019669216,way/1019669216,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,23631.6,4003.4,0.0,OpenStreetMap via Overpass
+incident,ka_00260,Bidar,396.7,KA_558_158979073,SH75,primary,Moderate,4.2,,1,6.0,3.0,2.0,2.0,2.0,0.0,0.0,19995.7,3736.6,0.0,OpenStreetMap via Overpass
+incident,ka_00264,Bidar,218.3,KA_558_139160295,way/139160295,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,23773.7,4754.1,0.0,OpenStreetMap via Overpass
+hotspot,HS_17.970_77.200,Bidar,428.0,KA_558_139160295,way/139160295,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,23773.7,4754.1,0.0,OpenStreetMap via Overpass
+incident,ka_00271,Chamrajnagar,279.3,KA_578_408936669,way/408936669,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,10877.7,4490.8,0.0,OpenStreetMap via Overpass
+incident,ka_00272,Chamrajnagar,30.9,KA_578_1304666310,way/1304666310,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,10694.2,4247.3,0.0,OpenStreetMap via Overpass
+incident,ka_00277,Chamrajnagar,362.9,KA_578_1245509278,way/1245509278,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,12292.6,5284.6,0.0,OpenStreetMap via Overpass
+incident,ka_00279,Chamrajnagar,105.3,KA_578_1304666322,way/1304666322,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,10955.5,4472.8,0.0,OpenStreetMap via Overpass
+incident,ka_00280,Chamrajnagar,373.1,KA_578_1304663421,way/1304663421,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,11758.6,5123.6,0.0,OpenStreetMap via Overpass
+incident,ka_00293,Chamrajnagar,449.0,KA_578_408936669,way/408936669,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,10877.7,4490.8,0.0,OpenStreetMap via Overpass
+incident,ka_00295,Chamrajnagar,448.4,KA_578_1245509263,way/1245509263,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,12042.7,5029.0,0.0,OpenStreetMap via Overpass
+incident,ka_00297,Chamrajnagar,306.2,KA_578_1304666321,way/1304666321,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,10716.5,4370.5,0.0,OpenStreetMap via Overpass
+incident,ka_00300,Chamrajnagar,61.9,KA_578_1245509268,way/1245509268,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,11962.9,4953.5,0.0,OpenStreetMap via Overpass
+hotspot,HS_11.960_77.030,Chamrajnagar,65.7,KA_578_1304666321,way/1304666321,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,10716.5,4370.5,0.0,OpenStreetMap via Overpass
+hotspot,HS_11.970_77.040,Chamrajnagar,439.5,KA_578_1245832876,way/1245832876,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,12433.8,6324.1,0.0,OpenStreetMap via Overpass
+incident,ka_00308,Chikkaballapura,411.3,KA_582_1219980433,way/1219980433,unclassified,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,16143.4,2585.7,0.0,OpenStreetMap via Overpass
+incident,ka_00309,Chikkaballapura,164.5,KA_582_1219980433,way/1219980433,unclassified,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,16143.4,2585.7,0.0,OpenStreetMap via Overpass
+incident,ka_00310,Chikkaballapura,346.4,KA_582_1219980438,way/1219980438,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,16619.6,1713.0,0.0,OpenStreetMap via Overpass
+incident,ka_00311,Chikkaballapura,181.3,KA_582_1224684422,way/1224684422,unclassified,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,18740.3,1084.3,0.0,OpenStreetMap via Overpass
+incident,ka_00312,Chikkaballapura,100.1,KA_582_1348300376,way/1348300376,tertiary,Moderate,5.05,,1,5.0,3.0,2.0,6.0,7.0,0.0,0.0,19107.8,1235.5,2.0,OpenStreetMap via Overpass
+incident,ka_00314,Chikkaballapura,96.2,KA_582_1220431387,way/1220431387,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,18168.9,1290.2,0.0,OpenStreetMap via Overpass
+incident,ka_00318,Chikkaballapura,113.3,KA_582_368473205,way/368473205,unclassified,Moderate,4.2,,1,4.0,3.0,2.0,8.0,2.0,0.0,0.0,18795.5,915.1,0.0,OpenStreetMap via Overpass
+incident,ka_00321,Chikkaballapura,188.0,KA_582_1348300376,way/1348300376,tertiary,Moderate,5.05,,1,5.0,3.0,2.0,6.0,7.0,0.0,0.0,19107.8,1235.5,2.0,OpenStreetMap via Overpass
+incident,ka_00324,Chikkaballapura,212.1,KA_582_1224684428,way/1224684428,unclassified,Unsafe,3.95,,1,4.0,3.0,2.0,8.0,2.0,0.0,0.0,18803.6,859.6,0.0,OpenStreetMap via Overpass
+incident,ka_00328,Chikkaballapura,252.2,KA_582_1224684423,way/1224684423,residential,Unsafe,3.95,,1,4.0,3.0,2.0,8.0,2.0,0.0,0.0,18556.1,972.5,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.580_77.770,Chikkaballapura,390.5,KA_582_1219980438,way/1219980438,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,16619.6,1713.0,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.600_77.780,Chikkaballapura,250.9,KA_582_1224684424,way/1224684424,unclassified,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,18870.9,1600.0,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.600_77.790,Chikkaballapura,291.2,KA_582_1224684432,way/1224684432,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,19354.8,1392.9,0.0,OpenStreetMap via Overpass
+incident,ka_00333,Chikmagalur,182.5,KA_570_808127227,way/808127227,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13415.9,6516.4,0.0,OpenStreetMap via Overpass
+incident,ka_00337,Chikmagalur,141.2,KA_570_808127227,way/808127227,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13415.9,6516.4,0.0,OpenStreetMap via Overpass
+incident,ka_00338,Chikmagalur,348.7,KA_570_814431953,way/814431953,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13968.9,6779.9,0.0,OpenStreetMap via Overpass
+incident,ka_00340,Chikmagalur,385.1,KA_570_814428247,way/814428247,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,14342.0,6255.7,0.0,OpenStreetMap via Overpass
+incident,ka_00349,Chikmagalur,298.7,KA_570_813939456,way/813939456,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,9536.6,4009.3,0.0,OpenStreetMap via Overpass
+incident,ka_00352,Chikmagalur,93.7,KA_570_808127227,way/808127227,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13415.9,6516.4,0.0,OpenStreetMap via Overpass
+incident,ka_00354,Chikmagalur,413.6,KA_570_813939456,way/813939456,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,9536.6,4009.3,0.0,OpenStreetMap via Overpass
+incident,ka_00358,Chikmagalur,422.1,KA_570_808127227,way/808127227,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13415.9,6516.4,0.0,OpenStreetMap via Overpass
+incident,ka_00360,Chikmagalur,306.2,KA_570_814431953,way/814431953,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13968.9,6779.9,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.420_75.680,Chikmagalur,401.1,KA_570_808127227,way/808127227,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,13415.9,6516.4,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.420_75.670,Chikmagalur,270.9,KA_570_814428247,way/814428247,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,14342.0,6255.7,0.0,OpenStreetMap via Overpass
+incident,ka_00367,Chitradurga,431.8,KA_566_316975951,way/316975951,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,21343.1,4723.5,0.0,OpenStreetMap via Overpass
+incident,ka_00375,Chitradurga,255.0,KA_566_705676000,way/705676000,tertiary,Moderate,4.1,,1,5.0,3.0,2.0,6.0,2.0,0.0,0.0,23191.7,1821.4,0.0,OpenStreetMap via Overpass
+incident,ka_00386,Dakshina Kannada,3.5,KA_575_1391545953,way/1391545953,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,17777.4,5096.2,0.0,OpenStreetMap via Overpass
+incident,ka_00392,Dakshina Kannada,223.0,KA_575_1391545950,way/1391545950,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,17834.4,5550.0,0.0,OpenStreetMap via Overpass
+incident,ka_00402,Dakshina Kannada,156.2,KA_575_1389755408,way/1389755408,residential,Unsafe,2.95,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,18313.3,5148.1,0.0,OpenStreetMap via Overpass
+incident,ka_00408,Dakshina Kannada,256.0,KA_575_1391545950,way/1391545950,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,17834.4,5550.0,0.0,OpenStreetMap via Overpass
+incident,ka_00411,Dakshina Kannada,356.0,KA_575_1061156247,way/1061156247,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,12680.4,4448.4,0.0,OpenStreetMap via Overpass
+incident,ka_00412,Dakshina Kannada,117.9,KA_575_1389755408,way/1389755408,residential,Unsafe,2.95,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,18313.3,5148.1,0.0,OpenStreetMap via Overpass
+incident,ka_00413,Dakshina Kannada,220.9,KA_575_1061156245,way/1061156245,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,12765.1,4632.5,0.0,OpenStreetMap via Overpass
+incident,ka_00414,Dakshina Kannada,224.6,KA_575_1391545955,way/1391545955,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,17889.7,5147.0,0.0,OpenStreetMap via Overpass
+incident,ka_00415,Dakshina Kannada,79.4,KA_575_1391545953,way/1391545953,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,17777.4,5096.2,0.0,OpenStreetMap via Overpass
+incident,ka_00419,Dakshina Kannada,285.6,KA_575_1391545954,way/1391545954,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,17872.1,5110.0,0.0,OpenStreetMap via Overpass
+incident,ka_00420,Dakshina Kannada,406.8,KA_575_1061156248,way/1061156248,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,12842.4,4551.2,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.920_75.120,Dakshina Kannada,187.5,KA_575_1391545957,way/1391545957,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,17514.2,4947.4,0.0,OpenStreetMap via Overpass
+incident,ka_00425,Davanagere,382.2,KA_567_1344562203,way/1344562203,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7138.8,3991.1,0.0,OpenStreetMap via Overpass
+incident,ka_00428,Davanagere,353.9,KA_567_1344558880,way/1344558880,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7066.7,4035.5,0.0,OpenStreetMap via Overpass
+incident,ka_00429,Davanagere,405.4,KA_567_1344558878,way/1344558878,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6288.6,3151.8,0.0,OpenStreetMap via Overpass
+incident,ka_00431,Davanagere,226.2,KA_567_1344558881,way/1344558881,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6641.6,3526.5,0.0,OpenStreetMap via Overpass
+incident,ka_00433,Davanagere,90.3,KA_567_1220210267,way/1220210267,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7686.7,4207.4,0.0,OpenStreetMap via Overpass
+incident,ka_00434,Davanagere,85.2,KA_567_1344558881,way/1344558881,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6641.6,3526.5,0.0,OpenStreetMap via Overpass
+incident,ka_00435,Davanagere,175.4,KA_567_1344558881,way/1344558881,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6641.6,3526.5,0.0,OpenStreetMap via Overpass
+incident,ka_00436,Davanagere,400.0,KA_567_1344558881,way/1344558881,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6641.6,3526.5,0.0,OpenStreetMap via Overpass
+incident,ka_00437,Davanagere,219.7,KA_567_1220182279,Tolahunase Turchaghatta Road,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,7548.5,4353.8,0.0,OpenStreetMap via Overpass
+incident,ka_00438,Davanagere,227.9,KA_567_1344558881,way/1344558881,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6641.6,3526.5,0.0,OpenStreetMap via Overpass
+incident,ka_00439,Davanagere,237.1,KA_567_1344558878,way/1344558878,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6288.6,3151.8,0.0,OpenStreetMap via Overpass
+incident,ka_00444,Davanagere,275.4,KA_567_1220180410,way/1220180410,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,6276.8,2945.5,0.0,OpenStreetMap via Overpass
+incident,ka_00445,Davanagere,376.4,KA_567_1344558881,way/1344558881,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6641.6,3526.5,0.0,OpenStreetMap via Overpass
+incident,ka_00446,Davanagere,172.0,KA_567_1220210267,way/1220210267,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7686.7,4207.4,0.0,OpenStreetMap via Overpass
+incident,ka_00447,Davanagere,31.1,KA_567_1220210263,way/1220210263,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7562.6,4097.0,0.0,OpenStreetMap via Overpass
+hotspot,HS_14.400_75.950,Davanagere,158.4,KA_567_1344558881,way/1344558881,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6641.6,3526.5,0.0,OpenStreetMap via Overpass
+hotspot,HS_14.400_75.960,Davanagere,235.5,KA_567_1220182267,way/1220182267,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7210.3,3567.8,0.0,OpenStreetMap via Overpass
+incident,ka_00451,Dharwad,69.2,KA_562_1043333256,way/1043333256,residential,Moderate,4.65,,1,4.0,3.0,4.0,10.0,2.0,0.0,0.0,1226.9,260.2,0.0,OpenStreetMap via Overpass
+incident,ka_00455,Dharwad,37.9,KA_562_844184431,way/844184431,residential,Moderate,4.75,,1,4.0,3.0,6.0,8.0,2.0,0.0,0.0,917.3,982.3,0.0,OpenStreetMap via Overpass
+incident,ka_00456,Dharwad,42.3,KA_562_222845921,way/222845921,residential,Moderate,4.35,,1,4.0,3.0,4.0,8.0,2.0,0.0,0.0,1700.9,548.4,0.0,OpenStreetMap via Overpass
+incident,ka_00459,Dharwad,30.4,KA_562_842594903,way/842594903,residential,Moderate,4.65,,1,4.0,3.0,4.0,10.0,2.0,0.0,0.0,1416.6,331.9,0.0,OpenStreetMap via Overpass
+incident,ka_00462,Dharwad,80.2,KA_562_55414851,Pinto Road,tertiary,Safe,7.1,,1,5.0,3.0,8.0,10.0,10.0,0.0,0.0,527.0,102.8,4.0,OpenStreetMap via Overpass
+incident,ka_00463,Dharwad,92.3,KA_562_122664841,way/122664841,residential,Moderate,6.3,,1,4.0,3.0,10.0,10.0,5.0,0.0,0.0,274.5,327.8,1.0,OpenStreetMap via Overpass
+incident,ka_00464,Dharwad,55.7,KA_562_843745054,way/843745054,residential,Moderate,6.3,,1,4.0,3.0,10.0,10.0,5.0,0.0,0.0,146.6,208.8,1.0,OpenStreetMap via Overpass
+incident,ka_00468,Dharwad,34.6,KA_562_122625504,Sir Siddappa Kambali Road,trunk,Safe,7.4,,1,6.0,3.0,6.0,10.0,10.0,0.0,0.0,672.7,119.2,3.0,OpenStreetMap via Overpass
+incident,ka_00472,Dharwad,26.6,KA_562_1213594828,way/1213594828,residential,Moderate,4.05,,1,4.0,3.0,4.0,6.0,2.0,0.0,0.0,1552.0,1406.3,0.0,OpenStreetMap via Overpass
+incident,ka_00474,Dharwad,25.7,KA_562_843514240,way/843514240,residential,Moderate,4.65,,1,4.0,3.0,4.0,10.0,2.0,0.0,0.0,1040.2,260.6,0.0,OpenStreetMap via Overpass
+incident,ka_00475,Dharwad,17.4,KA_562_842709974,way/842709974,residential,Moderate,4.65,,1,4.0,3.0,4.0,10.0,2.0,0.0,0.0,1959.5,491.3,0.0,OpenStreetMap via Overpass
+incident,ka_00476,Dharwad,53.7,KA_562_1107685542,way/1107685542,residential,Moderate,4.65,,1,4.0,3.0,4.0,10.0,2.0,0.0,0.0,1231.8,257.5,0.0,OpenStreetMap via Overpass
+incident,ka_00477,Dharwad,26.7,KA_562_222728439,way/222728439,residential,Moderate,5.1,,1,4.0,3.0,4.0,10.0,5.0,0.0,0.0,1573.6,175.8,1.0,OpenStreetMap via Overpass
+incident,ka_00483,Dharwad,19.9,KA_562_844272131,way/844272131,tertiary,Moderate,4.95,,1,5.0,3.0,4.0,6.0,5.0,0.0,0.0,1384.0,1024.3,1.0,OpenStreetMap via Overpass
+incident,ka_00485,Dharwad,46.0,KA_562_221423096,way/221423096,tertiary,Moderate,5.55,,1,5.0,3.0,4.0,10.0,5.0,0.0,0.0,1440.3,37.4,1.0,OpenStreetMap via Overpass
+hotspot,HS_15.360_75.150,Dharwad,27.5,KA_562_842735365,way/842735365,residential,Moderate,4.65,,1,4.0,3.0,4.0,10.0,2.0,0.0,0.0,1539.3,175.8,0.0,OpenStreetMap via Overpass
+hotspot,HS_15.370_75.130,Dharwad,38.7,KA_562_222447486,way/222447486,residential,Moderate,5.2,,1,4.0,3.0,6.0,8.0,5.0,0.0,0.0,869.2,928.7,1.0,OpenStreetMap via Overpass
+incident,ka_00497,Gadag,425.9,KA_561_841723293,way/841723293,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6246.6,4094.3,0.0,OpenStreetMap via Overpass
+incident,ka_00502,Gadag,374.7,KA_561_841334824,way/841334824,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,9843.8,7722.1,0.0,OpenStreetMap via Overpass
+incident,ka_00504,Gadag,336.4,KA_561_841649097,way/841649097,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,10297.4,7631.2,0.0,OpenStreetMap via Overpass
+incident,ka_00506,Gadag,318.7,KA_561_841723296,SH57,primary,Moderate,4.2,,1,6.0,3.0,2.0,2.0,2.0,0.0,0.0,7358.9,5217.6,0.0,OpenStreetMap via Overpass
+incident,ka_00507,Gadag,320.1,KA_561_841723296,SH57,primary,Moderate,4.2,,1,6.0,3.0,2.0,2.0,2.0,0.0,0.0,7358.9,5217.6,0.0,OpenStreetMap via Overpass
+incident,ka_00509,Gadag,62.1,KA_561_841649098,way/841649098,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,10373.4,7272.5,0.0,OpenStreetMap via Overpass
+incident,ka_00511,Gadag,57.4,KA_561_841723296,SH57,primary,Moderate,4.2,,1,6.0,3.0,2.0,2.0,2.0,0.0,0.0,7358.9,5217.6,0.0,OpenStreetMap via Overpass
+incident,ka_00515,Hassan,171.9,KA_574_771808100,way/771808100,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4173.9,3880.7,0.0,OpenStreetMap via Overpass
+incident,ka_00516,Hassan,101.0,KA_574_803549758,way/803549758,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5935.3,5599.9,0.0,OpenStreetMap via Overpass
+incident,ka_00517,Hassan,308.8,KA_574_800628006,way/800628006,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6161.9,4977.9,0.0,OpenStreetMap via Overpass
+incident,ka_00518,Hassan,155.8,KA_574_803549746,way/803549746,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5450.5,4971.5,0.0,OpenStreetMap via Overpass
+incident,ka_00519,Hassan,141.6,KA_574_806340079,way/806340079,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4476.6,4161.4,0.0,OpenStreetMap via Overpass
+incident,ka_00520,Hassan,103.9,KA_574_806290489,way/806290489,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4684.0,4369.0,0.0,OpenStreetMap via Overpass
+incident,ka_00522,Hassan,181.9,KA_574_1052607090,way/1052607090,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6873.1,5368.3,0.0,OpenStreetMap via Overpass
+incident,ka_00523,Hassan,70.8,KA_574_806340079,way/806340079,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4476.6,4161.4,0.0,OpenStreetMap via Overpass
+incident,ka_00526,Hassan,74.7,KA_574_254163448,way/254163448,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,6498.9,4580.2,0.0,OpenStreetMap via Overpass
+incident,ka_00527,Hassan,321.5,KA_574_369079634,way/369079634,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,5248.0,3648.5,0.0,OpenStreetMap via Overpass
+incident,ka_00532,Hassan,278.0,KA_574_368925070,way/368925070,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,4820.9,3660.4,0.0,OpenStreetMap via Overpass
+incident,ka_00533,Hassan,362.5,KA_574_321979067,way/321979067,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4884.3,4243.5,0.0,OpenStreetMap via Overpass
+incident,ka_00534,Hassan,168.7,KA_574_800628006,way/800628006,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6161.9,4977.9,0.0,OpenStreetMap via Overpass
+incident,ka_00535,Hassan,201.6,KA_574_806290492,way/806290492,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4947.6,4219.2,0.0,OpenStreetMap via Overpass
+incident,ka_00538,Hassan,176.4,KA_574_806303494,way/806303494,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5379.1,4243.3,0.0,OpenStreetMap via Overpass
+incident,ka_00539,Hassan,29.7,KA_574_321979067,way/321979067,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4884.3,4243.5,0.0,OpenStreetMap via Overpass
+incident,ka_00543,Hassan,59.6,KA_574_806340079,way/806340079,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4476.6,4161.4,0.0,OpenStreetMap via Overpass
+incident,ka_00545,Hassan,38.1,KA_574_806290491,way/806290491,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4881.8,4325.3,0.0,OpenStreetMap via Overpass
+incident,ka_00546,Hassan,201.9,KA_574_561768145,way/561768145,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5089.1,4549.8,0.0,OpenStreetMap via Overpass
+incident,ka_00548,Hassan,146.0,KA_574_254163448,way/254163448,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,6498.9,4580.2,0.0,OpenStreetMap via Overpass
+incident,ka_00551,Hassan,154.3,KA_574_806372197,way/806372197,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5397.1,3899.9,0.0,OpenStreetMap via Overpass
+incident,ka_00553,Hassan,82.5,KA_574_369079634,way/369079634,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,5248.0,3648.5,0.0,OpenStreetMap via Overpass
+incident,ka_00554,Hassan,180.0,KA_574_368925070,way/368925070,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,4820.9,3660.4,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.960_76.100,Hassan,220.7,KA_574_368925070,way/368925070,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,4820.9,3660.4,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.960_76.090,Hassan,185.5,KA_574_806290487,way/806290487,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4897.6,4569.2,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.950_76.080,Hassan,342.4,KA_574_800628006,way/800628006,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6161.9,4977.9,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.950_76.090,Hassan,211.6,KA_574_800665275,way/800665275,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,6192.1,4307.6,0.0,OpenStreetMap via Overpass
+incident,ka_00557,Haveri,395.1,KA_564_203271888,way/203271888,tertiary,Moderate,4.1,,1,5.0,3.0,2.0,6.0,2.0,0.0,0.0,10837.3,1123.4,0.0,OpenStreetMap via Overpass
+incident,ka_00568,Haveri,319.1,KA_564_203271888,way/203271888,tertiary,Moderate,4.1,,1,5.0,3.0,2.0,6.0,2.0,0.0,0.0,10837.3,1123.4,0.0,OpenStreetMap via Overpass
+incident,ka_00573,Haveri,269.1,KA_564_203271888,way/203271888,tertiary,Moderate,4.1,,1,5.0,3.0,2.0,6.0,2.0,0.0,0.0,10837.3,1123.4,0.0,OpenStreetMap via Overpass
+hotspot,HS_14.700_75.420,Haveri,264.0,KA_564_203271888,way/203271888,tertiary,Moderate,4.1,,1,5.0,3.0,2.0,6.0,2.0,0.0,0.0,10837.3,1123.4,0.0,OpenStreetMap via Overpass
+incident,ka_00574,Kalaburagi,415.3,KA_579_833767883,way/833767883,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5135.8,3159.8,0.0,OpenStreetMap via Overpass
+incident,ka_00577,Kalaburagi,123.8,KA_579_833767883,way/833767883,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5135.8,3159.8,0.0,OpenStreetMap via Overpass
+incident,ka_00586,Kalaburagi,303.3,KA_579_836013210,way/836013210,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,3451.4,2087.9,0.0,OpenStreetMap via Overpass
+incident,ka_00591,Kalaburagi,253.3,KA_579_833767883,way/833767883,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5135.8,3159.8,0.0,OpenStreetMap via Overpass
+incident,ka_00600,Kalaburagi,397.3,KA_579_833767883,way/833767883,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5135.8,3159.8,0.0,OpenStreetMap via Overpass
+incident,ka_00604,Kalaburagi,373.9,KA_579_833767883,way/833767883,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5135.8,3159.8,0.0,OpenStreetMap via Overpass
+incident,ka_00606,Kalaburagi,430.5,KA_579_836013189,way/836013189,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,4389.1,1882.0,0.0,OpenStreetMap via Overpass
+incident,ka_00617,Kalaburagi,201.8,KA_579_836013210,way/836013210,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,3451.4,2087.9,0.0,OpenStreetMap via Overpass
+hotspot,HS_17.300_76.850,Kalaburagi,146.4,KA_579_836013205,way/836013205,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,3502.6,2008.5,0.0,OpenStreetMap via Overpass
+incident,ka_00626,Kodagu,231.4,KA_576_618211804,way/618211804,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8464.3,3379.4,0.0,OpenStreetMap via Overpass
+incident,ka_00630,Kodagu,278.7,KA_576_618211804,way/618211804,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8464.3,3379.4,0.0,OpenStreetMap via Overpass
+incident,ka_00632,Kodagu,450.9,KA_576_618577170,way/618577170,unclassified,Unsafe,2.95,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8598.8,3125.4,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.390_75.810,Kodagu,163.0,KA_576_618211804,way/618211804,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8464.3,3379.4,0.0,OpenStreetMap via Overpass
+incident,ka_00634,Kolar,313.2,KA_581_781695920,way/781695920,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8027.7,7719.7,0.0,OpenStreetMap via Overpass
+incident,ka_00635,Kolar,205.7,KA_581_781695920,way/781695920,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8027.7,7719.7,0.0,OpenStreetMap via Overpass
+incident,ka_00638,Kolar,141.8,KA_581_781696837,way/781696837,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7674.7,7363.0,0.0,OpenStreetMap via Overpass
+incident,ka_00639,Kolar,114.4,KA_581_781695916,way/781695916,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7606.2,7295.4,0.0,OpenStreetMap via Overpass
+incident,ka_00641,Kolar,219.0,KA_581_782378698,way/782378698,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8617.0,7852.2,0.0,OpenStreetMap via Overpass
+incident,ka_00644,Kolar,62.9,KA_581_502157864,way/502157864,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,7548.5,7233.6,0.0,OpenStreetMap via Overpass
+incident,ka_00646,Kolar,83.7,KA_581_502157864,way/502157864,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,7548.5,7233.6,0.0,OpenStreetMap via Overpass
+incident,ka_00647,Kolar,361.7,KA_581_781695915,way/781695915,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7611.5,7302.3,0.0,OpenStreetMap via Overpass
+incident,ka_00648,Kolar,420.4,KA_581_781695920,way/781695920,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8027.7,7719.7,0.0,OpenStreetMap via Overpass
+incident,ka_00650,Kolar,378.5,KA_581_785067159,way/785067159,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,9202.1,7048.5,0.0,OpenStreetMap via Overpass
+incident,ka_00651,Kolar,335.8,KA_581_785067159,way/785067159,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,9202.1,7048.5,0.0,OpenStreetMap via Overpass
+incident,ka_00653,Kolar,359.3,KA_581_781695930,way/781695930,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7900.4,7589.7,0.0,OpenStreetMap via Overpass
+incident,ka_00654,Kolar,284.6,KA_581_782378698,way/782378698,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8617.0,7852.2,0.0,OpenStreetMap via Overpass
+incident,ka_00655,Kolar,95.9,KA_581_502157864,way/502157864,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,7548.5,7233.6,0.0,OpenStreetMap via Overpass
+incident,ka_00659,Kolar,348.6,KA_581_782378699,way/782378699,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8961.2,8089.9,0.0,OpenStreetMap via Overpass
+incident,ka_00660,Kolar,83.0,KA_581_781695920,way/781695920,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8027.7,7719.7,0.0,OpenStreetMap via Overpass
+incident,ka_00661,Kolar,309.5,KA_581_323307316,way/323307316,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,7205.7,6909.6,0.0,OpenStreetMap via Overpass
+incident,ka_00666,Kolar,287.1,KA_581_781695920,way/781695920,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8027.7,7719.7,0.0,OpenStreetMap via Overpass
+incident,ka_00667,Kolar,305.4,KA_581_785022055,way/785022055,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,9228.7,7143.1,0.0,OpenStreetMap via Overpass
+incident,ka_00670,Kolar,74.0,KA_581_781695916,way/781695916,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7606.2,7295.4,0.0,OpenStreetMap via Overpass
+incident,ka_00673,Kolar,332.1,KA_581_782378698,way/782378698,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8617.0,7852.2,0.0,OpenStreetMap via Overpass
+incident,ka_00675,Kolar,337.6,KA_581_781695920,way/781695920,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8027.7,7719.7,0.0,OpenStreetMap via Overpass
+incident,ka_00677,Kolar,204.3,KA_581_782378698,way/782378698,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8617.0,7852.2,0.0,OpenStreetMap via Overpass
+incident,ka_00678,Kolar,390.5,KA_581_781695920,way/781695920,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8027.7,7719.7,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.090_78.230,Kolar,330.0,KA_581_781695930,way/781695930,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7900.4,7589.7,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.060_78.200,Kolar,394.8,KA_581_782378698,way/782378698,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8617.0,7852.2,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.100_78.230,Kolar,240.8,KA_581_323307316,way/323307316,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,7205.7,6909.6,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.060_78.190,Kolar,241.1,KA_581_782659374,way/782659374,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8379.2,7664.2,0.0,OpenStreetMap via Overpass
+incident,ka_00702,Mandya,117.6,KA_573_782892677,way/782892677,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5524.7,4783.0,0.0,OpenStreetMap via Overpass
+incident,ka_00703,Mandya,239.1,KA_573_782008026,way/782008026,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8270.1,7727.1,0.0,OpenStreetMap via Overpass
+incident,ka_00704,Mandya,152.1,KA_573_781692254,way/781692254,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4194.9,3552.5,0.0,OpenStreetMap via Overpass
+incident,ka_00705,Mandya,362.1,KA_573_782605582,way/782605582,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7907.2,7294.5,0.0,OpenStreetMap via Overpass
+incident,ka_00710,Mandya,92.9,KA_573_782605592,way/782605592,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7996.5,7421.3,0.0,OpenStreetMap via Overpass
+incident,ka_00712,Mandya,275.6,KA_573_782899678,way/782899678,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5107.9,4507.5,0.0,OpenStreetMap via Overpass
+incident,ka_00715,Mandya,245.5,KA_573_782899678,way/782899678,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5107.9,4507.5,0.0,OpenStreetMap via Overpass
+incident,ka_00718,Mandya,102.4,KA_573_782605594,way/782605594,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8237.5,7630.6,0.0,OpenStreetMap via Overpass
+incident,ka_00721,Mandya,330.2,KA_573_782892673,way/782892673,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5236.5,4450.5,0.0,OpenStreetMap via Overpass
+incident,ka_00722,Mandya,101.9,KA_573_782605598,way/782605598,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8603.7,7594.5,0.0,OpenStreetMap via Overpass
+incident,ka_00724,Mandya,267.4,KA_573_782008026,way/782008026,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8270.1,7727.1,0.0,OpenStreetMap via Overpass
+incident,ka_00725,Mandya,57.0,KA_573_782008026,way/782008026,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8270.1,7727.1,0.0,OpenStreetMap via Overpass
+incident,ka_00728,Mandya,250.8,KA_573_782605579,way/782605579,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8279.9,7662.6,0.0,OpenStreetMap via Overpass
+incident,ka_00729,Mandya,225.0,KA_573_782008026,way/782008026,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8270.1,7727.1,0.0,OpenStreetMap via Overpass
+incident,ka_00732,Mandya,100.7,KA_573_782605574,way/782605574,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8096.8,7468.8,0.0,OpenStreetMap via Overpass
+incident,ka_00734,Mandya,209.7,KA_573_782899678,way/782899678,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5107.9,4507.5,0.0,OpenStreetMap via Overpass
+incident,ka_00735,Mandya,131.2,KA_573_343178308,way/343178308,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4109.0,3494.1,0.0,OpenStreetMap via Overpass
+incident,ka_00738,Mandya,160.3,KA_573_782605583,way/782605583,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8302.8,7706.1,0.0,OpenStreetMap via Overpass
+incident,ka_00739,Mandya,322.7,KA_573_343173671,way/343173671,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,4539.5,3932.2,0.0,OpenStreetMap via Overpass
+incident,ka_00741,Mandya,41.5,KA_573_782605585,way/782605585,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7950.3,7323.2,0.0,OpenStreetMap via Overpass
+incident,ka_00742,Mandya,266.5,KA_573_782632505,way/782632505,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7713.4,7076.1,0.0,OpenStreetMap via Overpass
+incident,ka_00743,Mandya,290.2,KA_573_782605577,way/782605577,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8160.7,7536.1,0.0,OpenStreetMap via Overpass
+incident,ka_00744,Mandya,143.6,KA_573_782605583,way/782605583,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8302.8,7706.1,0.0,OpenStreetMap via Overpass
+incident,ka_00746,Mandya,301.8,KA_573_782605582,way/782605582,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7907.2,7294.5,0.0,OpenStreetMap via Overpass
+incident,ka_00747,Mandya,76.1,KA_573_782605594,way/782605594,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8237.5,7630.6,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.590_76.850,Mandya,102.4,KA_573_782008026,way/782008026,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,8270.1,7727.1,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.540_76.850,Mandya,186.4,KA_573_781692254,way/781692254,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,4194.9,3552.5,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.580_76.850,Mandya,421.8,KA_573_782632505,way/782632505,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,7713.4,7076.1,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.540_76.840,Mandya,311.2,KA_573_782899678,way/782899678,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5107.9,4507.5,0.0,OpenStreetMap via Overpass
+incident,ka_00759,Mysuru,386.9,KA_577_1189828548,way/1189828548,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5367.7,3689.7,0.0,OpenStreetMap via Overpass
+incident,ka_00763,Mysuru,94.6,KA_577_823315458,way/823315458,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5264.1,3560.5,0.0,OpenStreetMap via Overpass
+incident,ka_00789,Mysuru,71.2,KA_577_1189828547,way/1189828547,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5381.1,3763.6,0.0,OpenStreetMap via Overpass
+incident,ka_00790,Mysuru,142.8,KA_577_823315457,way/823315457,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5222.4,3513.1,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.260_76.580,Mysuru,54.8,KA_577_823315466,way/823315466,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,5215.4,3733.4,0.0,OpenStreetMap via Overpass
+incident,ka_00821,Raichur,212.0,KA_559_974953735,Bagalwad Road,secondary,Unsafe,3.85,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,28436.0,9818.9,0.0,OpenStreetMap via Overpass
+incident,ka_00822,Raichur,104.7,KA_559_243902624,way/243902624,secondary,Unsafe,3.85,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,28759.4,10454.4,0.0,OpenStreetMap via Overpass
+incident,ka_00845,Ramanagara,180.6,KA_584_212218196,way/212218196,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,3693.3,4329.2,0.0,OpenStreetMap via Overpass
+incident,ka_00848,Ramanagara,216.1,KA_584_212211667,way/212211667,unclassified,Moderate,4.35,,1,4.0,3.0,4.0,8.0,2.0,0.0,0.0,1777.3,900.7,0.0,OpenStreetMap via Overpass
+incident,ka_00854,Ramanagara,63.2,KA_584_212565653,way/212565653,residential,Moderate,4.75,,1,4.0,3.0,6.0,8.0,2.0,0.0,0.0,686.3,687.0,0.0,OpenStreetMap via Overpass
+incident,ka_00855,Ramanagara,53.5,KA_584_212565483,way/212565483,residential,Moderate,4.35,,1,4.0,3.0,4.0,8.0,2.0,0.0,0.0,1111.8,594.8,0.0,OpenStreetMap via Overpass
+incident,ka_00860,Ramanagara,160.5,KA_584_212218196,way/212218196,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,3693.3,4329.2,0.0,OpenStreetMap via Overpass
+incident,ka_00862,Ramanagara,153.2,KA_584_211659404,way/211659404,unclassified,Moderate,4.05,,1,4.0,3.0,4.0,6.0,2.0,0.0,0.0,1715.7,1150.6,0.0,OpenStreetMap via Overpass
+incident,ka_00865,Ramanagara,32.6,KA_584_212565627,way/212565627,residential,Moderate,4.35,,1,4.0,3.0,4.0,8.0,2.0,0.0,0.0,1210.7,897.6,0.0,OpenStreetMap via Overpass
+incident,ka_00869,Ramanagara,384.7,KA_584_212233878,way/212233878,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,3036.1,3694.1,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.710_77.320,Ramanagara,285.9,KA_584_212218196,way/212218196,unclassified,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,3693.3,4329.2,0.0,OpenStreetMap via Overpass
+hotspot,HS_12.740_77.290,Ramanagara,267.6,KA_584_212648707,way/212648707,unclassified,Moderate,4.05,,1,4.0,3.0,4.0,6.0,2.0,0.0,0.0,1308.4,1214.3,0.0,OpenStreetMap via Overpass
+incident,ka_00928,Tumakuru,383.7,KA_571_375121660,way/375121660,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,30746.6,12654.3,0.0,OpenStreetMap via Overpass
+incident,ka_00929,Tumakuru,427.4,KA_571_375121660,way/375121660,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,30746.6,12654.3,0.0,OpenStreetMap via Overpass
+incident,ka_00951,Tumakuru,258.3,KA_571_747117711,way/747117711,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,31568.5,11741.3,0.0,OpenStreetMap via Overpass
+incident,ka_00957,Udupi,111.9,KA_569_803205837,way/803205837,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,8175.2,1442.9,0.0,OpenStreetMap via Overpass
+incident,ka_00958,Udupi,233.8,KA_569_803205836,way/803205836,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,7760.6,1869.6,0.0,OpenStreetMap via Overpass
+incident,ka_00961,Udupi,324.0,KA_569_809005377,way/809005377,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,8710.3,1262.5,0.0,OpenStreetMap via Overpass
+incident,ka_00964,Udupi,208.8,KA_569_806290770,way/806290770,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,11083.8,2143.8,0.0,OpenStreetMap via Overpass
+incident,ka_00966,Udupi,340.7,KA_569_803205835,way/803205835,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,7625.2,2009.0,0.0,OpenStreetMap via Overpass
+incident,ka_00967,Udupi,198.5,KA_569_803178307,way/803178307,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,7611.1,2120.3,0.0,OpenStreetMap via Overpass
+incident,ka_00968,Udupi,5.7,KA_569_805341775,way/805341775,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,11148.9,3355.3,0.0,OpenStreetMap via Overpass
+incident,ka_00969,Udupi,268.8,KA_569_805293758,way/805293758,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,10718.0,2345.4,0.0,OpenStreetMap via Overpass
+incident,ka_00972,Udupi,105.0,KA_569_806290771,way/806290771,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,11421.3,2592.1,0.0,OpenStreetMap via Overpass
+incident,ka_00974,Udupi,108.3,KA_569_805293767,way/805293767,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,10905.4,3125.3,0.0,OpenStreetMap via Overpass
+incident,ka_00975,Udupi,238.7,KA_569_666184285,Baraali Road,tertiary,Moderate,4.1,,1,5.0,3.0,2.0,6.0,2.0,0.0,0.0,7946.7,1703.9,0.0,OpenStreetMap via Overpass
+incident,ka_00977,Udupi,158.2,KA_569_803342490,way/803342490,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,8112.8,1564.8,0.0,OpenStreetMap via Overpass
+incident,ka_00980,Udupi,73.2,KA_569_805293758,way/805293758,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,10718.0,2345.4,0.0,OpenStreetMap via Overpass
+incident,ka_00982,Udupi,227.2,KA_569_805293768,way/805293768,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,10970.2,2474.3,0.0,OpenStreetMap via Overpass
+incident,ka_00984,Udupi,180.6,KA_569_805341776,way/805341776,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,11781.7,3298.3,0.0,OpenStreetMap via Overpass
+incident,ka_00986,Udupi,183.7,KA_569_803205837,way/803205837,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,8175.2,1442.9,0.0,OpenStreetMap via Overpass
+incident,ka_00988,Udupi,87.7,KA_569_803178307,way/803178307,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,7611.1,2120.3,0.0,OpenStreetMap via Overpass
+incident,ka_00989,Udupi,203.7,KA_569_805341778,way/805341778,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,11855.0,2877.3,0.0,OpenStreetMap via Overpass
+incident,ka_00990,Udupi,220.6,KA_569_805293765,way/805293765,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,11175.8,2938.7,0.0,OpenStreetMap via Overpass
+incident,ka_00991,Udupi,135.7,KA_569_805341778,way/805341778,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,11855.0,2877.3,0.0,OpenStreetMap via Overpass
+incident,ka_00992,Udupi,140.3,KA_569_806280929,way/806280929,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,11167.5,2268.6,0.0,OpenStreetMap via Overpass
+incident,ka_00996,Udupi,171.3,KA_569_803205821,way/803205821,residential,Unsafe,3.65,,1,4.0,3.0,2.0,6.0,2.0,0.0,0.0,7677.3,1999.1,0.0,OpenStreetMap via Overpass
+incident,ka_00997,Udupi,299.8,KA_569_806280930,way/806280930,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,10539.1,2534.4,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.510_74.800,Udupi,133.7,KA_569_803205835,way/803205835,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,7625.2,2009.0,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.480_74.790,Udupi,253.4,KA_569_806280930,way/806280930,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,10539.1,2534.4,0.0,OpenStreetMap via Overpass
+hotspot,HS_13.480_74.800,Udupi,220.4,KA_569_806290770,way/806290770,residential,Unsafe,3.35,,1,4.0,3.0,2.0,4.0,2.0,0.0,0.0,11083.8,2143.8,0.0,OpenStreetMap via Overpass
+incident,ka_01009,Uttara Kannada,214.7,KA_563_162586717,Madangeri Road,secondary,Unsafe,3.85,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,23403.3,16166.4,0.0,OpenStreetMap via Overpass
+incident,ka_01011,Uttara Kannada,442.6,KA_563_1310884486,way/1310884486,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,20110.2,12737.8,0.0,OpenStreetMap via Overpass
+incident,ka_01013,Uttara Kannada,350.5,KA_563_162586717,Madangeri Road,secondary,Unsafe,3.85,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,23403.3,16166.4,0.0,OpenStreetMap via Overpass
+incident,ka_01014,Uttara Kannada,433.8,KA_563_1310884486,way/1310884486,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,20110.2,12737.8,0.0,OpenStreetMap via Overpass
+incident,ka_01015,Uttara Kannada,291.7,KA_563_1310884486,way/1310884486,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,20110.2,12737.8,0.0,OpenStreetMap via Overpass
+hotspot,HS_14.650_74.470,Uttara Kannada,335.8,KA_563_1310884486,way/1310884486,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,20110.2,12737.8,0.0,OpenStreetMap via Overpass
+incident,ka_01022,Vijayapura,184.9,KA_557_853583629,way/853583629,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,22959.4,7018.1,0.0,OpenStreetMap via Overpass
+incident,ka_01023,Vijayapura,119.2,KA_557_853206377,way/853206377,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,23463.7,7541.8,0.0,OpenStreetMap via Overpass
+incident,ka_01024,Vijayapura,33.6,KA_557_853245439,way/853245439,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,23708.5,7797.3,0.0,OpenStreetMap via Overpass
+incident,ka_01037,Vijayapura,227.8,KA_557_853206383,way/853206383,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,23957.1,8046.9,0.0,OpenStreetMap via Overpass
+incident,ka_01038,Vijayapura,343.7,KA_557_853583629,way/853583629,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,22959.4,7018.1,0.0,OpenStreetMap via Overpass
+incident,ka_01046,Vijayapura,73.5,KA_557_853206383,way/853206383,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,23957.1,8046.9,0.0,OpenStreetMap via Overpass
+incident,ka_01049,Vijayapura,214.8,KA_557_853206381,way/853206381,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,23341.1,7436.1,0.0,OpenStreetMap via Overpass
+incident,ka_01050,Vijayapura,360.2,KA_557_853206383,way/853206383,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,23957.1,8046.9,0.0,OpenStreetMap via Overpass
+incident,ka_01054,Vijayapura,428.7,KA_557_776046751,way/776046751,tertiary,Unsafe,3.5,,1,5.0,3.0,2.0,2.0,2.0,0.0,0.0,23212.0,7215.5,0.0,OpenStreetMap via Overpass
+hotspot,HS_16.810_75.930,Vijayapura,424.8,KA_557_853206381,way/853206381,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,23341.1,7436.1,0.0,OpenStreetMap via Overpass
+hotspot,HS_16.810_75.940,Vijayapura,163.2,KA_557_853235635,way/853235635,residential,Unsafe,3.05,,1,4.0,3.0,2.0,2.0,2.0,0.0,0.0,23924.1,8046.9,0.0,OpenStreetMap via Overpass
+incident,ka_01074,Yadgir,417.4,KA_580_304654472,way/304654472,tertiary,Moderate,4.1,,1,5.0,3.0,2.0,6.0,2.0,0.0,0.0,18477.4,1985.6,0.0,OpenStreetMap via Overpass

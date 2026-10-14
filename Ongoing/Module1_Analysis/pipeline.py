@@ -333,7 +333,7 @@ def geospatial_analysis(classified: list[dict], osm_areas: list[dict], hotspots:
         "hotspot_cells": len(hotspots),
         "incident_count": len(incidents),
         "districts": districts,
-        "note": "OSM roads/streets/buildings are district-level context. Hotspots come from report coordinates, not KSP tables.",
+        "note": "OSM street rows are real Overpass extracts (lighting, CCTV, police, hospital, bus, 9-factor score). District centroids are context. Hotspots come from report GPS, not KSP tables. crime_used_as_coordinates = false.",
     }
 
 
@@ -450,6 +450,7 @@ def _incident_view(classified: list[dict]) -> list[dict]:
         "is_synthetic",
         "source",
         "status",
+        "nearest_street",
     )
     return [{k: r.get(k) for k in keep} for r in classified if r["incident_like"]]
 
@@ -528,7 +529,9 @@ hotspots.forEach(h => {{
     fillOpacity: 0.7, weight: 1
   }}).bindPopup(
     `<b>${{h.district}}</b><br>${{h.risk_level}} · ${{h.report_count}} reports` +
-    `<br>Recurrence: ${{h.recurrence ? 'yes (' + h.recurrence_unique_days + ' days)' : 'no'}}`
+    `<br>Recurrence: ${{h.recurrence ? 'yes (' + h.recurrence_unique_days + ' days)' : 'no'}}` +
+    (h.nearest_street ? `<br>${{h.nearest_street.street_name || h.nearest_street.street_id}} · OSM ${{h.nearest_street.safety_level}} (${{h.nearest_street.infra_safety_score}})` +
+      `<br>Lighting ${{h.nearest_street.factor_lighting}} · CCTV ${{h.nearest_street.factor_cctv}} · Police ${{h.nearest_street.police_distance_m}} m` : '')
   ).addTo(map);
 }});
 </script>
@@ -576,6 +579,47 @@ def publish(names: list[str]) -> list[str]:
     return copied
 
 
+STREET_FIELDS = (
+    "street_id",
+    "street_name",
+    "highway",
+    "safety_level",
+    "infra_safety_score",
+    "lit",
+    "factor_lighting",
+    "factor_cctv",
+    "factor_police",
+    "factor_hospital",
+    "factor_bus",
+    "cctv_within_100m",
+    "lamp_count_300m",
+    "police_distance_m",
+    "hospital_distance_m",
+    "bus_stop_count",
+    "distance_m",
+    "data_source",
+)
+
+
+def _street_slim(m: dict) -> dict:
+    return {k: m.get(k) for k in STREET_FIELDS}
+
+
+def attach_nearest_streets(hotspots: list[dict], classified: list[dict], matches: list[dict]) -> None:
+    """Join real OSM street features (synopsis lighting/CCTV/police/bus/score) onto points."""
+    hs = {m["point_id"]: m for m in matches if m.get("point_kind") == "hotspot"}
+    inc = {str(m.get("point_id")): m for m in matches if m.get("point_kind") == "incident"}
+    for h in hotspots:
+        m = hs.get(h["hotspot_id"])
+        if m:
+            h["nearest_street"] = _street_slim(m)
+    for r in classified:
+        rid = str(r.get("_id") or r.get("report_id") or r.get("id") or "")
+        m = inc.get(rid)
+        if m:
+            r["nearest_street"] = _street_slim(m)
+
+
 def filter_region(items: list[dict], district: str | None = None, risk: str | None = None) -> list[dict]:
     out = items
     if district:
@@ -598,6 +642,11 @@ def _self_check(hotspots: list[dict], alerts: list[dict], classified: list[dict]
         assert 74.0 < h["longitude"] < 78.6
     assert all("patrol_hint" in a for a in alerts)
     assert geo.get("districts")
+    sw = geo.get("street_wise") or {}
+    if "error" not in sw:
+        assert (sw.get("streets_scanned") or 0) > 1000
+        assert sw.get("by_safety_level")
+        assert any(h.get("nearest_street") for h in hotspots)
     print("SELF-CHECK OK", len(hotspots), "hotspots,", len(alerts), "alerts,", len(geo["districts"]), "districts")
 
 
@@ -627,12 +676,40 @@ def run(*, write_dashboard: bool = True) -> dict:
 
     hotspots = cluster_hotspots(classified)
     geo = geospatial_analysis(classified, packed["osm_areas"], hotspots)
+    street_info = {}
+    try:
+        import streetwise
+
+        street_info = streetwise.run(classified, hotspots)
+        matches = _load_json(OUTPUT / "street_matches.json", [])
+        attach_nearest_streets(hotspots, classified, matches if isinstance(matches, list) else [])
+        by_st = (street_info.get("street_stats") or {}).get("by_district") or {}
+        for d in geo["districts"]:
+            st = by_st.get(d["district"]) or {}
+            d["osm_streets"] = st.get("streets")
+            d["osm_safe"] = st.get("Safe")
+            d["osm_moderate"] = st.get("Moderate")
+            d["osm_unsafe"] = st.get("Unsafe")
+            d["osm_avg_infra_score"] = st.get("avg_score")
+        geo["street_wise"] = {
+            "streets_scanned": street_info["street_stats"]["streets_scanned"],
+            "by_safety_level": street_info["street_stats"]["by_safety_level"],
+            "avg_infra_safety_score": street_info["street_stats"]["avg_infra_safety_score"],
+            "matched_incidents": street_info["street_stats"]["matched_incidents"],
+            "matched_hotspots": street_info["street_stats"]["matched_hotspots"],
+            "cameras": street_info["cameras"],
+            "synopsis_features": street_info["street_stats"]["synopsis_features"],
+        }
+    except Exception as e:
+        geo["street_wise"] = {"error": str(e)}
+        print("streetwise skipped:", e)
     log["steps"].append(
         {
             "step": "6.4",
             "name": "geospatial_analysis",
             "occupied_grid_cells": geo["occupied_grid_cells"],
             "districts_with_incidents": len(geo["districts"]),
+            "streets_scanned": (geo.get("street_wise") or {}).get("streets_scanned"),
         }
     )
     log["steps"].append(
@@ -669,7 +746,7 @@ def run(*, write_dashboard: bool = True) -> dict:
         "honesty": {
             "reports": "App-schema community reports for Karnataka districts (synthetic demo unless live_reports.json has rows).",
             "hotspots": "Spatial concentration of unsafe/incident-like reports on a ~1 km grid. Not crime prediction.",
-            "osm": "Karnataka OSM street safety workbook (District Summary). Modelled 9-factor proxy, not a crime rate.",
+            "osm": "Real Karnataka OSM streets (Overpass extract): 9-factor infrastructure proxy per street (lighting, CCTV, police, hospital, bus, road, crowd/night/commercial proxies). Not a crime rate.",
             "crime_overlay": crime.get("note")
             or "KSP tables are district aggregates. They are not used as hotspot coordinates.",
         },
@@ -687,7 +764,7 @@ def run(*, write_dashboard: bool = True) -> dict:
             "cameras": packed["osm_meta"].get("workbook_cameras"),
             "as_of": packed["osm_meta"].get("as_of"),
         },
-        "api": "python3 Module1_Analysis/api.py  →  http://127.0.0.1:8000",
+        "street_wise": street_info.get("street_stats") if isinstance(street_info, dict) else None,
     }
 
     OUTPUT.mkdir(parents=True, exist_ok=True)
@@ -702,7 +779,16 @@ def run(*, write_dashboard: bool = True) -> dict:
     csv_dir = OUTPUT / "csv"
     _write_csv(
         csv_dir / "hotspots.csv",
-        hotspots,
+        [
+            {
+                **h,
+                "street_id": (h.get("nearest_street") or {}).get("street_id"),
+                "street_name": (h.get("nearest_street") or {}).get("street_name"),
+                "safety_level": (h.get("nearest_street") or {}).get("safety_level"),
+                "infra_safety_score": (h.get("nearest_street") or {}).get("infra_safety_score"),
+            }
+            for h in hotspots
+        ],
         [
             "hotspot_id",
             "district",
@@ -716,6 +802,10 @@ def run(*, write_dashboard: bool = True) -> dict:
             "peak_time_of_day",
             "first_seen",
             "last_seen",
+            "street_id",
+            "street_name",
+            "safety_level",
+            "infra_safety_score",
         ],
     )
     _write_csv(
@@ -726,7 +816,7 @@ def run(*, write_dashboard: bool = True) -> dict:
     _write_csv(
         csv_dir / "areas.csv",
         areas,
-        ["district", "report_count", "incident_like_reports", "hotspot_cells", "risk_level", "osm_unsafe_share"],
+        ["district", "report_count", "incident_like_reports", "hotspot_cells", "risk_level", "osm_unsafe_share", "osm_street_count", "osm_cameras"],
     )
     _write_csv(
         csv_dir / "alerts.csv",
@@ -749,6 +839,10 @@ def run(*, write_dashboard: bool = True) -> dict:
     _leaflet_map(hotspots, OUTPUT / "maps" / "hotspots.html")
 
     persist_database(hotspots, alerts, areas, incident_view, geo, summary)
+    for name in ("street_stats.json", "street_matches.json", "cameras.json"):
+        src = OUTPUT / name
+        if src.exists():
+            shutil.copyfile(src, DATABASE / name)
 
     dash = []
     if write_dashboard:
@@ -759,6 +853,9 @@ def run(*, write_dashboard: bool = True) -> dict:
                 "alerts.json",
                 "areas.json",
                 "geography.json",
+                "street_stats.json",
+                "street_matches.json",
+                "cameras.json",
                 "maps",
                 "charts",
                 "csv",
@@ -776,7 +873,12 @@ def run(*, write_dashboard: bool = True) -> dict:
 def main(argv: list[str] | None = None) -> None:
     p = argparse.ArgumentParser(description="SafeHer Module 1 analysis pipeline")
     p.add_argument("--no-dashboard", action="store_true", help="Write Module1_Analysis/output only")
+    p.add_argument("--refresh-streets", action="store_true", help="Rescan 30 district OSM workbooks")
     args = p.parse_args(argv)
+    if args.refresh_streets:
+        import os as _os
+
+        _os.environ["SAFEHER_REFRESH_STREETS"] = "1"
     summary = run(write_dashboard=not args.no_dashboard)
     print(
         json.dumps(

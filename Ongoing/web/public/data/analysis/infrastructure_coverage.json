@@ -1,0 +1,453 @@
+{
+  "base_dataset": {
+    "streets": 604420,
+    "districts_with_streets": 30,
+    "lamp_within_300m": 12193,
+    "lit_tag_filled": 2569,
+    "cctv_within_500m": 41957,
+    "note": "These counts come from the district street CSVs (604,420 rows). The workbook summary records 604,573 scored streets. lamp_within_300m is an OSM street with at least one mapped lamp within 300 m. A zero is a gap in the map, not proof a street is unlit. lit_tag_filled is the OSM lit tag, which is mostly empty.",
+    "by_district": [
+      {
+        "district": "Bagalkote",
+        "streets": 10992,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 1,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Ballari",
+        "streets": 20917,
+        "lamp_within_300m": 47,
+        "lit_tag_filled": 44,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Belagavi",
+        "streets": 31832,
+        "lamp_within_300m": 39,
+        "lit_tag_filled": 1,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Bengaluru Rural",
+        "streets": 27706,
+        "lamp_within_300m": 14,
+        "lit_tag_filled": 12,
+        "cctv_within_500m": 630,
+        "nearest_camera_filled": 27706
+      },
+      {
+        "district": "Bengaluru Urban",
+        "streets": 177933,
+        "lamp_within_300m": 11722,
+        "lit_tag_filled": 2209,
+        "cctv_within_500m": 40193,
+        "nearest_camera_filled": 177933
+      },
+      {
+        "district": "Bidar",
+        "streets": 12636,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 9,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Chamarajanagara",
+        "streets": 10520,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Chikkaballapura",
+        "streets": 8397,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 6,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 4631
+      },
+      {
+        "district": "Chikmagalur",
+        "streets": 11152,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 128,
+        "nearest_camera_filled": 8281
+      },
+      {
+        "district": "Chitradurga",
+        "streets": 6390,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 1,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Dakshina Kannada",
+        "streets": 16684,
+        "lamp_within_300m": 28,
+        "lit_tag_filled": 28,
+        "cctv_within_500m": 419,
+        "nearest_camera_filled": 16552
+      },
+      {
+        "district": "Davanagere",
+        "streets": 10944,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Dharwad",
+        "streets": 18939,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 10,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 3955
+      },
+      {
+        "district": "Gadag",
+        "streets": 8450,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Hassan",
+        "streets": 16272,
+        "lamp_within_300m": 25,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 253,
+        "nearest_camera_filled": 14221
+      },
+      {
+        "district": "Haveri",
+        "streets": 4690,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Kalaburagi",
+        "streets": 21632,
+        "lamp_within_300m": 14,
+        "lit_tag_filled": 3,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Kodagu",
+        "streets": 2663,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 522
+      },
+      {
+        "district": "Kolar",
+        "streets": 19038,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Koppal",
+        "streets": 5610,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Mandya",
+        "streets": 18625,
+        "lamp_within_300m": 169,
+        "lit_tag_filled": 3,
+        "cctv_within_500m": 3,
+        "nearest_camera_filled": 5480
+      },
+      {
+        "district": "Mysuru",
+        "streets": 39519,
+        "lamp_within_300m": 31,
+        "lit_tag_filled": 232,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 382
+      },
+      {
+        "district": "Raichur",
+        "streets": 11476,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Ramanagara",
+        "streets": 13796,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 2,
+        "cctv_within_500m": 163,
+        "nearest_camera_filled": 12804
+      },
+      {
+        "district": "Shivamogga",
+        "streets": 12426,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 1,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Tumakuru",
+        "streets": 21624,
+        "lamp_within_300m": 23,
+        "lit_tag_filled": 1,
+        "cctv_within_500m": 5,
+        "nearest_camera_filled": 14758
+      },
+      {
+        "district": "Udupi",
+        "streets": 16544,
+        "lamp_within_300m": 52,
+        "lit_tag_filled": 6,
+        "cctv_within_500m": 96,
+        "nearest_camera_filled": 15627
+      },
+      {
+        "district": "Uttara Kannada",
+        "streets": 6392,
+        "lamp_within_300m": 29,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 67,
+        "nearest_camera_filled": 989
+      },
+      {
+        "district": "Vijayapura",
+        "streets": 18363,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      },
+      {
+        "district": "Yadgir",
+        "streets": 2258,
+        "lamp_within_300m": 0,
+        "lit_tag_filled": 0,
+        "cctv_within_500m": 0,
+        "nearest_camera_filled": 0
+      }
+    ]
+  },
+  "cctv": {
+    "cameras": 5578,
+    "sources": {
+      "opencity": 1541,
+      "osm_parquet": 4037
+    },
+    "districts_with_records": [
+      "Bengaluru Rural",
+      "Bengaluru Urban",
+      "Chikkaballapura",
+      "Chikmagalur",
+      "Dakshina Kannada",
+      "Dharwad",
+      "Hassan",
+      "Kodagu",
+      "Mandya",
+      "Mysuru",
+      "Ramanagara",
+      "Tumakuru",
+      "Udupi",
+      "Uttara Kannada"
+    ],
+    "districts_without_records": [
+      "Davanagere",
+      "Gadag",
+      "Kalaburagi",
+      "Shivamogga",
+      "Vijayapura",
+      "Bagalkote",
+      "Bidar",
+      "Chamrajnagar",
+      "Haveri",
+      "Koppal",
+      "Belagavi",
+      "Ballari",
+      "Chitradurga",
+      "Kolar",
+      "Raichur",
+      "Yadgir"
+    ],
+    "by_district": [
+      {
+        "district": "Bengaluru Rural",
+        "cameras": 1357
+      },
+      {
+        "district": "Bengaluru Urban",
+        "cameras": 2886
+      },
+      {
+        "district": "Chikkaballapura",
+        "cameras": 9
+      },
+      {
+        "district": "Chikmagalur",
+        "cameras": 20
+      },
+      {
+        "district": "Dakshina Kannada",
+        "cameras": 51
+      },
+      {
+        "district": "Dharwad",
+        "cameras": 1
+      },
+      {
+        "district": "Hassan",
+        "cameras": 21
+      },
+      {
+        "district": "Kodagu",
+        "cameras": 35
+      },
+      {
+        "district": "Mandya",
+        "cameras": 5
+      },
+      {
+        "district": "Mysuru",
+        "cameras": 11
+      },
+      {
+        "district": "Ramanagara",
+        "cameras": 1132
+      },
+      {
+        "district": "Tumakuru",
+        "cameras": 40
+      },
+      {
+        "district": "Udupi",
+        "cameras": 9
+      },
+      {
+        "district": "Uttara Kannada",
+        "cameras": 1
+      }
+    ],
+    "note": "Positions from the existing project file. OSM and OpenCity are not a Karnataka Police camera register. A district in districts_without_records has no row in this file."
+  },
+  "streetlights": {
+    "file": "input/infrastructure/ksrsac_lt_poles_streetlight_type.csv",
+    "rows": 150000,
+    "expected_query_count": 1074618,
+    "import_complete": false,
+    "pages_done": 150,
+    "invalid_coordinates": 0,
+    "outside_karnataka_bbox": 0,
+    "by_authority": {
+      "BESCOM": 150000
+    },
+    "by_status": {
+      "Active": 150000
+    },
+    "by_district": [
+      {
+        "district": "Bengaluru Rural",
+        "poles": 20
+      },
+      {
+        "district": "Bengaluru Urban",
+        "poles": 149558
+      },
+      {
+        "district": "Ramanagara",
+        "poles": 422
+      }
+    ],
+    "district_method": "0.02 degree cell of the district polygon. Cells whose centre falls outside every district, or on a shared edge, are labelled outside or boundary.",
+    "status_note": "asset_status describes the electricity pole in the KSRSAC record. street_light_type is a fitting code such as '1 TL-1'. Neither field proves the lamp is working on the retrieval date.",
+    "retrieved_at": "2026-10-14",
+    "grid_built": true
+  },
+  "sources": [
+    {
+      "id": "ksrsac-lt-poles",
+      "name": "KSRSAC K-GIS Energy / LT poles with STREET_LIGHT_TYPE",
+      "url": "https://kgis.ksrsac.in/kgismaps2/rest/services/Energy/Energy/MapServer/5",
+      "provider": "Karnataka State Remote Sensing Applications Centre",
+      "access": "Public ArcGIS query. No login. Records are electricity poles whose street-light fitting field is filled.",
+      "coverage": "Five ESCOMs (BESCOM, CESCOM, GESCOM, HESCOM, MESCOM). Not a municipal street-light work order."
+    },
+    {
+      "id": "ksrsac-bbmp-streetlight",
+      "name": "KSRSAC Energy / StreetLight - BBMP",
+      "url": "https://kgis.ksrsac.in/kgismaps2/rest/services/Energy/StreetLight/MapServer/0",
+      "provider": "KSRSAC",
+      "access": "Public query. Counted, not bulk-copied: 548,857 points, all Bengaluru (BBMP, BECC, BESCOM).",
+      "coverage": "Bengaluru only. Extent about 77.45-77.84 E, 12.95-13.30 N."
+    },
+    {
+      "id": "opencity-bbmp-zones",
+      "name": "BBMP zone street-light lists via OpenCity",
+      "url": "https://data.opencity.in/dataset/bengaluru-zone-wise-streetlights",
+      "provider": "BBMP tenders, republished by OpenCity",
+      "access": "Public domain. Four zone KMLs (Dasarahalli, RR Nagar, East, Bommanahalli), about 193 MB.",
+      "coverage": "Four Bengaluru zones. Not downloaded in this pass because the KSRSAC Bengaluru layer already counts that city and disk space was under 1 GB."
+    },
+    {
+      "id": "ksrsac-streetlight-app",
+      "name": "KSRSAC RDPR Street Light mobile app",
+      "url": "https://play.google.com/store/apps/details?id=com.ksrsac.RDPRStreetLights",
+      "provider": "KSRSAC",
+      "access": "App only. The public RDPR map service has no street-light layer. Support: kgissupport@ksrsac.in",
+      "coverage": "The store text says the whole state. The underlying points are not on a public download."
+    },
+    {
+      "id": "k-gis-downloads",
+      "name": "K-GIS downloads page",
+      "url": "https://kgis.ksrsac.in/kgis/downloads.aspx",
+      "provider": "KSRSAC",
+      "access": "Administrative boundaries only. The page says K-GIS data has social and commercial value and misuse can lead to legal proceedings.",
+      "coverage": "No street-light or CCTV file."
+    },
+    {
+      "id": "existing-cameras",
+      "name": "Project camera inventory",
+      "url": "PBL/Dataset/Karnataka/karnataka_cameras.json",
+      "provider": "OpenStreetMap extract plus OpenCity Bengaluru KML",
+      "access": "Already in the project. OSM is crowdsourced. OpenCity Bengaluru cameras are crowdsourced from OSM.",
+      "coverage": "5,578 positions. Not an official Karnataka Police inventory."
+    },
+    {
+      "id": "ksp-cctv",
+      "name": "Karnataka Police CCTV geotag register",
+      "url": "https://ksp.karnataka.gov.in/",
+      "provider": "Karnataka State Police",
+      "access": "No public GeoJSON or API. Safe City and God's Eye camera streams are not public. K-GIS Home Department layers list police stations, not cameras.",
+      "coverage": "Unknown. Missing rows must not be read as missing cameras."
+    },
+    {
+      "id": "data-gov-bengaluru-cctv",
+      "name": "data.gov.in Bangalore CCTV catalog",
+      "url": "https://ap.data.gov.in/catalog/bangalore-cctv-cameras",
+      "provider": "Bengaluru Smart City Limited",
+      "access": "Catalog page has no downloadable file. Contact: bsclnodal@gmail.com",
+      "coverage": "Bengaluru only, and the file is not actually available."
+    }
+  ],
+  "generated_at": "2026-10-14T18:40:30Z",
+  "title": "Incident Analysis and Hotspot Identification for Security Provision against Women Harassment in Public Spaces."
+}

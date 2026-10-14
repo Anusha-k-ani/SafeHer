@@ -15,7 +15,10 @@ let summaryCache: SummaryData | null = null;
 export async function loadStreets(): Promise<Street[]> {
   if (streetsCache) return streetsCache;
   const res = await fetch(`${DATA_BASE}/streets.json`);
-  if (!res.ok) throw new Error("Failed to load streets data");
+  if (!res.ok) {
+    streetsCache = [];
+    return streetsCache;
+  }
   streetsCache = (await res.json()) as Street[];
   return streetsCache;
 }
@@ -38,7 +41,7 @@ export async function loadSummary(): Promise<SummaryData> {
 
 export async function loadMapPoints(): Promise<StreetMapPoint[]> {
   const res = await fetch(`${DATA_BASE}/streets.min.json`);
-  if (!res.ok) throw new Error("Failed to load map points");
+  if (!res.ok) return [];
   return (await res.json()) as StreetMapPoint[];
 }
 

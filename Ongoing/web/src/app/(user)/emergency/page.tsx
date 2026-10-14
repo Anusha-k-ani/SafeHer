@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Phone, MapPin, Share2, AlertTriangle, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { openDefaultSmsApp } from "@/lib/sms";
+import { useEmergencyAlert } from "@/components/suraksha/SosTap";
 
 const HELPLINES = [
   {
@@ -48,6 +49,7 @@ function buildMessage(lat: number, lon: number) {
 export default function EmergencyPage() {
   const [status, setStatus] = useState<string | null>(null);
   const [trusted, setTrusted] = useState("");
+  const alertTap = useEmergencyAlert();
 
   useEffect(() => {
     try {
@@ -144,22 +146,33 @@ export default function EmergencyPage() {
           <div>
             <h1 className="text-2xl font-extrabold">Emergency SOS</h1>
             <p className="mt-2 text-sm text-[#FECACA]">
-              Call a helpline, then SMS / share your live Google Maps location
-              with police (100) or a trusted contact.
+              One tap sends the emergency alert. Call 112 if you can. SMS and share stay available below. This app does not contact a live control room.
             </p>
           </div>
         </div>
       </div>
 
+      <button
+        type="button"
+        onClick={alertTap.tap}
+        disabled={alertTap.busy}
+        className="flex h-16 w-full flex-col items-center justify-center rounded-2xl bg-[#B42318] text-white disabled:opacity-70"
+      >
+        <span className="text-base font-black tracking-wide">
+          {alertTap.busy ? "Sending alert..." : "SOS Emergency"}
+        </span>
+        <span className="text-xs text-[#FECACA]">One tap. Records the alert. Does not call a live control room.</span>
+      </button>
+      {alertTap.result && (
+        <p className={`rounded-xl bg-white p-3 text-sm ${alertTap.result.ok ? "text-[#1F2937]" : "text-[#B42318]"}`}>
+          {alertTap.result.text}
+        </p>
+      )}
       <a
         href="tel:112"
-        onClick={() => setTimeout(() => shareLocation(), 800)}
-        className="flex h-14 w-full flex-col items-center justify-center rounded-2xl border-2 border-[#FECACA] bg-[#991B1B] text-white"
+        className="flex h-12 w-full items-center justify-center rounded-xl border border-[#FECACA] bg-white font-semibold text-[#7F1D1D]"
       >
-        <span className="text-sm font-black tracking-wide">
-          CALL 112 + SHARE LOCATION
-        </span>
-        <span className="text-xs text-[#FECACA]">National emergency</span>
+        Call 112
       </a>
 
       <div className="grid gap-3 sm:grid-cols-2">

@@ -42,7 +42,11 @@
       "total_cases_2023": 9421,
       "assault_modesty_incidents_2023": 201,
       "sexual_harassment_total_i_2023": 17,
-      "sexual_harassment_rate_2023": 2.9
+      "sexual_harassment_rate_2023": 2.9,
+      "murder_2024": 66,
+      "rape_2024": 28,
+      "robbery_2024": 90,
+      "theft_2024": 1588
     },
     "Belagavi": {
       "district_name": "Belagavi",
@@ -54,7 +58,11 @@
       "total_cases_2023": 6785,
       "assault_modesty_incidents_2023": 293,
       "sexual_harassment_total_i_2023": 12,
-      "sexual_harassment_rate_2023": 0.7
+      "sexual_harassment_rate_2023": 0.7,
+      "murder_2024": 70,
+      "rape_2024": 17,
+      "robbery_2024": 19,
+      "theft_2024": 428
     },
     "Ballari": {
       "district_name": "Ballari",
@@ -98,7 +106,11 @@
       "total_cases_2023": 4506,
       "assault_modesty_incidents_2023": 169,
       "sexual_harassment_total_i_2023": 8,
-      "sexual_harassment_rate_2023": 0.6
+      "sexual_harassment_rate_2023": 0.6,
+      "murder_2024": 63,
+      "rape_2024": 32,
+      "robbery_2024": 11,
+      "theft_2024": 350
     },
     "Chikkaballapura": {
       "district_name": "Chikkaballapura",
@@ -110,7 +122,11 @@
       "total_cases_2023": 3957,
       "assault_modesty_incidents_2023": 115,
       "sexual_harassment_total_i_2023": 5,
-      "sexual_harassment_rate_2023": 0.7
+      "sexual_harassment_rate_2023": 0.7,
+      "murder_2024": 27,
+      "rape_2024": 17,
+      "robbery_2024": 20,
+      "theft_2024": 300
     },
     "Chikmagalur": {
       "district_name": "Chikmagalur",
@@ -424,7 +440,13 @@
       "murder_2024": 30,
       "rape_2024": 13,
       "robbery_2024": 16,
-      "theft_2024": 429
+      "theft_2024": 429,
+      "ipc_cases_2023": 2555,
+      "sll_cases_2023": 1114,
+      "total_cases_2023": 3669,
+      "assault_modesty_incidents_2023": 106,
+      "sexual_harassment_total_i_2023": 0,
+      "sexual_harassment_rate_2023": 0.0
     },
     "Yadgir": {
       "district_name": "Yadgir",
@@ -434,7 +456,13 @@
       "murder_2024": 22,
       "rape_2024": 16,
       "robbery_2024": 1,
-      "theft_2024": 195
+      "theft_2024": 195,
+      "ipc_cases_2023": 1442,
+      "sll_cases_2023": 799,
+      "total_cases_2023": 2241,
+      "assault_modesty_incidents_2023": 99,
+      "sexual_harassment_total_i_2023": 8,
+      "sexual_harassment_rate_2023": 1.1
     },
     "Chamrajnagar": {
       "district_name": "Chamrajnagar",
@@ -444,7 +472,13 @@
       "murder_2024": 11,
       "rape_2024": 14,
       "robbery_2024": 16,
-      "theft_2024": 151
+      "theft_2024": 151,
+      "ipc_cases_2023": 1951,
+      "sll_cases_2023": 717,
+      "total_cases_2023": 2668,
+      "assault_modesty_incidents_2023": 185,
+      "sexual_harassment_total_i_2023": 11,
+      "sexual_harassment_rate_2023": 2.0
     }
   }
 }

@@ -69,7 +69,9 @@ export function StreetMapView() {
         .then(setHotspots)
         .catch(() => setHotspots([])),
     ];
-    Promise.all(tasks).finally(() => setLoading(false));
+    Promise.all(tasks)
+      .catch(() => undefined)
+      .finally(() => setLoading(false));
   }, []);
 
   const streetLookup = useMemo(
@@ -146,7 +148,7 @@ export function StreetMapView() {
 
   return (
     <div className="flex h-[calc(100vh-4rem)] flex-col lg:flex-row">
-      <aside className="w-full shrink-0 overflow-y-auto border-b border-[#E5E7EB] bg-white p-4 lg:w-80 lg:border-b-0 lg:border-r">
+      <aside className="relative z-20 h-full w-full shrink-0 overflow-y-auto border-b border-[#E5E7EB] bg-white p-4 pb-24 lg:w-80 lg:border-b-0 lg:border-r lg:pb-6">
         <Card className="border-0 shadow-none">
           <CardHeader className="px-0 pt-0">
             <CardTitle className="text-base">Map Filters</CardTitle>
@@ -297,7 +299,7 @@ export function StreetMapView() {
         </Card>
       </aside>
 
-      <div className="relative min-h-[400px] flex-1">
+      <div className="relative z-0 h-full min-h-[400px] min-w-0 flex-1 overflow-hidden">
         <StreetMapInner
           points={filtered}
           streetLookup={streetLookup}

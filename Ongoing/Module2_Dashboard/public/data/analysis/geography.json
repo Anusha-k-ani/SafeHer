@@ -30,7 +30,12 @@
       },
       "osm_street_count": 19093,
       "osm_unsafe_share": 0.7346,
-      "hotspot_cells": 4
+      "hotspot_cells": 4,
+      "osm_streets": 19093,
+      "osm_safe": 8,
+      "osm_moderate": 5060,
+      "osm_unsafe": 14025,
+      "osm_avg_infra_score": 3.568
     },
     {
       "district": "Bengaluru Urban",
@@ -51,7 +56,12 @@
       },
       "osm_street_count": 177886,
       "osm_unsafe_share": 0.2641,
-      "hotspot_cells": 5
+      "hotspot_cells": 5,
+      "osm_streets": 177886,
+      "osm_safe": 17920,
+      "osm_moderate": 112991,
+      "osm_unsafe": 46975,
+      "osm_avg_infra_score": 5.127
     },
     {
       "district": "Mandya",
@@ -72,7 +82,12 @@
       },
       "osm_street_count": 18624,
       "osm_unsafe_share": 0.8135,
-      "hotspot_cells": 4
+      "hotspot_cells": 4,
+      "osm_streets": 18624,
+      "osm_safe": 8,
+      "osm_moderate": 3465,
+      "osm_unsafe": 15151,
+      "osm_avg_infra_score": 3.514
     },
     {
       "district": "Tumakuru",
@@ -93,7 +108,12 @@
       },
       "osm_street_count": 21630,
       "osm_unsafe_share": 0.6979,
-      "hotspot_cells": 3
+      "hotspot_cells": 3,
+      "osm_streets": 21630,
+      "osm_safe": 12,
+      "osm_moderate": 6523,
+      "osm_unsafe": 15095,
+      "osm_avg_infra_score": 3.707
     },
     {
       "district": "Belagavi",
@@ -114,7 +134,12 @@
       },
       "osm_street_count": 31799,
       "osm_unsafe_share": 0.7431,
-      "hotspot_cells": 3
+      "hotspot_cells": 3,
+      "osm_streets": 31799,
+      "osm_safe": 35,
+      "osm_moderate": 8135,
+      "osm_unsafe": 23629,
+      "osm_avg_infra_score": 3.615
     },
     {
       "district": "Kalaburagi",
@@ -135,7 +160,12 @@
       },
       "osm_street_count": 21632,
       "osm_unsafe_share": 0.5959,
-      "hotspot_cells": 2
+      "hotspot_cells": 2,
+      "osm_streets": 21632,
+      "osm_safe": 14,
+      "osm_moderate": 8727,
+      "osm_unsafe": 12891,
+      "osm_avg_infra_score": 3.884
     },
     {
       "district": "Hassan",
@@ -156,7 +186,12 @@
       },
       "osm_street_count": 16258,
       "osm_unsafe_share": 0.6953,
-      "hotspot_cells": 4
+      "hotspot_cells": 4,
+      "osm_streets": 16258,
+      "osm_safe": 127,
+      "osm_moderate": 4826,
+      "osm_unsafe": 11305,
+      "osm_avg_infra_score": 3.805
     },
     {
       "district": "Udupi",
@@ -177,7 +212,12 @@
       },
       "osm_street_count": 16544,
       "osm_unsafe_share": 0.7931,
-      "hotspot_cells": 3
+      "hotspot_cells": 3,
+      "osm_streets": 16544,
+      "osm_safe": 24,
+      "osm_moderate": 3399,
+      "osm_unsafe": 13121,
+      "osm_avg_infra_score": 3.615
     },
     {
       "district": "Bidar",
@@ -198,7 +238,12 @@
       },
       "osm_street_count": 12636,
       "osm_unsafe_share": 0.7439,
-      "hotspot_cells": 3
+      "hotspot_cells": 3,
+      "osm_streets": 12636,
+      "osm_safe": 24,
+      "osm_moderate": 3212,
+      "osm_unsafe": 9400,
+      "osm_avg_infra_score": 3.598
     },
     {
       "district": "Chikmagalur",
@@ -219,7 +264,12 @@
       },
       "osm_street_count": 11152,
       "osm_unsafe_share": 0.7276,
-      "hotspot_cells": 3
+      "hotspot_cells": 3,
+      "osm_streets": 11152,
+      "osm_safe": 6,
+      "osm_moderate": 3032,
+      "osm_unsafe": 8114,
+      "osm_avg_infra_score": 3.661
     },
     {
       "district": "Vijayapura",
@@ -240,7 +290,12 @@
       },
       "osm_street_count": 18363,
       "osm_unsafe_share": 0.7359,
-      "hotspot_cells": 3
+      "hotspot_cells": 3,
+      "osm_streets": 18363,
+      "osm_safe": 5,
+      "osm_moderate": 4844,
+      "osm_unsafe": 13514,
+      "osm_avg_infra_score": 3.655
     },
     {
       "district": "Mysuru",
@@ -261,7 +316,12 @@
       },
       "osm_street_count": 39519,
       "osm_unsafe_share": 0.5776,
-      "hotspot_cells": 3
+      "hotspot_cells": 3,
+      "osm_streets": 39519,
+      "osm_safe": 635,
+      "osm_moderate": 16059,
+      "osm_unsafe": 22825,
+      "osm_avg_infra_score": 4.077
     },
     {
       "district": "Raichur",
@@ -282,7 +342,12 @@
       },
       "osm_street_count": 11476,
       "osm_unsafe_share": 0.7597,
-      "hotspot_cells": 2
+      "hotspot_cells": 2,
+      "osm_streets": 11476,
+      "osm_safe": 0,
+      "osm_moderate": 2758,
+      "osm_unsafe": 8718,
+      "osm_avg_infra_score": 3.563
     },
     {
       "district": "Ramanagara",
@@ -303,7 +368,12 @@
       },
       "osm_street_count": 13801,
       "osm_unsafe_share": 0.8044,
-      "hotspot_cells": 3
+      "hotspot_cells": 3,
+      "osm_streets": 13801,
+      "osm_safe": 16,
+      "osm_moderate": 2683,
+      "osm_unsafe": 11102,
+      "osm_avg_infra_score": 3.547
     },
     {
       "district": "Chamrajnagar",
@@ -324,7 +394,12 @@
       },
       "osm_street_count": 10520,
       "osm_unsafe_share": 0.8688,
-      "hotspot_cells": 2
+      "hotspot_cells": 2,
+      "osm_streets": 10520,
+      "osm_safe": 5,
+      "osm_moderate": 1375,
+      "osm_unsafe": 9140,
+      "osm_avg_infra_score": 3.394
     },
     {
       "district": "Bagalkote",
@@ -345,7 +420,12 @@
       },
       "osm_street_count": 10992,
       "osm_unsafe_share": 0.7851,
-      "hotspot_cells": 2
+      "hotspot_cells": 2,
+      "osm_streets": 10992,
+      "osm_safe": 0,
+      "osm_moderate": 2362,
+      "osm_unsafe": 8630,
+      "osm_avg_infra_score": 3.604
     },
     {
       "district": "Dakshina Kannada",
@@ -366,7 +446,12 @@
       },
       "osm_street_count": 16680,
       "osm_unsafe_share": 0.6345,
-      "hotspot_cells": 2
+      "hotspot_cells": 2,
+      "osm_streets": 16680,
+      "osm_safe": 65,
+      "osm_moderate": 6031,
+      "osm_unsafe": 10584,
+      "osm_avg_infra_score": 3.949
     },
     {
       "district": "Davanagere",
@@ -387,7 +472,12 @@
       },
       "osm_street_count": 10968,
       "osm_unsafe_share": 0.6137,
-      "hotspot_cells": 3
+      "hotspot_cells": 3,
+      "osm_streets": 10968,
+      "osm_safe": 73,
+      "osm_moderate": 4164,
+      "osm_unsafe": 6731,
+      "osm_avg_infra_score": 3.96
     },
     {
       "district": "Gadag",
@@ -408,7 +498,12 @@
       },
       "osm_street_count": 8450,
       "osm_unsafe_share": 0.6805,
-      "hotspot_cells": 3
+      "hotspot_cells": 3,
+      "osm_streets": 8450,
+      "osm_safe": 2,
+      "osm_moderate": 2698,
+      "osm_unsafe": 5750,
+      "osm_avg_infra_score": 3.74
     },
     {
       "district": "Ballari",
@@ -429,7 +524,12 @@
       },
       "osm_street_count": 20951,
       "osm_unsafe_share": 0.6322,
-      "hotspot_cells": 1
+      "hotspot_cells": 1,
+      "osm_streets": 20951,
+      "osm_safe": 55,
+      "osm_moderate": 7651,
+      "osm_unsafe": 13245,
+      "osm_avg_infra_score": 3.828
     },
     {
       "district": "Dharwad",
@@ -450,7 +550,12 @@
       },
       "osm_street_count": 18939,
       "osm_unsafe_share": 0.5508,
-      "hotspot_cells": 2
+      "hotspot_cells": 2,
+      "osm_streets": 18939,
+      "osm_safe": 70,
+      "osm_moderate": 8437,
+      "osm_unsafe": 10432,
+      "osm_avg_infra_score": 3.985
     },
     {
       "district": "Bengaluru Rural",
@@ -471,7 +576,12 @@
       },
       "osm_street_count": 27706,
       "osm_unsafe_share": 0.7145,
-      "hotspot_cells": 2
+      "hotspot_cells": 2,
+      "osm_streets": 27706,
+      "osm_safe": 172,
+      "osm_moderate": 7738,
+      "osm_unsafe": 19796,
+      "osm_avg_infra_score": 3.795
     },
     {
       "district": "Shivamogga",
@@ -492,7 +602,12 @@
       },
       "osm_street_count": 12535,
       "osm_unsafe_share": 0.687,
-      "hotspot_cells": 2
+      "hotspot_cells": 2,
+      "osm_streets": 12535,
+      "osm_safe": 11,
+      "osm_moderate": 3913,
+      "osm_unsafe": 8611,
+      "osm_avg_infra_score": 3.8
     },
     {
       "district": "Chikkaballapura",
@@ -513,7 +628,12 @@
       },
       "osm_street_count": 8397,
       "osm_unsafe_share": 0.7666,
-      "hotspot_cells": 3
+      "hotspot_cells": 3,
+      "osm_streets": 8397,
+      "osm_safe": 9,
+      "osm_moderate": 1951,
+      "osm_unsafe": 6437,
+      "osm_avg_infra_score": 3.617
     },
     {
       "district": "Uttara Kannada",
@@ -534,7 +654,12 @@
       },
       "osm_street_count": 6416,
       "osm_unsafe_share": 0.6358,
-      "hotspot_cells": 2
+      "hotspot_cells": 2,
+      "osm_streets": 6416,
+      "osm_safe": 9,
+      "osm_moderate": 2328,
+      "osm_unsafe": 4079,
+      "osm_avg_infra_score": 3.875
     },
     {
       "district": "Haveri",
@@ -555,7 +680,12 @@
       },
       "osm_street_count": 4690,
       "osm_unsafe_share": 0.629,
-      "hotspot_cells": 1
+      "hotspot_cells": 1,
+      "osm_streets": 4690,
+      "osm_safe": 0,
+      "osm_moderate": 1740,
+      "osm_unsafe": 2950,
+      "osm_avg_infra_score": 3.853
     },
     {
       "district": "Koppal",
@@ -576,7 +706,12 @@
       },
       "osm_street_count": 5610,
       "osm_unsafe_share": 0.6114,
-      "hotspot_cells": 1
+      "hotspot_cells": 1,
+      "osm_streets": 5610,
+      "osm_safe": 4,
+      "osm_moderate": 2176,
+      "osm_unsafe": 3430,
+      "osm_avg_infra_score": 3.85
     },
     {
       "district": "Chitradurga",
@@ -597,7 +732,12 @@
       },
       "osm_street_count": 6385,
       "osm_unsafe_share": 0.5884,
-      "hotspot_cells": 0
+      "hotspot_cells": 0,
+      "osm_streets": 6385,
+      "osm_safe": 1,
+      "osm_moderate": 2627,
+      "osm_unsafe": 3757,
+      "osm_avg_infra_score": 3.889
     },
     {
       "district": "Kodagu",
@@ -618,7 +758,12 @@
       },
       "osm_street_count": 2663,
       "osm_unsafe_share": 0.6185,
-      "hotspot_cells": 1
+      "hotspot_cells": 1,
+      "osm_streets": 2663,
+      "osm_safe": 4,
+      "osm_moderate": 1012,
+      "osm_unsafe": 1647,
+      "osm_avg_infra_score": 3.871
     },
     {
       "district": "Yadgir",
@@ -639,8 +784,35 @@
       },
       "osm_street_count": 2258,
       "osm_unsafe_share": 0.3047,
-      "hotspot_cells": 0
+      "hotspot_cells": 0,
+      "osm_streets": 2258,
+      "osm_safe": 38,
+      "osm_moderate": 1532,
+      "osm_unsafe": 688,
+      "osm_avg_infra_score": 4.427
     }
   ],
-  "note": "OSM roads/streets/buildings are district-level context. Hotspots come from report coordinates, not KSP tables."
+  "note": "OSM street rows are real Overpass extracts (lighting, CCTV, police, hospital, bus, 9-factor score). District centroids are context. Hotspots come from report GPS, not KSP tables. crime_used_as_coordinates = false.",
+  "street_wise": {
+    "streets_scanned": 604573,
+    "by_safety_level": {
+      "Moderate": 243449,
+      "Unsafe": 341772,
+      "Safe": 19352
+    },
+    "avg_infra_safety_score": 4.161,
+    "matched_incidents": 280,
+    "matched_hotspots": 45,
+    "cameras": 5578,
+    "synopsis_features": [
+      "lighting (OSM lit / lamps / factor_lighting)",
+      "CCTV proximity (cctv_within_100/250/500m, factor_cctv)",
+      "police distance",
+      "hospital distance",
+      "bus-stop density",
+      "road class (highway, factor_road)",
+      "proxy_crowd / proxy_night / proxy_commercial",
+      "infra_safety_score and Safe / Moderate / Unsafe"
+    ]
+  }
 }

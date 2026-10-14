@@ -83,6 +83,49 @@ def alerts(district: str | None = None, risk: str | None = None) -> list:
     return pipeline.filter_region(_load("alerts.json", []), district, risk)
 
 
+def street_stats(district: str | None = None) -> dict:
+    ensure_results()
+    data = _load("street_stats.json", {})
+    if district and isinstance(data, dict):
+        d = district.strip().lower()
+        by = data.get("by_district") or {}
+        hit = next((k for k in by if k.lower() == d), None)
+        return {"district": hit or district, "streets": by.get(hit) if hit else None, "synopsis_features": data.get("synopsis_features")}
+    return data
+
+
+def street_matches(district: str | None = None) -> list:
+    ensure_results()
+    rows = _load("street_matches.json", [])
+    if district:
+        d = district.strip().lower()
+        rows = [r for r in rows if str(r.get("point_district") or "").lower() == d]
+    return rows
+
+
+def cameras(district: str | None = None) -> dict:
+    ensure_results()
+    data = _load("cameras.json", {})
+    cams = data.get("cameras") or []
+    if district:
+        d = district.strip().lower()
+        cams = [c for c in cams if str(c.get("district_name") or "").lower() == d]
+    slim = [
+        {
+            "camera_id": c.get("camera_id"),
+            "latitude": c.get("latitude"),
+            "longitude": c.get("longitude"),
+            "district_name": c.get("district_name"),
+            "camera_class": c.get("camera_class"),
+            "setting": c.get("setting"),
+            "is_public_context": c.get("is_public_context"),
+            "source": c.get("source"),
+        }
+        for c in cams
+    ]
+    return {"count": len(slim), "note": data.get("note"), "cameras": slim}
+
+
 def ingest_incident(body: dict) -> dict:
     """6.7 Mobile app → API → store → analysis update."""
     if body.get("lat") is None or body.get("lon") is None:
@@ -155,6 +198,21 @@ try:
     @app.get("/api/v1/alerts")
     def api_alerts(district: str | None = Query(None), risk: str | None = Query(None)):
         return alerts(district, risk)
+
+    @app.get("/api/street-stats")
+    @app.get("/api/v1/street-stats")
+    def api_streets(district: str | None = Query(None)):
+        return street_stats(district)
+
+    @app.get("/api/street-matches")
+    @app.get("/api/v1/street-matches")
+    def api_street_matches(district: str | None = Query(None)):
+        return street_matches(district)
+
+    @app.get("/api/cameras")
+    @app.get("/api/v1/cameras")
+    def api_cameras(district: str | None = Query(None)):
+        return cameras(district)
 
     @app.post("/api/incidents")
     @app.post("/api/v1/incidents")
@@ -231,6 +289,12 @@ class Handler(BaseHTTPRequestHandler):
                 return self._json(200, incidents(q.get("district")))
             if path in ("/api/alerts", "/api/v1/alerts"):
                 return self._json(200, alerts(q.get("district"), q.get("risk")))
+            if path in ("/api/street-stats", "/api/v1/street-stats"):
+                return self._json(200, street_stats(q.get("district")))
+            if path in ("/api/street-matches", "/api/v1/street-matches"):
+                return self._json(200, street_matches(q.get("district")))
+            if path in ("/api/cameras", "/api/v1/cameras"):
+                return self._json(200, cameras(q.get("district")))
             if path == "/maps/hotspots.html":
                 p = pipeline.OUTPUT / "maps" / "hotspots.html"
                 if not p.exists():

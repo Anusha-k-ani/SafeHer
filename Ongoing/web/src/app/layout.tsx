@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SafeHer — Bengaluru women's street safety",
+  title: "SurakshaSetu — Connecting Streets. Protecting Lives.",
   description:
-    "Report how streets feel, see the community map, and get emergency help — Plus admin analytics from OpenStreetMap.",
+    "Incident Analysis and Hotspot Identification for Security Provision against Women Harassment in Public Spaces.",
 };
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body className="flex min-h-full flex-col bg-[#F9FAFB] text-[#374151] antialiased">
+      <body className="flex min-h-full flex-col bg-[#F5F7FA] text-[#1F2937] antialiased">
         {children}
       </body>
     </html>

@@ -45,6 +45,10 @@ __pycache__/
 .venv/
 venv/
 
+# Bulk KSRSAC pole extract. Coverage totals live in web/public/data/analysis.
+Module1_Analysis/input/infrastructure/*.csv
+Module1_Analysis/input/infrastructure/*.checkpoint.json
+
 # OS / editor
 .DS_Store
 Thumbs.db
@@ -61,7 +65,7 @@ yarn-error.log*
 
 # Misc
 *.pem
-coverage/
+/coverage/
 .cache/
 
 report-visuals/

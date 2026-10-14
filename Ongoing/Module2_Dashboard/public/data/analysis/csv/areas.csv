@@ -1,31 +1,31 @@
-district,report_count,incident_like_reports,hotspot_cells,risk_level,osm_unsafe_share
-Kolar,47,31,4,High,0.7346
-Bengaluru Urban,52,27,5,High,0.2641
-Mandya,49,26,4,High,0.8135
-Tumakuru,49,26,3,High,0.6979
-Kalaburagi,44,25,2,High,0.5959
-Belagavi,52,25,3,High,0.7431
-Hassan,40,23,4,High,0.6953
-Udupi,44,23,3,High,0.7931
-Chikmagalur,32,21,3,High,0.7276
-Vijayapura,45,21,3,High,0.7359
-Bidar,35,21,3,High,0.7439
-Mysuru,52,20,3,High,0.5776
-Raichur,33,20,2,High,0.7597
-Ramanagara,39,20,3,High,0.8044
-Chamrajnagar,34,19,2,High,0.8688
-Gadag,26,17,3,High,0.6805
-Bagalkote,33,17,2,High,0.7851
-Davanagere,28,17,3,High,0.6137
-Dakshina Kannada,38,17,2,High,0.6345
-Dharwad,38,15,2,High,0.5508
-Ballari,45,15,1,High,0.6322
-Shivamogga,33,13,2,High,0.687
-Bengaluru Rural,52,13,2,High,0.7145
-Chikkaballapura,28,12,3,High,0.7666
-Uttara Kannada,22,12,2,High,0.6358
-Haveri,19,10,1,High,0.629
-Koppal,20,10,1,High,0.6114
-Chitradurga,21,8,0,High,0.5884
-Kodagu,16,6,1,High,0.6185
-Yadgir,13,4,0,Medium,0.3047
+district,report_count,incident_like_reports,hotspot_cells,risk_level,osm_unsafe_share,osm_street_count,osm_cameras
+Kolar,47,31,4,High,0.7346,19093,0
+Bengaluru Urban,52,27,5,High,0.2641,177886,3045
+Mandya,49,26,4,High,0.8135,18624,5
+Tumakuru,49,26,3,High,0.6979,21630,72
+Belagavi,52,25,3,High,0.7431,31799,0
+Kalaburagi,44,25,2,High,0.5959,21632,0
+Udupi,44,23,3,High,0.7931,16544,9
+Hassan,40,23,4,High,0.6953,16258,21
+Bidar,35,21,3,High,0.7439,12636,0
+Vijayapura,45,21,3,High,0.7359,18363,0
+Chikmagalur,32,21,3,High,0.7276,11152,20
+Raichur,33,20,2,High,0.7597,11476,0
+Ramanagara,39,20,3,High,0.8044,13801,2642
+Mysuru,52,20,3,High,0.5776,39519,11
+Chamrajnagar,34,19,2,High,0.8688,10520,0
+Dakshina Kannada,38,17,2,High,0.6345,16680,51
+Bagalkote,33,17,2,High,0.7851,10992,0
+Gadag,26,17,3,High,0.6805,8450,0
+Davanagere,28,17,3,High,0.6137,10968,0
+Ballari,45,15,1,High,0.6322,20951,0
+Dharwad,38,15,2,High,0.5508,18939,1
+Bengaluru Rural,52,13,2,High,0.7145,27706,3057
+Shivamogga,33,13,2,High,0.687,12535,0
+Uttara Kannada,22,12,2,High,0.6358,6416,1
+Chikkaballapura,28,12,3,High,0.7666,8397,12
+Haveri,19,10,1,High,0.629,4690,0
+Koppal,20,10,1,High,0.6114,5610,0
+Chitradurga,21,8,0,High,0.5884,6385,0
+Kodagu,16,6,1,High,0.6185,2663,35
+Yadgir,13,4,0,Medium,0.3047,2258,0

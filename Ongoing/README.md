@@ -1,5 +1,7 @@
 # SafeHer — Phase I (Karnataka)
 
+The runnable SurakshaSetu app is this folder. Start it from `web/` with `npm install` and `npm run dev`. Module 1 analysis is `Module1_Analysis/`. Dataset stays at `../PBL/Dataset/Karnataka/`.
+
 One project, two modules. Title stays:
 
 **Incident Analysis and Hotspot Identification for Security Provision Against Women Harassment in Public Spaces**

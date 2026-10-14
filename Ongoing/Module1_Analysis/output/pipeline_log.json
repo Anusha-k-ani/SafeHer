@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-15T10:42:03.160521+00:00",
+  "started_at": "2026-09-15T16:24:05.576526+00:00",
   "steps": [
     {
       "step": "6.1",
@@ -37,7 +37,8 @@
       "step": "6.4",
       "name": "geospatial_analysis",
       "occupied_grid_cells": 173,
-      "districts_with_incidents": 30
+      "districts_with_incidents": 30,
+      "streets_scanned": 604573
     },
     {
       "step": "6.5",
@@ -63,9 +64,9 @@
     {
       "step": "6.8",
       "name": "api_and_result_delivery",
-      "dashboard_files": 16
+      "dashboard_files": 22
     }
   ],
-  "finished_at": "2026-09-15T10:42:03.248843+00:00",
-  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/analysis/output"
+  "finished_at": "2026-09-15T16:24:06.056381+00:00",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/Module1_Analysis/output"
 }
