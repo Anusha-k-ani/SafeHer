@@ -30,7 +30,7 @@ OUTPUT = HERE / "output"
 DATABASE = HERE / "database"
 DASHBOARD = HERE.parent / "web" / "public" / "data" / "analysis"
 MODULE2_DASH = HERE.parent / "Module2_Dashboard" / "public" / "data" / "analysis"
-DATASET = HERE.parents[1] / "PBL" / "Dataset" / "Karnataka"
+DATASET = HERE.parent / "Dataset" / "Karnataka"
 
 REPORTS = INPUT / "reports.json"
 LIVE_REPORTS = INPUT / "live_reports.json"

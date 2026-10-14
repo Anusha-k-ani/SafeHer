@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-DATASET = HERE.parents[1] / "PBL" / "Dataset"
+DATASET = HERE.parent / "Dataset"
 STREET_DIR = DATASET / "Karnataka_Streetwise" / "csv"
 CAMERAS = DATASET / "Karnataka" / "karnataka_cameras.json"
 DISTRICTS = DATASET / "Karnataka" / "karnataka_districts.geojson"
@@ -82,7 +82,7 @@ SOURCES = [
     {
         "id": "existing-cameras",
         "name": "Project camera inventory",
-        "url": "PBL/Dataset/Karnataka/karnataka_cameras.json",
+        "url": "Dataset/Karnataka/karnataka_cameras.json",
         "provider": "OpenStreetMap extract plus OpenCity Bengaluru KML",
         "access": "Already in the project. OSM is crowdsourced. OpenCity Bengaluru cameras are crowdsourced from OSM.",
         "coverage": "5,578 positions. Not an official Karnataka Police inventory.",

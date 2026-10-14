@@ -25,8 +25,7 @@ from xml.etree import ElementTree as ET
 from zipfile import ZipFile
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parents[1]
-DATASET = ROOT / "PBL" / "Dataset" / "Karnataka"
+DATASET = HERE.parent / "Dataset" / "Karnataka"
 BY_DISTRICT = DATASET / "by_district"
 OFFICIAL_KML = DATASET / "official" / "bengaluru-cctv-cameras__Bengaluru_-_CCTV_Cameras_Map.kml"
 CAMERA_JSON = DATASET / "karnataka_cameras.json"

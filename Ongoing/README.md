@@ -1,6 +1,6 @@
 # SafeHer — Phase I (Karnataka)
 
-The runnable SurakshaSetu app is this folder. Start it from `web/` with `npm install` and `npm run dev`. Module 1 analysis is `Module1_Analysis/`. Dataset stays at `../PBL/Dataset/Karnataka/`.
+The runnable SurakshaSetu app is this folder. Start it from `web/` with `npm install` and `npm run dev`. Module 1 analysis is `Module1_Analysis/`. The Karnataka dataset is `Dataset/Karnataka/`.
 
 One project, two modules. Title stays:
 
@@ -8,9 +8,11 @@ One project, two modules. Title stays:
 
 ```
 Ongoing/
+  Dataset/Karnataka/    ← statewide streets, cameras, district files
   Module1_Analysis/     ← Anusha K   (1BY25MC017)  DONE
   Module2_App/          ← Aman Yadav (1BY25MC012)  add Expo app here
   Module2_Dashboard/    ← Aman Yadav (1BY25MC012)  add admin dashboard here
+  web/                  ← SurakshaSetu app
 ```
 
 | Folder | Person | USN | What |
@@ -23,7 +25,7 @@ Work in parallel: Module 1 writes JSON/CSV/maps; Aman reads `Module2_Dashboard/p
 
 Earlier Bengaluru prototype (reuse if useful, do not delete): `mobile/`, `web/`, `supabase/`, `shared/`.
 
-Dataset: `../PBL/Dataset/Karnataka/`.
+Dataset: `Dataset/Karnataka/`. Street rows used for coverage are in `Dataset/Karnataka_Streetwise/`.
 
 ## Module 1 (Anusha)
 

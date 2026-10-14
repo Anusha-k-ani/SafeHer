@@ -45,6 +45,13 @@ __pycache__/
 .venv/
 venv/
 
+# Interim slides and scripts stay on disk and out of the repo.
+Interim_Presentation/
+
+# Streetwise extract is about 1 GB. Coverage totals live in web/public/data/analysis.
+Dataset/Karnataka_Streetwise/
+Dataset/Karnataka/*.parquet
+
 # Bulk KSRSAC pole extract. Coverage totals live in web/public/data/analysis.
 Module1_Analysis/input/infrastructure/*.csv
 Module1_Analysis/input/infrastructure/*.checkpoint.json

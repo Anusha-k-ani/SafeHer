@@ -426,7 +426,7 @@
     {
       "id": "existing-cameras",
       "name": "Project camera inventory",
-      "url": "PBL/Dataset/Karnataka/karnataka_cameras.json",
+      "url": "Dataset/Karnataka/karnataka_cameras.json",
       "provider": "OpenStreetMap extract plus OpenCity Bengaluru KML",
       "access": "Already in the project. OSM is crowdsourced. OpenCity Bengaluru cameras are crowdsourced from OSM.",
       "coverage": "5,578 positions. Not an official Karnataka Police inventory."

@@ -1,4 +1,4 @@
-"""Build Module 1 inputs from PBL/Dataset/Karnataka (no pandas)."""
+"""Build Module 1 inputs from Dataset/Karnataka (no pandas)."""
 from __future__ import annotations
 
 import json
@@ -9,8 +9,7 @@ from zipfile import ZipFile
 from xml.etree import ElementTree as ET
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parents[1]
-DATASET = ROOT / "PBL" / "Dataset" / "Karnataka"
+DATASET = HERE.parent / "Dataset" / "Karnataka"
 INPUT = HERE / "input"
 
 NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"

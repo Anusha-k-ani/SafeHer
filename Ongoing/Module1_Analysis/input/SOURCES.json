@@ -1,5 +1,5 @@
 {
-  "dataset_folder": "/Users/anushak/Documents/3rd Semester/PBL/Dataset/Karnataka",
+  "dataset_folder": "Dataset/Karnataka",
   "karnataka_street_safety.xlsx": "Statewide OSM street workbook (30 districts). Analysis uses District Summary sheet, not the 50k sample sheet.",
   "osm_districts.json": "Per-district Safe/Moderate/Unsafe counts + centroids.",
   "crime_context.json": "KSP district totals for all 30 districts. Context only.",

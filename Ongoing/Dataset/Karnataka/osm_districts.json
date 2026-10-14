@@ -120,10 +120,10 @@
       "latitude": 11.95676,
       "longitude": 77.03028,
       "osm_cameras": 0,
-      "ksp_total_cases_2023": null,
-      "ksp_assault_modesty_2023": null,
-      "ksp_sexual_harassment_2023": null,
-      "ksp_sexual_harassment_rate_2023": null,
+      "ksp_total_cases_2023": 2668,
+      "ksp_assault_modesty_2023": 185,
+      "ksp_sexual_harassment_2023": 11,
+      "ksp_sexual_harassment_rate_2023": 2.0,
       "crime_used_as_coordinates": false
     },
     {
@@ -290,10 +290,10 @@
       "latitude": 17.29156,
       "longitude": 76.85506,
       "osm_cameras": 0,
-      "ksp_total_cases_2023": null,
-      "ksp_assault_modesty_2023": null,
-      "ksp_sexual_harassment_2023": null,
-      "ksp_sexual_harassment_rate_2023": null,
+      "ksp_total_cases_2023": 3669,
+      "ksp_assault_modesty_2023": 106,
+      "ksp_sexual_harassment_2023": 0,
+      "ksp_sexual_harassment_rate_2023": 0.0,
       "crime_used_as_coordinates": false
     },
     {
@@ -511,10 +511,10 @@
       "latitude": 16.58592,
       "longitude": 76.9619,
       "osm_cameras": 0,
-      "ksp_total_cases_2023": null,
-      "ksp_assault_modesty_2023": null,
-      "ksp_sexual_harassment_2023": null,
-      "ksp_sexual_harassment_rate_2023": null,
+      "ksp_total_cases_2023": 2241,
+      "ksp_assault_modesty_2023": 99,
+      "ksp_sexual_harassment_2023": 8,
+      "ksp_sexual_harassment_rate_2023": 1.1,
       "crime_used_as_coordinates": false
     }
   ]
