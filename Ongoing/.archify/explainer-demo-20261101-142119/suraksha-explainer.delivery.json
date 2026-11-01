@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "2eab1169-b3ec-410a-a86c-6824c5081902",
+  "status": "current",
+  "command": "deliver",
+  "type": "explainer",
+  "input": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/explainer-demo-20261101-142119/candidate.archify.md",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/explainer-demo-20261101-142119/suraksha-explainer.html",
+  "specification": {
+    "sha256": "96b4fa40d34dd2a42e301b1dfdaab0ab81b88b353f2f88b1f65b90156c137e77",
+    "bytes": 2555
+  },
+  "artifact": {
+    "sha256": "bb2c745a27edb859ac8acc18e7b850b5625864ea38e87ae57ae35857d833526d",
+    "bytes": 539952
+  },
+  "explainer": {
+    "preparedSha256": "3e307d0ebd0f3b7ec5cc76778dc950826f257e7b95895cc22906a38baca5cf01",
+    "dependencies": [
+      {
+        "kind": "diagram-spec",
+        "id": "demo-flow",
+        "inline": true,
+        "sha256": "19b841f932001d110a3222a35f514825d88c47e11c869958e3ac9213eb178b02",
+        "bytes": 1136
+      }
+    ]
+  }
+}

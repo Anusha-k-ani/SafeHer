@@ -47,3 +47,19 @@ PBL/Archives/
 
 # Other courses (not this project)
 Other_courses/
+
+# iCloud-evicted Excel — git add hangs waiting for download
+Ongoing/Dataset/Karnataka/by_district/*.xlsx
+
+# Nested leftover git (Ongoing used to have its own empty repo)
+Ongoing/.git/
+
+# Operational store and generated CSS
+Ongoing/web/data/suraksha-store.json
+Ongoing/web/src/app/globals.built.css
+
+# Archify machine receipts (keep the HTML diagrams)
+Ongoing/.archify/**/.archify-delivery-*/
+Ongoing/.archify/**/*.finalize.json
+Ongoing/.archify/**/*.finalize-summary.json
+Ongoing/.archify/**/*.browser-check.json

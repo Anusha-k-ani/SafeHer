@@ -16,6 +16,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_252070455",
       "street_name": "way/252070455",
@@ -54,6 +55,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106485",
       "street_name": "way/1368106485",
@@ -92,6 +94,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106419",
       "street_name": "way/1368106419",
@@ -130,6 +133,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1314085560",
       "street_name": "way/1314085560",
@@ -168,6 +172,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106428",
       "street_name": "way/1368106428",
@@ -206,6 +211,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106445",
       "street_name": "way/1368106445",
@@ -244,6 +250,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106424",
       "street_name": "way/1368106424",
@@ -282,6 +289,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106489",
       "street_name": "way/1368106489",
@@ -320,6 +328,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106426",
       "street_name": "way/1368106426",
@@ -358,6 +367,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106428",
       "street_name": "way/1368106428",
@@ -396,6 +406,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106485",
       "street_name": "way/1368106485",
@@ -434,6 +445,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106425",
       "street_name": "way/1368106425",
@@ -472,6 +484,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_252070449",
       "street_name": "way/252070449",
@@ -510,6 +523,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106424",
       "street_name": "way/1368106424",
@@ -548,6 +562,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106489",
       "street_name": "way/1368106489",
@@ -586,6 +601,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1314085664",
       "street_name": "way/1314085664",
@@ -624,6 +640,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_556_1368106431",
       "street_name": "way/1368106431",
@@ -662,6 +679,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -681,6 +699,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -700,6 +719,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -719,6 +739,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -738,6 +759,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -757,6 +779,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -776,6 +799,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -795,6 +819,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -814,6 +839,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -833,6 +859,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -852,6 +879,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -871,6 +899,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -890,6 +919,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -909,6 +939,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -928,6 +959,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -947,6 +979,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -966,6 +999,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339580218",
       "street_name": "way/1339580218",
@@ -1004,6 +1038,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339580218",
       "street_name": "way/1339580218",
@@ -1042,6 +1077,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339580219",
       "street_name": "way/1339580219",
@@ -1080,6 +1116,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339579272",
       "street_name": "way/1339579272",
@@ -1118,6 +1155,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1137,6 +1175,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339580218",
       "street_name": "way/1339580218",
@@ -1175,6 +1214,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339579269",
       "street_name": "way/1339579269",
@@ -1213,6 +1253,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339580218",
       "street_name": "way/1339580218",
@@ -1251,6 +1292,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339552416",
       "street_name": "way/1339552416",
@@ -1289,6 +1331,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1308,6 +1351,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1327,6 +1371,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1346,6 +1391,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339579271",
       "street_name": "way/1339579271",
@@ -1384,6 +1430,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1403,6 +1450,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1422,6 +1470,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1441,6 +1490,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1460,6 +1510,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339552416",
       "street_name": "way/1339552416",
@@ -1498,6 +1549,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339580218",
       "street_name": "way/1339580218",
@@ -1536,6 +1588,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1555,6 +1608,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1574,6 +1628,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1593,6 +1648,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1612,6 +1668,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_555_1339580219",
       "street_name": "way/1339580219",
@@ -1637,8 +1694,8 @@
     "_id": "ka_00133",
     "lat": 13.162165,
     "lon": 77.638335,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-06-03T11:21:00Z",
     "time_of_day": "morning",
     "is_safe": false,
@@ -1650,14 +1707,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00141",
     "lat": 13.162014,
     "lon": 77.643785,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-07-23T20:59:00Z",
     "time_of_day": "morning",
     "is_safe": false,
@@ -1669,14 +1727,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00144",
     "lat": 13.160917,
     "lon": 77.635723,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-06-24T00:47:00Z",
     "time_of_day": "night",
     "is_safe": false,
@@ -1688,14 +1747,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00146",
     "lat": 13.163254,
     "lon": 77.640949,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-06-08T21:07:00Z",
     "time_of_day": "evening",
     "is_safe": false,
@@ -1707,14 +1767,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00150",
     "lat": 13.160959,
     "lon": 77.642319,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-06-03T12:16:00Z",
     "time_of_day": "morning",
     "is_safe": false,
@@ -1726,14 +1787,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00152",
     "lat": 13.161882,
     "lon": 77.640479,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-07-15T03:11:00Z",
     "time_of_day": "morning",
     "is_safe": false,
@@ -1745,14 +1807,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00156",
     "lat": 13.148278,
     "lon": 77.656368,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-07-06T01:35:00Z",
     "time_of_day": "evening",
     "is_safe": false,
@@ -1764,14 +1827,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00162",
     "lat": 13.157161,
     "lon": 77.635765,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-07-24T09:09:00Z",
     "time_of_day": "evening",
     "is_safe": false,
@@ -1783,14 +1847,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00163",
     "lat": 13.149724,
     "lon": 77.657293,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-06-22T23:50:00Z",
     "time_of_day": "morning",
     "is_safe": false,
@@ -1802,14 +1867,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00164",
     "lat": 13.165226,
     "lon": 77.633218,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-06-01T13:08:00Z",
     "time_of_day": "night",
     "is_safe": false,
@@ -1821,14 +1887,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00166",
     "lat": 13.157713,
     "lon": 77.638954,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-07-16T08:50:00Z",
     "time_of_day": "evening",
     "is_safe": false,
@@ -1840,14 +1907,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00180",
     "lat": 13.16022,
     "lon": 77.638716,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-07-24T17:02:00Z",
     "time_of_day": "afternoon",
     "is_safe": false,
@@ -1859,14 +1927,15 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
     "_id": "ka_00182",
     "lat": 13.149086,
     "lon": 77.657411,
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "created_at": "2026-07-15T00:30:00Z",
     "time_of_day": "evening",
     "is_safe": false,
@@ -1878,6 +1947,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -1897,6 +1967,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_258588500",
       "street_name": "1st Cross Road",
@@ -1935,6 +2006,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_800240397",
       "street_name": "way/800240397",
@@ -1973,6 +2045,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_290638885",
       "street_name": "29th Main Road",
@@ -2011,6 +2084,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_27791667",
       "street_name": "9th Cross Road",
@@ -2049,6 +2123,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_309195561",
       "street_name": "way/309195561",
@@ -2087,6 +2162,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_1427497218",
       "street_name": "way/1427497218",
@@ -2125,6 +2201,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_1103054763",
       "street_name": "way/1103054763",
@@ -2163,6 +2240,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_627970185",
       "street_name": "way/627970185",
@@ -2201,6 +2279,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_32267183",
       "street_name": "7th Cross Road",
@@ -2239,6 +2318,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_309566406",
       "street_name": "way/309566406",
@@ -2277,6 +2357,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_40693503",
       "street_name": "17th Cross Road",
@@ -2315,6 +2396,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_627973211",
       "street_name": "way/627973211",
@@ -2353,6 +2435,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_40678752",
       "street_name": "1st Cross Road",
@@ -2391,6 +2474,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_28187005",
       "street_name": "14th Main Road",
@@ -2429,6 +2513,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_798240736",
       "street_name": "way/798240736",
@@ -2467,6 +2552,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_1109950504",
       "street_name": "29th Main Road",
@@ -2505,6 +2591,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_798235860",
       "street_name": "way/798235860",
@@ -2543,6 +2630,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_656864552",
       "street_name": "way/656864552",
@@ -2581,6 +2669,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_28120356",
       "street_name": "way/28120356",
@@ -2619,6 +2708,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_32259926",
       "street_name": "13th Cross Road",
@@ -2657,6 +2747,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_494980969",
       "street_name": "6th Cross Road",
@@ -2695,6 +2786,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_1532217451",
       "street_name": "way/1532217451",
@@ -2733,6 +2825,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_1103054763",
       "street_name": "way/1103054763",
@@ -2771,6 +2864,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_1487103867",
       "street_name": "1st Cross Road",
@@ -2809,6 +2903,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_32263943",
       "street_name": "20th Main Road",
@@ -2847,6 +2942,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_191675982",
       "street_name": "way/191675982",
@@ -2885,6 +2981,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_572_309566406",
       "street_name": "way/309566406",
@@ -2923,6 +3020,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -2942,6 +3040,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -2961,6 +3060,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -2980,6 +3080,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -2999,6 +3100,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3018,6 +3120,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_558_1019669215",
       "street_name": "way/1019669215",
@@ -3056,6 +3159,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3075,6 +3179,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_558_1019669216",
       "street_name": "way/1019669216",
@@ -3113,6 +3218,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3132,6 +3238,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3151,6 +3258,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3170,6 +3278,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3189,6 +3298,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3208,6 +3318,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_558_1019669216",
       "street_name": "way/1019669216",
@@ -3246,6 +3357,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_558_158979073",
       "street_name": "SH75",
@@ -3284,6 +3396,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3303,6 +3416,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3322,6 +3436,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3341,6 +3456,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_558_139160295",
       "street_name": "way/139160295",
@@ -3379,6 +3495,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3398,6 +3515,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3417,6 +3535,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_578_408936669",
       "street_name": "way/408936669",
@@ -3455,6 +3574,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_578_1304666310",
       "street_name": "way/1304666310",
@@ -3493,6 +3613,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3512,6 +3633,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3531,6 +3653,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_578_1245509278",
       "street_name": "way/1245509278",
@@ -3569,6 +3692,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_578_1304666322",
       "street_name": "way/1304666322",
@@ -3607,6 +3731,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_578_1304663421",
       "street_name": "way/1304663421",
@@ -3645,6 +3770,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3664,6 +3790,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3683,6 +3810,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3702,6 +3830,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3721,6 +3850,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_578_408936669",
       "street_name": "way/408936669",
@@ -3759,6 +3889,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3778,6 +3909,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_578_1245509263",
       "street_name": "way/1245509263",
@@ -3816,6 +3948,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_578_1304666321",
       "street_name": "way/1304666321",
@@ -3854,6 +3987,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3873,6 +4007,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_578_1245509268",
       "street_name": "way/1245509268",
@@ -3911,6 +4046,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3930,6 +4066,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -3949,6 +4086,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_582_1219980433",
       "street_name": "way/1219980433",
@@ -3987,6 +4125,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_582_1219980433",
       "street_name": "way/1219980433",
@@ -4025,6 +4164,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_582_1219980438",
       "street_name": "way/1219980438",
@@ -4063,6 +4203,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_582_1224684422",
       "street_name": "way/1224684422",
@@ -4101,6 +4242,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_582_1348300376",
       "street_name": "way/1348300376",
@@ -4139,6 +4281,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_582_1220431387",
       "street_name": "way/1220431387",
@@ -4177,6 +4320,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_582_368473205",
       "street_name": "way/368473205",
@@ -4215,6 +4359,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_582_1348300376",
       "street_name": "way/1348300376",
@@ -4253,6 +4398,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4272,6 +4418,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_582_1224684428",
       "street_name": "way/1224684428",
@@ -4310,6 +4457,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4329,6 +4477,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_582_1224684423",
       "street_name": "way/1224684423",
@@ -4367,6 +4516,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4386,6 +4536,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_570_808127227",
       "street_name": "way/808127227",
@@ -4424,6 +4575,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4443,6 +4595,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_570_808127227",
       "street_name": "way/808127227",
@@ -4481,6 +4634,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_570_814431953",
       "street_name": "way/814431953",
@@ -4519,6 +4673,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_570_814428247",
       "street_name": "way/814428247",
@@ -4557,6 +4712,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4576,6 +4732,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4595,6 +4752,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4614,6 +4772,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4633,6 +4792,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4652,6 +4812,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4671,6 +4832,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_570_813939456",
       "street_name": "way/813939456",
@@ -4709,6 +4871,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_570_808127227",
       "street_name": "way/808127227",
@@ -4747,6 +4910,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4766,6 +4930,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_570_813939456",
       "street_name": "way/813939456",
@@ -4804,6 +4969,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4823,6 +4989,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_570_808127227",
       "street_name": "way/808127227",
@@ -4861,6 +5028,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_570_814431953",
       "street_name": "way/814431953",
@@ -4899,6 +5067,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4918,6 +5087,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4937,6 +5107,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -4956,6 +5127,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_566_316975951",
       "street_name": "way/316975951",
@@ -4994,6 +5166,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5013,6 +5186,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5032,6 +5206,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_566_705676000",
       "street_name": "way/705676000",
@@ -5070,6 +5245,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5089,6 +5265,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5108,6 +5285,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5127,6 +5305,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5146,6 +5325,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_575_1391545953",
       "street_name": "way/1391545953",
@@ -5184,6 +5364,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5203,6 +5384,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_575_1391545950",
       "street_name": "way/1391545950",
@@ -5241,6 +5423,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5260,6 +5443,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5279,6 +5463,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_575_1389755408",
       "street_name": "way/1389755408",
@@ -5317,6 +5502,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5336,6 +5522,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5355,6 +5542,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_575_1391545950",
       "street_name": "way/1391545950",
@@ -5393,6 +5581,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_575_1061156247",
       "street_name": "way/1061156247",
@@ -5431,6 +5620,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_575_1389755408",
       "street_name": "way/1389755408",
@@ -5469,6 +5659,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_575_1061156245",
       "street_name": "way/1061156245",
@@ -5507,6 +5698,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_575_1391545955",
       "street_name": "way/1391545955",
@@ -5545,6 +5737,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_575_1391545953",
       "street_name": "way/1391545953",
@@ -5583,6 +5776,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_575_1391545954",
       "street_name": "way/1391545954",
@@ -5621,6 +5815,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_575_1061156248",
       "street_name": "way/1061156248",
@@ -5659,6 +5854,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1344562203",
       "street_name": "way/1344562203",
@@ -5697,6 +5893,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1344558880",
       "street_name": "way/1344558880",
@@ -5735,6 +5932,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1344558878",
       "street_name": "way/1344558878",
@@ -5773,6 +5971,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1344558881",
       "street_name": "way/1344558881",
@@ -5811,6 +6010,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -5830,6 +6030,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1220210267",
       "street_name": "way/1220210267",
@@ -5868,6 +6069,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1344558881",
       "street_name": "way/1344558881",
@@ -5906,6 +6108,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1344558881",
       "street_name": "way/1344558881",
@@ -5944,6 +6147,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1344558881",
       "street_name": "way/1344558881",
@@ -5982,6 +6186,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1220182279",
       "street_name": "Tolahunase Turchaghatta Road",
@@ -6020,6 +6225,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1344558881",
       "street_name": "way/1344558881",
@@ -6058,6 +6264,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1344558878",
       "street_name": "way/1344558878",
@@ -6096,6 +6303,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -6115,6 +6323,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1220180410",
       "street_name": "way/1220180410",
@@ -6153,6 +6362,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1344558881",
       "street_name": "way/1344558881",
@@ -6191,6 +6401,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1220210267",
       "street_name": "way/1220210267",
@@ -6229,6 +6440,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_567_1220210263",
       "street_name": "way/1220210263",
@@ -6267,6 +6479,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_1043333256",
       "street_name": "way/1043333256",
@@ -6305,6 +6518,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_844184431",
       "street_name": "way/844184431",
@@ -6343,6 +6557,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_222845921",
       "street_name": "way/222845921",
@@ -6381,6 +6596,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_842594903",
       "street_name": "way/842594903",
@@ -6419,6 +6635,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_55414851",
       "street_name": "Pinto Road",
@@ -6457,6 +6674,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_122664841",
       "street_name": "way/122664841",
@@ -6495,6 +6713,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_843745054",
       "street_name": "way/843745054",
@@ -6533,6 +6752,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_122625504",
       "street_name": "Sir Siddappa Kambali Road",
@@ -6571,6 +6791,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_1213594828",
       "street_name": "way/1213594828",
@@ -6609,6 +6830,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_843514240",
       "street_name": "way/843514240",
@@ -6647,6 +6869,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_842709974",
       "street_name": "way/842709974",
@@ -6685,6 +6908,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_1107685542",
       "street_name": "way/1107685542",
@@ -6723,6 +6947,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_222728439",
       "street_name": "way/222728439",
@@ -6761,6 +6986,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_844272131",
       "street_name": "way/844272131",
@@ -6799,6 +7025,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_562_221423096",
       "street_name": "way/221423096",
@@ -6837,6 +7064,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -6856,6 +7084,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -6875,6 +7104,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -6894,6 +7124,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_561_841723293",
       "street_name": "way/841723293",
@@ -6932,6 +7163,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -6951,6 +7183,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -6970,6 +7203,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_561_841334824",
       "street_name": "way/841334824",
@@ -7008,6 +7242,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -7027,6 +7262,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_561_841649097",
       "street_name": "way/841649097",
@@ -7065,6 +7301,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -7084,6 +7321,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_561_841723296",
       "street_name": "SH57",
@@ -7122,6 +7360,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_561_841723296",
       "street_name": "SH57",
@@ -7160,6 +7399,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -7179,6 +7419,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_561_841649098",
       "street_name": "way/841649098",
@@ -7217,6 +7458,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_561_841723296",
       "street_name": "SH57",
@@ -7255,6 +7497,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -7274,6 +7517,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -7293,6 +7537,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_771808100",
       "street_name": "way/771808100",
@@ -7331,6 +7576,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_803549758",
       "street_name": "way/803549758",
@@ -7369,6 +7615,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_800628006",
       "street_name": "way/800628006",
@@ -7407,6 +7654,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_803549746",
       "street_name": "way/803549746",
@@ -7445,6 +7693,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_806340079",
       "street_name": "way/806340079",
@@ -7483,6 +7732,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_806290489",
       "street_name": "way/806290489",
@@ -7521,6 +7771,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_1052607090",
       "street_name": "way/1052607090",
@@ -7559,6 +7810,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_806340079",
       "street_name": "way/806340079",
@@ -7597,6 +7849,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_254163448",
       "street_name": "way/254163448",
@@ -7635,6 +7888,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_369079634",
       "street_name": "way/369079634",
@@ -7673,6 +7927,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_368925070",
       "street_name": "way/368925070",
@@ -7711,6 +7966,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_321979067",
       "street_name": "way/321979067",
@@ -7749,6 +8005,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_800628006",
       "street_name": "way/800628006",
@@ -7787,6 +8044,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_806290492",
       "street_name": "way/806290492",
@@ -7825,6 +8083,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_806303494",
       "street_name": "way/806303494",
@@ -7863,6 +8122,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_321979067",
       "street_name": "way/321979067",
@@ -7901,6 +8161,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_806340079",
       "street_name": "way/806340079",
@@ -7939,6 +8200,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_806290491",
       "street_name": "way/806290491",
@@ -7977,6 +8239,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_561768145",
       "street_name": "way/561768145",
@@ -8015,6 +8278,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_254163448",
       "street_name": "way/254163448",
@@ -8053,6 +8317,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_806372197",
       "street_name": "way/806372197",
@@ -8091,6 +8356,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_369079634",
       "street_name": "way/369079634",
@@ -8129,6 +8395,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_574_368925070",
       "street_name": "way/368925070",
@@ -8167,6 +8434,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_564_203271888",
       "street_name": "way/203271888",
@@ -8205,6 +8473,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8224,6 +8493,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8243,6 +8513,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8262,6 +8533,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8281,6 +8553,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8300,6 +8573,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8319,6 +8593,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_564_203271888",
       "street_name": "way/203271888",
@@ -8357,6 +8632,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8376,6 +8652,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_564_203271888",
       "street_name": "way/203271888",
@@ -8414,6 +8691,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_579_833767883",
       "street_name": "way/833767883",
@@ -8452,6 +8730,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_579_833767883",
       "street_name": "way/833767883",
@@ -8490,6 +8769,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8509,6 +8789,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8528,6 +8809,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8547,6 +8829,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8566,6 +8849,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_579_836013210",
       "street_name": "way/836013210",
@@ -8604,6 +8888,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8623,6 +8908,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_579_833767883",
       "street_name": "way/833767883",
@@ -8661,6 +8947,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8680,6 +8967,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_579_833767883",
       "street_name": "way/833767883",
@@ -8718,6 +9006,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8737,6 +9026,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8756,6 +9046,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_579_833767883",
       "street_name": "way/833767883",
@@ -8794,6 +9085,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_579_836013189",
       "street_name": "way/836013189",
@@ -8832,6 +9124,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8851,6 +9144,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8870,6 +9164,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8889,6 +9184,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8908,6 +9204,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8927,6 +9224,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8946,6 +9244,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8965,6 +9264,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -8984,6 +9284,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -9003,6 +9304,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_579_836013210",
       "street_name": "way/836013210",
@@ -9041,6 +9343,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -9060,6 +9363,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -9079,6 +9383,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_576_618211804",
       "street_name": "way/618211804",
@@ -9117,6 +9422,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_576_618211804",
       "street_name": "way/618211804",
@@ -9155,6 +9461,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_576_618577170",
       "street_name": "way/618577170",
@@ -9193,6 +9500,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -9212,6 +9520,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781695920",
       "street_name": "way/781695920",
@@ -9250,6 +9559,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781695920",
       "street_name": "way/781695920",
@@ -9288,6 +9598,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -9307,6 +9618,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781696837",
       "street_name": "way/781696837",
@@ -9345,6 +9657,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781695916",
       "street_name": "way/781695916",
@@ -9383,6 +9696,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_782378698",
       "street_name": "way/782378698",
@@ -9421,6 +9735,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_502157864",
       "street_name": "way/502157864",
@@ -9459,6 +9774,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -9478,6 +9794,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_502157864",
       "street_name": "way/502157864",
@@ -9516,6 +9833,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781695915",
       "street_name": "way/781695915",
@@ -9554,6 +9872,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781695920",
       "street_name": "way/781695920",
@@ -9592,6 +9911,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_785067159",
       "street_name": "way/785067159",
@@ -9630,6 +9950,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_785067159",
       "street_name": "way/785067159",
@@ -9668,6 +9989,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -9687,6 +10009,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781695930",
       "street_name": "way/781695930",
@@ -9725,6 +10048,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_782378698",
       "street_name": "way/782378698",
@@ -9763,6 +10087,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_502157864",
       "street_name": "way/502157864",
@@ -9801,6 +10126,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_782378699",
       "street_name": "way/782378699",
@@ -9839,6 +10165,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781695920",
       "street_name": "way/781695920",
@@ -9877,6 +10204,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_323307316",
       "street_name": "way/323307316",
@@ -9915,6 +10243,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -9934,6 +10263,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781695920",
       "street_name": "way/781695920",
@@ -9972,6 +10302,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_785022055",
       "street_name": "way/785022055",
@@ -10010,6 +10341,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10029,6 +10361,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781695916",
       "street_name": "way/781695916",
@@ -10067,6 +10400,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10086,6 +10420,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_782378698",
       "street_name": "way/782378698",
@@ -10124,6 +10459,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10143,6 +10479,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781695920",
       "street_name": "way/781695920",
@@ -10181,6 +10518,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_782378698",
       "street_name": "way/782378698",
@@ -10219,6 +10557,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_581_781695920",
       "street_name": "way/781695920",
@@ -10257,6 +10596,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10276,6 +10616,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10295,6 +10636,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10314,6 +10656,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10333,6 +10676,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10352,6 +10696,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10371,6 +10716,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10390,6 +10736,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10409,6 +10756,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10428,6 +10776,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -10447,6 +10796,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782892677",
       "street_name": "way/782892677",
@@ -10485,6 +10835,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782008026",
       "street_name": "way/782008026",
@@ -10523,6 +10874,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_781692254",
       "street_name": "way/781692254",
@@ -10561,6 +10913,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605582",
       "street_name": "way/782605582",
@@ -10599,6 +10952,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605592",
       "street_name": "way/782605592",
@@ -10637,6 +10991,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782899678",
       "street_name": "way/782899678",
@@ -10675,6 +11030,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782899678",
       "street_name": "way/782899678",
@@ -10713,6 +11069,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605594",
       "street_name": "way/782605594",
@@ -10751,6 +11108,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782892673",
       "street_name": "way/782892673",
@@ -10789,6 +11147,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605598",
       "street_name": "way/782605598",
@@ -10827,6 +11186,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782008026",
       "street_name": "way/782008026",
@@ -10865,6 +11225,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782008026",
       "street_name": "way/782008026",
@@ -10903,6 +11264,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605579",
       "street_name": "way/782605579",
@@ -10941,6 +11303,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782008026",
       "street_name": "way/782008026",
@@ -10979,6 +11342,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605574",
       "street_name": "way/782605574",
@@ -11017,6 +11381,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782899678",
       "street_name": "way/782899678",
@@ -11055,6 +11420,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_343178308",
       "street_name": "way/343178308",
@@ -11093,6 +11459,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605583",
       "street_name": "way/782605583",
@@ -11131,6 +11498,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_343173671",
       "street_name": "way/343173671",
@@ -11169,6 +11537,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605585",
       "street_name": "way/782605585",
@@ -11207,6 +11576,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782632505",
       "street_name": "way/782632505",
@@ -11245,6 +11615,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605577",
       "street_name": "way/782605577",
@@ -11283,6 +11654,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605583",
       "street_name": "way/782605583",
@@ -11321,6 +11693,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605582",
       "street_name": "way/782605582",
@@ -11359,6 +11732,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_573_782605594",
       "street_name": "way/782605594",
@@ -11397,6 +11771,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11416,6 +11791,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11435,6 +11811,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11454,6 +11831,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_577_1189828548",
       "street_name": "way/1189828548",
@@ -11492,6 +11870,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11511,6 +11890,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_577_823315458",
       "street_name": "way/823315458",
@@ -11549,6 +11929,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11568,6 +11949,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11587,6 +11969,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11606,6 +11989,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11625,6 +12009,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11644,6 +12029,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11663,6 +12049,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11682,6 +12069,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_577_1189828547",
       "street_name": "way/1189828547",
@@ -11720,6 +12108,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_577_823315457",
       "street_name": "way/823315457",
@@ -11758,6 +12147,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11777,6 +12167,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11796,6 +12187,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11815,6 +12207,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11834,6 +12227,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11853,6 +12247,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11872,6 +12267,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11891,6 +12287,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11910,6 +12307,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11929,6 +12327,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11948,6 +12347,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11967,6 +12367,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -11986,6 +12387,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12005,6 +12407,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12024,6 +12427,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12043,6 +12447,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12062,6 +12467,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12081,6 +12487,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12100,6 +12507,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12119,6 +12527,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_559_974953735",
       "street_name": "Bagalwad Road",
@@ -12157,6 +12566,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_559_243902624",
       "street_name": "way/243902624",
@@ -12195,6 +12605,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12214,6 +12625,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12233,6 +12645,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12252,6 +12665,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12271,6 +12685,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12290,6 +12705,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12309,6 +12725,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12328,6 +12745,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12347,6 +12765,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12366,6 +12785,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_584_212218196",
       "street_name": "way/212218196",
@@ -12404,6 +12824,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12423,6 +12844,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_584_212211667",
       "street_name": "way/212211667",
@@ -12461,6 +12883,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12480,6 +12903,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12499,6 +12923,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_584_212565653",
       "street_name": "way/212565653",
@@ -12537,6 +12962,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_584_212565483",
       "street_name": "way/212565483",
@@ -12575,6 +13001,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12594,6 +13021,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_584_212218196",
       "street_name": "way/212218196",
@@ -12632,6 +13060,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_584_211659404",
       "street_name": "way/211659404",
@@ -12670,6 +13099,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12689,6 +13119,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12708,6 +13139,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_584_212565627",
       "street_name": "way/212565627",
@@ -12746,6 +13178,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_584_212233878",
       "street_name": "way/212233878",
@@ -12784,6 +13217,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12803,6 +13237,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12822,6 +13257,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12841,6 +13277,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12860,6 +13297,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12879,6 +13317,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12898,6 +13337,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12917,6 +13357,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12936,6 +13377,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12955,6 +13397,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12974,6 +13417,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -12993,6 +13437,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13012,6 +13457,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13031,6 +13477,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13050,6 +13497,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13069,6 +13517,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13088,6 +13537,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13107,6 +13557,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13126,6 +13577,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13145,6 +13597,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13164,6 +13617,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13183,6 +13637,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13202,6 +13657,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13221,6 +13677,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13240,6 +13697,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_571_375121660",
       "street_name": "way/375121660",
@@ -13278,6 +13736,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_571_375121660",
       "street_name": "way/375121660",
@@ -13316,6 +13775,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13335,6 +13795,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13354,6 +13815,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13373,6 +13835,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13392,6 +13855,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13411,6 +13875,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13430,6 +13895,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13449,6 +13915,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13468,6 +13935,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13487,6 +13955,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13506,6 +13975,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13525,6 +13995,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13544,6 +14015,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_571_747117711",
       "street_name": "way/747117711",
@@ -13582,6 +14054,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13601,6 +14074,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -13620,6 +14094,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_803205837",
       "street_name": "way/803205837",
@@ -13658,6 +14133,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_803205836",
       "street_name": "way/803205836",
@@ -13696,6 +14172,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_809005377",
       "street_name": "way/809005377",
@@ -13734,6 +14211,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_806290770",
       "street_name": "way/806290770",
@@ -13772,6 +14250,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_803205835",
       "street_name": "way/803205835",
@@ -13810,6 +14289,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_803178307",
       "street_name": "way/803178307",
@@ -13848,6 +14328,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_805341775",
       "street_name": "way/805341775",
@@ -13886,6 +14367,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_805293758",
       "street_name": "way/805293758",
@@ -13924,6 +14406,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_806290771",
       "street_name": "way/806290771",
@@ -13962,6 +14445,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_805293767",
       "street_name": "way/805293767",
@@ -14000,6 +14484,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_666184285",
       "street_name": "Baraali Road",
@@ -14038,6 +14523,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_803342490",
       "street_name": "way/803342490",
@@ -14076,6 +14562,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_805293758",
       "street_name": "way/805293758",
@@ -14114,6 +14601,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_805293768",
       "street_name": "way/805293768",
@@ -14152,6 +14640,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_805341776",
       "street_name": "way/805341776",
@@ -14190,6 +14679,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_803205837",
       "street_name": "way/803205837",
@@ -14228,6 +14718,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_803178307",
       "street_name": "way/803178307",
@@ -14266,6 +14757,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_805341778",
       "street_name": "way/805341778",
@@ -14304,6 +14796,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_805293765",
       "street_name": "way/805293765",
@@ -14342,6 +14835,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_805341778",
       "street_name": "way/805341778",
@@ -14380,6 +14874,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_806280929",
       "street_name": "way/806280929",
@@ -14418,6 +14913,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_803205821",
       "street_name": "way/803205821",
@@ -14456,6 +14952,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_569_806280930",
       "street_name": "way/806280930",
@@ -14494,6 +14991,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -14513,6 +15011,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -14532,6 +15031,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -14551,6 +15051,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_563_162586717",
       "street_name": "Madangeri Road",
@@ -14589,6 +15090,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -14608,6 +15110,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_563_1310884486",
       "street_name": "way/1310884486",
@@ -14646,6 +15149,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -14665,6 +15169,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_563_162586717",
       "street_name": "Madangeri Road",
@@ -14703,6 +15208,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_563_1310884486",
       "street_name": "way/1310884486",
@@ -14741,6 +15247,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_563_1310884486",
       "street_name": "way/1310884486",
@@ -14779,6 +15286,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -14798,6 +15306,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -14817,6 +15326,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_557_853583629",
       "street_name": "way/853583629",
@@ -14855,6 +15365,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_557_853206377",
       "street_name": "way/853206377",
@@ -14893,6 +15404,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_557_853245439",
       "street_name": "way/853245439",
@@ -14931,6 +15443,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -14950,6 +15463,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -14969,6 +15483,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_557_853206383",
       "street_name": "way/853206383",
@@ -15007,6 +15522,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_557_853583629",
       "street_name": "way/853583629",
@@ -15045,6 +15561,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15064,6 +15581,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15083,6 +15601,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15102,6 +15621,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15121,6 +15641,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_557_853206383",
       "street_name": "way/853206383",
@@ -15159,6 +15680,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15178,6 +15700,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_557_853206381",
       "street_name": "way/853206381",
@@ -15216,6 +15739,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_557_853206383",
       "street_name": "way/853206383",
@@ -15254,6 +15778,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_557_776046751",
       "street_name": "way/776046751",
@@ -15292,6 +15817,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15311,6 +15837,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15330,6 +15857,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15349,6 +15877,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15368,6 +15897,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15387,6 +15917,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15406,6 +15937,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   },
   {
@@ -15425,6 +15957,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": {
       "street_id": "KA_580_304654472",
       "street_name": "way/304654472",
@@ -15463,6 +15996,7 @@
     "is_synthetic": true,
     "source": "reports.json",
     "status": "approved",
+    "district_match": "polygon",
     "nearest_street": null
   }
 ]

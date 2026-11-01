@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "d7041ba4-0ebb-42cb-9d7f-0d88d9b257cc",
+  "status": "current",
+  "command": "deliver",
+  "type": "sequence",
+  "input": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/sequence-demo-20261101-142119/candidate.json",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/sequence-demo-20261101-142119/suraksha-sequence.html",
+  "specification": {
+    "sha256": "df370ce5696c9a0ae5d4a93da84f41355ab6d4429960aa43b6c776e8a164398c",
+    "bytes": 3959
+  },
+  "artifact": {
+    "sha256": "42addcf0f8051e43b4c0a53646933123aa1e69e5eb8ae36f593422761ffc2d54",
+    "bytes": 838437
+  }
+}

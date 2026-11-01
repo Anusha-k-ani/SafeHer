@@ -66,11 +66,13 @@ export function IncidentForm() {
       setError(data.error || "Could not save the report. Sign in with the citizen account.");
       return;
     }
-    setResult(`${data.report.id} is submitted. Street segment: ${data.report.location.note}`);
+    const place = data.report.location?.display_name || data.report.location?.street_name || data.report.location?.district || data.report.location?.note;
+    setResult(`${data.report.id} is submitted. Location: ${place || "not attached"}.`);
   }
 
   return (
     <form onSubmit={onSubmit} className="mx-auto max-w-xl space-y-4 px-4 py-6">
+      <img src="/brand/scenes/incident-street.jpg" alt="Dim street scene for a harassment incident report" className="h-40 w-full rounded-2xl object-cover" />
       <h1 className="text-2xl font-bold text-[#17324D]">Report an incident</h1>
       <label className="block text-sm font-semibold">
         When
@@ -142,6 +144,7 @@ export function StreetlightForm() {
 
   return (
     <form onSubmit={onSubmit} className="mx-auto max-w-xl space-y-4 px-4 py-6">
+      <img src="/brand/scenes/safe-street.jpg" alt="Well-lit street showing the safer lighting this report supports" className="h-40 w-full rounded-2xl object-cover" />
       <h1 className="text-2xl font-bold text-[#17324D]">Report a streetlight problem</h1>
       <label className="block text-sm font-semibold">
         Fault

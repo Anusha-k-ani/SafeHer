@@ -1,12 +1,15 @@
 @import "tailwindcss" source("..");
 
 :root {
-  --background: #f5f7fa;
-  --foreground: #1f2937;
+  --background: #f3f7fb;
+  --foreground: #0b1d33;
   --brand: #0f766e;
-  --safe: #0e9f6e;
+  --navy: #0b1d33;
+  --teal: #14b8a6;
+  --cyan: #22d3ee;
+  --safe: #15803d;
   --moderate: #d97706;
-  --unsafe: #e02424;
+  --unsafe: #b42318;
 }
 
 @theme inline {
@@ -15,13 +18,102 @@
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans);
+html, body {
+  background: #f3f7fb;
+  color: #0b1d33;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0;
+  word-spacing: 0.04em;
+  font-kerning: none;
+  font-variant-ligatures: none;
+  text-rendering: geometricPrecision;
+}
+
+.chrome-dark {
+  background: #0b1d33;
+  color: #fff;
+}
+
+.landing-shell {
+  background: #071524;
+  color: #fff;
 }
 
 .leaflet-container {
   font-family: var(--font-sans);
   z-index: 0;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #14b8a6;
+  outline-offset: 2px;
+}
+
+.risk-button {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border-radius: 999px;
+  background: radial-gradient(circle at 30% 20%, #fb7185, #b42318 62%, #7f1d1d);
+  color: white;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  box-shadow: 0 12px 0 #7f1d1d, 0 18px 30px rgba(0, 0, 0, 0.35);
+  transform: translateY(-2px);
+}
+.risk-button:active,
+.risk-button-armed {
+  transform: translateY(8px);
+  box-shadow: 0 4px 0 #7f1d1d, 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+.risk-button:disabled {
+  opacity: 0.7;
+}
+
+.risk-dock {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: #0b1d33;
+  color: #fff;
+  padding: 10px 16px calc(12px + env(safe-area-inset-bottom));
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.risk-dock-inner {
+  margin: 0 auto;
+  max-width: 42rem;
+}
+
+.risk-button-dock {
+  height: 3.5rem;
+  flex-direction: row;
+  letter-spacing: 0;
+  box-shadow: 0 6px 0 #7f1d1d, 0 10px 18px rgba(0, 0, 0, 0.35);
+}
+
+.risk-button-dock.risk-button-armed,
+.risk-button-dock:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #7f1d1d, 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.risk-dock-note {
+  margin-top: 0.4rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+body {
+  padding-bottom: 7.5rem;
 }

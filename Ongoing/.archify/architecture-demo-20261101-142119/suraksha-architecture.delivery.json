@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "6614cef4-294c-4859-9d26-f4fed0778129",
+  "status": "current",
+  "command": "deliver",
+  "type": "architecture",
+  "input": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/architecture-demo-20261101-142119/candidate.json",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/architecture-demo-20261101-142119/suraksha-architecture.html",
+  "specification": {
+    "sha256": "31f02ca7e455c50403b8fffdb6cfb6821b7ae82ac4b7cbb817e37b4a0037a78c",
+    "bytes": 4135
+  },
+  "artifact": {
+    "sha256": "fe10acbdebe8ecd0c42505bc5c16e57d8bc2855468e10c65170015f967e3da34",
+    "bytes": 844547
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "diagram_type": "dataflow",
+  "meta": {
+    "title": "SurakshaSetu demonstration data flow",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "output": ".archify/dataflow-demo-20261101-142119/suraksha-dataflow.html"
+  },
+  "stages": [
+    {
+      "label": "Capture"
+    },
+    {
+      "label": "Persist"
+    },
+    {
+      "label": "Analyse"
+    },
+    {
+      "label": "Publish"
+    },
+    {
+      "label": "Consume"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "form",
+      "type": "frontend",
+      "label": "Report form",
+      "sublabel": "category + time",
+      "stage": 0,
+      "row": 1,
+      "tag": "citizen"
+    },
+    {
+      "id": "gps",
+      "type": "external",
+      "label": "Browser GPS",
+      "sublabel": "optional coords",
+      "stage": 0,
+      "row": 3,
+      "tag": "device"
+    },
+    {
+      "id": "store",
+      "type": "database",
+      "label": "JSON store",
+      "sublabel": "reports[]",
+      "stage": 1,
+      "row": 1,
+      "tag": "file"
+    },
+    {
+      "id": "pipeline",
+      "type": "backend",
+      "label": "ingest()",
+      "sublabel": "live + demo rows",
+      "stage": 2,
+      "row": 1,
+      "tag": "python"
+    },
+    {
+      "id": "grid",
+      "type": "backend",
+      "label": "cluster",
+      "sublabel": "0.01 deg",
+      "stage": 2,
+      "row": 3,
+      "tag": "MIN=3"
+    },
+    {
+      "id": "hotspots",
+      "type": "database",
+      "label": "hotspots.json",
+      "sublabel": "grid cells",
+      "stage": 3,
+      "row": 1,
+      "tag": "output"
+    },
+    {
+      "id": "alerts",
+      "type": "database",
+      "label": "alerts.json",
+      "sublabel": "risk labels",
+      "stage": 3,
+      "row": 3,
+      "tag": "output"
+    },
+    {
+      "id": "workspace",
+      "type": "backend",
+      "label": "Authority API",
+      "sublabel": "GET analysis",
+      "stage": 4,
+      "row": 1,
+      "tag": "read"
+    },
+    {
+      "id": "map",
+      "type": "frontend",
+      "label": "Safety map",
+      "sublabel": "demo until verified",
+      "stage": 4,
+      "row": 3,
+      "tag": "citizen"
+    }
+  ],
+  "flows": [
+    {
+      "id": "form-store",
+      "from": "form",
+      "to": "store",
+      "label": "incident row",
+      "classification": "report",
+      "variant": "emphasis"
+    },
+    {
+      "id": "gps-store",
+      "from": "gps",
+      "to": "store",
+      "label": "lat lon",
+      "classification": "optional PII",
+      "variant": "security"
+    },
+    {
+      "id": "store-pipeline",
+      "from": "store",
+      "to": "pipeline",
+      "label": "SURAKSHA_STORE",
+      "classification": "reports",
+      "variant": "emphasis"
+    },
+    {
+      "id": "pipeline-grid",
+      "from": "pipeline",
+      "to": "grid",
+      "label": "typed events",
+      "classification": "points"
+    },
+    {
+      "id": "grid-hotspots",
+      "from": "grid",
+      "to": "hotspots",
+      "label": "cells n>=3",
+      "classification": "aggregates",
+      "variant": "emphasis"
+    },
+    {
+      "id": "grid-alerts",
+      "from": "grid",
+      "to": "alerts",
+      "label": "risk labels",
+      "classification": "derived",
+      "variant": "dashed"
+    },
+    {
+      "id": "hotspots-api",
+      "from": "hotspots",
+      "to": "workspace",
+      "label": "hotspot file",
+      "classification": "read-only"
+    },
+    {
+      "id": "alerts-map",
+      "from": "alerts",
+      "to": "map",
+      "label": "demo overlay",
+      "classification": "labelled demo",
+      "variant": "dashed"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "emerald",
+      "title": "Published method",
+      "items": [
+        "Hotspots use a 0.01 degree grid and a minimum of 3 points.",
+        "Empty cells are never labelled safe."
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Coordinates",
+      "items": [
+        "GPS is optional. Precise points stay off public maps.",
+        "Demo rows stay labelled until a reviewer verifies live reports."
+      ]
+    }
+  ]
+}

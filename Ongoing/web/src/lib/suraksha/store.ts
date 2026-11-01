@@ -1,10 +1,13 @@
-import { mkdirSync, readFileSync, writeFileSync, existsSync } from "fs";
+import { mkdirSync, readFileSync, writeFileSync, existsSync, renameSync } from "fs";
+import { INCIDENT_CATEGORIES } from "./domain";
+import { enrichPlace } from "./geocode";
 import path from "path";
 import {
   canCommandPatrol,
   canManageLights,
   canReviewIncidents,
   canVerifyRepair,
+  formatLocation,
   matchDistrict,
   moveLight,
   moveSos,
@@ -26,6 +29,8 @@ export type IncidentReport = {
   description: string;
   location: LocationFix;
   status: "submitted" | "under_review" | "verified" | "flagged";
+  flag_reason: string | null;
+  client_id: string | null;
   simulated: false;
   created_at: string;
 };
@@ -102,6 +107,7 @@ type Db = {
   lights: StreetlightReport[];
   notices: Notice[];
   audit: Audit[];
+  client_keys: string[];
   seq: number;
 };
 
@@ -129,6 +135,7 @@ function empty(): Db {
     lights: [],
     notices: [],
     audit: [],
+    client_keys: [],
     seq: 1,
   };
 }
@@ -136,13 +143,31 @@ function empty(): Db {
 function load(): Db {
   const file = filePath();
   if (!existsSync(file)) return empty();
-  return JSON.parse(readFileSync(file, "utf8")) as Db;
+  try {
+    const parsed = JSON.parse(readFileSync(file, "utf8")) as Partial<Db>;
+    if (!parsed || !Array.isArray(parsed.reports)) return empty();
+    const base = empty();
+    return {
+      ...base,
+      ...parsed,
+      reports: parsed.reports.map((row) => ({
+        ...row,
+        flag_reason: row.flag_reason ?? null,
+        client_id: row.client_id ?? null,
+      })),
+      client_keys: Array.isArray(parsed.client_keys) ? parsed.client_keys : [],
+    };
+  } catch {
+    throw new Error("Operational store could not be read. Check suraksha-store.json.");
+  }
 }
 
 function save(db: Db) {
   const file = filePath();
   mkdirSync(path.dirname(file), { recursive: true });
-  writeFileSync(file, JSON.stringify(db, null, 2));
+  const tmp = `${file}.tmp`;
+  writeFileSync(tmp, JSON.stringify(db, null, 2));
+  renameSync(tmp, file);
 }
 
 function nextId(db: Db, prefix: string): string {
@@ -173,7 +198,12 @@ export function districtPoints(): DistrictPoint[] {
   if (districtsCache) return districtsCache;
   const file = path.join(process.cwd(), "..", "Module1_Analysis", "input", "osm_districts.json");
   if (!existsSync(file)) return [];
-  const pack = JSON.parse(readFileSync(file, "utf8")) as { districts?: { district: string; latitude: number; longitude: number }[] };
+  let pack: { districts?: { district: string; latitude: number; longitude: number }[] } = {};
+  try {
+    pack = JSON.parse(readFileSync(file, "utf8")) as { districts?: { district: string; latitude: number; longitude: number }[] };
+  } catch {
+    return [];
+  }
   districtsCache = (pack.districts || []).map((d) => ({
     district: d.district,
     latitude: d.latitude,
@@ -193,9 +223,33 @@ function rateOk(key: string): boolean {
   return true;
 }
 
-export function createReport(ownerId: string, input: { category: string; when: "now" | "past"; occurred_at: string; description?: string; lat: number | null; lon: number | null }): IncidentReport {
+function assertOccurredAt(value: string) {
+  const when = Date.parse(value);
+  if (Number.isNaN(when)) throw new Error("Occurrence time is invalid.");
+  if (when > Date.now() + 60_000) throw new Error("Occurrence time cannot be in the future.");
+}
+
+export async function createReport(ownerId: string, input: { category: string; when: "now" | "past"; occurred_at: string; description?: string; lat: number | null; lon: number | null; client_id?: string }): Promise<IncidentReport> {
   if (!rateOk(ownerId)) throw new Error("Too many submissions this hour.");
+  if (!(INCIDENT_CATEGORIES as readonly string[]).includes(input.category)) {
+    throw new Error("Choose a listed incident type.");
+  }
+  if (input.lat != null || input.lon != null) {
+    if (typeof input.lat !== "number" || typeof input.lon !== "number" || !Number.isFinite(input.lat) || !Number.isFinite(input.lon)) {
+      throw new Error("Location must be numeric latitude and longitude, or omitted.");
+    }
+    if (input.lat < 11.5 || input.lat > 18.6 || input.lon < 74 || input.lon > 78.6) {
+      throw new Error("Location is outside the Karnataka map used by this project.");
+    }
+  }
+  if (!input.occurred_at) throw new Error("Occurrence time is required.");
+  assertOccurredAt(input.occurred_at);
   const db = load();
+  if (input.client_id) {
+    const key = `${ownerId}:${input.client_id}`;
+    if (db.client_keys.includes(key)) throw new Error("This submission was already received.");
+    db.client_keys.push(key);
+  }
   const row: IncidentReport = {
     id: nextId(db, "INC"),
     owner_id: ownerId,
@@ -203,8 +257,10 @@ export function createReport(ownerId: string, input: { category: string; when: "
     when: input.when,
     occurred_at: input.occurred_at,
     description: (input.description || "").slice(0, 500),
-    location: matchDistrict(input.lat, input.lon, districtPoints()),
+    location: await enrichPlace(matchDistrict(input.lat, input.lon, districtPoints())),
     status: "submitted",
+    flag_reason: null,
+    client_id: input.client_id || null,
     simulated: false,
     created_at: new Date().toISOString(),
   };
@@ -225,7 +281,7 @@ export function listReports(role: Role, userId: string): IncidentReport[] {
   return db.reports;
 }
 
-export function reviewReport(actor: { id: string; role: Role }, id: string, status: IncidentReport["status"]) {
+export function reviewReport(actor: { id: string; role: Role }, id: string, status: IncidentReport["status"], reason?: string) {
   if (!canReviewIncidents(actor.role)) throw new Error("Not allowed to review incidents.");
   const db = load();
   const row = db.reports.find((r) => r.id === id);
@@ -237,17 +293,36 @@ export function reviewReport(actor: { id: string; role: Role }, id: string, stat
     flagged: ["under_review"],
   };
   if (!allowed[row.status].includes(status)) throw new Error(`Cannot move from ${row.status} to ${status}`);
+  if (status === "flagged") {
+    const text = (reason || "").trim();
+    if (text.length < 3) throw new Error("A reason is required to flag a report.");
+    row.flag_reason = text.slice(0, 300);
+  }
   row.status = status;
-  audit(db, actor.id, "report.review", id, status);
+  audit(db, actor.id, "report.review", id, status === "flagged" ? `flagged:${row.flag_reason}` : status);
   notify(db, row.owner_id, "Report status", `${id} is now ${status.replaceAll("_", " ")}.`);
   save(db);
   return row;
 }
 
-export function createSos(ownerId: string, lat: number | null, lon: number | null): SosAlert {
+export async function createSos(ownerId: string, lat: number | null, lon: number | null): Promise<SosAlert> {
   if (!rateOk(`sos:${ownerId}`)) throw new Error("Too many SOS attempts this hour.");
   const db = load();
-  const location = matchDistrict(lat, lon, districtPoints());
+  const recent = db.sos.find((row) => {
+    if (row.owner_id !== ownerId || ["resolved", "cancelled"].includes(row.status)) return false;
+    if (Date.now() - Date.parse(row.created_at) >= 90_000) return false;
+    const sameMissing = lat == null && lon == null && row.location.latitude == null;
+    const samePoint =
+      lat != null &&
+      lon != null &&
+      row.location.latitude != null &&
+      row.location.longitude != null &&
+      row.location.latitude.toFixed(4) === lat.toFixed(4) &&
+      row.location.longitude.toFixed(4) === lon.toFixed(4);
+    return sameMissing || samePoint;
+  });
+  if (recent) return recent;
+  const location = await enrichPlace(matchDistrict(lat, lon, districtPoints()));
   let status: SosStatus = "created";
   let message = "Alert saved in this demonstration system. No live police control room was contacted.";
   if (location.match_status === "missing") {
@@ -272,7 +347,7 @@ export function createSos(ownerId: string, lat: number | null, lon: number | nul
   };
   db.sos.unshift(row);
   notify(db, ownerId, "SOS status", message);
-  notify(db, "u-supervisor", "SOS alert", `${row.id}  -  simulated dispatch  -  ${location.district || "location missing"}`);
+  notify(db, "u-supervisor", "SOS alert", `${row.id}  -  simulated dispatch  -  ${formatLocation(location)}`);
   if (unit) notify(db, unit.member_user_id, "SOS in your district", `${row.id} is waiting for a supervisor assignment.`);
   audit(db, ownerId, "sos.create", row.id, status);
   save(db);

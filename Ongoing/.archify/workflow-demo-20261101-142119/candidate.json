@@ -1,0 +1,188 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "SurakshaSetu demonstration workflow",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "output": ".archify/workflow-demo-20261101-142119/suraksha-workflow.html"
+  },
+  "lanes": [
+    {
+      "id": "citizen",
+      "label": "Citizen"
+    },
+    {
+      "id": "app",
+      "label": "Next.js app"
+    },
+    {
+      "id": "analysis",
+      "label": "Module 1"
+    },
+    {
+      "id": "authority",
+      "label": "Authority",
+      "variant": "exception"
+    }
+  ],
+  "phases": [
+    {
+      "id": "sign",
+      "label": "Sign in",
+      "fromCol": 0,
+      "toCol": 0
+    },
+    {
+      "id": "capture",
+      "label": "Capture",
+      "fromCol": 1,
+      "toCol": 2,
+      "variant": "emphasis"
+    },
+    {
+      "id": "analyse",
+      "label": "Analyse",
+      "fromCol": 3,
+      "toCol": 3,
+      "variant": "dashed"
+    },
+    {
+      "id": "review",
+      "label": "Review",
+      "fromCol": 4,
+      "toCol": 4
+    }
+  ],
+  "mainPath": [
+    "login",
+    "form",
+    "save",
+    "ingest",
+    "review"
+  ],
+  "nodes": [
+    {
+      "id": "login",
+      "lane": "citizen",
+      "col": 0,
+      "type": "external",
+      "label": "Demo login",
+      "sublabel": "citizen account"
+    },
+    {
+      "id": "form",
+      "lane": "citizen",
+      "col": 1,
+      "type": "frontend",
+      "label": "File report",
+      "sublabel": "or Risk Alert"
+    },
+    {
+      "id": "save",
+      "lane": "app",
+      "col": 2,
+      "type": "database",
+      "label": "Save store",
+      "sublabel": "submitted"
+    },
+    {
+      "id": "geocode",
+      "lane": "app",
+      "col": 1,
+      "type": "cloud",
+      "label": "Name place",
+      "sublabel": "if GPS exists"
+    },
+    {
+      "id": "ingest",
+      "lane": "analysis",
+      "col": 3,
+      "type": "backend",
+      "label": "Run pipeline",
+      "sublabel": "grid cluster"
+    },
+    {
+      "id": "review",
+      "lane": "authority",
+      "col": 4,
+      "type": "security",
+      "label": "Reviewer",
+      "sublabel": "verify or flag"
+    },
+    {
+      "id": "flagged",
+      "lane": "authority",
+      "col": 3,
+      "type": "security",
+      "label": "Flagged",
+      "sublabel": "not a hotspot"
+    }
+  ],
+  "edges": [
+    {
+      "id": "login-form",
+      "from": "login",
+      "to": "form",
+      "variant": "emphasis"
+    },
+    {
+      "id": "form-save",
+      "from": "form",
+      "to": "save",
+      "label": "POST"
+    },
+    {
+      "id": "form-geocode",
+      "from": "form",
+      "to": "geocode",
+      "label": "has GPS?",
+      "variant": "dashed",
+      "role": "branch"
+    },
+    {
+      "id": "geocode-save",
+      "from": "geocode",
+      "to": "save",
+      "label": "name or skip"
+    },
+    {
+      "id": "save-ingest",
+      "from": "save",
+      "to": "ingest",
+      "label": "refresh"
+    },
+    {
+      "id": "ingest-review",
+      "from": "ingest",
+      "to": "review",
+      "variant": "emphasis"
+    },
+    {
+      "id": "review-flagged",
+      "from": "review",
+      "to": "flagged",
+      "label": "flag",
+      "variant": "security",
+      "role": "error"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Citizen work",
+      "items": [
+        "Demo login is required before a report or Risk Alert is stored.",
+        "A street name is added only when Nominatim can resolve coordinates."
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Review gate",
+      "items": [
+        "Only verified reports feed live maps.",
+        "Flagged rows stay out of hotspot counts."
+      ]
+    }
+  ]
+}

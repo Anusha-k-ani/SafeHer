@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "cb1d56bb-b702-41f5-a5fb-b7e94fd2d13a",
+  "status": "current",
+  "command": "deliver",
+  "type": "class",
+  "input": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/class-demo-20261101-142119/candidate.json",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/class-demo-20261101-142119/suraksha-class.html",
+  "specification": {
+    "sha256": "527e4cbb25c28d78b1f6ab61cbcf3571f5907c14db09c849e11f1e9be3986e22",
+    "bytes": 3742
+  },
+  "artifact": {
+    "sha256": "cff164f38df5b866d1bf65dfb3b75784c087682512dffeb58ccedec0c50efe81",
+    "bytes": 842196
+  }
+}

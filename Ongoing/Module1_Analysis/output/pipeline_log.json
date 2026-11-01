@@ -1,13 +1,16 @@
 {
-  "started_at": "2026-09-15T16:24:05.576526+00:00",
+  "started_at": "2026-11-01T06:13:06.177465+00:00",
   "steps": [
     {
       "step": "6.1",
       "name": "data_integration",
-      "raw": 1079,
+      "raw": 1084,
       "approved_with_coords": 1079,
       "from_reports_json": 1079,
       "from_live": 0,
+      "from_live_pending": 0,
+      "from_store_verified": 0,
+      "from_store_pending": 5,
       "osm_districts": 30,
       "crime_districts": 30
     },
@@ -37,7 +40,7 @@
       "step": "6.4",
       "name": "geospatial_analysis",
       "occupied_grid_cells": 173,
-      "districts_with_incidents": 30,
+      "districts_with_incidents": 29,
       "streets_scanned": 604573
     },
     {
@@ -45,7 +48,12 @@
       "name": "hotspot_identification",
       "grid_degrees": 0.01,
       "hotspot_count": 72,
-      "recurring": 72
+      "recurring": 72,
+      "evolution": {
+        "emerging": 3,
+        "recurring": 66,
+        "declining_observed": 3
+      }
     },
     {
       "step": "6.6",
@@ -64,9 +72,9 @@
     {
       "step": "6.8",
       "name": "api_and_result_delivery",
-      "dashboard_files": 22
+      "dashboard_files": 28
     }
   ],
-  "finished_at": "2026-09-15T16:24:06.056381+00:00",
+  "finished_at": "2026-11-01T06:13:06.738876+00:00",
   "output": "/Users/anushak/Documents/3rd Semester/Ongoing/Module1_Analysis/output"
 }

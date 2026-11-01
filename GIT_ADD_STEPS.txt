@@ -1,0 +1,19 @@
+UNSTUCK — do this, nothing else
+
+1. In the stuck Terminal press  Control + C
+   If you see a colon (:) at the bottom, press  q  first, then Control + C
+
+2. Paste ONLY these four lines:
+
+cd "/Users/anushak/Documents/3rd Semester"
+chmod +x add-present-files.sh
+./add-present-files.sh
+git commit -m "Replace project folder with SurakshaSetu app, analysis, used datasets, and demo diagrams"
+
+3. Then:
+git push origin master
+
+Do NOT run git status. It hangs because iCloud evicted ~300 files
+(Documents is downloading them in the background).
+The script only adds files that are already on this Mac.
+It skips node_modules, the live store, Streetwise CSVs, and district xlsx.

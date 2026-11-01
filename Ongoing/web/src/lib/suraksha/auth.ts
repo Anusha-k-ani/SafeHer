@@ -3,7 +3,7 @@ import { DEMO_USERS, homeFor, type Role } from "./domain";
 
 export const SESSION_COOKIE = "suraksha_session";
 
-export type Session = { id: string; name: string; role: Role; exp: number };
+export type Session = { id: string; name: string; role: Role; username?: string; exp: number };
 
 function secret(): string {
   return process.env.SURAKSHA_SECRET?.trim() || process.env.ADMIN_PASSWORD?.trim() || "suraksha-local-demo";
@@ -13,8 +13,8 @@ function sign(body: string): string {
   return createHmac("sha256", secret()).update(body).digest("base64url");
 }
 
-export function issueSession(user: { id: string; name: string; role: Role }): string {
-  const payload: Session = { id: user.id, name: user.name, role: user.role, exp: Date.now() + 12 * 60 * 60 * 1000 };
+export function issueSession(user: { id: string; name: string; role: Role; username?: string }): string {
+  const payload: Session = { id: user.id, name: user.name, role: user.role, username: user.username, exp: Date.now() + 12 * 60 * 60 * 1000 };
   const body = Buffer.from(JSON.stringify(payload)).toString("base64url");
   return `${body}.${sign(body)}`;
 }
@@ -45,7 +45,7 @@ export function sessionFromRequest(request: Request): Session | null {
 export function authenticate(username: string, password: string) {
   const user = DEMO_USERS.find((u) => u.username === username.trim().toLowerCase());
   if (!user || user.password !== password) return null;
-  return { id: user.id, name: user.name, role: user.role, home: homeFor(user.role) };
+  return { id: user.id, name: user.name, role: user.role, username: user.username, home: homeFor(user.role) };
 }
 
 export function cookieHeader(token: string): string {

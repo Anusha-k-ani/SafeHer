@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "diagram_type": "class",
+  "meta": {
+    "title": "Domain types used in the demonstration",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "output": ".archify/class-demo-20261101-142119/suraksha-class.html"
+  },
+  "layout": {
+    "mode": "grid"
+  },
+  "types": [
+    {
+      "id": "store",
+      "label": "Store",
+      "kind": "class",
+      "sublabel": "JSON file I/O",
+      "row": 0,
+      "col": 1,
+      "methods": [
+        {
+          "name": "createReport",
+          "parameters": "input",
+          "returns": "IncidentReport",
+          "visibility": "public"
+        },
+        {
+          "name": "createSos",
+          "parameters": "input",
+          "returns": "SosAlert",
+          "visibility": "public"
+        },
+        {
+          "name": "moveSos",
+          "parameters": "id, to",
+          "returns": "SosAlert",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "report",
+      "label": "IncidentReport",
+      "kind": "class",
+      "sublabel": "Citizen incident",
+      "row": 1,
+      "col": 0,
+      "attributes": [
+        {
+          "name": "id",
+          "type": "string",
+          "visibility": "public"
+        },
+        {
+          "name": "status",
+          "type": "ReportStatus",
+          "visibility": "public"
+        },
+        {
+          "name": "location",
+          "type": "LocationFix",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "sos",
+      "label": "SosAlert",
+      "kind": "class",
+      "sublabel": "In-app Risk Alert",
+      "row": 1,
+      "col": 1,
+      "attributes": [
+        {
+          "name": "id",
+          "type": "string",
+          "visibility": "public"
+        },
+        {
+          "name": "status",
+          "type": "SosStatus",
+          "visibility": "public"
+        },
+        {
+          "name": "simulated_dispatch",
+          "type": "true",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "location",
+      "label": "LocationFix",
+      "kind": "class",
+      "sublabel": "Never invents a street",
+      "row": 2,
+      "col": 1,
+      "attributes": [
+        {
+          "name": "latitude",
+          "type": "number | null",
+          "visibility": "public"
+        },
+        {
+          "name": "street_name",
+          "type": "string | null",
+          "visibility": "public"
+        },
+        {
+          "name": "geocode_status",
+          "type": "string",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "label": "DomainRules",
+      "kind": "class",
+      "sublabel": "Allowed transitions",
+      "row": 0,
+      "col": 0,
+      "methods": [
+        {
+          "name": "moveSos",
+          "parameters": "from, to",
+          "returns": "SosStatus",
+          "visibility": "public"
+        },
+        {
+          "name": "canReviewIncidents",
+          "parameters": "role",
+          "returns": "boolean",
+          "visibility": "public"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "store-report",
+      "from": "store",
+      "to": "report",
+      "kind": "dependency",
+      "label": "writes"
+    },
+    {
+      "id": "store-sos",
+      "from": "store",
+      "to": "sos",
+      "kind": "dependency",
+      "label": "writes"
+    },
+    {
+      "id": "report-loc",
+      "from": "report",
+      "to": "location",
+      "kind": "association",
+      "label": "has"
+    },
+    {
+      "id": "sos-loc",
+      "from": "sos",
+      "to": "location",
+      "kind": "association",
+      "label": "has"
+    },
+    {
+      "id": "store-rules",
+      "from": "store",
+      "to": "rules",
+      "kind": "dependency",
+      "label": "guards"
+    }
+  ]
+}

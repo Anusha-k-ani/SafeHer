@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node ./scripts/run-next.cjs dev --port 3000 --hostname 127.0.0.1",
     "build:data": "tsx scripts/convert-dataset.ts",
-    "build": "npm run build:data && next build",
-    "start": "next start",
+    "build": "npm run build:data && node ./scripts/run-next.cjs build",
+    "start": "node ./scripts/run-next.cjs start --port 3000",
     "lint": "eslint"
   },
   "dependencies": {

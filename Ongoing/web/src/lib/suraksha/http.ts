@@ -7,7 +7,9 @@ export function json(data: unknown, status = 200, headers?: HeadersInit) {
 
 export function fail(error: unknown, status = 400) {
   const message = error instanceof Error ? error.message : "Request failed";
-  const code = /not allowed|only a|cannot/i.test(message) ? 403 : status;
+  let code = status;
+  if (/sign in required/i.test(message)) code = 401;
+  else if (/not allowed|only a|cannot|public login/i.test(message)) code = 403;
   return json({ ok: false, error: message }, code);
 }
 
@@ -21,7 +23,7 @@ export function loginResponse(username: string, password: string) {
   const user = authenticate(username, password);
   if (!user) return json({ ok: false, error: "Unknown username or password." }, 401);
   const token = issueSession(user);
-  const res = json({ ok: true, role: user.role, name: user.name, home: user.home });
+  const res = json({ ok: true, role: user.role, name: user.name, username: user.username, home: user.home });
   res.headers.set("Set-Cookie", cookieHeader(token));
   return res;
 }

@@ -11,6 +11,7 @@ import {
   TopAreasChart,
 } from "@/components/dashboard/Charts";
 import type { AreaSummary, SummaryData } from "@/lib/types";
+import { pct } from "@/lib/data";
 import { DashboardMonitor } from "@/components/dashboard/MonitorPanel";
 
 function loadData() {

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "903b573d-f209-4483-8e98-fc6ce77f276a",
+  "status": "current",
+  "command": "deliver",
+  "type": "erd",
+  "input": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/erd-demo-20261101-142119/candidate.json",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/erd-demo-20261101-142119/suraksha-erd.html",
+  "specification": {
+    "sha256": "960f9c22b7bcea9f9814e7aff0c8e335be0354ada89d24cdcfa1494141fabde9",
+    "bytes": 5761
+  },
+  "artifact": {
+    "sha256": "976ffb7ce24be250ea2e748cfc6f6c83194652ae27406389abe241cba386dba0",
+    "bytes": 860380
+  }
+}

@@ -14,7 +14,6 @@ import {
 import { filterMapPoints, loadMapPoints, loadStreets } from "@/lib/data";
 import type { SafetyLevel, Street, StreetMapPoint } from "@/lib/types";
 import { getUniqueAreas } from "@/lib/data";
-import { loadReportsForMap } from "@/lib/reports";
 import { loadAnalysisHotspots, type AnalysisHotspot } from "@/lib/analysis";
 import { EMPTY_FILTERS, hotspotMatches, type AuthorityFilters } from "@/lib/authority-filters";
 import { AuthorityFilterBar } from "@/components/dashboard/AuthorityFilterBar";
@@ -62,8 +61,11 @@ export function StreetMapView() {
         setStreets(strs);
         setAreas(getUniqueAreas(strs));
       }),
-      loadReportsForMap(2000)
-        .then(setCommunityPoints)
+      fetch("/data/community-synthetic.json")
+        .then((res) => (res.ok ? res.json() : []))
+        .then((rows: CommunityMapPoint[]) =>
+          setCommunityPoints(rows.map((r) => ({ ...r, is_synthetic: true }))),
+        )
         .catch(() => setCommunityPoints([])),
       loadAnalysisHotspots()
         .then(setHotspots)

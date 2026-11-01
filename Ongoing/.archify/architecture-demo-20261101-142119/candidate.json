@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "SurakshaSetu demonstration architecture",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "output": ".archify/architecture-demo-20261101-142119/suraksha-architecture.html"
+  },
+  "components": [
+    {
+      "id": "citizen",
+      "type": "external",
+      "label": "Citizen",
+      "sublabel": "Browser",
+      "pos": [
+        40,
+        220
+      ],
+      "size": [
+        120,
+        60
+      ]
+    },
+    {
+      "id": "authority",
+      "type": "external",
+      "label": "Authority",
+      "sublabel": "Role workspace",
+      "pos": [
+        40,
+        400
+      ],
+      "size": [
+        120,
+        60
+      ]
+    },
+    {
+      "id": "next",
+      "type": "frontend",
+      "label": "Next.js app",
+      "sublabel": "127.0.0.1:3000",
+      "pos": [
+        250,
+        220
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "hmac",
+      "type": "security",
+      "label": "HMAC session",
+      "sublabel": "suraksha_session",
+      "pos": [
+        250,
+        60
+      ],
+      "size": [
+        150,
+        64
+      ],
+      "tag": "demo users"
+    },
+    {
+      "id": "nominatim",
+      "type": "external",
+      "label": "Nominatim",
+      "sublabel": "OSM reverse geocode",
+      "pos": [
+        500,
+        60
+      ],
+      "size": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "store",
+      "type": "database",
+      "label": "JSON store",
+      "sublabel": "suraksha-store.json",
+      "pos": [
+        500,
+        220
+      ],
+      "size": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "pipeline",
+      "type": "backend",
+      "label": "Module 1 pipeline",
+      "sublabel": "pipeline.py",
+      "pos": [
+        500,
+        400
+      ],
+      "size": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "analysis",
+      "type": "database",
+      "label": "Analysis files",
+      "sublabel": "hotspots.json",
+      "pos": [
+        760,
+        400
+      ],
+      "size": [
+        150,
+        64
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "Next.js process",
+      "wraps": [
+        "next",
+        "hmac"
+      ]
+    },
+    {
+      "kind": "region",
+      "label": "Local files",
+      "wraps": [
+        "store",
+        "pipeline",
+        "analysis"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "citizen-next",
+      "from": "citizen",
+      "to": "next",
+      "label": "HTTPS",
+      "variant": "emphasis"
+    },
+    {
+      "id": "authority-next",
+      "from": "authority",
+      "to": "next",
+      "label": "workspace"
+    },
+    {
+      "id": "next-hmac",
+      "from": "next",
+      "to": "hmac",
+      "label": "HMAC",
+      "variant": "security"
+    },
+    {
+      "id": "next-store",
+      "from": "next",
+      "to": "store",
+      "label": "JSON I/O"
+    },
+    {
+      "id": "next-nominatim",
+      "from": "next",
+      "to": "nominatim",
+      "label": "if GPS",
+      "variant": "dashed"
+    },
+    {
+      "id": "pipeline-store",
+      "from": "pipeline",
+      "to": "store",
+      "label": "ingest"
+    },
+    {
+      "id": "pipeline-analysis",
+      "from": "pipeline",
+      "to": "analysis",
+      "label": "0.01 grid"
+    },
+    {
+      "id": "next-analysis",
+      "from": "next",
+      "to": "analysis",
+      "label": "GET files"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Citizen path",
+      "items": [
+        "A signed-in citizen reports or sends a two-press Risk Alert.",
+        "The app writes the JSON store. It does not call 112."
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Analysis path",
+      "items": [
+        "Module 1 reads the store and Karnataka inputs.",
+        "Hotspots need at least 3 points in a ~1 km cell."
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Honesty limits",
+      "items": [
+        "Login is HMAC demo accounts, not OAuth.",
+        "Nominatim is used only when coordinates exist.",
+        "A place with no reports is not labelled safe."
+      ]
+    }
+  ]
+}

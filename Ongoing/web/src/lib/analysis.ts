@@ -56,14 +56,20 @@ export interface AnalysisAlert {
   patrol_hint: string;
 }
 
+export async function loadAnalysisSummary(): Promise<AnalysisSummary | null> {
+  const res = await fetch("/api/suraksha/analysis/summary", { cache: "no-store" });
+  if (!res.ok) return null;
+  return res.json();
+}
+
 export async function loadAnalysisHotspots(): Promise<AnalysisHotspot[]> {
-  const res = await fetch("/data/analysis/hotspots.json");
+  const res = await fetch("/api/suraksha/analysis/hotspots", { cache: "no-store" });
   if (!res.ok) return [];
   return res.json();
 }
 
 export async function loadAnalysisAlerts(): Promise<AnalysisAlert[]> {
-  const res = await fetch("/data/analysis/alerts.json");
+  const res = await fetch("/api/suraksha/analysis/alerts", { cache: "no-store" });
   if (!res.ok) return [];
   return res.json();
 }

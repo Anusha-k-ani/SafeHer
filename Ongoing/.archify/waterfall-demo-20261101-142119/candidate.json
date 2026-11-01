@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "diagram_type": "waterfall",
+  "meta": {
+    "title": "Risk Alert timing for demonstration",
+    "locale": "en",
+    "evidence": "illustrative",
+    "unit": "ms",
+    "quality_profile": "showcase",
+    "output": ".archify/waterfall-demo-20261101-142119/suraksha-waterfall.html"
+  },
+  "spans": [
+    {
+      "id": "request",
+      "name": "POST /api/suraksha/sos",
+      "service": "next",
+      "start": 0,
+      "end": 900,
+      "detail": "Illustrative parent span. Not measured on this machine."
+    },
+    {
+      "id": "auth",
+      "name": "Verify HMAC cookie",
+      "service": "auth",
+      "start": 0,
+      "duration": 20,
+      "parent": "request"
+    },
+    {
+      "id": "gps",
+      "name": "Read browser GPS",
+      "service": "browser",
+      "start": 20,
+      "duration": 400,
+      "parent": "request"
+    },
+    {
+      "id": "geo",
+      "name": "Nominatim reverse geocode",
+      "service": "nominatim",
+      "start": 420,
+      "duration": 380,
+      "parent": "request"
+    },
+    {
+      "id": "write",
+      "name": "Append sos row",
+      "service": "store",
+      "start": 800,
+      "duration": 100,
+      "parent": "request"
+    }
+  ]
+}

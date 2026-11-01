@@ -1,4 +1,4 @@
-import { getSupabase, isSupabaseConfigured } from "./supabase";
+import { isSupabaseConfigured } from "./supabase-config";
 import { getTimeOfDay } from "./areas";
 import type { IncidentType, ReportKind } from "./incidents";
 
@@ -215,7 +215,8 @@ export function aggregateReports(reports: SafetyReport[]): {
 async function loadLiveReports(limit = 5000): Promise<SafetyReport[]> {
   if (!isSupabaseConfigured()) return [];
   try {
-    const supabase = getSupabase();
+    const { getSupabase } = await import("./supabase");
+    const supabase = await getSupabase();
     const { data, error } = await supabase
       .from("reports")
       .select("*")
@@ -254,7 +255,8 @@ export async function loadAllReports(): Promise<SafetyReport[]> {
 
 export async function ensureAnonymousSession(): Promise<string | null> {
   if (!isSupabaseConfigured()) return null;
-  const supabase = getSupabase();
+  const { getSupabase } = await import("./supabase");
+  const supabase = await getSupabase();
   const { data: existing } = await supabase.auth.getSession();
   if (existing.session?.user?.id) return existing.session.user.id;
 
@@ -274,7 +276,8 @@ export async function submitReport(
   }
 
   const deviceId = input.device_id ?? getOrCreateDeviceId();
-  const supabase = getSupabase();
+  const { getSupabase } = await import("./supabase");
+  const supabase = await getSupabase();
 
   const { data: recentCount, error: rateError } = await supabase.rpc(
     "count_recent_device_reports",
@@ -363,7 +366,7 @@ export async function loadReportsForMap(limit = 2000): Promise<
     | "harassment_reported"
   >[]
 > {
-  const reports = await loadAllReports();
+  const reports = await loadSyntheticReports();
   return reports.slice(0, limit).map((r) => ({
     id: r.id,
     lat: r.lat,

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "diagram_type": "timeline",
+  "meta": {
+    "title": "Project clock for demonstration",
+    "locale": "en",
+    "evidence": "illustrative",
+    "timezone": "Asia/Kolkata",
+    "quality_profile": "showcase",
+    "output": ".archify/timeline-demo-20261101-142119/suraksha-timeline.html"
+  },
+  "lanes": [
+    {
+      "id": "docs",
+      "label": "Academic"
+    },
+    {
+      "id": "data",
+      "label": "Dataset"
+    },
+    {
+      "id": "app",
+      "label": "Application"
+    }
+  ],
+  "events": [
+    {
+      "id": "slides",
+      "at": "2026-10-06T12:00:00+05:30",
+      "title": "Interim slides",
+      "detail": "12-slide presentation files dated 6 Oct.",
+      "lane": "docs",
+      "kind": "change"
+    },
+    {
+      "id": "karnataka",
+      "at": "2026-10-13T22:50:00+05:30",
+      "title": "Karnataka workbooks",
+      "detail": "Street safety Excel files written 13 Oct.",
+      "lane": "data",
+      "kind": "change"
+    },
+    {
+      "id": "audit",
+      "at": "2026-10-16T19:39:00+05:30",
+      "title": "Project audit note",
+      "detail": "PROJECT_AUDIT_AND_ROADMAP.md dated 16 Oct.",
+      "lane": "docs",
+      "kind": "action"
+    },
+    {
+      "id": "redesign",
+      "at": "2026-11-01T04:00:00+05:30",
+      "title": "Product redesign",
+      "detail": "Citizen and authority split, Risk Alert dock, scene images.",
+      "lane": "app",
+      "kind": "change"
+    },
+    {
+      "id": "run",
+      "at": "2026-11-01T13:00:00+05:30",
+      "title": "Local app running",
+      "detail": "Next.js served on 127.0.0.1:3000 in Cursor.",
+      "lane": "app",
+      "kind": "recovery"
+    }
+  ]
+}

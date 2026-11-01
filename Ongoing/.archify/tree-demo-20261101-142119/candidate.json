@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "diagram_type": "tree",
+  "meta": {
+    "title": "Project folders for demonstration",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "output": ".archify/tree-demo-20261101-142119/suraksha-tree.html"
+  },
+  "layout": {
+    "direction": "right"
+  },
+  "nodes": [
+    {
+      "id": "root",
+      "label": "Ongoing",
+      "sublabel": "Working project"
+    },
+    {
+      "id": "m1",
+      "label": "Module1_Analysis",
+      "parent": "root",
+      "sublabel": "Anusha K"
+    },
+    {
+      "id": "web",
+      "label": "web",
+      "parent": "root",
+      "sublabel": "Next.js app"
+    },
+    {
+      "id": "data",
+      "label": "Dataset",
+      "parent": "root",
+      "sublabel": "Karnataka OSM"
+    },
+    {
+      "id": "m2",
+      "label": "Module2 stubs",
+      "parent": "root",
+      "sublabel": "App and dashboard"
+    },
+    {
+      "id": "pipe",
+      "label": "pipeline.py",
+      "parent": "m1"
+    },
+    {
+      "id": "intel",
+      "label": "intelligence.py",
+      "parent": "m1"
+    },
+    {
+      "id": "out",
+      "label": "output/",
+      "parent": "m1"
+    },
+    {
+      "id": "src",
+      "label": "src/app",
+      "parent": "web"
+    },
+    {
+      "id": "lib",
+      "label": "src/lib/suraksha",
+      "parent": "web"
+    },
+    {
+      "id": "storefile",
+      "label": "data/suraksha-store.json",
+      "parent": "web"
+    },
+    {
+      "id": "ka",
+      "label": "Karnataka/",
+      "parent": "data"
+    },
+    {
+      "id": "sw",
+      "label": "Karnataka_Streetwise/",
+      "parent": "data"
+    }
+  ]
+}

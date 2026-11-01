@@ -1,0 +1,25 @@
+{
+  "default": "grid",
+  "min_evidence": 3,
+  "why_grid": "Cells are explainable (~1 km), the three-point rule is public, and empty cells stay unlabelled. DBSCAN shapes are harder to defend in a viva. KDE can warm neighbouring empty cells, which this project forbids presenting as risk.",
+  "grid": {
+    "cell_degrees": 0.01,
+    "hotspot_cells": 72,
+    "occupied_cells": 173
+  },
+  "dbscan": {
+    "eps_degrees": 0.015,
+    "min_samples": 3,
+    "clusters": 45,
+    "noise_points": 2,
+    "published": false
+  },
+  "kde": {
+    "sigma_degrees": 0.01,
+    "threshold": "density equal to three coincident points at a cell centre",
+    "cells_above_threshold": 377,
+    "published": false,
+    "note": "Comparison only. Not a safety surface."
+  },
+  "decision": "Keep the 0.01\u00b0 grid and MIN_HOTSPOT=3 as the published method."
+}

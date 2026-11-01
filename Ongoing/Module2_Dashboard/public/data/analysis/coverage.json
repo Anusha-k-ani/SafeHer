@@ -1,0 +1,28 @@
+{
+  "eligible_incidents": 534,
+  "verified_operational": 0,
+  "provisional_store": 5,
+  "synthetic_approved": 1079,
+  "legacy_live_approved": 0,
+  "legacy_live_pending": 0,
+  "store_submitted": 5,
+  "store_under_review": 0,
+  "store_verified": 0,
+  "store_flagged": 0,
+  "missing_coordinates_in_raw": 0,
+  "missing_occurrence_times": 0,
+  "missing_occurred_at": 1079,
+  "created_at_fallback_times": 1079,
+  "district_match": {
+    "polygon": 1079
+  },
+  "districts_with_classified_rows": 30,
+  "districts_in_state": 30,
+  "geographic_coverage_note": "A district with no classified rows is uncovered, not safe.",
+  "last_successful_analysis": "2026-11-01T06:13:06.691637+00:00",
+  "sources": {
+    "synthetic_demo": "reports.json",
+    "operational": "suraksha-store.json verified rows",
+    "legacy_live": "live_reports.json only if already approved/verified"
+  }
+}

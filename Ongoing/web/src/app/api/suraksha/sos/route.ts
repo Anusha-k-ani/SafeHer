@@ -15,7 +15,7 @@ export async function POST(request: Request) {
     const user = requireUser(request);
     if (user.role !== "public" && user.role !== "admin") throw new Error("Public login is required for SOS.");
     const body = (await request.json()) as { lat?: number | null; lon?: number | null };
-    return json({ ok: true, alert: createSos(user.id, body.lat ?? null, body.lon ?? null) });
+    return json({ ok: true, alert: await createSos(user.id, body.lat ?? null, body.lon ?? null) });
   } catch (error) {
     return fail(error, 401);
   }

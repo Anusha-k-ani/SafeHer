@@ -19,7 +19,7 @@ import {
   type IncidentType,
 } from "@/lib/incidents";
 import { submitReport } from "@/lib/reports";
-import { isSupabaseConfigured as supabaseReady } from "@/lib/supabase";
+import { isSupabaseConfigured as supabaseReady } from "@/lib/supabase-config";
 
 type LocState =
   | { status: "idle" }

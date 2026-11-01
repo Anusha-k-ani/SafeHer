@@ -19,6 +19,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import shutil
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
@@ -34,6 +35,21 @@ DATASET = HERE.parent / "Dataset" / "Karnataka"
 
 REPORTS = INPUT / "reports.json"
 LIVE_REPORTS = INPUT / "live_reports.json"
+SURAKSHA_STORE = Path(os.environ.get("SURAKSHA_STORE") or (HERE.parent / "web" / "data" / "suraksha-store.json"))
+REFRESH_STATUS = OUTPUT / "refresh_status.json"
+REFRESH_LOCK = OUTPUT / "refresh.lock"
+
+CATEGORY_TO_TYPE = {
+    "Verbal harassment / eve-teasing": "eve_teasing",
+    "Stalking or being followed": "stalking",
+    "Unwanted touching / sexual harassment": "harassment",
+    "Threats or intimidation": "verbal_abuse",
+    "Physical assault": "other",
+    "Inappropriate gestures or behaviour": "unsafe_feeling",
+    "Attempted abduction": "other",
+    "Other incident": "other",
+    "Not sure": "unsafe_feeling",
+}
 OSM_DISTRICTS = (
     DATASET / "osm_districts.json"
     if (DATASET / "osm_districts.json").exists()
@@ -70,7 +86,7 @@ def _parse_dt(value: str | None) -> datetime | None:
 def _time_of_day(r: dict) -> str:
     if r.get("time_of_day"):
         return str(r["time_of_day"]).strip().lower()
-    dt = _parse_dt(r.get("created_at"))
+    dt = _parse_dt(r.get("occurred_at")) or _parse_dt(r.get("created_at"))
     if dt is None:
         return "unknown"
     h = dt.hour
@@ -90,8 +106,45 @@ def _load_json(path: Path, default):
     return default if data is None else data
 
 
+def _from_suraksha_store() -> list[dict]:
+    """Operational web reports. Only verified rows become hotspot inputs."""
+    pack = _load_json(SURAKSHA_STORE, {})
+    if not isinstance(pack, dict):
+        return []
+    out = []
+    for raw in pack.get("reports") or []:
+        loc = raw.get("location") or {}
+        verification = raw.get("status") or "submitted"
+        if verification == "verified":
+            status = "approved"
+        elif verification == "flagged":
+            status = "rejected"
+        else:
+            status = "pending"
+        out.append(
+            {
+                "id": raw.get("id"),
+                "lat": loc.get("latitude"),
+                "lon": loc.get("longitude"),
+                "district": loc.get("district"),
+                "area": loc.get("district"),
+                "created_at": raw.get("occurred_at") or raw.get("created_at"),
+                "occurred_at": raw.get("occurred_at"),
+                "incident_type": CATEGORY_TO_TYPE.get(raw.get("category") or "", "other"),
+                "status": status,
+                "verification_status": verification,
+                "is_synthetic": False,
+                "source": "suraksha-store",
+                "harassment_reported": (raw.get("category") or "")
+                not in {"Other incident", "Not sure", ""},
+                "is_safe": False,
+            }
+        )
+    return out
+
+
 def ingest() -> dict:
-    """6.1 Existing Excel/OSM + mobile-app incident dump → one dataset."""
+    """6.1 OSM districts + synthetic demo + live_reports + operational store."""
     rows: list[dict] = []
     demo = _load_json(REPORTS, [])
     if not isinstance(demo, list):
@@ -109,9 +162,17 @@ def ingest() -> dict:
     for r in live:
         r = dict(r)
         r["is_synthetic"] = False
-        r.setdefault("status", "approved")
         r["source"] = "live_reports.json"
+        raw = str(r.get("status") or r.get("verification_status") or "").strip().lower()
+        if raw in {"approved", "verified"}:
+            r["status"] = "approved"
+        elif raw in {"rejected", "flagged"}:
+            r["status"] = "rejected"
+        else:
+            r["status"] = "pending"
         rows.append(r)
+
+    rows.extend(_from_suraksha_store())
 
     approved = [
         r
@@ -134,6 +195,13 @@ def ingest() -> dict:
             "approved_with_coords": len(approved),
             "from_reports_json": sum(1 for r in approved if r.get("source") == "reports.json"),
             "from_live": sum(1 for r in approved if r.get("source") == "live_reports.json"),
+            "from_live_pending": sum(
+                1 for r in rows if r.get("source") == "live_reports.json" and r.get("status") != "approved"
+            ),
+            "from_store_verified": sum(1 for r in approved if r.get("source") == "suraksha-store"),
+            "from_store_pending": sum(
+                1 for r in rows if r.get("source") == "suraksha-store" and r.get("status") == "pending"
+            ),
             "osm_districts": len(osm),
             "crime_districts": len((crime or {}).get("districts") or {}),
         },
@@ -372,11 +440,12 @@ def area_stats(classified: list[dict], osm_areas: list[dict], hotspots: list[dic
                 "ksp_sexual_harassment_2023": osm_row.get("ksp_sexual_harassment_2023"),
                 "risk_level": (
                     "High"
-                    if hs_by.get(area, 0) >= 3 or inc_n >= 20 or osm_row.get("osm_risk_level") == "High"
+                    if hs_by.get(area, 0) >= 3 or inc_n >= 20
                     else "Medium"
-                    if hs_by.get(area, 0) >= 1 or inc_n >= 8 or osm_row.get("osm_risk_level") == "Medium"
+                    if hs_by.get(area, 0) >= 1 or inc_n >= 8
                     else "Low"
                 ),
+                "osm_infra_context_only": True,
             }
         )
     out.sort(key=lambda a: (-{"High": 3, "Medium": 2, "Low": 1}[a["risk_level"]], -a["incident_like_reports"]))
@@ -450,14 +519,58 @@ def _incident_view(classified: list[dict]) -> list[dict]:
         "is_synthetic",
         "source",
         "status",
+        "district_match",
         "nearest_street",
     )
     return [{k: r.get(k) for k in keep} for r in classified if r["incident_like"]]
 
 
+def _refresh_status(**kwargs) -> None:
+    cur = _load_json(REFRESH_STATUS, {})
+    if not isinstance(cur, dict):
+        cur = {}
+    cur.update(kwargs)
+    _write(REFRESH_STATUS, cur)
+
+
+def _lock_held() -> bool:
+    if not REFRESH_LOCK.exists():
+        return False
+    try:
+        os.kill(int(REFRESH_LOCK.read_text(encoding="utf-8").strip()), 0)
+        return True
+    except (ValueError, OSError):
+        return False
+
+
+def _acquire_lock() -> bool:
+    if REFRESH_LOCK.exists():
+        try:
+            pid = int(REFRESH_LOCK.read_text(encoding="utf-8").strip())
+            if pid == os.getpid():
+                return True
+            os.kill(pid, 0)
+            return False
+        except (ValueError, OSError):
+            pass
+    OUTPUT.mkdir(parents=True, exist_ok=True)
+    REFRESH_LOCK.write_text(str(os.getpid()), encoding="utf-8")
+    return True
+
+
+def _release_lock() -> None:
+    try:
+        if REFRESH_LOCK.exists() and REFRESH_LOCK.read_text(encoding="utf-8").strip() == str(os.getpid()):
+            REFRESH_LOCK.unlink()
+    except OSError:
+        return
+
+
 def _write(path: Path, obj) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, indent=2), encoding="utf-8")
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(obj, indent=2), encoding="utf-8")
+    tmp.replace(path)
 
 
 def _write_csv(path: Path, rows: list[dict], fieldnames: list[str]) -> None:
@@ -620,14 +733,26 @@ def attach_nearest_streets(hotspots: list[dict], classified: list[dict], matches
             r["nearest_street"] = _street_slim(m)
 
 
-def filter_region(items: list[dict], district: str | None = None, risk: str | None = None) -> list[dict]:
+def filter_region(
+    items: list[dict],
+    district: str | None = None,
+    risk: str | None = None,
+    evolution: str | None = None,
+    evidence: str | None = None,
+) -> list[dict]:
     out = items
     if district:
         d = district.strip().lower()
         out = [x for x in out if str(x.get("district") or x.get("area") or "").lower() == d]
     if risk:
         r = risk.strip().lower()
-        out = [x for x in out if str(x.get("risk_level") or "").lower() == r]
+        out = [x for x in out if str(x.get("risk_level") or x.get("incident_concern") or "").lower() == r]
+    if evolution:
+        e = evolution.strip().lower()
+        out = [x for x in out if str(x.get("evolution_class") or "").lower() == e]
+    if evidence:
+        ev = evidence.strip().lower()
+        out = [x for x in out if str(x.get("evidence_category") or "").lower() == ev]
     return out
 
 
@@ -651,6 +776,29 @@ def _self_check(hotspots: list[dict], alerts: list[dict], classified: list[dict]
 
 
 def run(*, write_dashboard: bool = True) -> dict:
+    if not _acquire_lock():
+        raise RuntimeError("Module 1 analysis is already running.")
+    _refresh_status(
+        state="running",
+        started_at=datetime.now(timezone.utc).isoformat(),
+        pid=os.getpid(),
+        error=None,
+    )
+    try:
+        return _execute(write_dashboard=write_dashboard)
+    except Exception as exc:
+        _refresh_status(
+            state="failed",
+            finished_at=datetime.now(timezone.utc).isoformat(),
+            error=str(exc)[:400],
+            pid=None,
+        )
+        raise
+    finally:
+        _release_lock()
+
+
+def _execute(*, write_dashboard: bool = True) -> dict:
     log = {"started_at": datetime.now(timezone.utc).isoformat(), "steps": []}
 
     packed = ingest()
@@ -662,6 +810,9 @@ def run(*, write_dashboard: bool = True) -> dict:
     )
 
     classified = classify(pre["rows"])
+    import intelligence
+
+    classified = intelligence.apply_districts(classified)
     incidents = [r for r in classified if r["incident_like"]]
     stats = incident_breakdown(classified)
     log["steps"].append(
@@ -675,6 +826,8 @@ def run(*, write_dashboard: bool = True) -> dict:
     )
 
     hotspots = cluster_hotspots(classified)
+    temporal = intelligence.temporal_analysis(classified)
+    method_compare = intelligence.compare_methods(classified)
     geo = geospatial_analysis(classified, packed["osm_areas"], hotspots)
     street_info = {}
     try:
@@ -703,6 +856,7 @@ def run(*, write_dashboard: bool = True) -> dict:
     except Exception as e:
         geo["street_wise"] = {"error": str(e)}
         print("streetwise skipped:", e)
+    hotspots = intelligence.enrich_hotspots(hotspots, classified)
     log["steps"].append(
         {
             "step": "6.4",
@@ -719,6 +873,7 @@ def run(*, write_dashboard: bool = True) -> dict:
             "grid_degrees": GRID,
             "hotspot_count": len(hotspots),
             "recurring": sum(1 for h in hotspots if h.get("recurrence")),
+            "evolution": dict(Counter(h.get("evolution_class") for h in hotspots)),
         }
     )
 
@@ -744,7 +899,7 @@ def run(*, write_dashboard: bool = True) -> dict:
         "min_reports_per_hotspot": MIN_HOTSPOT,
         "coverage": "Karnataka — 30 districts",
         "honesty": {
-            "reports": "App-schema community reports for Karnataka districts (synthetic demo unless live_reports.json has rows).",
+            "reports": "Hotspots use approved/verified rows with coordinates. reports.json is labelled synthetic demo. suraksha-store verified rows are operational. Unverified store rows are not clustered. live_reports.json is a legacy dump and is not auto-approved.",
             "hotspots": "Spatial concentration of unsafe/incident-like reports on a ~1 km grid. Not crime prediction.",
             "osm": "Real Karnataka OSM streets (Overpass extract): 9-factor infrastructure proxy per street (lighting, CCTV, police, hospital, bus, road, crowd/night/commercial proxies). Not a crime rate.",
             "crime_overlay": crime.get("note")
@@ -765,7 +920,18 @@ def run(*, write_dashboard: bool = True) -> dict:
             "as_of": packed["osm_meta"].get("as_of"),
         },
         "street_wise": street_info.get("street_stats") if isinstance(street_info, dict) else None,
+        "evolution": dict(Counter(h.get("evolution_class") for h in hotspots)),
+        "temporal_span_days": temporal.get("span_days"),
+        "method": method_compare.get("default"),
     }
+
+    coverage = intelligence.coverage(
+        pre["rows"],
+        classified,
+        packed["counts"],
+        _load_json(SURAKSHA_STORE, {}),
+        summary["generated_at"],
+    )
 
     OUTPUT.mkdir(parents=True, exist_ok=True)
     incident_view = _incident_view(classified)
@@ -774,6 +940,9 @@ def run(*, write_dashboard: bool = True) -> dict:
     _write(OUTPUT / "alerts.json", alerts)
     _write(OUTPUT / "areas.json", areas)
     _write(OUTPUT / "geography.json", geo)
+    _write(OUTPUT / "temporal.json", temporal)
+    _write(OUTPUT / "coverage.json", coverage)
+    _write(OUTPUT / "method_compare.json", method_compare)
     _write(OUTPUT / "summary.json", summary)
 
     csv_dir = OUTPUT / "csv"
@@ -856,6 +1025,9 @@ def run(*, write_dashboard: bool = True) -> dict:
                 "street_stats.json",
                 "street_matches.json",
                 "cameras.json",
+                "temporal.json",
+                "coverage.json",
+                "method_compare.json",
                 "maps",
                 "charts",
                 "csv",
@@ -867,6 +1039,14 @@ def run(*, write_dashboard: bool = True) -> dict:
     _write(OUTPUT / "pipeline_log.json", log)
 
     _self_check(hotspots, alerts, classified, geo)
+    _refresh_status(
+        state="completed",
+        finished_at=datetime.now(timezone.utc).isoformat(),
+        last_success_at=summary.get("generated_at"),
+        generated_at=summary.get("generated_at"),
+        error=None,
+        pid=None,
+    )
     return summary
 
 

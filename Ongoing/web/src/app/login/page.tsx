@@ -4,9 +4,11 @@ import { FormEvent, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Logo } from "@/components/brand/Logo";
 import { Suspense } from "react";
+import { useSession } from "@/lib/suraksha/session-context";
 
 function LoginForm() {
   const router = useRouter();
+  const { refresh } = useSession();
   const params = useSearchParams();
   const [kind, setKind] = useState<"user" | "authority">(params.get("kind") === "authority" ? "authority" : "user");
   const [username, setUsername] = useState(kind === "user" ? "citizen" : "supervisor");
@@ -36,6 +38,7 @@ function LoginForm() {
       await fetch("/api/suraksha/session", { method: "DELETE" });
       return;
     }
+    await refresh();
     router.push(data.home || "/");
     router.refresh();
   }
@@ -44,7 +47,7 @@ function LoginForm() {
     <main className="mx-auto flex min-h-full max-w-lg flex-col justify-center px-4 py-12">
       <Logo />
       <p className="mt-6 text-sm text-[#64748B]">
-        Incident Analysis and Hotspot Identification for Security Provision against Women Harassment in Public Spaces
+        SurakshaSetu — Safe Spaces. Stronger Communities.
       </p>
       <div className="mt-6 grid grid-cols-2 gap-2 rounded-xl bg-white p-1">
         {(["user", "authority"] as const).map((item) => (

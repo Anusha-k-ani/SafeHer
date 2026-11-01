@@ -114,8 +114,8 @@
   {
     "alert_id": "AL_HS_13.160_77.640",
     "hotspot_id": "HS_13.160_77.640",
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "risk_level": "High",
     "report_count": 9,
     "recurrence": true,
@@ -123,7 +123,7 @@
     "longitude": 77.64,
     "reason": "High-risk concentration",
     "last_seen": "2026-07-24T17:02:00+00:00",
-    "patrol_hint": "Prioritise Bengaluru Rural near 13.1600, 77.6400"
+    "patrol_hint": "Prioritise Bengaluru Urban near 13.1600, 77.6400"
   },
   {
     "alert_id": "AL_HS_12.900_77.610",

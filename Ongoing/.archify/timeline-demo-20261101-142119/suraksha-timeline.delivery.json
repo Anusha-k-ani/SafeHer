@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "3fc8802f-a8ab-4816-9fc4-557cb27b94aa",
+  "status": "current",
+  "command": "deliver",
+  "type": "timeline",
+  "input": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/timeline-demo-20261101-142119/candidate.json",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/timeline-demo-20261101-142119/suraksha-timeline.html",
+  "specification": {
+    "sha256": "801acf853289d1325a43d7032cd41fe98e6f762340bd7a0b92674d0864585fe4",
+    "bytes": 1641
+  },
+  "artifact": {
+    "sha256": "b9d45bafad512b11364269530e6f097dbb5783fa4b570c67d1ee0818385a8057",
+    "bytes": 833613
+  }
+}

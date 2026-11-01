@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "4cbb86ed-d9eb-418d-a804-620acf4857a5",
+  "status": "current",
+  "command": "deliver",
+  "type": "lifecycle",
+  "input": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/lifecycle-demo-20261101-142119/candidate.json",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/lifecycle-demo-20261101-142119/suraksha-lifecycle.html",
+  "specification": {
+    "sha256": "aea80cab2bdc17b0ee905c417a4a4947afa2d2e1ad81c13c28a8ca3fe064efa8",
+    "bytes": 1899
+  },
+  "artifact": {
+    "sha256": "76b5e7682632df76ef1776f9dfb7d0551be42d3a132b97615acb65455b57d787",
+    "bytes": 829517
+  }
+}

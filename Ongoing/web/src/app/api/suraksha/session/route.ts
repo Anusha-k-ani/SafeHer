@@ -4,7 +4,15 @@ import { fail, json, loginResponse } from "@/lib/suraksha/http";
 export async function GET(request: Request) {
   const session = sessionFromRequest(request);
   if (!session) return json({ ok: false, user: null }, 401);
-  return json({ ok: true, user: { id: session.id, name: session.name, role: session.role } });
+  return json({
+    ok: true,
+    user: {
+      id: session.id,
+      name: session.name,
+      role: session.role,
+      username: session.username || session.name,
+    },
+  });
 }
 
 export async function POST(request: Request) {

@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "diagram_type": "erd",
+  "meta": {
+    "title": "JSON store used in the demonstration",
+    "locale": "en",
+    "quality_profile": "standard",
+    "output": ".archify/erd-demo-20261101-142119/suraksha-erd.html"
+  },
+  "layout": {
+    "mode": "grid",
+    "gapY": 38,
+    "gapX": 72
+  },
+  "entities": [
+    {
+      "id": "report",
+      "label": "reports",
+      "tag": "citizen",
+      "row": 0,
+      "col": 0,
+      "attributes": [
+        {
+          "name": "id",
+          "type": "text",
+          "key": "pk"
+        },
+        {
+          "name": "owner_id",
+          "type": "text"
+        },
+        {
+          "name": "category",
+          "type": "text"
+        },
+        {
+          "name": "status",
+          "type": "text"
+        },
+        {
+          "name": "occurred_at",
+          "type": "timestamptz"
+        },
+        {
+          "name": "location",
+          "type": "json"
+        },
+        {
+          "name": "simulated",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "id": "sos",
+      "label": "sos",
+      "tag": "citizen",
+      "row": 1,
+      "col": 0,
+      "attributes": [
+        {
+          "name": "id",
+          "type": "text",
+          "key": "pk"
+        },
+        {
+          "name": "owner_id",
+          "type": "text"
+        },
+        {
+          "name": "status",
+          "type": "text"
+        },
+        {
+          "name": "location",
+          "type": "json"
+        },
+        {
+          "name": "assigned_unit_id",
+          "type": "text",
+          "key": "fk",
+          "references": "unit.id"
+        },
+        {
+          "name": "simulated_dispatch",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "id": "light",
+      "label": "lights",
+      "tag": "infra",
+      "row": 0,
+      "col": 1,
+      "attributes": [
+        {
+          "name": "id",
+          "type": "text",
+          "key": "pk"
+        },
+        {
+          "name": "owner_id",
+          "type": "text"
+        },
+        {
+          "name": "fault",
+          "type": "text"
+        },
+        {
+          "name": "status",
+          "type": "text"
+        },
+        {
+          "name": "location",
+          "type": "json"
+        },
+        {
+          "name": "simulated_referral",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "id": "unit",
+      "label": "units",
+      "tag": "patrol",
+      "row": 0,
+      "col": 2,
+      "attributes": [
+        {
+          "name": "id",
+          "type": "text",
+          "key": "pk"
+        },
+        {
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "name": "district",
+          "type": "text"
+        },
+        {
+          "name": "member_user_id",
+          "type": "text"
+        },
+        {
+          "name": "availability",
+          "type": "text"
+        },
+        {
+          "name": "simulated",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "id": "task",
+      "label": "tasks",
+      "tag": "patrol",
+      "row": 1,
+      "col": 2,
+      "width": 260,
+      "attributes": [
+        {
+          "name": "id",
+          "type": "text",
+          "key": "pk"
+        },
+        {
+          "name": "status",
+          "type": "text"
+        },
+        {
+          "name": "unit_id",
+          "type": "text",
+          "key": "fk",
+          "references": "unit.id"
+        },
+        {
+          "name": "sos_id",
+          "type": "text",
+          "key": "fk",
+          "references": "sos.id"
+        },
+        {
+          "name": "report_id",
+          "type": "text",
+          "key": "fk",
+          "references": "report.id"
+        },
+        {
+          "name": "instruction",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "notice",
+      "label": "notices",
+      "tag": "inbox",
+      "row": 1,
+      "col": 1,
+      "attributes": [
+        {
+          "name": "id",
+          "type": "text",
+          "key": "pk"
+        },
+        {
+          "name": "user_id",
+          "type": "text"
+        },
+        {
+          "name": "title",
+          "type": "text"
+        },
+        {
+          "name": "body",
+          "type": "text"
+        },
+        {
+          "name": "delivery",
+          "type": "text"
+        },
+        {
+          "name": "read",
+          "type": "boolean"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "sos_unit",
+      "from": "sos",
+      "to": "unit",
+      "label": "suggested unit",
+      "fromCardinality": "many",
+      "fromOptional": true,
+      "toCardinality": "one",
+      "identifying": false
+    },
+    {
+      "id": "task_unit",
+      "from": "task",
+      "to": "unit",
+      "label": "assigned to",
+      "fromCardinality": "many",
+      "fromOptional": true,
+      "toCardinality": "one"
+    },
+    {
+      "id": "task_sos",
+      "from": "task",
+      "to": "sos",
+      "label": "from alert",
+      "fromCardinality": "many",
+      "fromOptional": true,
+      "toCardinality": "one",
+      "identifying": false
+    },
+    {
+      "id": "task_report",
+      "from": "task",
+      "to": "report",
+      "label": "from report",
+      "fromCardinality": "many",
+      "fromOptional": true,
+      "toCardinality": "one",
+      "identifying": false
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "File, not SQL",
+      "items": [
+        "These collections live in one JSON file, not a database server.",
+        "location is a nested object, not a separate table."
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "Simulated fields",
+      "items": [
+        "sos.simulated_dispatch and lights.simulated_referral stay true.",
+        "notices.delivery is in-app only."
+      ]
+    }
+  ]
+}

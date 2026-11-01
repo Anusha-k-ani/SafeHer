@@ -1,0 +1,87 @@
+{
+  "schema_version": 3,
+  "diagram_type": "lifecycle",
+  "meta": {
+    "title": "Incident status for demonstration",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "output": ".archify/lifecycle-demo-20261101-142119/suraksha-lifecycle.html"
+  },
+  "mainPath": [
+    "submitted",
+    "under_review",
+    "verified"
+  ],
+  "states": [
+    {
+      "id": "submitted",
+      "type": "start",
+      "label": "Submitted",
+      "sublabel": "citizen saved it",
+      "tag": "private",
+      "step": "01"
+    },
+    {
+      "id": "under_review",
+      "type": "decision",
+      "label": "Under review",
+      "sublabel": "reviewer queue",
+      "tag": "gate",
+      "step": "02"
+    },
+    {
+      "id": "verified",
+      "type": "success",
+      "label": "Verified",
+      "sublabel": "can enter analysis",
+      "tag": "live",
+      "step": "03"
+    },
+    {
+      "id": "flagged",
+      "type": "failure",
+      "label": "Flagged",
+      "sublabel": "held out of maps",
+      "tag": "terminal"
+    }
+  ],
+  "transitions": [
+    {
+      "id": "submit-review",
+      "from": "submitted",
+      "to": "under_review",
+      "label": "open review"
+    },
+    {
+      "id": "review-verified",
+      "from": "under_review",
+      "to": "verified",
+      "label": "accept"
+    },
+    {
+      "id": "review-flagged",
+      "from": "under_review",
+      "to": "flagged",
+      "label": "flag",
+      "variant": "security"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Citizen record",
+      "items": [
+        "A new report starts as submitted and stays on the owner account.",
+        "Other citizens cannot read that private row."
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Map rule",
+      "items": [
+        "Verified is the only status that may feed live map analysis.",
+        "Until then the public map keeps labelled demonstration data."
+      ]
+    }
+  ]
+}

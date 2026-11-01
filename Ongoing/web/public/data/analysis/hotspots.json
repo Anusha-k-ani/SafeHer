@@ -31,7 +31,21 @@
     "recurrence": true,
     "recurrence_unique_days": 16,
     "recurrence_span_days": 63,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 18,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 18 approved points (18 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "emerging",
+    "evolution_explanation": "At least 3 approved points in the last 14 days and fewer than 3 in the previous 14 days.",
+    "recent_count": 4,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_16.140_74.700",
@@ -85,7 +99,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 255.4,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 12,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 12 approved points (12 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 11 distinct days over 57 days.",
+    "recent_count": 1,
+    "prior_count": 2,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.090_78.230",
@@ -139,7 +167,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 330.0,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 12,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 12 approved points (12 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 11 distinct days over 66 days.",
+    "recent_count": 2,
+    "prior_count": 4,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.960_76.100",
@@ -192,7 +234,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 220.7,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 11,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 11 approved points (11 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 10 distinct days over 60 days.",
+    "recent_count": 2,
+    "prior_count": 3,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_16.040_76.860",
@@ -225,7 +281,21 @@
     "recurrence": true,
     "recurrence_unique_days": 10,
     "recurrence_span_days": 62,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 11,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 11 approved points (11 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "emerging",
+    "evolution_explanation": "At least 3 approved points in the last 14 days and fewer than 3 in the previous 14 days.",
+    "recent_count": 4,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.590_77.050",
@@ -259,7 +329,21 @@
     "recurrence": true,
     "recurrence_unique_days": 11,
     "recurrence_span_days": 57,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 11,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 11 approved points (11 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 11 distinct days over 57 days.",
+    "recent_count": 2,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_14.400_75.950",
@@ -313,7 +397,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 158.4,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 10,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 10 approved points (10 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 10 distinct days over 60 days.",
+    "recent_count": 2,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.590_76.850",
@@ -367,7 +465,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 102.4,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 10,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 10 approved points (10 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 10 distinct days over 66 days.",
+    "recent_count": 1,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.160_77.640",
@@ -377,11 +489,11 @@
     "frequency": 9,
     "harassment_count": 2,
     "risk_level": "High",
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "areas": [
       {
-        "area": "Bengaluru Rural",
+        "area": "Bengaluru Urban",
         "count": 9
       }
     ],
@@ -401,7 +513,21 @@
     "recurrence": true,
     "recurrence_unique_days": 7,
     "recurrence_span_days": 51,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 9,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 9 approved points (9 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "declining_observed",
+    "evolution_explanation": "Recent count 0 is under half of the prior-window count 5. This is fewer reports, not proof the place is safer.",
+    "recent_count": 0,
+    "prior_count": 5,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.900_77.610",
@@ -455,7 +581,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 61.9,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 9,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 9 approved points (9 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 9 distinct days over 54 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Moderate",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_16.820_75.940",
@@ -489,7 +629,21 @@
     "recurrence": true,
     "recurrence_unique_days": 9,
     "recurrence_span_days": 53,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 9,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 9 approved points (9 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 9 distinct days over 53 days.",
+    "recent_count": 1,
+    "prior_count": 2,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_16.180_75.640",
@@ -542,7 +696,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 6.3,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 8,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 8 approved points (8 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 8 distinct days over 66 days.",
+    "recent_count": 1,
+    "prior_count": 2,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_11.960_77.030",
@@ -595,7 +763,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 65.7,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 8,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 8 approved points (8 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 8 distinct days over 51 days.",
+    "recent_count": 2,
+    "prior_count": 2,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_17.970_77.190",
@@ -629,7 +811,21 @@
     "recurrence": true,
     "recurrence_unique_days": 7,
     "recurrence_span_days": 62,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 7,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 7 approved points (7 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 7 distinct days over 62 days.",
+    "recent_count": 1,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.420_75.680",
@@ -683,7 +879,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 401.1,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 7,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 7 approved points (7 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 7 distinct days over 63 days.",
+    "recent_count": 1,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.230_76.540",
@@ -716,7 +926,21 @@
     "recurrence": true,
     "recurrence_unique_days": 7,
     "recurrence_span_days": 62,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 7,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 7 approved points (7 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 7 distinct days over 62 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.510_74.800",
@@ -769,7 +993,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 133.7,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 7,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 7 approved points (7 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 7 distinct days over 64 days.",
+    "recent_count": 2,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.920_75.120",
@@ -822,7 +1060,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 187.5,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 6,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 6 approved points (6 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 6 distinct days over 66 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_15.360_75.150",
@@ -875,7 +1127,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 27.5,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 6,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 6 approved points (6 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 6 distinct days over 50 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Moderate",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.060_78.200",
@@ -928,7 +1194,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 394.8,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 6,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 6 approved points (6 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 5 distinct days over 10 days.",
+    "recent_count": 0,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_15.650_76.150",
@@ -961,7 +1241,21 @@
     "recurrence": true,
     "recurrence_unique_days": 6,
     "recurrence_span_days": 55,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 6,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 6 approved points (6 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 6 distinct days over 55 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.710_77.310",
@@ -994,7 +1288,21 @@
     "recurrence": true,
     "recurrence_unique_days": 6,
     "recurrence_span_days": 33,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 6,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 6 approved points (6 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "declining_observed",
+    "evolution_explanation": "Recent count 1 is under half of the prior-window count 3. This is fewer reports, not proof the place is safer.",
+    "recent_count": 1,
+    "prior_count": 3,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.410_75.710",
@@ -1026,7 +1334,21 @@
     "recurrence": true,
     "recurrence_unique_days": 5,
     "recurrence_span_days": 48,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 5,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 5 approved points (5 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "declining_observed",
+    "evolution_explanation": "Recent count 1 is under half of the prior-window count 3. This is fewer reports, not proof the place is safer.",
+    "recent_count": 1,
+    "prior_count": 3,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_15.490_75.650",
@@ -1060,7 +1382,21 @@
     "recurrence": true,
     "recurrence_unique_days": 5,
     "recurrence_span_days": 45,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 5,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 5 approved points (5 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 5 distinct days over 45 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_15.520_75.640",
@@ -1094,7 +1430,21 @@
     "recurrence": true,
     "recurrence_unique_days": 5,
     "recurrence_span_days": 44,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 5,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 5 approved points (5 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 5 distinct days over 44 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.960_76.090",
@@ -1146,7 +1496,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 185.5,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 5,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 5 approved points (5 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 5 distinct days over 38 days.",
+    "recent_count": 0,
+    "prior_count": 2,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_14.700_75.420",
@@ -1199,7 +1563,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 264.0,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 5,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 5 approved points (5 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 5 distinct days over 31 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Moderate",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.240_76.540",
@@ -1232,7 +1610,21 @@
     "recurrence": true,
     "recurrence_unique_days": 5,
     "recurrence_span_days": 67,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 5,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 5 approved points (5 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 5 distinct days over 67 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.480_74.790",
@@ -1285,7 +1677,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 253.4,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 5,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 5 approved points (5 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 5 distinct days over 61 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_14.650_74.470",
@@ -1339,7 +1745,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 335.8,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 5,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 5 approved points (5 labelled demo, 0 operational). Incident concern High. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 44 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "High",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.100_78.230",
@@ -1392,7 +1812,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 240.8,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 7,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 7 approved points (7 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 7 distinct days over 59 days.",
+    "recent_count": 1,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.710_77.320",
@@ -1445,7 +1879,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 285.9,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 7,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 7 approved points (7 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 6 distinct days over 56 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_14.070_75.230",
@@ -1479,7 +1927,21 @@
     "recurrence": true,
     "recurrence_unique_days": 6,
     "recurrence_span_days": 62,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 7,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 7 approved points (7 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 6 distinct days over 62 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_15.080_76.480",
@@ -1512,7 +1974,21 @@
     "recurrence": true,
     "recurrence_unique_days": 6,
     "recurrence_span_days": 62,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 6,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 6 approved points (6 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 6 distinct days over 62 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.900_77.600",
@@ -1566,7 +2042,21 @@
       "bus_stop_count": 7.0,
       "distance_m": 39.0,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 5,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 5 approved points (5 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 5 distinct days over 33 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Moderate",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_16.050_76.860",
@@ -1599,7 +2089,21 @@
     "recurrence": true,
     "recurrence_unique_days": 5,
     "recurrence_span_days": 50,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 5,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 5 approved points (5 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 5 distinct days over 50 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_16.140_74.710",
@@ -1632,7 +2136,21 @@
     "recurrence": true,
     "recurrence_unique_days": 4,
     "recurrence_span_days": 43,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 43 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_16.180_74.730",
@@ -1665,7 +2183,21 @@
     "recurrence": true,
     "recurrence_unique_days": 4,
     "recurrence_span_days": 38,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 38 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.910_77.590",
@@ -1718,7 +2250,21 @@
       "bus_stop_count": 5.0,
       "distance_m": 23.3,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 18 days.",
+    "recent_count": 0,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Moderate",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_17.940_77.200",
@@ -1752,7 +2298,21 @@
     "recurrence": true,
     "recurrence_unique_days": 4,
     "recurrence_span_days": 60,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 60 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_11.970_77.040",
@@ -1805,7 +2365,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 439.5,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 29 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.420_75.670",
@@ -1857,7 +2431,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 270.9,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 27 days.",
+    "recent_count": 0,
+    "prior_count": 2,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.950_76.080",
@@ -1909,7 +2497,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 342.4,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 56 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.540_76.850",
@@ -1961,7 +2563,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 186.4,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 25 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.580_76.850",
@@ -2014,7 +2630,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 421.8,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 59 days.",
+    "recent_count": 1,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.590_77.040",
@@ -2048,7 +2678,21 @@
     "recurrence": true,
     "recurrence_unique_days": 4,
     "recurrence_span_days": 53,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 53 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.480_74.800",
@@ -2100,7 +2744,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 220.4,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 34 days.",
+    "recent_count": 2,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_16.810_75.930",
@@ -2153,7 +2811,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 424.8,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 19 days.",
+    "recent_count": 0,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_16.810_75.940",
@@ -2205,7 +2877,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 163.2,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 4,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 4 approved points (4 labelled demo, 0 operational). Incident concern Medium. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 4 distinct days over 31 days.",
+    "recent_count": 0,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Medium",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_16.170_75.640",
@@ -2256,7 +2942,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 58.4,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 2 distinct days over 16 days.",
+    "recent_count": 0,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.150_77.660",
@@ -2266,11 +2966,11 @@
     "frequency": 3,
     "harassment_count": 1,
     "risk_level": "Low",
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
     "areas": [
       {
-        "area": "Bengaluru Rural",
+        "area": "Bengaluru Urban",
         "count": 3
       }
     ],
@@ -2288,7 +2988,21 @@
     "recurrence": true,
     "recurrence_unique_days": 3,
     "recurrence_span_days": 22,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 22 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.910_77.610",
@@ -2340,7 +3054,21 @@
       "bus_stop_count": 4.0,
       "distance_m": 24.4,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 37 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Safe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.910_77.580",
@@ -2392,7 +3120,21 @@
       "bus_stop_count": 4.0,
       "distance_m": 32.8,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 48 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Moderate",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_17.970_77.200",
@@ -2445,7 +3187,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 428.0,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "emerging",
+    "evolution_explanation": "At least 3 approved points in the last 14 days and fewer than 3 in the previous 14 days.",
+    "recent_count": 3,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.580_77.770",
@@ -2497,7 +3253,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 390.5,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 45 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.600_77.780",
@@ -2549,7 +3319,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 250.9,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 25 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.600_77.790",
@@ -2602,7 +3386,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 291.2,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 40 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.880_75.150",
@@ -2632,7 +3430,21 @@
     "recurrence": true,
     "recurrence_unique_days": 3,
     "recurrence_span_days": 52,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 52 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_14.400_75.960",
@@ -2685,7 +3497,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 235.5,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 21 days.",
+    "recent_count": 0,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_14.390_75.960",
@@ -2718,7 +3544,21 @@
     "recurrence": true,
     "recurrence_unique_days": 3,
     "recurrence_span_days": 33,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 33 days.",
+    "recent_count": 1,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_15.370_75.130",
@@ -2770,7 +3610,21 @@
       "bus_stop_count": 1.0,
       "distance_m": 38.7,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 46 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Moderate",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_15.530_75.650",
@@ -2801,7 +3655,21 @@
     "recurrence": true,
     "recurrence_unique_days": 3,
     "recurrence_span_days": 41,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 41 days.",
+    "recent_count": 1,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.950_76.090",
@@ -2853,7 +3721,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 211.6,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 70 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_17.300_76.850",
@@ -2904,7 +3786,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 146.4,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 64 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.390_75.810",
@@ -2956,7 +3852,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 163.0,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 19 days.",
+    "recent_count": 1,
+    "prior_count": 2,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.060_78.190",
@@ -3009,7 +3919,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 241.1,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 59 days.",
+    "recent_count": 1,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.540_76.840",
@@ -3062,7 +3986,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 311.2,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 46 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.260_76.580",
@@ -3115,7 +4053,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 54.8,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 23 days.",
+    "recent_count": 0,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Unsafe",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_12.740_77.290",
@@ -3167,7 +4119,21 @@
       "bus_stop_count": 0.0,
       "distance_m": 267.6,
       "data_source": "OpenStreetMap via Overpass"
-    }
+    },
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 41 days.",
+    "recent_count": 1,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": "Moderate",
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_14.060_75.230",
@@ -3197,7 +4163,21 @@
     "recurrence": true,
     "recurrence_unique_days": 3,
     "recurrence_span_days": 27,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 27 days.",
+    "recent_count": 1,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_13.600_77.010",
@@ -3230,7 +4210,21 @@
     "recurrence": true,
     "recurrence_unique_days": 3,
     "recurrence_span_days": 41,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 41 days.",
+    "recent_count": 1,
+    "prior_count": 0,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   },
   {
     "hotspot_id": "HS_14.650_74.480",
@@ -3261,6 +4255,20 @@
     "recurrence": true,
     "recurrence_unique_days": 3,
     "recurrence_span_days": 41,
-    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points."
+    "source_note": "App reports clustered on ~1km Karnataka grid. Not KSP street crime points.",
+    "synthetic_count": 3,
+    "operational_count": 0,
+    "evidence_category": "synthetic",
+    "district_match": "polygon",
+    "explanation": "Grid cell ~1 km with 3 approved points (3 labelled demo, 0 operational). Incident concern Low. Not a forecast.",
+    "evolution_class": "recurring",
+    "evolution_explanation": "Approved points on 3 distinct days over 41 days.",
+    "recent_count": 0,
+    "prior_count": 1,
+    "window_end": "2026-08-10T15:08:00+00:00",
+    "incident_concern": "Low",
+    "environmental_concern": null,
+    "patrol_priority": null,
+    "patrol_priority_note": "Not computed. A patrol formula is not validated on this data."
   }
 ]

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "9f5b7dd1-e4d8-40ca-a47d-df25870c3f71",
+  "status": "current",
+  "command": "deliver",
+  "type": "waterfall",
+  "input": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/waterfall-demo-20261101-142119/candidate.json",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/waterfall-demo-20261101-142119/suraksha-waterfall.html",
+  "specification": {
+    "sha256": "dc962423597130ef1aeb4cabf1609613f00be89d1ef6fe28625f56acd44833cb",
+    "bytes": 1196
+  },
+  "artifact": {
+    "sha256": "acf4a634d80632285f4ed5439f8fd7b15e3107893173a753b334919bede2a034",
+    "bytes": 832921
+  }
+}

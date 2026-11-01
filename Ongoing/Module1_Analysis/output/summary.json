@@ -1,6 +1,6 @@
 {
   "module": "Incident Analysis, Geospatial Analysis and Hotspot Identification",
-  "generated_at": "2026-09-15T16:24:05.931751+00:00",
+  "generated_at": "2026-11-01T06:13:06.691637+00:00",
   "folder": "/Users/anushak/Documents/3rd Semester/Ongoing/Module1_Analysis",
   "preprocess": {
     "before": 1079,
@@ -33,12 +33,12 @@
     },
     "by_area_top": [
       [
-        "Kolar",
-        31
+        "Bengaluru Urban",
+        40
       ],
       [
-        "Bengaluru Urban",
-        27
+        "Kolar",
+        31
       ],
       [
         "Mandya",
@@ -77,8 +77,7 @@
       "Bagalkote": 17,
       "Ballari": 15,
       "Belagavi": 25,
-      "Bengaluru Rural": 13,
-      "Bengaluru Urban": 27,
+      "Bengaluru Urban": 40,
       "Bidar": 21,
       "Chamrajnagar": 19,
       "Chikkaballapura": 12,
@@ -118,17 +117,17 @@
   "min_reports_per_hotspot": 3,
   "coverage": "Karnataka \u2014 30 districts",
   "honesty": {
-    "reports": "App-schema community reports for Karnataka districts (synthetic demo unless live_reports.json has rows).",
+    "reports": "Hotspots use approved/verified rows with coordinates. reports.json is labelled synthetic demo. suraksha-store verified rows are operational. Unverified store rows are not clustered. live_reports.json is a legacy dump and is not auto-approved.",
     "hotspots": "Spatial concentration of unsafe/incident-like reports on a ~1 km grid. Not crime prediction.",
     "osm": "Real Karnataka OSM streets (Overpass extract): 9-factor infrastructure proxy per street (lighting, CCTV, police, hospital, bus, road, crowd/night/commercial proxies). Not a crime rate.",
     "crime_overlay": "District/commissionerate aggregates (OpenCity \u2190 KSP). Not street-level. Never used as hotspot coordinates."
   },
   "inputs": {
-    "dataset": "/Users/anushak/Documents/3rd Semester/PBL/Dataset/Karnataka",
+    "dataset": "/Users/anushak/Documents/3rd Semester/Ongoing/Dataset/Karnataka",
     "reports": "/Users/anushak/Documents/3rd Semester/Ongoing/Module1_Analysis/input/reports.json",
     "live_reports": "/Users/anushak/Documents/3rd Semester/Ongoing/Module1_Analysis/input/live_reports.json",
-    "osm_districts": "/Users/anushak/Documents/3rd Semester/PBL/Dataset/Karnataka/osm_districts.json",
-    "crime_context": "/Users/anushak/Documents/3rd Semester/PBL/Dataset/Karnataka/crime_context.json",
+    "osm_districts": "/Users/anushak/Documents/3rd Semester/Ongoing/Dataset/Karnataka/osm_districts.json",
+    "crime_context": "/Users/anushak/Documents/3rd Semester/Ongoing/Dataset/Karnataka/crime_context.json",
     "crime_used_as_coordinates": false
   },
   "osm_workbook": {
@@ -392,5 +391,12 @@
     "matched_hotspots": 45,
     "match_radius_m": 450.0,
     "crime_used_as_coordinates": false
-  }
+  },
+  "evolution": {
+    "emerging": 3,
+    "recurring": 66,
+    "declining_observed": 3
+  },
+  "temporal_span_days": 70,
+  "method": "grid"
 }

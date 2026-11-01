@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "requested_at": "2026-11-01T06:13:06.108Z",
+  "started_at": "2026-11-01T06:13:06.176658+00:00",
+  "finished_at": "2026-11-01T06:13:06.757Z",
+  "last_success_at": "2026-11-01T06:13:06.691637+00:00",
+  "generated_at": "2026-11-01T06:13:06.691637+00:00",
+  "error": null,
+  "pid": null
+}

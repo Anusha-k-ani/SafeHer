@@ -1,5 +1,21 @@
 [
   {
+    "area": "Bengaluru Urban",
+    "district": "Bengaluru Urban",
+    "report_count": 101,
+    "unsafe_reports": 40,
+    "incident_like_reports": 40,
+    "hotspot_cells": 7,
+    "osm_street_count": 177886,
+    "osm_unsafe_streets": 46975,
+    "osm_unsafe_share": 0.2641,
+    "osm_risk_level": "Medium",
+    "osm_cameras": 3045,
+    "ksp_sexual_harassment_2023": 210,
+    "risk_level": "High",
+    "osm_infra_context_only": true
+  },
+  {
     "area": "Kolar",
     "district": "Kolar",
     "report_count": 47,
@@ -12,22 +28,8 @@
     "osm_risk_level": "High",
     "osm_cameras": 0,
     "ksp_sexual_harassment_2023": 4,
-    "risk_level": "High"
-  },
-  {
-    "area": "Bengaluru Urban",
-    "district": "Bengaluru Urban",
-    "report_count": 52,
-    "unsafe_reports": 27,
-    "incident_like_reports": 27,
-    "hotspot_cells": 5,
-    "osm_street_count": 177886,
-    "osm_unsafe_streets": 46975,
-    "osm_unsafe_share": 0.2641,
-    "osm_risk_level": "Medium",
-    "osm_cameras": 3045,
-    "ksp_sexual_harassment_2023": 210,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Mandya",
@@ -42,7 +44,8 @@
     "osm_risk_level": "High",
     "osm_cameras": 5,
     "ksp_sexual_harassment_2023": 15,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Tumakuru",
@@ -57,7 +60,8 @@
     "osm_risk_level": "High",
     "osm_cameras": 72,
     "ksp_sexual_harassment_2023": 167,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Belagavi",
@@ -72,7 +76,8 @@
     "osm_risk_level": "High",
     "osm_cameras": 0,
     "ksp_sexual_harassment_2023": 12,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Kalaburagi",
@@ -86,23 +91,9 @@
     "osm_unsafe_share": 0.5959,
     "osm_risk_level": "High",
     "osm_cameras": 0,
-    "ksp_sexual_harassment_2023": null,
-    "risk_level": "High"
-  },
-  {
-    "area": "Udupi",
-    "district": "Udupi",
-    "report_count": 44,
-    "unsafe_reports": 23,
-    "incident_like_reports": 23,
-    "hotspot_cells": 3,
-    "osm_street_count": 16544,
-    "osm_unsafe_streets": 13121,
-    "osm_unsafe_share": 0.7931,
-    "osm_risk_level": "High",
-    "osm_cameras": 9,
-    "ksp_sexual_harassment_2023": 18,
-    "risk_level": "High"
+    "ksp_sexual_harassment_2023": 0,
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Hassan",
@@ -117,22 +108,24 @@
     "osm_risk_level": "High",
     "osm_cameras": 21,
     "ksp_sexual_harassment_2023": 19,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
-    "area": "Bidar",
-    "district": "Bidar",
-    "report_count": 35,
-    "unsafe_reports": 21,
-    "incident_like_reports": 21,
+    "area": "Udupi",
+    "district": "Udupi",
+    "report_count": 44,
+    "unsafe_reports": 23,
+    "incident_like_reports": 23,
     "hotspot_cells": 3,
-    "osm_street_count": 12636,
-    "osm_unsafe_streets": 9400,
-    "osm_unsafe_share": 0.7439,
+    "osm_street_count": 16544,
+    "osm_unsafe_streets": 13121,
+    "osm_unsafe_share": 0.7931,
     "osm_risk_level": "High",
-    "osm_cameras": 0,
-    "ksp_sexual_harassment_2023": 3,
-    "risk_level": "High"
+    "osm_cameras": 9,
+    "ksp_sexual_harassment_2023": 18,
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Vijayapura",
@@ -147,7 +140,8 @@
     "osm_risk_level": "High",
     "osm_cameras": 0,
     "ksp_sexual_harassment_2023": 8,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Chikmagalur",
@@ -162,12 +156,29 @@
     "osm_risk_level": "High",
     "osm_cameras": 20,
     "ksp_sexual_harassment_2023": 10,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
+  },
+  {
+    "area": "Bidar",
+    "district": "Bidar",
+    "report_count": 35,
+    "unsafe_reports": 21,
+    "incident_like_reports": 21,
+    "hotspot_cells": 3,
+    "osm_street_count": 12636,
+    "osm_unsafe_streets": 9400,
+    "osm_unsafe_share": 0.7439,
+    "osm_risk_level": "High",
+    "osm_cameras": 0,
+    "ksp_sexual_harassment_2023": 3,
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Raichur",
     "district": "Raichur",
-    "report_count": 33,
+    "report_count": 34,
     "unsafe_reports": 20,
     "incident_like_reports": 20,
     "hotspot_cells": 2,
@@ -177,22 +188,8 @@
     "osm_risk_level": "High",
     "osm_cameras": 0,
     "ksp_sexual_harassment_2023": 22,
-    "risk_level": "High"
-  },
-  {
-    "area": "Ramanagara",
-    "district": "Ramanagara",
-    "report_count": 39,
-    "unsafe_reports": 20,
-    "incident_like_reports": 20,
-    "hotspot_cells": 3,
-    "osm_street_count": 13801,
-    "osm_unsafe_streets": 11102,
-    "osm_unsafe_share": 0.8044,
-    "osm_risk_level": "High",
-    "osm_cameras": 2642,
-    "ksp_sexual_harassment_2023": 8,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Mysuru",
@@ -207,52 +204,24 @@
     "osm_risk_level": "High",
     "osm_cameras": 11,
     "ksp_sexual_harassment_2023": 23,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
-    "area": "Chamrajnagar",
-    "district": "Chamrajnagar",
-    "report_count": 34,
-    "unsafe_reports": 19,
-    "incident_like_reports": 19,
-    "hotspot_cells": 2,
-    "osm_street_count": 10520,
-    "osm_unsafe_streets": 9140,
-    "osm_unsafe_share": 0.8688,
+    "area": "Ramanagara",
+    "district": "Ramanagara",
+    "report_count": 39,
+    "unsafe_reports": 20,
+    "incident_like_reports": 20,
+    "hotspot_cells": 3,
+    "osm_street_count": 13801,
+    "osm_unsafe_streets": 11102,
+    "osm_unsafe_share": 0.8044,
     "osm_risk_level": "High",
-    "osm_cameras": 0,
-    "ksp_sexual_harassment_2023": null,
-    "risk_level": "High"
-  },
-  {
-    "area": "Dakshina Kannada",
-    "district": "Dakshina Kannada",
-    "report_count": 38,
-    "unsafe_reports": 17,
-    "incident_like_reports": 17,
-    "hotspot_cells": 2,
-    "osm_street_count": 16680,
-    "osm_unsafe_streets": 10584,
-    "osm_unsafe_share": 0.6345,
-    "osm_risk_level": "High",
-    "osm_cameras": 51,
-    "ksp_sexual_harassment_2023": 13,
-    "risk_level": "High"
-  },
-  {
-    "area": "Bagalkote",
-    "district": "Bagalkote",
-    "report_count": 33,
-    "unsafe_reports": 17,
-    "incident_like_reports": 17,
-    "hotspot_cells": 2,
-    "osm_street_count": 10992,
-    "osm_unsafe_streets": 8630,
-    "osm_unsafe_share": 0.7851,
-    "osm_risk_level": "High",
-    "osm_cameras": 0,
-    "ksp_sexual_harassment_2023": 1,
-    "risk_level": "High"
+    "osm_cameras": 2642,
+    "ksp_sexual_harassment_2023": 8,
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Gadag",
@@ -267,7 +236,8 @@
     "osm_risk_level": "High",
     "osm_cameras": 0,
     "ksp_sexual_harassment_2023": 3,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Davanagere",
@@ -282,82 +252,8 @@
     "osm_risk_level": "High",
     "osm_cameras": 0,
     "ksp_sexual_harassment_2023": 11,
-    "risk_level": "High"
-  },
-  {
-    "area": "Ballari",
-    "district": "Ballari",
-    "report_count": 45,
-    "unsafe_reports": 15,
-    "incident_like_reports": 15,
-    "hotspot_cells": 1,
-    "osm_street_count": 20951,
-    "osm_unsafe_streets": 13245,
-    "osm_unsafe_share": 0.6322,
-    "osm_risk_level": "High",
-    "osm_cameras": 0,
-    "ksp_sexual_harassment_2023": 18,
-    "risk_level": "High"
-  },
-  {
-    "area": "Dharwad",
-    "district": "Dharwad",
-    "report_count": 38,
-    "unsafe_reports": 15,
-    "incident_like_reports": 15,
-    "hotspot_cells": 2,
-    "osm_street_count": 18939,
-    "osm_unsafe_streets": 10432,
-    "osm_unsafe_share": 0.5508,
-    "osm_risk_level": "High",
-    "osm_cameras": 1,
-    "ksp_sexual_harassment_2023": 5,
-    "risk_level": "High"
-  },
-  {
-    "area": "Bengaluru Rural",
-    "district": "Bengaluru Rural",
-    "report_count": 52,
-    "unsafe_reports": 13,
-    "incident_like_reports": 13,
-    "hotspot_cells": 2,
-    "osm_street_count": 27706,
-    "osm_unsafe_streets": 19796,
-    "osm_unsafe_share": 0.7145,
-    "osm_risk_level": "High",
-    "osm_cameras": 3057,
-    "ksp_sexual_harassment_2023": 17,
-    "risk_level": "High"
-  },
-  {
-    "area": "Shivamogga",
-    "district": "Shivamogga",
-    "report_count": 33,
-    "unsafe_reports": 13,
-    "incident_like_reports": 13,
-    "hotspot_cells": 2,
-    "osm_street_count": 12535,
-    "osm_unsafe_streets": 8611,
-    "osm_unsafe_share": 0.687,
-    "osm_risk_level": "High",
-    "osm_cameras": 0,
-    "ksp_sexual_harassment_2023": 11,
-    "risk_level": "High"
-  },
-  {
-    "area": "Uttara Kannada",
-    "district": "Uttara Kannada",
-    "report_count": 22,
-    "unsafe_reports": 12,
-    "incident_like_reports": 12,
-    "hotspot_cells": 2,
-    "osm_street_count": 6416,
-    "osm_unsafe_streets": 4079,
-    "osm_unsafe_share": 0.6358,
-    "osm_risk_level": "High",
-    "osm_cameras": 1,
-    "ksp_sexual_harassment_2023": 5,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
   },
   {
     "area": "Chikkaballapura",
@@ -372,7 +268,120 @@
     "osm_risk_level": "High",
     "osm_cameras": 12,
     "ksp_sexual_harassment_2023": 5,
-    "risk_level": "High"
+    "risk_level": "High",
+    "osm_infra_context_only": true
+  },
+  {
+    "area": "Chamrajnagar",
+    "district": "Chamrajnagar",
+    "report_count": 34,
+    "unsafe_reports": 19,
+    "incident_like_reports": 19,
+    "hotspot_cells": 2,
+    "osm_street_count": 10520,
+    "osm_unsafe_streets": 9140,
+    "osm_unsafe_share": 0.8688,
+    "osm_risk_level": "High",
+    "osm_cameras": 0,
+    "ksp_sexual_harassment_2023": 11,
+    "risk_level": "Medium",
+    "osm_infra_context_only": true
+  },
+  {
+    "area": "Bagalkote",
+    "district": "Bagalkote",
+    "report_count": 33,
+    "unsafe_reports": 17,
+    "incident_like_reports": 17,
+    "hotspot_cells": 2,
+    "osm_street_count": 10992,
+    "osm_unsafe_streets": 8630,
+    "osm_unsafe_share": 0.7851,
+    "osm_risk_level": "High",
+    "osm_cameras": 0,
+    "ksp_sexual_harassment_2023": 1,
+    "risk_level": "Medium",
+    "osm_infra_context_only": true
+  },
+  {
+    "area": "Dakshina Kannada",
+    "district": "Dakshina Kannada",
+    "report_count": 38,
+    "unsafe_reports": 17,
+    "incident_like_reports": 17,
+    "hotspot_cells": 2,
+    "osm_street_count": 16680,
+    "osm_unsafe_streets": 10584,
+    "osm_unsafe_share": 0.6345,
+    "osm_risk_level": "High",
+    "osm_cameras": 51,
+    "ksp_sexual_harassment_2023": 13,
+    "risk_level": "Medium",
+    "osm_infra_context_only": true
+  },
+  {
+    "area": "Ballari",
+    "district": "Ballari",
+    "report_count": 45,
+    "unsafe_reports": 15,
+    "incident_like_reports": 15,
+    "hotspot_cells": 1,
+    "osm_street_count": 20951,
+    "osm_unsafe_streets": 13245,
+    "osm_unsafe_share": 0.6322,
+    "osm_risk_level": "High",
+    "osm_cameras": 0,
+    "ksp_sexual_harassment_2023": 18,
+    "risk_level": "Medium",
+    "osm_infra_context_only": true
+  },
+  {
+    "area": "Dharwad",
+    "district": "Dharwad",
+    "report_count": 38,
+    "unsafe_reports": 15,
+    "incident_like_reports": 15,
+    "hotspot_cells": 2,
+    "osm_street_count": 18939,
+    "osm_unsafe_streets": 10432,
+    "osm_unsafe_share": 0.5508,
+    "osm_risk_level": "High",
+    "osm_cameras": 1,
+    "ksp_sexual_harassment_2023": 5,
+    "risk_level": "Medium",
+    "osm_infra_context_only": true
+  },
+  {
+    "area": "Shivamogga",
+    "district": "Shivamogga",
+    "report_count": 33,
+    "unsafe_reports": 13,
+    "incident_like_reports": 13,
+    "hotspot_cells": 2,
+    "osm_street_count": 12535,
+    "osm_unsafe_streets": 8611,
+    "osm_unsafe_share": 0.687,
+    "osm_risk_level": "High",
+    "osm_cameras": 0,
+    "ksp_sexual_harassment_2023": 11,
+    "risk_level": "Medium",
+    "osm_infra_context_only": true
+  },
+  {
+    "area": "Uttara Kannada",
+    "district": "Uttara Kannada",
+    "report_count": 22,
+    "unsafe_reports": 12,
+    "incident_like_reports": 12,
+    "hotspot_cells": 2,
+    "osm_street_count": 6416,
+    "osm_unsafe_streets": 4079,
+    "osm_unsafe_share": 0.6358,
+    "osm_risk_level": "High",
+    "osm_cameras": 1,
+    "ksp_sexual_harassment_2023": 5,
+    "risk_level": "Medium",
+    "osm_infra_context_only": true
   },
   {
     "area": "Haveri",
@@ -387,7 +396,8 @@
     "osm_risk_level": "High",
     "osm_cameras": 0,
     "ksp_sexual_harassment_2023": 11,
-    "risk_level": "High"
+    "risk_level": "Medium",
+    "osm_infra_context_only": true
   },
   {
     "area": "Koppal",
@@ -402,7 +412,8 @@
     "osm_risk_level": "High",
     "osm_cameras": 0,
     "ksp_sexual_harassment_2023": 3,
-    "risk_level": "High"
+    "risk_level": "Medium",
+    "osm_infra_context_only": true
   },
   {
     "area": "Chitradurga",
@@ -417,7 +428,8 @@
     "osm_risk_level": "High",
     "osm_cameras": 0,
     "ksp_sexual_harassment_2023": 22,
-    "risk_level": "High"
+    "risk_level": "Medium",
+    "osm_infra_context_only": true
   },
   {
     "area": "Kodagu",
@@ -432,12 +444,13 @@
     "osm_risk_level": "High",
     "osm_cameras": 35,
     "ksp_sexual_harassment_2023": 4,
-    "risk_level": "High"
+    "risk_level": "Medium",
+    "osm_infra_context_only": true
   },
   {
     "area": "Yadgir",
     "district": "Yadgir",
-    "report_count": 13,
+    "report_count": 12,
     "unsafe_reports": 4,
     "incident_like_reports": 4,
     "hotspot_cells": 0,
@@ -446,7 +459,24 @@
     "osm_unsafe_share": 0.3047,
     "osm_risk_level": "Medium",
     "osm_cameras": 0,
-    "ksp_sexual_harassment_2023": null,
-    "risk_level": "Medium"
+    "ksp_sexual_harassment_2023": 8,
+    "risk_level": "Low",
+    "osm_infra_context_only": true
+  },
+  {
+    "area": "Bengaluru Rural",
+    "district": "Bengaluru Rural",
+    "report_count": 3,
+    "unsafe_reports": 0,
+    "incident_like_reports": 0,
+    "hotspot_cells": 0,
+    "osm_street_count": 27706,
+    "osm_unsafe_streets": 19796,
+    "osm_unsafe_share": 0.7145,
+    "osm_risk_level": "High",
+    "osm_cameras": 3057,
+    "ksp_sexual_harassment_2023": 17,
+    "risk_level": "Low",
+    "osm_infra_context_only": true
   }
 ]

@@ -56,19 +56,19 @@ ka_00126,Belagavi,16.142403,74.702266,2026-07-22T09:29:00Z,afternoon,unsafe_feel
 ka_00127,Belagavi,16.188559,74.732053,2026-06-17T11:32:00Z,morning,unsafe_feeling,False
 ka_00128,Belagavi,16.183247,74.731901,2026-06-21T10:59:00Z,night,unsafe_feeling,False
 ka_00130,Belagavi,16.13253,74.699644,2026-07-17T12:23:00Z,night,harassment,True
-ka_00133,Bengaluru Rural,13.162165,77.638335,2026-06-03T11:21:00Z,morning,unsafe_feeling,False
-ka_00141,Bengaluru Rural,13.162014,77.643785,2026-07-23T20:59:00Z,morning,unsafe_feeling,False
-ka_00144,Bengaluru Rural,13.160917,77.635723,2026-06-24T00:47:00Z,night,harassment,True
-ka_00146,Bengaluru Rural,13.163254,77.640949,2026-06-08T21:07:00Z,evening,unsafe_feeling,False
-ka_00150,Bengaluru Rural,13.160959,77.642319,2026-06-03T12:16:00Z,morning,unsafe_feeling,False
-ka_00152,Bengaluru Rural,13.161882,77.640479,2026-07-15T03:11:00Z,morning,unsafe_feeling,False
-ka_00156,Bengaluru Rural,13.148278,77.656368,2026-07-06T01:35:00Z,evening,unsafe_feeling,False
-ka_00162,Bengaluru Rural,13.157161,77.635765,2026-07-24T09:09:00Z,evening,unsafe_feeling,False
-ka_00163,Bengaluru Rural,13.149724,77.657293,2026-06-22T23:50:00Z,morning,unsafe_feeling,False
-ka_00164,Bengaluru Rural,13.165226,77.633218,2026-06-01T13:08:00Z,night,unsafe_feeling,False
-ka_00166,Bengaluru Rural,13.157713,77.638954,2026-07-16T08:50:00Z,evening,harassment,True
-ka_00180,Bengaluru Rural,13.16022,77.638716,2026-07-24T17:02:00Z,afternoon,unsafe_feeling,False
-ka_00182,Bengaluru Rural,13.149086,77.657411,2026-07-15T00:30:00Z,evening,harassment,True
+ka_00133,Bengaluru Urban,13.162165,77.638335,2026-06-03T11:21:00Z,morning,unsafe_feeling,False
+ka_00141,Bengaluru Urban,13.162014,77.643785,2026-07-23T20:59:00Z,morning,unsafe_feeling,False
+ka_00144,Bengaluru Urban,13.160917,77.635723,2026-06-24T00:47:00Z,night,harassment,True
+ka_00146,Bengaluru Urban,13.163254,77.640949,2026-06-08T21:07:00Z,evening,unsafe_feeling,False
+ka_00150,Bengaluru Urban,13.160959,77.642319,2026-06-03T12:16:00Z,morning,unsafe_feeling,False
+ka_00152,Bengaluru Urban,13.161882,77.640479,2026-07-15T03:11:00Z,morning,unsafe_feeling,False
+ka_00156,Bengaluru Urban,13.148278,77.656368,2026-07-06T01:35:00Z,evening,unsafe_feeling,False
+ka_00162,Bengaluru Urban,13.157161,77.635765,2026-07-24T09:09:00Z,evening,unsafe_feeling,False
+ka_00163,Bengaluru Urban,13.149724,77.657293,2026-06-22T23:50:00Z,morning,unsafe_feeling,False
+ka_00164,Bengaluru Urban,13.165226,77.633218,2026-06-01T13:08:00Z,night,unsafe_feeling,False
+ka_00166,Bengaluru Urban,13.157713,77.638954,2026-07-16T08:50:00Z,evening,harassment,True
+ka_00180,Bengaluru Urban,13.16022,77.638716,2026-07-24T17:02:00Z,afternoon,unsafe_feeling,False
+ka_00182,Bengaluru Urban,13.149086,77.657411,2026-07-15T00:30:00Z,evening,harassment,True
 ka_00183,Bengaluru Urban,12.898249,77.601957,2026-06-15T00:54:00Z,afternoon,unsafe_feeling,False
 ka_00184,Bengaluru Urban,12.907016,77.608978,2026-06-24T20:42:00Z,morning,harassment,True
 ka_00187,Bengaluru Urban,12.905764,77.607551,2026-07-24T19:08:00Z,afternoon,harassment,True

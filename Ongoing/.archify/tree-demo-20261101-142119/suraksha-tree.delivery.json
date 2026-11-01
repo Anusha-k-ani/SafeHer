@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "6ed0495a-883c-4f83-a924-35022c288044",
+  "status": "current",
+  "command": "deliver",
+  "type": "tree",
+  "input": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/tree-demo-20261101-142119/candidate.json",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/tree-demo-20261101-142119/suraksha-tree.html",
+  "specification": {
+    "sha256": "f2561703f031bcbfa4b7ae880cbce23d656a63f8e45165fa835a500c1ca7d1eb",
+    "bytes": 1572
+  },
+  "artifact": {
+    "sha256": "92cacffd1c8b72090c8015d0ee5e3a1af2bfdfa544590382db277f631086c5af",
+    "bytes": 843044
+  }
+}

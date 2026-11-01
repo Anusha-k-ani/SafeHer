@@ -12,6 +12,32 @@
   "incident_count": 534,
   "districts": [
     {
+      "district": "Bengaluru Urban",
+      "incident_count": 40,
+      "incident_centroid": {
+        "latitude": 12.98733,
+        "longitude": 77.61465
+      },
+      "incident_bbox": {
+        "south": 12.89815,
+        "north": 13.16523,
+        "west": 77.58295,
+        "east": 77.65741
+      },
+      "osm_centroid": {
+        "latitude": 12.90972,
+        "longitude": 77.59605
+      },
+      "osm_street_count": 177886,
+      "osm_unsafe_share": 0.2641,
+      "hotspot_cells": 7,
+      "osm_streets": 177886,
+      "osm_safe": 17920,
+      "osm_moderate": 112991,
+      "osm_unsafe": 46975,
+      "osm_avg_infra_score": 5.127
+    },
+    {
       "district": "Kolar",
       "incident_count": 31,
       "incident_centroid": {
@@ -36,32 +62,6 @@
       "osm_moderate": 5060,
       "osm_unsafe": 14025,
       "osm_avg_infra_score": 3.568
-    },
-    {
-      "district": "Bengaluru Urban",
-      "incident_count": 27,
-      "incident_centroid": {
-        "latitude": 12.90498,
-        "longitude": 77.60099
-      },
-      "incident_bbox": {
-        "south": 12.89815,
-        "north": 12.91644,
-        "west": 77.58295,
-        "east": 77.61259
-      },
-      "osm_centroid": {
-        "latitude": 12.90972,
-        "longitude": 77.59605
-      },
-      "osm_street_count": 177886,
-      "osm_unsafe_share": 0.2641,
-      "hotspot_cells": 5,
-      "osm_streets": 177886,
-      "osm_safe": 17920,
-      "osm_moderate": 112991,
-      "osm_unsafe": 46975,
-      "osm_avg_infra_score": 5.127
     },
     {
       "district": "Mandya",
@@ -556,32 +556,6 @@
       "osm_moderate": 8437,
       "osm_unsafe": 10432,
       "osm_avg_infra_score": 3.985
-    },
-    {
-      "district": "Bengaluru Rural",
-      "incident_count": 13,
-      "incident_centroid": {
-        "latitude": 13.15835,
-        "longitude": 77.64302
-      },
-      "incident_bbox": {
-        "south": 13.14828,
-        "north": 13.16523,
-        "west": 77.63322,
-        "east": 77.65741
-      },
-      "osm_centroid": {
-        "latitude": 13.16124,
-        "longitude": 77.62806
-      },
-      "osm_street_count": 27706,
-      "osm_unsafe_share": 0.7145,
-      "hotspot_cells": 2,
-      "osm_streets": 27706,
-      "osm_safe": 172,
-      "osm_moderate": 7738,
-      "osm_unsafe": 19796,
-      "osm_avg_infra_score": 3.795
     },
     {
       "district": "Shivamogga",

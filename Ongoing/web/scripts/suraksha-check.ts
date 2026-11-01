@@ -2,8 +2,9 @@ import assert from "node:assert/strict";
 import { mkdtempSync } from "fs";
 import { tmpdir } from "os";
 import path from "path";
-import { matchDistrict, moveLight, moveSos, moveTask } from "../src/lib/suraksha/domain";
+import { formatLocation, matchDistrict, moveLight, moveSos, moveTask } from "../src/lib/suraksha/domain";
 
+process.env.SURAKSHA_SKIP_GEOCODE = "1";
 process.env.SURAKSHA_STORE = path.join(mkdtempSync(path.join(tmpdir(), "suraksha-")), "store.json");
 
 async function main() {
@@ -21,6 +22,9 @@ const near = matchDistrict(13.14, 78.13, [{ district: "Kolar", latitude: 13.1, l
 assert.equal(near.district, "Kolar");
 assert.equal(near.match_status, "district_only");
 assert.equal(near.street_id, null);
+assert.equal(formatLocation({ street_name: "MG Road", locality: "Ashok Nagar", district: "Bengaluru Urban", state: "Karnataka" }), "MG Road, Ashok Nagar, Bengaluru Urban, Karnataka");
+assert.equal(formatLocation({ district: "Kolar" }), "Kolar");
+assert.equal(formatLocation({ latitude: 12.97, longitude: 77.59 }), "12.97000, 77.59000");
 
 assert.throws(() => moveSos("resolved", "created"));
 assert.throws(() => moveTask("completed", "notified"));
@@ -35,7 +39,7 @@ const municipal = { id: "u-municipal", role: "municipal" as const };
 const reviewer = { id: "u-reviewer", role: "reviewer" as const };
 const supervisor = { id: "u-supervisor", role: "supervisor" as const };
 
-const report = store.createReport(citizen.id, {
+const report = await store.createReport(citizen.id, {
   category: "Stalking or being followed",
   when: "now",
   occurred_at: new Date().toISOString(),
@@ -49,13 +53,15 @@ assert.throws(() => store.reviewReport(patrol, report.id, "verified"));
 store.reviewReport(reviewer, report.id, "under_review");
 assert.equal(store.listReports("reviewer", reviewer.id)[0].status, "under_review");
 
-const sos = store.createSos(citizen.id, null, null);
+const sos = await store.createSos(citizen.id, null, null);
 assert.equal(sos.status, "location_unavailable");
 assert.match(sos.user_message, /112/);
 assert.throws(() => store.assignSos(patrol, sos.id, "unit-demo-kalaburagi"));
 
-const placed = store.createSos(citizen.id, 17.33, 76.83);
+const placed = await store.createSos(citizen.id, 17.33, 76.83);
 assert.equal(placed.status, "notification_attempted");
+const duplicate = await store.createSos(citizen.id, 17.33, 76.83);
+assert.equal(duplicate.id, placed.id);
 assert.equal(placed.simulated_dispatch, true);
 const assigned = store.assignSos(supervisor, placed.id, "unit-demo-kalaburagi");
 assert.equal(assigned.alert.status, "unit_assigned");

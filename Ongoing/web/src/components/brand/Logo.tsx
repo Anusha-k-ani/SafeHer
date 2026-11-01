@@ -19,7 +19,7 @@ export function Logo({
   const src = tone === "dark" ? "/brand/logo-dark.svg" : "/brand/logo-light.svg";
   return (
     <Link href={href} className="inline-flex items-center">
-      <img src={src} alt="SurakshaSetu. Connecting Streets. Protecting Lives." className="h-12 w-auto" />
+      <img src={src} alt="SurakshaSetu. Safe Spaces. Stronger Communities." className="h-12 w-auto" />
     </Link>
   );
 }

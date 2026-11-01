@@ -74,7 +74,7 @@ const SOS_NEXT: Record<SosStatus, SosStatus[]> = {
   location_unavailable: ["notification_attempted", "cancelled"],
   notification_attempted: ["acknowledged", "notification_failed", "escalated", "cancelled"],
   notification_failed: ["notification_attempted", "escalated", "cancelled"],
-  acknowledged: ["unit_assigned", "escalated", "cancelled"],
+  acknowledged: ["unit_assigned", "resolved", "escalated", "cancelled"],
   unit_assigned: ["responding", "escalated", "cancelled"],
   responding: ["resolved", "escalated"],
   resolved: [],
@@ -167,9 +167,35 @@ export type LocationFix = {
   district: string | null;
   street_id: string | null;
   street_name: string | null;
+  locality?: string | null;
+  area?: string | null;
+  state?: string | null;
+  display_name?: string | null;
+  geocode_status?: "resolved" | "partial" | "unavailable" | "skipped";
   match_status: "district_only" | "outside_karnataka" | "missing" | "not_verified";
   note: string;
 };
+
+/** Street → locality → area → district → state. Never invents a missing name. */
+export function formatLocation(fix: Partial<LocationFix> | null | undefined): string {
+  if (!fix) return "Location unavailable";
+  if (fix.display_name) return fix.display_name;
+  const parts = [fix.street_name, fix.locality, fix.area, fix.district, fix.state].filter(
+    (part): part is string => Boolean(part && String(part).trim()),
+  );
+  if (parts.length) return parts.join(", ");
+  if (fix.latitude != null && fix.longitude != null) {
+    return `${fix.latitude.toFixed(5)}, ${fix.longitude.toFixed(5)}`;
+  }
+  return "Location unavailable";
+}
+
+export function sosPublicLabel(status: SosStatus): string {
+  if (status === "resolved") return "Resolved";
+  if (status === "cancelled") return "Cancelled";
+  if (status === "acknowledged" || status === "unit_assigned" || status === "responding") return "Acknowledged";
+  return "New";
+}
 
 export function haversineKm(aLat: number, aLon: number, bLat: number, bLon: number): number {
   const r = 6371;

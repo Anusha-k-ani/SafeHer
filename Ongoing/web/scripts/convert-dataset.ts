@@ -78,7 +78,8 @@ function main() {
         XLSX_CANDIDATES.map((p) => `  - ${p}`).join("\n") +
         "\nOr commit pre-generated files under public/data/"
     );
-    process.exit(1);
+    console.warn("Excel and required public/data JSON are missing. Skipping convert-dataset; Next.js will still build.");
+    return;
   }
 
   ensureDir(OUT_DIR);

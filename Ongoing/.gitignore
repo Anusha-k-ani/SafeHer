@@ -79,3 +79,9 @@ report-visuals/
 *.png
 !web/public/**/*.png
 !mobile/assets/**/*.png
+
+# Archify machine receipts (keep the HTML diagrams)
+.archify/**/.archify-delivery-*/
+.archify/**/*.finalize.json
+.archify/**/*.finalize-summary.json
+.archify/**/*.browser-check.json

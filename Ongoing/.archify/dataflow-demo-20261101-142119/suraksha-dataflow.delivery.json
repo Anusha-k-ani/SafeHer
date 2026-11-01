@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "d6c96d06-32bb-4622-b38d-69d43f96bb31",
+  "status": "current",
+  "command": "deliver",
+  "type": "dataflow",
+  "input": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/dataflow-demo-20261101-142119/candidate.json",
+  "output": "/Users/anushak/Documents/3rd Semester/Ongoing/.archify/dataflow-demo-20261101-142119/suraksha-dataflow.html",
+  "specification": {
+    "sha256": "0d26c0b735ef8fde9ff8cfe1c0b2fcbf4b6c87a33286170a3aa2cba54fcd64ba",
+    "bytes": 3965
+  },
+  "artifact": {
+    "sha256": "c4fbb34d8f7db1f75a1bc64af65c3b10d2c616047e690bbb1ef739294b730c6d",
+    "bytes": 840007
+  }
+}

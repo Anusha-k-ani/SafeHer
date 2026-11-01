@@ -1,0 +1,500 @@
+{
+  "timestamp_quality": {
+    "occurred_at": 0,
+    "created_at_fallback": 534,
+    "missing": 0,
+    "note": "Occurrence time is used when it parses. created_at is a fallback and is labelled."
+  },
+  "evidence": {
+    "synthetic": 534
+  },
+  "span_days": 70,
+  "daily": [
+    {
+      "date": "2026-06-01",
+      "count": 7
+    },
+    {
+      "date": "2026-06-02",
+      "count": 10
+    },
+    {
+      "date": "2026-06-03",
+      "count": 9
+    },
+    {
+      "date": "2026-06-04",
+      "count": 14
+    },
+    {
+      "date": "2026-06-05",
+      "count": 6
+    },
+    {
+      "date": "2026-06-06",
+      "count": 9
+    },
+    {
+      "date": "2026-06-07",
+      "count": 6
+    },
+    {
+      "date": "2026-06-08",
+      "count": 7
+    },
+    {
+      "date": "2026-06-09",
+      "count": 9
+    },
+    {
+      "date": "2026-06-10",
+      "count": 8
+    },
+    {
+      "date": "2026-06-11",
+      "count": 2
+    },
+    {
+      "date": "2026-06-12",
+      "count": 11
+    },
+    {
+      "date": "2026-06-13",
+      "count": 7
+    },
+    {
+      "date": "2026-06-14",
+      "count": 9
+    },
+    {
+      "date": "2026-06-15",
+      "count": 9
+    },
+    {
+      "date": "2026-06-16",
+      "count": 4
+    },
+    {
+      "date": "2026-06-17",
+      "count": 14
+    },
+    {
+      "date": "2026-06-18",
+      "count": 6
+    },
+    {
+      "date": "2026-06-19",
+      "count": 9
+    },
+    {
+      "date": "2026-06-20",
+      "count": 10
+    },
+    {
+      "date": "2026-06-21",
+      "count": 9
+    },
+    {
+      "date": "2026-06-22",
+      "count": 10
+    },
+    {
+      "date": "2026-06-23",
+      "count": 6
+    },
+    {
+      "date": "2026-06-24",
+      "count": 3
+    },
+    {
+      "date": "2026-06-25",
+      "count": 8
+    },
+    {
+      "date": "2026-06-26",
+      "count": 9
+    },
+    {
+      "date": "2026-06-27",
+      "count": 4
+    },
+    {
+      "date": "2026-06-28",
+      "count": 4
+    },
+    {
+      "date": "2026-06-29",
+      "count": 6
+    },
+    {
+      "date": "2026-06-30",
+      "count": 7
+    },
+    {
+      "date": "2026-07-01",
+      "count": 5
+    },
+    {
+      "date": "2026-07-02",
+      "count": 9
+    },
+    {
+      "date": "2026-07-03",
+      "count": 8
+    },
+    {
+      "date": "2026-07-04",
+      "count": 8
+    },
+    {
+      "date": "2026-07-05",
+      "count": 8
+    },
+    {
+      "date": "2026-07-06",
+      "count": 10
+    },
+    {
+      "date": "2026-07-07",
+      "count": 8
+    },
+    {
+      "date": "2026-07-08",
+      "count": 7
+    },
+    {
+      "date": "2026-07-09",
+      "count": 8
+    },
+    {
+      "date": "2026-07-10",
+      "count": 11
+    },
+    {
+      "date": "2026-07-11",
+      "count": 7
+    },
+    {
+      "date": "2026-07-12",
+      "count": 9
+    },
+    {
+      "date": "2026-07-13",
+      "count": 6
+    },
+    {
+      "date": "2026-07-14",
+      "count": 6
+    },
+    {
+      "date": "2026-07-15",
+      "count": 8
+    },
+    {
+      "date": "2026-07-16",
+      "count": 3
+    },
+    {
+      "date": "2026-07-17",
+      "count": 9
+    },
+    {
+      "date": "2026-07-18",
+      "count": 9
+    },
+    {
+      "date": "2026-07-19",
+      "count": 10
+    },
+    {
+      "date": "2026-07-20",
+      "count": 5
+    },
+    {
+      "date": "2026-07-21",
+      "count": 10
+    },
+    {
+      "date": "2026-07-22",
+      "count": 12
+    },
+    {
+      "date": "2026-07-23",
+      "count": 7
+    },
+    {
+      "date": "2026-07-24",
+      "count": 8
+    },
+    {
+      "date": "2026-07-25",
+      "count": 7
+    },
+    {
+      "date": "2026-07-26",
+      "count": 7
+    },
+    {
+      "date": "2026-07-27",
+      "count": 12
+    },
+    {
+      "date": "2026-07-28",
+      "count": 1
+    },
+    {
+      "date": "2026-07-29",
+      "count": 5
+    },
+    {
+      "date": "2026-07-30",
+      "count": 5
+    },
+    {
+      "date": "2026-07-31",
+      "count": 7
+    },
+    {
+      "date": "2026-08-01",
+      "count": 4
+    },
+    {
+      "date": "2026-08-02",
+      "count": 10
+    },
+    {
+      "date": "2026-08-03",
+      "count": 7
+    },
+    {
+      "date": "2026-08-04",
+      "count": 7
+    },
+    {
+      "date": "2026-08-05",
+      "count": 10
+    },
+    {
+      "date": "2026-08-06",
+      "count": 7
+    },
+    {
+      "date": "2026-08-07",
+      "count": 6
+    },
+    {
+      "date": "2026-08-08",
+      "count": 8
+    },
+    {
+      "date": "2026-08-09",
+      "count": 3
+    },
+    {
+      "date": "2026-08-10",
+      "count": 5
+    }
+  ],
+  "weekly": [
+    {
+      "week": "2026-W23",
+      "count": 61
+    },
+    {
+      "week": "2026-W24",
+      "count": 53
+    },
+    {
+      "week": "2026-W25",
+      "count": 61
+    },
+    {
+      "week": "2026-W26",
+      "count": 44
+    },
+    {
+      "week": "2026-W27",
+      "count": 51
+    },
+    {
+      "week": "2026-W28",
+      "count": 60
+    },
+    {
+      "week": "2026-W29",
+      "count": 51
+    },
+    {
+      "week": "2026-W30",
+      "count": 56
+    },
+    {
+      "week": "2026-W31",
+      "count": 44
+    },
+    {
+      "week": "2026-W32",
+      "count": 48
+    },
+    {
+      "week": "2026-W33",
+      "count": 5
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2026-06",
+      "count": 232
+    },
+    {
+      "month": "2026-07",
+      "count": 235
+    },
+    {
+      "month": "2026-08",
+      "count": 67
+    }
+  ],
+  "hour_of_day": [
+    {
+      "hour": 0,
+      "count": 21
+    },
+    {
+      "hour": 1,
+      "count": 19
+    },
+    {
+      "hour": 2,
+      "count": 32
+    },
+    {
+      "hour": 3,
+      "count": 17
+    },
+    {
+      "hour": 4,
+      "count": 20
+    },
+    {
+      "hour": 5,
+      "count": 20
+    },
+    {
+      "hour": 6,
+      "count": 30
+    },
+    {
+      "hour": 7,
+      "count": 18
+    },
+    {
+      "hour": 8,
+      "count": 18
+    },
+    {
+      "hour": 9,
+      "count": 17
+    },
+    {
+      "hour": 10,
+      "count": 18
+    },
+    {
+      "hour": 11,
+      "count": 21
+    },
+    {
+      "hour": 12,
+      "count": 27
+    },
+    {
+      "hour": 13,
+      "count": 22
+    },
+    {
+      "hour": 14,
+      "count": 23
+    },
+    {
+      "hour": 15,
+      "count": 26
+    },
+    {
+      "hour": 16,
+      "count": 21
+    },
+    {
+      "hour": 17,
+      "count": 20
+    },
+    {
+      "hour": 18,
+      "count": 23
+    },
+    {
+      "hour": 19,
+      "count": 30
+    },
+    {
+      "hour": 20,
+      "count": 26
+    },
+    {
+      "hour": 21,
+      "count": 26
+    },
+    {
+      "hour": 22,
+      "count": 24
+    },
+    {
+      "hour": 23,
+      "count": 15
+    }
+  ],
+  "day_of_week": [
+    {
+      "day": "Monday",
+      "count": 84
+    },
+    {
+      "day": "Tuesday",
+      "count": 68
+    },
+    {
+      "day": "Wednesday",
+      "count": 81
+    },
+    {
+      "day": "Thursday",
+      "count": 69
+    },
+    {
+      "day": "Friday",
+      "count": 84
+    },
+    {
+      "day": "Saturday",
+      "count": 73
+    },
+    {
+      "day": "Sunday",
+      "count": 75
+    }
+  ],
+  "date_range_comparison": {
+    "first_half_count": 272,
+    "second_half_count": 262,
+    "interpretation": "Counts in the first and second halves of the observed span. Not a safety improvement claim."
+  },
+  "seasonal": {
+    "supported": false,
+    "months_present": [
+      "2026-06",
+      "2026-07",
+      "2026-08"
+    ],
+    "reason": "Seasonal comparison needs a full year of occurrence times. This extract covers fewer than 12 months."
+  }
+}

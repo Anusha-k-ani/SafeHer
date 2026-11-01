@@ -43,9 +43,29 @@ def statistics() -> dict:
     return _load("summary.json", {})
 
 
-def hotspots(district: str | None = None, risk: str | None = None) -> list:
+def hotspots(
+    district: str | None = None,
+    risk: str | None = None,
+    evolution: str | None = None,
+    evidence: str | None = None,
+) -> list:
     ensure_results()
-    return pipeline.filter_region(_load("hotspots.json", []), district, risk)
+    return pipeline.filter_region(_load("hotspots.json", []), district, risk, evolution, evidence)
+
+
+def temporal() -> dict:
+    ensure_results()
+    return _load("temporal.json", {})
+
+
+def coverage() -> dict:
+    ensure_results()
+    return _load("coverage.json", {})
+
+
+def method_compare() -> dict:
+    ensure_results()
+    return _load("method_compare.json", {})
 
 
 def risk_levels(district: str | None = None) -> dict:
@@ -134,7 +154,7 @@ def ingest_incident(body: dict) -> dict:
     if not isinstance(live, list):
         live = live.get("reports") or []
     row = dict(body)
-    row.setdefault("status", "approved")
+    row.setdefault("status", "pending")
     row.setdefault("is_synthetic", False)
     live.append(row)
     pipeline.LIVE_REPORTS.write_text(json.dumps(live, indent=2), encoding="utf-8")
@@ -176,8 +196,28 @@ try:
 
     @app.get("/api/hotspots")
     @app.get("/api/v1/hotspots")
-    def api_hotspots(district: str | None = Query(None), risk: str | None = Query(None)):
-        return hotspots(district, risk)
+    def api_hotspots(
+        district: str | None = Query(None),
+        risk: str | None = Query(None),
+        evolution: str | None = Query(None),
+        evidence: str | None = Query(None),
+    ):
+        return hotspots(district, risk, evolution, evidence)
+
+    @app.get("/api/temporal")
+    @app.get("/api/v1/temporal")
+    def api_temporal():
+        return temporal()
+
+    @app.get("/api/coverage")
+    @app.get("/api/v1/coverage")
+    def api_coverage():
+        return coverage()
+
+    @app.get("/api/method-compare")
+    @app.get("/api/v1/method-compare")
+    def api_method_compare():
+        return method_compare()
 
     @app.get("/api/risk-levels")
     @app.get("/api/v1/risk-levels")
@@ -280,7 +320,16 @@ class Handler(BaseHTTPRequestHandler):
             if path in ("/api/statistics", "/api/v1/statistics"):
                 return self._json(200, statistics())
             if path in ("/api/hotspots", "/api/v1/hotspots"):
-                return self._json(200, hotspots(q.get("district"), q.get("risk")))
+                return self._json(
+                    200,
+                    hotspots(q.get("district"), q.get("risk"), q.get("evolution"), q.get("evidence")),
+                )
+            if path in ("/api/temporal", "/api/v1/temporal"):
+                return self._json(200, temporal())
+            if path in ("/api/coverage", "/api/v1/coverage"):
+                return self._json(200, coverage())
+            if path in ("/api/method-compare", "/api/v1/method-compare"):
+                return self._json(200, method_compare())
             if path in ("/api/risk-levels", "/api/v1/risk-levels"):
                 return self._json(200, risk_levels(q.get("district")))
             if path in ("/api/geography", "/api/v1/geography"):

@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "diagram_type": "sequence",
+  "meta": {
+    "title": "Risk Alert demonstration sequence",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "output": ".archify/sequence-demo-20261101-142119/suraksha-sequence.html"
+  },
+  "participants": [
+    {
+      "id": "citizen",
+      "type": "external",
+      "label": "Citizen",
+      "sublabel": "signed in"
+    },
+    {
+      "id": "ui",
+      "type": "frontend",
+      "label": "Risk button",
+      "sublabel": "3s arm window"
+    },
+    {
+      "id": "api",
+      "type": "backend",
+      "label": "SOS API",
+      "sublabel": "POST /sos"
+    },
+    {
+      "id": "auth",
+      "type": "security",
+      "label": "Session",
+      "sublabel": "HMAC cookie"
+    },
+    {
+      "id": "geo",
+      "type": "cloud",
+      "label": "Nominatim",
+      "sublabel": "optional"
+    },
+    {
+      "id": "store",
+      "type": "database",
+      "label": "JSON store",
+      "sublabel": "sos[]"
+    }
+  ],
+  "segments": [
+    {
+      "from": 150,
+      "to": 230,
+      "label": "Arm"
+    },
+    {
+      "from": 240,
+      "to": 430,
+      "label": "Confirm and save"
+    }
+  ],
+  "messages": [
+    {
+      "id": "press1",
+      "from": "citizen",
+      "to": "ui",
+      "y": 170,
+      "label": "first press"
+    },
+    {
+      "id": "armed",
+      "from": "ui",
+      "to": "citizen",
+      "y": 200,
+      "label": "armed 3s",
+      "variant": "return"
+    },
+    {
+      "id": "press2",
+      "from": "citizen",
+      "to": "ui",
+      "y": 260,
+      "label": "second press",
+      "variant": "emphasis"
+    },
+    {
+      "id": "post",
+      "from": "ui",
+      "to": "api",
+      "y": 290,
+      "label": "POST /api/suraksha/sos",
+      "variant": "emphasis"
+    },
+    {
+      "id": "verify",
+      "from": "api",
+      "to": "auth",
+      "y": 320,
+      "label": "verify cookie",
+      "variant": "security"
+    },
+    {
+      "id": "ok",
+      "from": "auth",
+      "to": "api",
+      "y": 350,
+      "label": "public role",
+      "variant": "return"
+    },
+    {
+      "id": "geocode",
+      "from": "api",
+      "to": "geo",
+      "y": 385,
+      "label": "reverse geocode",
+      "variant": "dashed",
+      "note": "Skipped when the browser shares no coordinates."
+    },
+    {
+      "id": "place",
+      "from": "geo",
+      "to": "api",
+      "y": 440,
+      "label": "name or miss",
+      "variant": "return"
+    },
+    {
+      "id": "write",
+      "from": "api",
+      "to": "store",
+      "y": 475,
+      "label": "append sos"
+    },
+    {
+      "id": "saved",
+      "from": "store",
+      "to": "api",
+      "y": 505,
+      "label": "id",
+      "variant": "return"
+    },
+    {
+      "id": "reply",
+      "from": "api",
+      "to": "ui",
+      "y": 535,
+      "label": "200 in-app",
+      "variant": "return"
+    },
+    {
+      "id": "shown",
+      "from": "ui",
+      "to": "citizen",
+      "y": 565,
+      "label": "does not call 112",
+      "variant": "return"
+    }
+  ],
+  "activations": [
+    {
+      "participant": "ui",
+      "from": 165,
+      "to": 570,
+      "type": "frontend"
+    },
+    {
+      "participant": "api",
+      "from": 285,
+      "to": 540,
+      "type": "backend"
+    },
+    {
+      "participant": "auth",
+      "from": 315,
+      "to": 356,
+      "type": "security"
+    },
+    {
+      "participant": "geo",
+      "from": 380,
+      "to": 446,
+      "type": "cloud"
+    },
+    {
+      "participant": "store",
+      "from": 470,
+      "to": 511,
+      "type": "database"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "rose",
+      "title": "Two presses",
+      "items": [
+        "The first press only arms the control.",
+        "The second press inside 3 seconds sends the in-app alert."
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "Not a dispatch",
+      "items": [
+        "A missing session returns an error asking the citizen to sign in.",
+        "The record stays in the JSON store. 112 is not contacted."
+      ]
+    }
+  ]
+}
