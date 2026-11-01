@@ -39,6 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+src/app/globals.built.css
 
 # SurakshaSetu operational records (separate from the Karnataka dataset)
 /data/suraksha-store.json
